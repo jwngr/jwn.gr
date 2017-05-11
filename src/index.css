@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background:
+    linear-gradient(
+      rgba(243, 165, 48, 0.2),
+      rgba(243, 165, 48, 0.2)
+    ),
+    url(./images/arrowBackground.png);
+}
+
+/**
+ * Colors
+ * orange: #F3A530;
+ * light blue: #4CB2D4;
+ * dark blue: #30499B;
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
+
+@font-face {
+  font-family: 'gunnar-rough';
+  src: url('fonts/gunnar-rough.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-cutout-outline';
+  src: url('fonts/gunnar-cutout-outline.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-cutout-rough';
+  src: url('fonts/gunnar-cutout-rough.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-cutout';
+  src: url('fonts/gunnar-cutout.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-outline';
+  src: url('fonts/gunnar-outline.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-outline-rough';
+  src: url('fonts/gunnar-outline-rough.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'gunnar-regular';
+  src: url('fonts/gunnar-regular.woff2') format('woff2');
+}

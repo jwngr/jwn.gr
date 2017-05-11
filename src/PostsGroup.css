@@ -1,0 +1,54 @@
+.groupName {
+  font-size: 70px;
+  font-family: 'gunnar-regular';
+  margin: 0;
+  color: #4CB2D4;
+  text-shadow: 2px 3px #F3A530;
+}
+
+.groupStats {
+  margin: 0 0 10px 0;
+}
+
+.groupStats > p {
+  font-size: 24px;
+  font-family: 'Vollkorn';
+  color: #30499B;
+  display: inline;
+  margin: 0;
+}
+
+.groupStats > .separator {
+  margin: 0 20px;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagesContainer img {
+  height: 250px;
+  border-radius: 25px;
+  flex: 0;
+  cursor: pointer;
+  padding: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.imagesContainer img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 850px) {
+  .groupStats > p {
+    font-size: 20px;
+    display: block;
+  }
+
+  .groupStats > .separator {
+    display: none;
+  }
+}

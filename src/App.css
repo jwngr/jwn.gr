@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #4CB2D4;
+  padding: 25px;
+  color: #EEE;
+  text-shadow: 5px 5px #F3A530;
+  font-size: 60px;
+}
+
+.App-header h2 {
+  font-family: 'gunnar-regular';
+  margin: 0;
+  padding: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
