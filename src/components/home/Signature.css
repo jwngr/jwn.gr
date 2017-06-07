@@ -1,0 +1,104 @@
+.signature {
+  height: 100%;
+}
+
+.signature path {
+  stroke-width: 3;
+  fill: #C6D7C7;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.signature path:nth-of-type(1) {
+  stroke-dasharray: 2372;
+  stroke-dashoffset: 2372;
+}
+
+.signature path:nth-of-type(2) {
+  stroke-dasharray: 29;
+  stroke-dashoffset: 29;
+}
+
+.signature path:nth-of-type(3) {
+  stroke-dasharray: 299;
+  stroke-dashoffset: 299;
+}
+
+.signature path:nth-of-type(4) {
+  stroke-dasharray: 157;
+  stroke-dashoffset: 157;
+}
+
+.signature path:nth-of-type(5) {
+  stroke-dasharray: 327;
+  stroke-dashoffset: 327;
+}
+
+.signature path:nth-of-type(6) {
+  stroke-dasharray: 980;
+  stroke-dashoffset: 980;
+}
+
+.signature path:nth-of-type(7) {
+  stroke-dasharray: 105;
+  stroke-dashoffset: 105;
+}
+
+.signature path:nth-of-type(8) {
+  stroke-dasharray: 1348;
+  stroke-dashoffset: 1348;
+}
+
+.signature path:nth-of-type(9) {
+  stroke-dasharray: 85;
+  stroke-dashoffset: 85;
+}
+
+.signature path:nth-of-type(10) {
+  stroke-dasharray: 42;
+  stroke-dashoffset: 42;
+}
+
+.signature path:nth-of-type(11) {
+  stroke-dasharray: 147;
+  stroke-dashoffset: 147;
+}
+
+.signature path:nth-of-type(1),
+.signature path:nth-of-type(6),
+.signature path:nth-of-type(8) {
+  animation: draw 4s linear forwards;
+}
+
+.signature path:nth-of-type(2),
+.signature path:nth-of-type(3),
+.signature path:nth-of-type(4),
+.signature path:nth-of-type(5),
+.signature path:nth-of-type(7),
+.signature path:nth-of-type(9),
+.signature path:nth-of-type(10),
+.signature path:nth-of-type(11) {
+  animation: drawTransparent 3s linear forwards;
+}
+
+/****************/
+/*  ANIMATIONS  */
+/****************/
+@keyframes draw {
+  75% {
+    fill: #C6D7C7;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    fill: #FF5035;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes drawTransparent {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

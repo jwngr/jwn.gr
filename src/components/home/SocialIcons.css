@@ -1,0 +1,59 @@
+.social-icons {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.social-icon {
+  margin-left: 10px;
+  animation: fadeIn 2s both;
+}
+
+.social-icon:nth-of-type(2) {
+  animation-delay: 0.1s;
+}
+
+.social-icon:nth-of-type(3) {
+  animation-delay: 0.2s;
+}
+
+.social-icon:nth-of-type(4) {
+  animation-delay: 0.3s;
+}
+
+.social-icon:nth-of-type(5) {
+  animation-delay: 0.4s;
+}
+
+.social-icon:nth-of-type(6) {
+  animation-delay: 0.5s;
+}
+
+.social-icon > svg {
+  height: 30px;
+  border-radius: 30px;
+  transition: transform 0.2s;
+  fill: #777;
+}
+
+.social-icon > svg:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 900px) {
+  .social-icon {
+    margin-left: 16px;
+  }
+
+  .social-icon > svg {
+    height: 40px;
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .social-icons {
+    text-align: center;
+    left: 0;
+  }
+}

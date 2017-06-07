@@ -1,56 +1,77 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  overflow-x: hidden;
-  background:
-    linear-gradient(
-      rgba(243, 165, 48, 0.2),
-      rgba(243, 165, 48, 0.2)
-    ),
-    url(./images/arrowBackground.png);
-}
-
+/************/
+/*  COLORS  */
+/************/
 /**
- * Colors
- * orange: #F3A530;
- * light blue: #4CB2D4;
- * dark blue: #30499B;
+ * Red: #FF5035
+ * Blue: #3085A3
+ * Teal: #C6D7C7
  */
 
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
-
-@font-face {
-  font-family: 'gunnar-rough';
-  src: url('fonts/gunnar-rough.woff2') format('woff2');
+/***************/
+/*  NORMALIZE  */
+/***************/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Alegreya';
 }
 
-@font-face {
-  font-family: 'gunnar-cutout-outline';
-  src: url('fonts/gunnar-cutout-outline.woff2') format('woff2');
+img {
+  border: 0;
+  text-decoration: none;
 }
 
-@font-face {
-  font-family: 'gunnar-cutout-rough';
-  src: url('fonts/gunnar-cutout-rough.woff2') format('woff2');
+/* Set height of top-level elements to 100% to get allow for sections which cover the whole screen */
+html, body, body > div {
+  height: 100%;
 }
 
-@font-face {
-  font-family: 'gunnar-cutout';
-  src: url('fonts/gunnar-cutout.woff2') format('woff2');
+@viewport {
+  width: device-width;
 }
 
-@font-face {
-  font-family: 'gunnar-outline';
-  src: url('fonts/gunnar-outline.woff2') format('woff2');
+@-ms-viewport {
+  width: device-width;
 }
 
-@font-face {
-  font-family: 'gunnar-outline-rough';
-  src: url('fonts/gunnar-outline-rough.woff2') format('woff2');
+/****************/
+/*  ANIMATIONS  */
+/****************/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-@font-face {
-  font-family: 'gunnar-regular';
-  src: url('fonts/gunnar-regular.woff2') format('woff2');
+/************************/
+/*  FADE-IN ANIMATIONS  */
+/************************/
+.visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.visible:nth-of-type(2) {
+  transition-delay: 0.2s, 0.33s;
+}
+
+.visible:nth-of-type(3) {
+  transition-delay: 0.4s, 0.67s;
+}
+
+.visible:nth-of-type(4) {
+  transition-delay: 0.6s, 1s;
+}
+
+.visible:nth-of-type(5) {
+  transition-delay: 0.8s, 1.33s;
+}
+
+.visible:nth-of-type(6) {
+  transition-delay: 1s, 1.67s;
 }
