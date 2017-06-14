@@ -1,0 +1,29 @@
+body {
+  background-color: #C6D7C7;
+}
+
+.header {
+  background-color: #3085A3;
+  text-align: center;
+  padding: 25px;
+}
+
+.header a {
+  color: #C6D7C7;
+  font-size: 60px;
+  font-family: 'Alegreya Sans SC';
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .header a {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header a {
+    font-size: 36px;
+  }
+}

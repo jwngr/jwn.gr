@@ -11,6 +11,7 @@ import running2016Image from '../../images/home/projects/running2016.jpg';
 import rusticCitrusImage from '../../images/home/projects/rusticCitrus.jpg';
 import presentationsImage from '../../images/home/projects/presentations.jpg';
 import ticTacTicTacToeImage from '../../images/home/projects/ticTacTicTacToe.jpg';
+import worldwideTripMicroblogImage from '../../images/home/projects/worldwideTripMicroblog.jpg';
 
 
 const projects = {
@@ -27,6 +28,13 @@ const projects = {
     href: 'https://tic-tac-tic-tac-toe.firebaseapp.com/',
     image: ticTacTicTacToeImage,
     alt: 'Tic-tac-tic-tac-toe screenshot',
+  },
+  worldwideTripMicroblog: {
+    name: 'Worldwide Trip Microblog',
+    description: 'Documenting my trip around the world.',
+    href: 'https://jwn.gr/microblog/',
+    image: worldwideTripMicroblogImage,
+    alt: 'Worldwide Trip Microblog screenshot',
   },
   running2016: {
     name: 'Running 2016',
@@ -87,6 +95,7 @@ class Projects extends Component {
       <div className={projectsClassNames}>
         <Project projectId='rusticCitrus' />
         <Project projectId='ticTacTicTacToe' />
+        <Project projectId='worldwideTripMicroblog' />
         <Project projectId='running2016' />
         <Project projectId='seer' />
         <Project projectId='openSource' />

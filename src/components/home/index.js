@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './index.css';
-
 import {Link as ScrollLink} from'react-scroll';
+
+import './index.css';
 
 import Projects from './Projects';
 import Signature from './Signature';

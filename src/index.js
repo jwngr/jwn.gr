@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 
 import Home from './components/home';
+import Microblog from './components/microblog';
 
 
 // Load fonts
@@ -14,7 +15,10 @@ require('typeface-alegreya-sans-sc');
 
 const RouterContainer = () => (
   <Router>
-    <Route exact path='/' component={Home}/>
+    <div>
+      <Route exact path='/' component={Home} />
+      <Route path='/microblog' component={Microblog} />
+    </div>
   </Router>
 );
 

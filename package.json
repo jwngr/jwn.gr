@@ -5,6 +5,8 @@
     "classnames": "^2.2.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-markdown": "^2.5.0",
+    "react-responsive": "^1.3.0",
     "react-router-dom": "^4.0.0",
     "react-scroll": "^1.5.2",
     "react-visibility-sensor": "^3.9.0",
@@ -12,7 +14,9 @@
     "typeface-alegreya-sans-sc": "0.0.22"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "sharp": "^0.18.1",
+    "tinify": "^1.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

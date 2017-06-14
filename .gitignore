@@ -16,3 +16,6 @@ yarn-error.log*
 
 # Firebase
 firebase-debug.log
+
+# Secrets / API keys
+config.json

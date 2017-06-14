@@ -1,0 +1,244 @@
+{
+  "locationsVisitOrder": [
+    "orlando",
+    "gran-canaria",
+    "tenerife",
+    "lanzarote",
+    "gran-canaria-2",
+    "porto",
+    "lisbon",
+    "lagos",
+    "sevilla"
+  ],
+  "locations": {
+    "orlando": {
+      "name": "Orlando, Florida",
+      "posts": [
+        "2017-05-09",
+        "2017-05-10",
+        "2017-05-11"
+      ]
+    },
+    "gran-canaria": {
+      "name": "Gran Canaria, Canary Islands",
+      "posts": [
+        "2017-05-12",
+        "2017-05-13",
+        "2017-05-14",
+        "2017-05-15"
+      ]
+    },
+    "tenerife": {
+      "name": "Tenerife, Canary Islands",
+      "posts": [
+        "2017-05-16",
+        "2017-05-17",
+        "2017-05-18"
+      ]
+    },
+    "lanzarote": {
+      "name": "Lanzarote, Canary Islands",
+      "posts": [
+        "2017-05-19",
+        "2017-05-20"
+      ]
+    },
+    "gran-canaria-2": {
+      "name": "Gran Canaria, Canary Islands",
+      "posts": [
+        "2017-05-21"
+      ]
+    },
+    "porto": {
+      "name": "Porto, Portugal",
+      "posts": [
+        "2017-05-22",
+        "2017-05-23",
+        "2017-05-24",
+        "2017-05-25",
+        "2017-05-26",
+        "2017-05-27",
+        "2017-05-28"
+      ]
+    },
+    "lisbon": {
+      "name": "Lisbon, Portugal",
+      "posts": [
+        "2017-05-29",
+        "2017-05-30",
+        "2017-06-01",
+        "2017-06-02"
+      ]
+    },
+    "lagos": {
+      "name": "Lagos, Portugal",
+      "posts": [
+        "2017-06-03",
+        "2017-06-04",
+        "2017-06-05",
+        "2017-06-06",
+        "2017-06-07"
+      ]
+    },
+    "sevilla": {
+      "name": "Sevilla, Spain",
+      "posts": [
+        "2017-06-08",
+        "2017-06-09",
+        "2017-06-10",
+        "2017-06-11",
+        "2017-06-12",
+        "2017-06-13"
+      ]
+    }
+  },
+  "posts": {
+    "2017-05-09": {
+      "locationId": "orlando",
+      "text": "Welcome to my 2017 worldwide trip microblog! Here's the deal: every day, I'll use [Gyroscope](https://gyrosco.pe/) to generate a card detailing the prior day. The card will contain a picture, as well as my step count and heart rate graph. Alongside the card, I'll also write a short post, just like this. The only restriction being that it can be no longer than 100 words. 100 words, like some weird Twitter. I'll talk about everything from what I did to who I met to what I learned. But that's all for today, as I'm running out of words. See you tomorrow!"
+    },
+    "2017-05-10": {
+      "locationId": "orlando",
+      "text": "I left my job at Google about three and half weeks ago. I’ll have more to say about that later, but for now, let me break down what I’ve been up to since then. I spent two weeks in San Francisco moving all my possessions into a storage unit and saying goodbye to friends, coworkers, and family. I then flew to central Pennsylvania where I packed my bag, visited my grandma (mom’s mom) in Pittsburgh, and spent time with my parents. Now, I’m visiting my grandpa (dad’s dad) in sunny and humid Orlando, Florida, my last stop before heading overseas."
+    },
+    "2017-05-11": {
+      "locationId": "orlando",
+      "text": "My stay in Orlando was quiet, but in a good way. It was the first quality alone time I've spent with my grandpa. He's not much of a talker, and my grandma (who passed away at the end of 2014) dominated conversation when I saw them. I will cherish this visit, walking around the lake and sharing meals. He told me stories I had never heard, including getting drafted for the Korean War, meeting my grandma on a double blind date, and raising my dad in Philadelphia. He was a gracious host and I look forward to visiting again."
+    },
+    "2017-05-12": {
+      "locationId": "gran-canaria",
+      "text": "The international portion of the trip has finally begun! After a long 16 hour journey from Orlando to London to [Gran Canaria](https://en.wikipedia.org/wiki/Gran_Canaria), I'm finally in the Canary Islands! In case you’re not a geography expert, those would be [in the Atlantic Ocean, just off Africa's west coast](https://www.google.com/maps/place/Canary+Islands,+Spain/data=!4m2!3m1!1s0xc41aa86ef755363:0x10340f3be4bc8c0?sa=X&ved=0ahUKEwjwuYG03ffTAhWMOCYKHQ6IBr4Q8gEIiQEwDw). The view of the late afternoon sun illuminating the cloud-covered islands was breathtaking. It filled me with relief. I’ve been dreaming of and planning this trip for a long time. I’m glad it’s finally started, I’m excited to see where it takes me, and I hope you enjoy following along."
+    },
+    "2017-05-13": {
+      "locationId": "gran-canaria",
+      "text": "I'm already beginning to realize I underestimated a few things about solo travel. While the flexibility is great, small things become more difficult. I relaxed at the *playa* (\"beach\") today, where I usually spend most of my time in the water. But when you’re by yourself, there's no one to watch over your belongings when you want to swim. I tried asking someone nearby to be my eyes, but the language barrier made that difficult. As with anything in life, you spend all your time planning the big things, but it's often the little things that get in the way."
+    },
+    "2017-05-14": {
+      "locationId": "gran-canaria",
+      "text": "I took a day trip to [Tejeda](https://en.wikipedia.org/wiki/Tejeda), a small village located towards the center of Gran Canaria which is known for its delicious almonds. Getting there was an adventure, as I'm quickly learning bus schedules on the island are more suggestions than actual plans. I intended to hike [Roque Nublo](https://en.wikipedia.org/wiki/Roque_Nublo), but the bus there from Tejeda wasn't running. Instead, I climbed [Roque Bentayga](https://es.wikipedia.org/wiki/Roque_Bentayga), a religious site for the ancient Canarians which was formed as the volcanic island was going through its death throes. The views from up there were breathtaking, including this shot I got of Tejeda."
+    },
+    "2017-05-15": {
+      "locationId": "gran-canaria",
+      "text": "Another day, another invisible bus. I left Las Palmas early to head to [Casas Rurales de Guayadeque](http://casasruralesdeguayadeque.com/index_en.html), cave *casas* (\"houses\") carved out of volcanic rock. Unfortunately, the bus never showed up and I was left to hike the last six miles with all my gear. I regretted it about two miles in. But once I arrived, showered, and napped, I ate a fabulous meal in the cave restaurant nearby. The day didn't go as planned, which I'm sure will happen plenty more times on this trip. But that won’t stop me from enjoying myself and making the most of it."
+    },
+    "2017-05-16": {
+      "locationId": "tenerife",
+      "text": "After my walking adventure yesterday, I decided to schedule a taxi to take me the airport for a flight to my next destination in the Canary Islands chain, [Tenerife](https://en.wikipedia.org/wiki/Tenerife). I'm trying to test out various living situations, so after an Airbnb and hotel in Gran Canaria, I'm staying in a hostel in Tenerife. The hostel is called [Ratones de Biblioteca](http://www.bookwormhostel.com/en/) and has a charming book theme. Once I was all checked in, I went on a short hike and walked around the towns of La Laguna and Santa Cruz. It was a pretty low-key day in preparation tomorrow's volcano summit."
+    },
+    "2017-05-17": {
+      "locationId": "tenerife",
+      "text": "Time to cross \"hike up a volcano\" off my bucket list. At 3.7 km above sea level, [Pico del Teide](https://en.wikipedia.org/wiki/Teide) is Spain’s highest point. A grueling 3.5 hour hike of steep switchbacks akin to a non-stop StairMaster with majestic views took me to the peak, where I was joined by dozens who had similarly made the hike. I kid - most took the ten minute lift up the volcano. But I can guarantee none enjoyed that view as much as I did. The difficult journey amplified the ultimate reward, a lesson I’ll keep in mind over the coming months."
+    },
+    "2017-05-18": {
+      "locationId": "tenerife",
+      "text": "Scaling a volcano one day; caving underneath it the next. [*Cueva del Viento*](http://www.cuevadelviento.net/?lang=en) (\"Wind Cave\") is the largest lava tube in Europe and home to some evolutionary gems: eye-less cockroaches, insects with photo-sensitive skin, pigmentation-free critters. At one point in the tour, we turned off our headlamps and just sat in silence. It was blackness so dark you couldn’t tell whether or not your eyes were open! It’s ironic that despite the views of the fascinating lava tubes and the black sand beaches of [Puerto de la Cruz](https://en.wikipedia.org/wiki/Puerto_de_la_Cruz) I visited afterwards, the pure black nothingness was the most memorable."
+    },
+    "2017-05-19": {
+      "locationId": "lanzarote",
+      "text": "A 7 AM fight from Tenerife to [Lanzarote](https://en.wikipedia.org/wiki/Lanzarote) left me a lot of time to discover this smaller island. Due to minimal bus routes and my failure to properly book a guided tour, I rented a car and became my own tour guide. From the lunar landscapes of [Timanfaya National Park](http://www.cactlanzarote.com/en/cact/montanas-del-fuego-timanfaya/) to the merging of nature, architecture, and art at [Jameos del Agua](http://www.cactlanzarote.com/en/cact/jameos-del-agua/) and [Cueva de los Verdes](http://www.cactlanzarote.com/en/cact/cueva-de-los-verdes/) to the brutal beauty of the cacti in the [Jardin de Cactus](http://www.cactlanzarote.com/en/cact/jardin-de-cactus/) to the sweeping vistas of [Mirador del Rio](http://www.cactlanzarote.com/en/cact/mirador-del-rio/), Lanzarote is truly other-worldly!"
+    },
+    "2017-05-20": {
+      "locationId": "lanzarote",
+      "text": "If you ever need inspiration, make your way to an Ironman finish line and watch the sheer joy on the faces of the men and women running, walking, and fainting across it. That’s where I unexpectedly found myself after some scuba diving in [Puerto del Carmen](https://en.wikipedia.org/wiki/Puerto_del_Carmen). The [Ironman Lanzarote](http://eu.ironman.com/triathlon/events/emea/ironman/lanzarote.aspx#axzz4i0zKRgo3) is one of the hardest Ironmans in the world because, well, the course is a series of massive volcanoes. The vibe at the finish line was electric as hundreds - myself included - cheered finishers down the final stretch. My first birthday on my own was a memorable and inspiring one."
+    },
+    "2017-05-21": {
+      "locationId": "gran-canaria-2",
+      "text": "I took a late morning flight back to Gran Canaria, this time choosing to stay on the southern end of the island, in [Maspalomas](https://en.wikipedia.org/wiki/Maspalomas). The main draw was the [Maspalomas Dunes](https://en.wikipedia.org/wiki/Maspalomas_Dunes), yet another foreign landscape to explore on these volcanic islands. I allowed myself to get lost in the dunes and happened upon a community of men who - how do I put this? - were full body sunbathing. Not the sights I wanted! Other than the dunes, Maspalomas was a drab, touristy area. I wouldn't come here again, but at least I found some time to relax in the evening."
+    },
+    "2017-05-22": {
+      "locationId": "porto",
+      "text": "It’s a shame the Canary Islands aren’t as well known. I urge anyone who enjoys beautiful beaches or the mind-bending variety of nature to visit. I left today and headed to [Porto](https://en.wikipedia.org/wiki/Porto), a stunning city on the Portuguese coast and a longtime dream destination of mine. After checking into [Bluesock Hostel](https://www.bluesockhostels.com/), I walked the hilly cobblestone streets in search of [*francesinha*](https://en.wikipedia.org/wiki/Francesinha), a \"sandwich\" packed with a variety of meats, covered in gravy, and topped with an egg. I wish I could have eaten more, but it was just too filling! I guess I'll be ordering another one later this week."
+    },
+    "2017-05-23": {
+      "locationId": "porto",
+      "text": "I met a few people on a morning walking tour from [Porto Walkers](https://www.portowalkers.pt/), and we decided to follow it up with a wine tasting tour. The latter was a bit more exciting, maybe due to the seven glasses of Porto’s famous [port wine](https://en.wikipedia.org/wiki/Port_wine) we each had. After the tours, my group of new friends from all over the world shared a lively meal together. We kept the party going until the early morning by sharing some [Super Bock](https://en.wikipedia.org/wiki/Super_Bock) at the beer garden and dancing at the bars. Quite a long, but energy-filled first full day in Porto."
+    },
+    "2017-05-24": {
+      "locationId": "porto",
+      "text": "Arriving in Porto marks the beginning of the working portion of my trip. Despite people’s assumptions that this trip is purely a vacation, it's actually my time to finally work on my own things full-time. It's ironic that although software developers can work from anywhere with internet, most congregate in Silicon Valley. I realized I could redirect my rent money to experience the world. Although the vacation aspect is obviously there, I have goals for these months abroad that I’ll share this week. The first is a meta one: maintaining this microblog to share my trip with others."
+    },
+    "2017-05-25": {
+      "locationId": "porto",
+      "text": "My second goal is to walk at least 14,286 steps every day. Why such a seemingly random number? If I walk that amount every day, I'll hit 100,000 steps per week, a number that will keep me healthy and ensure I’m out enjoying the beautiful places I visit. Walking is the purest form of traveling. Things buzz by too quickly on a bus or car. When you walk though, you have the freedom to stray off course to find that hidden gem hiding just around the corner. And in places like Porto, there are plenty of them!"
+    },
+    "2017-05-26": {
+      "locationId": "porto",
+      "text": "As a compulsively active individual, I struggle to sit still as I feel guilty for not using time productively. But I've heard so much about the benefits of meditation that another goal of mine is to meditate daily (via an app called [Headspace](https://www.headspace.com/)). I’m reading [\"Mindfulness In Plain English\"](http://www.vipassana.com/meditation/mindfulness_in_plain_english.php) for some inspiration, and wow! A book’s opening chapter has never spoken to me more, taking about \"an inherent unsatisfactoriness in life which simply will not go away.\" I’ve felt that unsatisfactoriness recently and I'm ready to take it on head first. Meditation is one tool I'm utilizing in that fight."
+    },
+    "2017-05-27": {
+      "locationId": "porto",
+      "text": "Okay, quick detour to talk about something that happened this afternoon after climbing to the [highest point I could find](https://pt.wikipedia.org/wiki/Mosteiro_da_Serra_do_Pilar). While reading alone, a local teenager dressed like a girl scout came up to me, asking \"Have my heart?\" I was caught off guard until I noticed on origami heart in her outstretched hand with *\"Somos um\"* (\"We are one\") scrawled on it. It was a touching moment, standing in stark contrast to the growing xenophobia back home. We are one, indeed. We may look and speak differently, but we all have the same rights to love and be loved."
+    },
+    "2017-05-28": {
+      "locationId": "porto",
+      "text": "My next goal is to meet someone new every day. Make a real, human connection. Find out what excites them, what worries them. Today it was a lovely girl named Germana from Naples. I rescued her phone with my portable charger, which led to hours of wonderful company over dinner and port wine. Meeting people while traveling is hard because relationships are short-lived. But that allows you to skip boilerplate conversation and instead jump straight into topics you are mutually passionate about. People like Germana will make my trip memorable, and I'm eager to meet more like her."
+    },
+    "2017-05-29": {
+      "locationId": "lisbon",
+      "text": "After a charming week in Porto, it was time to move on. I took a 3.5 hour train ride south along the Portuguese coast to [Lisbon](https://en.wikipedia.org/wiki/Lisbon). I checked into the [Lookout! Lisbon Hostel](http://lookoutlisbonhostel.com/) and went off for some sightseeing. Over dinner in one of Lisbon's countless alleyway restaurants, I accomplished another daily goal: write down five project and/or startup ideas every day. This trip is about figuring out what I want to pursue next, so consistently pondering new ideas is essential. I choose a daily theme to act as a prompt for my brainstorming. Today’s theme, naturally, was food."
+    },
+    "2017-05-30": {
+      "locationId": "lisbon",
+      "text": "I spent much of today walking around Lisbon, known as the \"European San Francisco\" by many. The name is fitting. Their main bridge is an [amalgamation of San Francisco's two major bridges](https://en.wikipedia.org/wiki/25_de_Abril_Bridge#Design). Their most symbolic mode of transportation is a trolley. The place is hilly as hell. And the vibe of the city reminds me of home, which feels nice at this point in the trip. But exploring makes it hard to accomplish my last goal: release something every week. This goal will be my hardest and it'll take time to figure out how to work while on the road."
+    },
+    "2017-05-31": {
+      "locationId": "lisbon",
+      "text": "Lisbon is not lacking in things to do. Today it was a guided tour in an old VW van up the bumpy, misty mountains roads of [Sintra](https://en.wikipedia.org/wiki/Sintra). We covered a lot of ground, highlights including [continental Europe's westernmost point](https://en.wikipedia.org/wiki/Cabo_da_Roca) and a [Masonic well inspired by Dante's Inferno](https://en.wikipedia.org/wiki/Quinta_da_Regaleira#Initiation_Wells). Each day brings another alluring trip, another roommate urging you to go out, another incredible landmark. Distractions make it difficult to get serious work done, and the willpower to pass up on them is the first of the struggles of solo travel I’ll discuss as the theme for this week."
+    },
+    "2017-06-01": {
+      "locationId": "lisbon",
+      "text": "Finally a productive work day. First order of business is updating [my personal website](https://jwn.gr/). The previous version was made with Squarespace, but I'm rebuilding it from scratch and simplifying things considerably. [Cafe Tati](https://get10things.com/lisbon/breakfast-lisbon/cafe-tati/) was today's office. Though the food and ambiance were great, Wi-Fi was spotty. It’s hard enough to find places with Wi-Fi, let alone ones with strong signals. Hostels typically have solid Wi-Fi, but they’re loud and distracting (see yesterday’s post). I’ve resorted to asking locals where they work from and just making sure I can do constructive work while offline, since this will be a common problem."
+    },
+    "2017-06-02": {
+      "locationId": "lisbon",
+      "text": "Before I left for another work day, I grabbed \"breakfast\" at [Pop Cereal Cafe](http://www.popcereal.com/). They serve cereal medleys mixed with sweets like M&M's and ice cream. I went for the [\"Before and After Eight.\"](https://www.zomato.com/grande-lisboa/pop-cereal-café-bairro-alto-lisboa/menu) For what it lacked in healthiness, it made up for in deliciousness. It illustrates the difficulty of eating balanced meals on the road. It's difficult to eat well when Portugal's idea of a serving of vegetables is french fries. I grab fruit from the market and swap out french fries for a salad when I can, but finding wholesome meals is still a work in progress."
+    },
+    "2017-06-03": {
+      "locationId": "lagos",
+      "text": "I made a last minute decision to stay in Portugal and head down south to [Lagos](https://en.wikipedia.org/wiki/Lagos,_Portugal). It was recommended by both locals and fellow travelers enough times that I had to check it out. Now that I've walked along the scenic beaches, I understand why. It did mean packing up and saying goodbyes though. Restarting every week is somewhat exhausting. I've made friends, but not without effort. I can tell some of my walls are falling down and I’m more open to meeting people - which was something I had hoped for - but I’ve still got a long way to go."
+    },
+    "2017-06-04": {
+      "locationId": "lagos",
+      "text": "I smell kinda gross. Not normally, but solo traveler me has a stench. I've long since used up my deodorant and it’s been replaced with this odd, less effective antiperspirant spray. I shower daily, but hostel rooms undo that fairly quickly. I do laundry weekly, but the clean clothes go directly into my bag which has already been through a lot. Every restaurant seems to be covered in a cloud of cigarette smoke which finds sanctuary in the threads of my clothes. I've resigned myself to the fact that I won’t truly feel clean while living the hostel life."
+    },
+    "2017-06-05": {
+      "locationId": "lagos",
+      "text": "Spontaneity doesn't come naturally to me. Predictability reduces my stress and ensures my productivity. But it also means I forgo things that don’t fit the schedule. This has caused friction in prior relationships and I’m striving to find a happier balance. I'm now in a situation where I rarely know where I'll be sleeping in three days. It’s stressful, but a lot is self-induced by always expecting the worst case scenario, which rarely occurs. Instead, I'm trying to trade money and time for flexibility and letting life unfold on its own. Today, that led me kayaking into some unbelievable caves."
+    },
+    "2017-06-06": {
+      "locationId": "lagos",
+      "text": "My biggest fear for this trip was loneliness. Some days I simply want to share with someone special, not just a new acquaintance. Today was one of those days. I took a trip to hike along the prodigious cliffs of [Sagres](https://en.wikipedia.org/wiki/Sagres_(Vila_do_Bispo)). Being left alone with my thoughts was tiresome, and this week's events - including the [day I cracked both of my phone's screens](https://twitter.com/_jwngr/status/871486110530142212) - finally caught up with me. Loneliness comes and goes, but it's not a foreign feeling. It's one I've felt back home surrounded by roommates, family, and friends. I'm hoping this trip can help me better understand it."
+    },
+    "2017-06-07": {
+      "locationId": "lagos",
+      "text": "Completing one project inspires me to dive into the next, which happens to be a website for this very microblog. The weekly newsletter will continue, but I want to more easily showcase and share posts. After an extended workday, I watched the sunset over the cliffs at [Ponta da Piedade](https://en.wikipedia.org/wiki/Ponta_da_Piedade). What about sunsets garners such awe? The beautiful colors? The visible transition from day to night, which stands in stark contrast to the gradual changes throughout the day? The ability to see the movement of a glowing orb millions of miles away? For me, it’s all of the above."
+    },
+    "2017-06-08": {
+      "locationId": "sevilla",
+      "text": "At the end of this month, I’m flying from Paris to Chennai to spend some time in southern India. So although I’ve enjoyed Portugal, I need to start heading east. I saw much of Spain when I did a summer study abroad there, but one city I never made it to was [Sevilla](https://en.wikipedia.org/wiki/Seville), so that’s where I find myself. The heat here is oppressive, regularly peaking into the triple digits. It’s been a while since I’ve experienced this kind of heat, but I guess it’s good preparation for the upcoming India leg of my trip."
+    },
+    "2017-06-09": {
+      "locationId": "sevilla",
+      "text": "My first full day in Sevilla was a typical new work day for me. Wake up, shower, grab a sandwich from a bakery, hide away in a coffee shop. Without considering it was hot as hell, I ordered my standard hot chocolate and was greeted with a stunned reaction. After some laughing at my expense, the barista helped me settle on a refreshing banana chocolate smoothie. In addition to some website development, I solidified travel plans up through July. Not having to worry about lodging and travel for a few weeks has freed me up to focus elsewhere."
+    },
+    "2017-06-10": {
+      "locationId": "sevilla",
+      "text": "I spoke with an Australian couple about the concept of [\"luck surface area\"](http://www.codusoperandi.com/posts/increasing-your-luck-surface-area) at a paella cooking class this evening. The idea is that while success is often attributable to luck, you can improve your chances of it happening to you by taking risks and sharing your ideas broadly. You never know when you’ll meet your best friend, business partner, or spouse. Being at the right place and time isn't enough. You must put yourself out there to make things happen. Increasing your luck surface area means opening yourself up for luck to strike and snatching it when it does."
+    },
+    "2017-06-11": {
+      "locationId": "sevilla",
+      "text": "I've started experimenting with how long I can last before asking someone where they're from or what they do. Rehashing the same conversation with new faces every day gets exhausting. Thankfully, today I endured the sweltering heat alongside two girls from my hostel, one Brazilian and the other German. After a subpar free walking tour - you generally get what you pay for - we shared some sangria and visited [Sevilla's bullring](https://en.wikipedia.org/wiki/Maestranza_(Sevilla)), enjoying wide-ranging conversations throughout. Avoiding boilerplate smalltalk is good for my sanity while traveling, but I also think it's a useful exercise I'll bring back home."
+    },
+    "2017-06-12": {
+      "locationId": "sevilla",
+      "text": "The heat here makes it difficult to stay outside for extended periods, meaning more time inside coding. I'm also naturally inclined to work after extended time off. I discussed this over tapas with another hostel-mate, Sarah. We share the mentality that while vacations are great, there's only so much sitting around we can do before we feel the urge to create. I've reached that point. I don’t plan to stop traveling, but I’m fine spending a day inside hacking as long as I get a little outside time, which I did today in the botanical gardens of [Reales Alcázar](https://en.wikipedia.org/wiki/Alcázar_of_Seville)."
+    },
+    "2017-06-13": {
+      "locationId": "sevilla",
+      "text": "This microblog now has [a dedicated website](https://jwn.gr/microblog/)! Pages take a while to load, the desktop layout looks better than the mobile one, and I’m not quite happy with the color scheme. But it existing is better than the alternative. In software development, this is known as releasing a [minimum viable product (MVP)](https://en.wikipedia.org/wiki/Minimum_viable_product). Some startups burn years and millions of dollars toiling away on products that no one wants or are impossible to use. Instead, you should release early, gather feedback, and iterate. It’s hard to release something that isn’t perfect, but you probably waited too long if it is."
+    }
+  }
+}
+
+
+
