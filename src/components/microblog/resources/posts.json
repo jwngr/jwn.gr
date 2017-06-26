@@ -8,7 +8,9 @@
     "porto",
     "lisbon",
     "lagos",
-    "sevilla"
+    "seville",
+    "marseille",
+    "nice"
   ],
   "locations": {
     "orlando": {
@@ -80,15 +82,32 @@
         "2017-06-07"
       ]
     },
-    "sevilla": {
-      "name": "Sevilla, Spain",
+    "seville": {
+      "name": "Seville, Spain",
       "posts": [
         "2017-06-08",
         "2017-06-09",
         "2017-06-10",
         "2017-06-11",
         "2017-06-12",
-        "2017-06-13"
+        "2017-06-13",
+        "2017-06-14"
+      ]
+    },
+    "marseille": {
+      "name": "Marseille, France",
+      "posts": [
+        "2017-06-15",
+        "2017-06-16",
+        "2017-06-17"
+      ]
+    },
+    "nice": {
+      "name": "Nice, France",
+      "posts": [
+        "2017-06-18",
+        "2017-06-19",
+        "2017-06-20"
       ]
     }
   },
@@ -214,31 +233,56 @@
       "text": "Completing one project inspires me to dive into the next, which happens to be a website for this very microblog. The weekly newsletter will continue, but I want to more easily showcase and share posts. After an extended workday, I watched the sunset over the cliffs at [Ponta da Piedade](https://en.wikipedia.org/wiki/Ponta_da_Piedade). What about sunsets garners such awe? The beautiful colors? The visible transition from day to night, which stands in stark contrast to the gradual changes throughout the day? The ability to see the movement of a glowing orb millions of miles away? For me, it’s all of the above."
     },
     "2017-06-08": {
-      "locationId": "sevilla",
-      "text": "At the end of this month, I’m flying from Paris to Chennai to spend some time in southern India. So although I’ve enjoyed Portugal, I need to start heading east. I saw much of Spain when I did a summer study abroad there, but one city I never made it to was [Sevilla](https://en.wikipedia.org/wiki/Seville), so that’s where I find myself. The heat here is oppressive, regularly peaking into the triple digits. It’s been a while since I’ve experienced this kind of heat, but I guess it’s good preparation for the upcoming India leg of my trip."
+      "locationId": "seville",
+      "text": "At the end of this month, I’m flying from Paris to Chennai to spend some time in southern India. So although I’ve enjoyed Portugal, I need to start heading east. I saw much of Spain when I did a summer study abroad there, but one city I never made it to was [Seville](https://en.wikipedia.org/wiki/Seville), so that’s where I find myself. The heat here is oppressive, regularly peaking into the triple digits. It’s been a while since I’ve experienced this kind of heat, but I guess it’s good preparation for the upcoming India leg of my trip."
     },
     "2017-06-09": {
-      "locationId": "sevilla",
-      "text": "My first full day in Sevilla was a typical new work day for me. Wake up, shower, grab a sandwich from a bakery, hide away in a coffee shop. Without considering it was hot as hell, I ordered my standard hot chocolate and was greeted with a stunned reaction. After some laughing at my expense, the barista helped me settle on a refreshing banana chocolate smoothie. In addition to some website development, I solidified travel plans up through July. Not having to worry about lodging and travel for a few weeks has freed me up to focus elsewhere."
+      "locationId": "seville",
+      "text": "My first full day in Seville was a typical new work day for me. Wake up, shower, grab a sandwich from a bakery, hide away in a coffee shop. Without considering it was hot as hell, I ordered my standard hot chocolate and was greeted with a stunned reaction. After some laughing at my expense, the barista helped me settle on a refreshing banana chocolate smoothie. In addition to some website development, I solidified travel plans up through July. Not having to worry about lodging and travel for a few weeks has freed me up to focus elsewhere."
     },
     "2017-06-10": {
-      "locationId": "sevilla",
+      "locationId": "seville",
       "text": "I spoke with an Australian couple about the concept of [\"luck surface area\"](http://www.codusoperandi.com/posts/increasing-your-luck-surface-area) at a paella cooking class this evening. The idea is that while success is often attributable to luck, you can improve your chances of it happening to you by taking risks and sharing your ideas broadly. You never know when you’ll meet your best friend, business partner, or spouse. Being at the right place and time isn't enough. You must put yourself out there to make things happen. Increasing your luck surface area means opening yourself up for luck to strike and snatching it when it does."
     },
     "2017-06-11": {
-      "locationId": "sevilla",
-      "text": "I've started experimenting with how long I can last before asking someone where they're from or what they do. Rehashing the same conversation with new faces every day gets exhausting. Thankfully, today I endured the sweltering heat alongside two girls from my hostel, one Brazilian and the other German. After a subpar free walking tour - you generally get what you pay for - we shared some sangria and visited [Sevilla's bullring](https://en.wikipedia.org/wiki/Maestranza_(Sevilla)), enjoying wide-ranging conversations throughout. Avoiding boilerplate smalltalk is good for my sanity while traveling, but I also think it's a useful exercise I'll bring back home."
+      "locationId": "seville",
+      "text": "I've started experimenting with how long I can last before asking someone where they're from or what they do. Rehashing the same conversation with new faces every day gets exhausting. Thankfully, today I endured the sweltering heat alongside two girls from my hostel, one Brazilian and the other German. After a subpar free walking tour - you generally get what you pay for - we shared some sangria and visited [Seville's bullring](https://en.wikipedia.org/wiki/Maestranza_(Sevilla)), enjoying wide-ranging conversations throughout. Avoiding boilerplate smalltalk is good for my sanity while traveling, but I also think it's a useful exercise I'll bring back home."
     },
     "2017-06-12": {
-      "locationId": "sevilla",
+      "locationId": "seville",
       "text": "The heat here makes it difficult to stay outside for extended periods, meaning more time inside coding. I'm also naturally inclined to work after extended time off. I discussed this over tapas with another hostel-mate, Sarah. We share the mentality that while vacations are great, there's only so much sitting around we can do before we feel the urge to create. I've reached that point. I don’t plan to stop traveling, but I’m fine spending a day inside hacking as long as I get a little outside time, which I did today in the botanical gardens of [Reales Alcázar](https://en.wikipedia.org/wiki/Alcázar_of_Seville)."
     },
     "2017-06-13": {
-      "locationId": "sevilla",
+      "locationId": "seville",
       "text": "This microblog now has [a dedicated website](https://jwn.gr/microblog/)! Pages take a while to load, the desktop layout looks better than the mobile one, and I’m not quite happy with the color scheme. But it existing is better than the alternative. In software development, this is known as releasing a [minimum viable product (MVP)](https://en.wikipedia.org/wiki/Minimum_viable_product). Some startups burn years and millions of dollars toiling away on products that no one wants or are impossible to use. Instead, you should release early, gather feedback, and iterate. It’s hard to release something that isn’t perfect, but you probably waited too long if it is."
+    },
+    "2017-06-14": {
+      "locationId": "seville",
+      "text": "At a rate of around 1,000 steps every ten minutes, it takes about 2.5 hours of walking to reach [my daily step goal of 14,286](https://jwn.gr/microblog/2017-05-25). I make as much out of that time as I can. As I explore sights like today's stop, the [Seville Cathedral](https://en.wikipedia.org/wiki/Seville_Cathedral), I listen to podcasts, possibly my favorite - and arguably the most underrated - entertainment medium. I use [Overcast](https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8) to listen to podcasts ranging from tech to science to psychology to Notre Dame to murder mysteries. The podcasting landscape is vast and varied. I’ll be sharing my all-time favorite podcasts and episodes throughout this week."
+    },
+    "2017-06-15": {
+      "locationId": "marseille",
+      "text": "Time to ditch the heat and head to [Marseille, France](https://en.wikipedia.org/wiki/Marseille). I spent my first day here as I usually do, walking aimlessly, notching another of my increasingly frequent 30k+ step days. Along the way, I listened to [\"Reality Part Two\"](http://www.npr.org/2017/06/08/531905309/reality-part-two) from [Invisibilia](http://www.npr.org/podcasts/510307/invisibilia), a show scrutinizing human behavior. They interviewed a former Googler who yearned to break free from his bubble. Hmm, sounds familiar… Instead of a worldwide trip, he created a series of apps to randomize his life. Through attending strangers' Facebook events and vacationing in unexpected places, he realized people have a lot more in common than he thought."
+    },
+    "2017-06-16": {
+      "locationId": "marseille",
+      "text": "Marseille's main attraction is the glimmering basilica of [Notre Dame de la Garde](https://en.wikipedia.org/wiki/Notre-Dame_de_la_Garde) atop its highest hill. As I made the climb, I listened to the latest episode of [Radiolab](http://www.radiolab.org/), which told [the unexpected story of Venice's first female gondolier](http://www.radiolab.org/story/gondo/). Radiolab is a veteran in the podcasting space with an impressive archive of episodes which weave together science, stories, and sound. My favorite must-listen-to episodes include [\"60 Words\"](http://www.radiolab.org/story/60-words/), [\"Sight Unseen\"](http://www.radiolab.org/story/sight-unseen/), [\"Colors\"](http://www.radiolab.org/story/211119-colors/), and [\"Lost & Found.\"](http://www.radiolab.org/story/110079-lost-found/) Their live performances, although rare, are incredible to see in person and are can't-miss experiences if they stop by your city."
+    },
+    "2017-06-17": {
+      "locationId": "marseille",
+      "text": "I’m in the midst of my next project, a rehash of something from college. I’ve spent the past two days trying to get my old code working and cleaned up. Programming is often hit or miss. It's not unusual to spend an entire day unsuccessfully completing a single task, only to crank it out in just fifteen minutes the next day. Hopefully that'll be the case here. I did successfully listen to an episode of [99% Invisible](http://99percentinvisible.org/) though, a delightful podcast about the design hidden in everyday life. Great episodes to start with are [\"Ten Thousand Years\"](http://99percentinvisible.org/episode/ten-thousand-years/) and [\"Vexillonaire.\"](http://99percentinvisible.org/episode/vexillonaire/)"
+    },
+    "2017-06-18": {
+      "locationId": "nice",
+      "text": "I’m glad I only chose to stay in Marseille a few days. The city felt sparse and unwelcoming. I've moved up the coast to [Nice](https://en.wikipedia.org/wiki/Nice), which has water as blue as opal and that enchanting European small-town vibe. As I explored, I caught up on [CodePen Radio](https://blog.codepen.io/radio/), a show hosted by the co-founders of [CodePen](https://codepen.io/), an interactive web development playground. In addition to building a useful product, I learn a lot from their podcast, which focuses on running online businesses. I’ve been listening for years, as I’ve found them an invaluable resource on everything from managing servers to managing people."
+    },
+    "2017-06-19": {
+      "locationId": "nice",
+      "text": "An hour east of Nice along the [Côte d’Azur](https://en.wikipedia.org/wiki/French_Riviera) is [Monaco](https://en.wikipedia.org/wiki/Monaco), a country so small I walked its length in an hour. Along the way, I stopped at [Villefranche-sur-Mer](https://en.wikipedia.org/wiki/Villefranche-sur-Mer) and [Èze](https://en.wikipedia.org/wiki/%C3%88ze), the latter’s winding cobblestone streets being today's top highlight. While I wasn't being rejected entry into the Monte Carlo Casino due to dress code, I listened to [Reply All](https://gimletmedia.com/reply-all/), a podcast which, at its core, is about Internet culture. My favorite episodes are those where they play [\"Yes, Yes, No\"](http://yesyesnos.tumblr.com/) and those where they go into detective mode to uncover some [unexpected secrets](https://gimletmedia.com/episode/99-black-hole-new-jersey/) during their \"Super Tech Support\" segment."
+    },
+    "2017-06-20": {
+      "locationId": "nice",
+      "text": "An hour train ride the opposite direction from Monaco is [Cannes](https://en.wikipedia.org/wiki/Cannes), internationally known for its ritzy annual film festival. The town was bustling with a major #branding conference sporting all types of tech companies, highlighted by a [Snapchat ferris wheel](http://blog.hollywoodbranded.com/june-3-snapchats-brand-marketing-wins-big-at-cannes). Before heading back to Nice, I stopped by [Antibes](https://en.wikipedia.org/wiki/Antibes) to see some super yachts up close and personal. Today’s podcast was [Song Exploder](http://songexploder.net/), the only podcast I don't listen to on double speed. The host interviews musicians and composers, breaking down their music into its composite parts. A unique podcast to round out this week's list."
     }
   }
 }
-
-
-

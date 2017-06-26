@@ -51,9 +51,9 @@ export function getImageKey(dayOfMonth, month, year) {
 }
 
 export function getImageKeyFromDate(date) {
-  var dayOfMonth = date.getDate();
-  var month = date.getMonth() + 1;
-  var year = date.getFullYear();
+  var dayOfMonth = date.getUTCDate();
+  var month = date.getUTCMonth() + 1;
+  var year = date.getUTCFullYear();
 
   return `${year}-${padWithZero(month)}-${padWithZero(dayOfMonth)}`;
 }
@@ -72,17 +72,17 @@ export function getPreviousDateKey(startDateKey) {
 
 export function getShortFormattedDate(date) {
   var d = new Date(date);
-  var dayOfMonth = d.getDate();
-  var month = monthAbbreviations[d.getMonth()];
+  var dayOfMonth = d.getUTCDate();
+  var month = monthAbbreviations[d.getUTCMonth()];
 
   return `${month} ${dayOfMonth}`;
 }
 
 export function getFormattedDate(date) {
   var d = new Date(date);
-  var weekday = weekdays[d.getDay()];
-  var dayOfMonth = d.getDate();
-  var month = months[d.getMonth()];
+  var weekday = weekdays[d.getUTCDay()];
+  var dayOfMonth = d.getUTCDate();
+  var month = months[d.getUTCMonth()];
 
   return `${weekday}, ${month} ${dayOfMonth}`;
 }
@@ -91,11 +91,11 @@ export function getDateRange(startDate, endDate) {
   var start = new Date(startDate);
   var end = new Date(endDate);
 
-  var startDayOfMonth = start.getDate();
-  var startMonth = months[start.getMonth()];
+  var startDayOfMonth = start.getUTCDate();
+  var startMonth = months[start.getUTCMonth()];
 
-  var endDayOfMonth = end.getDate();
-  var endMonth = months[end.getMonth()];
+  var endDayOfMonth = end.getUTCDate();
+  var endMonth = months[end.getUTCMonth()];
 
   let dateRange;
   if (startDate === endDate) {
