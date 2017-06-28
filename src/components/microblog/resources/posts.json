@@ -10,7 +10,9 @@
     "lagos",
     "seville",
     "marseille",
-    "nice"
+    "nice",
+    "lux",
+    "paris"
   ],
   "locations": {
     "orlando": {
@@ -108,6 +110,23 @@
         "2017-06-18",
         "2017-06-19",
         "2017-06-20"
+      ]
+    },
+    "lux": {
+      "name": "Luxembourg City, Luxembourg",
+      "posts": [
+        "2017-06-21",
+        "2017-06-22",
+        "2017-06-23"
+      ]
+    },
+    "paris": {
+      "name": "Paris, France",
+      "posts": [
+        "2017-06-24",
+        "2017-06-25",
+        "2017-06-26",
+        "2017-06-27"
       ]
     }
   },
@@ -283,6 +302,34 @@
     "2017-06-20": {
       "locationId": "nice",
       "text": "An hour train ride the opposite direction from Monaco is [Cannes](https://en.wikipedia.org/wiki/Cannes), internationally known for its ritzy annual film festival. The town was bustling with a major #branding conference sporting all types of tech companies, highlighted by a [Snapchat ferris wheel](http://blog.hollywoodbranded.com/june-3-snapchats-brand-marketing-wins-big-at-cannes). Before heading back to Nice, I stopped by [Antibes](https://en.wikipedia.org/wiki/Antibes) to see some super yachts up close and personal. Today’s podcast was [Song Exploder](http://songexploder.net/), the only podcast I don't listen to on double speed. The host interviews musicians and composers, breaking down their music into its composite parts. A unique podcast to round out this week's list."
+    },
+    "2017-06-21": {
+      "locationId": "lux",
+      "text": "I always pause before I send out my weekly newsletter. I imagine what my parents will think. I wonder if my college friends will judge me. Hell, I even wonder if my ex-girlfriends will read it. Not caring what other people think is incredibly difficult. Am I holding back because I know others are following along? I often think about about Lena Dunham's parents. Do they watch \"Girls\"? What are they thinking when she's spewing vulgarities or completely naked? I envy her ability to do creative work with no restraint. How do I allow myself to be create without restrictions?"
+    },
+    "2017-06-22": {
+      "locationId": "lux",
+      "text": "This trip constitutes the longest I've been apart from anyone I know. Well, it did, until I saw Caroline, one of my first college friends. My visit to [Luxembourg](https://en.wikipedia.org/wiki/Luxembourg_City), her residence for the past two years, coincides with [*Nationalfeiertag*](https://en.wikipedia.org/wiki/Grand_Duke's_Official_Birthday). Caroline always has a smile on her face and usually puts one on mine. She and her fiancee guided me around Luxembourg, the kind of place found on jigsaw puzzles at antique stores. I'm glad she lives here; I wouldn't have thought to come otherwise. And it's not just the views. As I found out, the Luxembourgish throw a great party."
+    },
+    "2017-06-23": {
+      "locationId": "lux",
+      "text": "*&ast;buzzz&ast; &ast;buzzz&ast; &ast;buzzz&ast;* What the fuck? It's so bright. What time is it? I need to turn this alarm off before I annoy my roommates. When did I even get back last night? My sense of time is always the first thing to go. Around 3 AM? I dunno, the details are fuzzy. Fireworks. Rum out of a champagne glass. Oh, that girl! I wish I had gotten her number. Not that I’ll ever see her again... Oh well, I guess. Ah, here’s my phone. 9:43. Shit! I gotta check out of here soon. *&ast;loud exhale&ast;* Time for another day."
+    },
+    "2017-06-24": {
+      "locationId": "paris",
+      "text": "I’m finding time to read in the midst of work and travel. I just finished [\"Creative Genius\"](https://smile.amazon.com/Creative-Genius-Simple-Passion-Motivated-ebook/dp/B0163BAUWC) today, a short book about motivation, pursuing your passion, and doing creative work. It contains plenty of morsels of inspiration, but my favorite was \"Great work doesn't happen every day, you work every day to make it happen.\" How true that is! Masterpieces aren't made in a day, but they aren't made without daily effort either. There's nothing like walking (a lot!) around Paris and gazing upon the Eiffel Tower, Notre Dame, and the Arc de Triomphe to drive that point home."
+    },
+    "2017-06-25": {
+      "locationId": "paris",
+      "text": "Of all the cities I've visited so far, Paris has yielded the most varied opinions. Some say it's a magical place, their favorite city in the world. Others wrinkle their face, claiming it's nothing special. I'm starting to understand why. To a certain extent, my opinions about where I've been are less about what they offer and more about who I've met and how I've felt there. Looking back on Marseille, one chance encounter or one bit of good news could've changed my experience entirely, despite the city remaining unchanged. I'm becoming more aware how my attitude colors my experiences."
+    },
+    "2017-06-26": {
+      "locationId": "paris",
+      "text": "A trip to Paris is incomplete without visiting some art museums. Today it was [Musée de l'Orangerie](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie) and the world-renowned [Louvre](https://en.wikipedia.org/wiki/Louvre). While it's surreal to observe pieces like Monet's [*Water Lilies*](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie#Monet.27s_Water_Lilies), da Vinci's [*Mona Lisa*](https://en.wikipedia.org/wiki/Mona_Lisa), and [*Venus de Milo*](https://en.wikipedia.org/wiki/Venus_de_Milo) in person, I most enjoy art that is either technically impressive or a creative application of the medium. And when it's both, like Panini's duo of paintings [*Ancient Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Ancient_Rome.jpg) and [*Modern Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Modern_Rome.jpg), I'm absolutely mesmerized. I was immediately drawn to the concept of an art gallery within a painting, and the execution - down to the smallest details - is remarkable."
+    },
+    "2017-06-27": {
+      "locationId": "paris",
+      "text": "I leave for India in two days. I'd be lying if I said I wasn't nervous. I still remember the shellshocked feeling from my trip there a decade ago. This won't be a vacation by any means. Hopefully it will be fruitful for me and those I'm teaching. But I'm apprehensive. I feel unprepared for the lessons I'll be teaching. I expect to struggle with the taste of the food. And the heat, oh the heat! But most of all, I'm uneasy about being responsible for things other than myself again. It's going to be quite the change of pace."
     }
   }
 }
