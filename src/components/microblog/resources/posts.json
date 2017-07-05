@@ -12,7 +12,9 @@
     "marseille",
     "nice",
     "lux",
-    "paris"
+    "paris",
+    "mumbai",
+    "mundiyambakkam"
   ],
   "locations": {
     "orlando": {
@@ -126,7 +128,24 @@
         "2017-06-24",
         "2017-06-25",
         "2017-06-26",
-        "2017-06-27"
+        "2017-06-27",
+        "2017-06-28"
+      ]
+    },
+    "mumbai": {
+      "name": "Mumbai, India",
+      "posts": [
+        "2017-06-29"
+      ]
+    },
+    "mundiyambakkam": {
+      "name": "Mundiyambakkam, India",
+      "posts": [
+        "2017-06-30",
+        "2017-07-01",
+        "2017-07-02",
+        "2017-07-03",
+        "2017-07-04"
       ]
     }
   },
@@ -330,6 +349,34 @@
     "2017-06-27": {
       "locationId": "paris",
       "text": "I leave for India in two days. I'd be lying if I said I wasn't nervous. I still remember the shellshocked feeling from my trip there a decade ago. This won't be a vacation by any means. Hopefully it will be fruitful for me and those I'm teaching. But I'm apprehensive. I feel unprepared for the lessons I'll be teaching. I expect to struggle with the taste of the food. And the heat, oh the heat! But most of all, I'm uneasy about being responsible for things other than myself again. It's going to be quite the change of pace."
+    },
+    "2017-06-28": {
+      "locationId": "paris",
+      "text": "For my last full day in Paris, I took a train to [Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles), a royal chateau southwest of the city dating to the 11th century. It was over the top gorgeous, a grandiose display of wealth consisting of meticulously-crafted marble sculptures, swimming pool-sized paintings, and an unreal quantity of gold. Although I enjoyed ogling everything inside the chateau, I spent most of my time walking around (and getting lost in) the extensive gardens. I made quick friends with some curious goats and meditated in my most tranquil spot yet. A satisfying day to cap this leg of the trip."
+    },
+    "2017-06-29": {
+      "locationId": "mumbai",
+      "text": "My step count suffered from a long flight on a day cut short by timezones. But that gives me time to explain why I'm en route to India. [Communities Rising](http://www.communities-rising.org/) (CR) is a non-profit working to teach [*Dalit*](https://en.wikipedia.org/wiki/Dalit) children English, [Tamil](https://en.wikipedia.org/wiki/Tamil_language), math, and computers in [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu), a state in southern India. It grew out of a separate organization I visited with a decade ago, and I've been involved with Communities Rising ever since, now sitting on its Board of Directors. It took me longer than expected to come back, but 15 hours of travel later, I have finally returned."
+    },
+    "2017-06-30": {
+      "locationId": "mundiyambakkam",
+      "text": "Limiting myself to 100 words per day while in India will be a tall task. Betsy McCoy, founder of Communities Rising and director of day-to-day operations, has ensured I'll be plenty busy. I'll primarily be teaching a computer programming course, but I’ll also be assisting at Communities Rising's after school centers. Adding in a trip to Bangalore to visit a partner organization and a weekend teaching retreat, I'll have plenty to do and write about. But today was my day off, filled with recovering from jet lag, preparations for class, and meeting my new roommates, who you'll hear about tomorrow."
+    },
+    "2017-07-01": {
+      "locationId": "mundiyambakkam",
+      "text": "The top two floors of a three story house in [Mundiyambakkam](https://www.google.co.in/maps/place/Mundiyampakkam,+Tamil+Nadu+605601/@7.5501707,72.4214332,4.81z/data=!4m5!3m4!1s0x3a5350fd2ac9dc37:0xe110f2d8f8e0fc30!8m2!3d11.9975683!4d79.5158364?hl=en) is Betsy's residence six months each year. It's shared with a cast of 20-something Indian men who are CR teachers and staff, plus some younger kids Betsy has all but officially adopted. She's affectionately called \"Mom\" by all. Spiders and roaches are common, an unsurprising fact given nonexistent trash collection. But with my own bedroom, AC, and serviceable WiFi, it's in some ways an improvement over hostels, and far better than neighbors. Tonight, it accommodated a 50th birthday celebration for Father Felix, a friend and important part of CR."
+    },
+    "2017-07-02": {
+      "locationId": "mundiyambakkam",
+      "text": "I stayed at St. Patrick's Home on my last trip, where a group of exuberant 5th standard kids were taking a \"gap year\" to improve their English, Tamil, and math. Luck has it today was their ten year reunion. We were greeted not by kids, but by 20-year-old adults, one year from college degrees in commerce, computers science, and fashion design. Escaping the poverty surrounding them is still far from a foregone conclusion. But seeing their transformations through my watery eyes and hearing their emotional speeches was a great reminder of why I find myself halfway around the world."
+    },
+    "2017-07-03": {
+      "locationId": "mundiyambakkam",
+      "text": "Day one of my programming course is in the books! Almost everyone was an hour late to the two hour class, a typical occurrence in these parts given unreliable transit and a general lack of urgency. I'm discovering the intractable problems Betsy faces daily. Meetings always start late. Events are cancelled after you've already arrived. Pertinent information isn't disclosed unless explicitly requested. Things are generally inefficient. Although that make completing tasks difficult, inefficiencies provide opportunities. CR is working to exploit these inefficiencies when it comes to education. The consistently rising test results from our centers is evidence that it's working."
+    },
+    "2017-07-04": {
+      "locationId": "mundiyambakkam",
+      "text": "The only hot dogs consumed during this Independence Day abroad were on a YouTube video of Nathan's Hot Dog Eating Contest I showed the guys at the house. It stood in stark contrast to my afternoon visit to CR's after school center in Sithani, where goats, chickens, and cows interspersed themselves with 70 energetic kids from 2nd to 8th standard. I joined them in meditating, spelling words with [Bananagrams](http://www.bananagrams.com/games/bananagrams) tiles, and reading Tamil and English books aloud. It's impossible not to smile when surrounded by a throng of elated kids shaking your hand and asking you your name in unison."
     }
   }
 }
