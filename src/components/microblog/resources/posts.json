@@ -14,7 +14,8 @@
     "lux",
     "paris",
     "mumbai",
-    "mundiyambakkam"
+    "mundiyambakkam",
+    "bangalore"
   ],
   "locations": {
     "orlando": {
@@ -145,7 +146,19 @@
         "2017-07-01",
         "2017-07-02",
         "2017-07-03",
-        "2017-07-04"
+        "2017-07-04",
+        "2017-07-05",
+        "2017-07-06",
+        "2017-07-07",
+        "2017-07-08",
+        "2017-07-09"
+      ]
+    },
+    "bangalore": {
+      "name": "Bangalore, India",
+      "posts": [
+        "2017-07-10",
+        "2017-07-11"
       ]
     }
   },
@@ -377,6 +390,34 @@
     "2017-07-04": {
       "locationId": "mundiyambakkam",
       "text": "The only hot dogs consumed during this Independence Day abroad were on a YouTube video of Nathan's Hot Dog Eating Contest I showed the guys at the house. It stood in stark contrast to my afternoon visit to CR's after school center in Sithani, where goats, chickens, and cows interspersed themselves with 70 energetic kids from 2nd to 8th standard. I joined them in meditating, spelling words with [Bananagrams](http://www.bananagrams.com/games/bananagrams) tiles, and reading Tamil and English books aloud. It's impossible not to smile when surrounded by a throng of elated kids shaking your hand and asking you your name in unison."
+    },
+    "2017-07-05": {
+      "locationId": "mundiyambakkam",
+      "text": "I scarfed down lunch after this morning's programming class before trekking to a local engineering college to talk in front of around 200 students. On minimal planning and wearing pants with a broken zipper (not enough words to explain...), I touched on various topics: my background, attending US universities, working at startups versus big tech companies, applying to tech jobs, growing tech trends, and a crash course in Python. Three hours of ad-libbing later, I headed back to the house for a quick dinner and a late night of editing this past week's microblog newsletter. An exhaustingly busy day!"
+    },
+    "2017-07-06": {
+      "locationId": "mundiyambakkam",
+      "text": "Life caught up with me today. A lack of sleep left me groggy for today's lesson, which dove into some tougher programming concepts. Some students are falling behind as language barriers abound with the technical jargon. On a personal note, some emotional baggage returned. I've been so busy since arriving in India that I unconsciously ignored the things I've been struggling with on this worldwide trip. A cocktail of tiredness and existential dread led to me crashing for a rare mid-day nap. Thankfully, nothing else was on this afternoon's schedule other than some badminton and helping prepare for tomorrow's retreat."
+    },
+    "2017-07-07": {
+      "locationId": "mundiyambakkam",
+      "text": "We are trying to scale the impact of CR. Educational and psychological results from our centers are positive, but opening new centers is time and money intensive. A more scalable solution which addresses the root issues with education in India is teaching our curriculum to instructors at existing schools. Betsy lined up five schools in our district to pilot our English program in a formal school setting this upcoming school year. Today, we kicked off a two day retreat in Pondicherry to train 35 English teachers from those schools. It was my first first phonetics lesson in quite a few years."
+    },
+    "2017-07-08": {
+      "locationId": "mundiyambakkam",
+      "text": "The teachers at this retreat are eager to learn the CR curriculum. My conversations with them highlight how rare an opportunity this is for them. Their schools receive next to no funding, struggling to acquire not just writing materials and books, but even electricity and proper bathroom facilities. They see this teacher training as a gift. Knowing it comes with whiteboards, children's books, and a variety of other learning materials provided by CR has them visibly excited. These five schools are hopefully just the beginning for us. We plan to take our curriculum far and wide over the coming years."
+    },
+    "2017-07-09": {
+      "locationId": "mundiyambakkam",
+      "text": "Sundays are for cricket. I also spent this one reflecting on privilege, a topic weighing heavily on me recently. I'm extremely privileged. American, white, male, physically able, well off family, married parents. At my brother's Stanford graduation, Cory Booker [recounted his dad's wisdom](https://www.youtube.com/watch?v=dZ39FswOyFk): \"Don’t act like you hit a home run when you were born on third base.\" My younger self was shell shocked in India ten years ago. I now better understand I was born with resources unimaginable to others. Realizing this has made me more empathetic, encouraging me to use my privilege to benefit more than just myself."
+    },
+    "2017-07-10": {
+      "locationId": "bangalore",
+      "text": "It’s a seven hour drive to [Bangalore](https://en.wikipedia.org/wiki/Bangalore), where we have some meetings scheduled for tomorrow. Speaking of driving in India... it's insane. Speed limits don’t exist. The few visible lane markers are ignored. A phone is never far from a driver's ear. Potholes, speed bumps, and cows are plentiful. Cars driving the opposite direction on the highway surround you on *both* sides. Oh, and cars honk their horns *constantly*. Hectic is putting it lightly, but drivers seem to revel in the challenge. Regardless, my heart rate always drops when the trip is over, especially after a long journey like today."
+    },
+    "2017-07-11": {
+      "locationId": "bangalore",
+      "text": "Organizations like CR without deep reserves work hard to simply fund existing projects. Grants are often earmarked for new initiatives, so finding larger donors to cover operating expenses is needed in order to focus on our work instead of our bank account. Today was a positive step in that direction. A large financial commitment from a Bangalore family will cover several of our centers for the next two years. A meeting with our existing partner, Pratham Books, didn't result in anything new just yet, but did foster that relationship and yield some promising referrals. A successful trip by any measure!"
     }
   }
 }
