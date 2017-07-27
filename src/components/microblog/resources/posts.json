@@ -15,7 +15,13 @@
     "paris",
     "mumbai",
     "mundiyambakkam",
-    "bangalore"
+    "bangalore",
+    "mundiyambakkam-2",
+    "new-york-city",
+    "new-haven",
+    "boston",
+    "west-bridgewater",
+    "mechanicsburg"
   ],
   "locations": {
     "orlando": {
@@ -159,6 +165,50 @@
       "posts": [
         "2017-07-10",
         "2017-07-11"
+      ]
+    },
+    "mundiyambakkam-2": {
+      "name": "Mundiyambakkam, India",
+      "posts": [
+        "2017-07-12",
+        "2017-07-13",
+        "2017-07-14",
+        "2017-07-15",
+        "2017-07-16",
+        "2017-07-17"
+      ]
+    },
+    "new-york-city": {
+      "name": "New York City, New York",
+      "posts": [
+        "2017-07-18"
+      ]
+    },
+    "new-haven": {
+      "name": "New Haven, Connecticut",
+      "posts": [
+        "2017-07-19"
+      ]
+    },
+    "boston": {
+      "name": "Boston, Massachusetts",
+      "posts": [
+        "2017-07-20"
+      ]
+    },
+    "west-bridgewater": {
+      "name": "West Bridgewater, Massachusetts",
+      "posts": [
+        "2017-07-21",
+        "2017-07-22"
+      ]
+    },
+    "mechanicsburg": {
+      "name": "Mechanicsburg, Pennsylvania",
+      "posts": [
+        "2017-07-23",
+        "2017-07-24",
+        "2017-07-25"
       ]
     }
   },
@@ -418,6 +468,62 @@
     "2017-07-11": {
       "locationId": "bangalore",
       "text": "Organizations like CR without deep reserves work hard to simply fund existing projects. Grants are often earmarked for new initiatives, so finding larger donors to cover operating expenses is needed in order to focus on our work instead of our bank account. Today was a positive step in that direction. A large financial commitment from a Bangalore family will cover several of our centers for the next two years. A meeting with our existing partner, [Pratham Books](http://prathambooks.org/), didn't result in anything new just yet, but did foster that relationship and yield some promising referrals. A successful trip by any measure!"
+    },
+    "2017-07-12": {
+      "locationId": "mundiyambakkam-2",
+      "text": "Given the long break since last Thursday, I spent most of today's class reviewing programming fundamentals. I visited CR's Sithanangur center in the afternoon, where I was greeted by dozens of spirited children outside a dilapidated government school building. It's heartbreaking knowing their odds of getting a job which pays more than a few dollars a day is next to none. But for a couple hours a day, they can forget about their troubles and learn with each other. I need to remind myself that escaping poverty is often multi-generational, and CR helps lay the foundation to kickstart that process."
+    },
+    "2017-07-13": {
+      "locationId": "mundiyambakkam-2",
+      "text": "I awoke today with the right half of my bottom lip swollen to four times its normal size. Bug bites have been a constant nightly annoyance, forming mountain ranges of hives along my back, arms, and legs. I’ve typically done my best to ignore them, but today required some Benadryl. It worked like a charm, but getting through class hopped up on drowsy medication wasn't ideal. I slept in transit between afternoon visits to two more CR centers to deliver supplies and meet the teachers and kids. Everyday in India seem to bring its own unique challenge."
+    },
+    "2017-07-14": {
+      "locationId": "mundiyambakkam-2",
+      "text": "Today concluded my programming course. Despite my best efforts and muffled frustrations, some students still struggle to open files from the command line. Others though can solve non-trivial problems using loops, conditional statements, and functions. I had no idealistic expectations that I would somehow pump out star programmers over a two week period. But I did want to impart my passion for programming on them so they desire to continue learning even after I leave. For those that showed promise, I hope they make use of the resources available to them via the Internet-enabled CR computer centers."
+    },
+    "2017-07-15": {
+      "locationId": "mundiyambakkam-2",
+      "text": "This morning it was my right eye’s turn to swell up. I'm hopeful a move to a different, cleaner part of the house will make my last few nights here less itchy. After another dose of Benadryl, we inspected some land for a prospective CR headquarters. We plan to build an office and living quarters alongside a teacher training center. As I previously mentioned, focusing on training teachers will help us scale our impact and create a revenue stream. We're in the process of estimating costs and figuring out exactly what it'll take to make this vision a reality."
+    },
+    "2017-07-16": {
+      "locationId": "mundiyambakkam-2",
+      "text": "Another Sunday, another round of cricket matches. Today was also Betsy’s birthday. Birthdays are a huge deal around here, involving many visitors, wedding-style cake feedings, and copious amounts of chicken biryani. My worries about not liking Indian food clearly underestimated my younger self's pickiness. I’ve really enjoyed dining on a range of dosas, chutneys, curries, masalas, and, of course, biryanis. My main aversion comes from the heavy use of onions in some meals. And with how spicy everything is, often resulting in sweat beading on my forehead and chuckles erupting from those sitting around the table with me."
+    },
+    "2017-07-17": {
+      "locationId": "mundiyambakkam-2",
+      "text": "My last full day in India kicked off CR's new English literacy program for the five schools we trained earlier. Today's visit was to Adhanur, the smallest of the bunch at only 38 students across 1st to 5th standards. To get baseline scores for students' English abilities, we administered a simple test used elsewhere across India. It showed only a single student comprehended English sentences and a surprising amount couldn't even name letters. Our after-school centers perform much more favorably, giving us hope we'll see improved results when we test these students again upon the conclusion of the school year."
+    },
+    "2017-07-18": {
+      "locationId": "new-york-city",
+      "text": "This will surely turn out to the be the longest day of my worldwide trip. I flew across 13.5k miles of timezones to New York City, turning a standard 24 hour day into a 33.5 hour one. Although a somewhat inconvenient stopover on this worldwide trip, I'm back stateside for a college friend's wedding. A separate friend, Anand (founder of [Gyroscope](https://gyrosco.pe/), used to create this microblog's daily images), was my NYC tour guide. A run through Central Park. Artisanal cookies. Carnegie Hall. Radio City. Times Square. And to top off my travels, a two hour bus to New Haven, CT."
+    },
+    "2017-07-19": {
+      "locationId": "new-haven",
+      "text": "Despite being five years out from college, there's something about being back on a university campus that puts me in a good mood. My former college roommate at Notre Dame, Brian, showed me around Yale, where he is getting his PhD. I got a much needed haircut at the barber shop, worked out of the underground library, shot hoops in the student gym, and chatted over drinks at the grad student pub on \"2 for 1 Wednesday.\" Brian is one of those rare friends I pick up with right where we left off, as if no time has passed."
+    },
+    "2017-07-20": {
+      "locationId": "boston",
+      "text": "Brian and I took an early morning drive east to Boston, MA, where we connected with a few more Notre Dame friends for a Red Sox game, my first at Fenway Park. An early afternoon baseball game on a cloudless summer day is hard to beat. The sun shining down, the crack of the bat, a cold beer in my hand, peanut shells scattered at my feet. Quintessential summer. Finally crossing Fenway off my stadium list feels like a right of passage as a baseball fan. Watching the ballgame with my college buddies was just the cherry on top."
+    },
+    "2017-07-21": {
+      "locationId": "west-bridgewater",
+      "text": "A 45 minute drive south of Boston is West Bridgewater, MA, where I reunited with the rest of the dozen or so Notre Dame friends, as well as my parents, attending tomorrow's wedding party. My travels and my beard were hot topics. I found it strangely difficult to express exactly how my trip is going beyond the stock mentions of delicious food and incredible sights. I'm often frustrated by the loss in fidelity of thoughts going from my brain to my mouth and fingers. I've had so many thoughts swirling around lately, yet I can't suitably articulate them to others. "
+    },
+    "2017-07-22": {
+      "locationId": "west-bridgewater",
+      "text": "Today was filled with eating, drinking, swimming, and chumming it up at the wedding party. It's a peculiar feeling to see my friends getting married. It makes me reflect on my own past romantic relationships, many of which ended abruptly given my fear of longterm commitment and desire for a momentous life change. This worldwide trip itself played a part in the end of my most recent serious relationship. I'm more confident than ever that I want to share the ups and downs of life with someone, but I'm still looking for someone willing to shake everything up with me."
+    },
+    "2017-07-23": {
+      "locationId": "mechanicsburg",
+      "text": "I recently came across [a series of charts](https://www.theatlas.com/charts/HJFYm4uQ-) showing the average number of hours per day Americans spend with different groups of people (parents, friends, alone, etc.) over the course of their lives. The charts are a somewhat sobering look at what my future likely holds. And having spent much of the past three months apart from anyone I knew, I savored this weekend's celebrations with old friends and today's eight hour drive back to central Pennsylvania with my parents. I need to make the most out of this increasingly rare time back in my childhood home."
+    },
+    "2017-07-24": {
+      "locationId": "mechanicsburg",
+      "text": "Now that I'm back in the States, it's time to address everything which piled up while abroad, especially during my time in India. I follow the philosophy that if a task takes five minutes or less, I should do it immediately. Life is full of five minute tasks that people often postpone for later: triaging emails, cleaning dishes, paying bills, responding to Tinder matches, etc. The longer you shelve them, the more stressed out and less productive you become. Clearing out that backlog allows you to focus on larger, more significant tasks. Today involved completing those bite-sized tasks."
+    },
+    "2017-07-25": {
+      "locationId": "mechanicsburg",
+      "text": "This quiet period seems like a good time to reflect on the progress of [my trip goals](https://jwn.gr/microblog/2017-05-24) I'm pleased with my steady microblogging, l've done a decent job meeting people, and, outside of India, I've reached my step goal consistently. Meditation has been a mixed bag. I truly enjoy the reflection and relaxation it yields, but I've barely been doing it this past month. I practically never write down startup ideas, and I've only launched two projects, with another in progress. As I prepare to head back out on my travels, I need to improve my focus on creating."
     }
   }
 }
