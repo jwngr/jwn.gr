@@ -21,7 +21,9 @@
     "new-haven",
     "boston",
     "west-bridgewater",
-    "mechanicsburg"
+    "mechanicsburg",
+    "philadelphia",
+    "mechanicsburg-2"
   ],
   "locations": {
     "orlando": {
@@ -208,7 +210,24 @@
       "posts": [
         "2017-07-23",
         "2017-07-24",
-        "2017-07-25"
+        "2017-07-25",
+        "2017-07-26"
+      ]
+    },
+    "philadelphia": {
+      "name": "Philadelphia, Pennsylvania",
+      "posts": [
+        "2017-07-27",
+        "2017-07-28"
+      ]
+    },
+    "mechanicsburg-2": {
+      "name": "Mechanicsburg, Pennsylvania",
+      "posts": [
+        "2017-07-29",
+        "2017-07-30",
+        "2017-07-31",
+        "2017-08-01"
       ]
     }
   },
@@ -524,6 +543,34 @@
     "2017-07-25": {
       "locationId": "mechanicsburg",
       "text": "This quiet period seems like a good time to reflect on the progress of [my trip goals](https://jwn.gr/microblog/2017-05-24) I'm pleased with my steady microblogging, l've done a decent job meeting people, and, outside of India, I've reached my step goal consistently. Meditation has been a mixed bag. I truly enjoy the reflection and relaxation it yields, but I've barely been doing it this past month. I practically never write down startup ideas, and I've only launched two projects, with another in progress. As I prepare to head back out on my travels, I need to improve my focus on creating."
+    },
+    "2017-07-26": {
+      "locationId": "mechanicsburg",
+      "text": "This week should be pretty quiet, so it's as good a time as any to dive into a topic I've been avoiding: why I left my life and job in San Francisco to travel the world. I had a good group of friends, a job that paid me more than I may ever make again, and generally enjoyed the Bay Area. Yet I felt so unhappy and unfulfilled, especially this past year. I've done a lot of reflecting and I'm finally able to consolidate my thoughts into a few 100 word chunks. But first, a mini road trip to Philly."
+    },
+    "2017-07-27": {
+      "locationId": "philadelphia",
+      "text": "Pish and I fought through rush hour traffic in Philadelphia, PA this evening to pick Crotty up from work. Those are two close friends from my high school soccer team who I've stayed in touch with over the years. Our reunions grow rarer each passing year, and a mid-summer get together is a special treat. After a rain-soaked Mexican meal, we spent the night sharing drinks and stories, filling each other in on the highs and lows since we last saw each other. We're three quite different people, but we share a common bond that means a lot to me."
+    },
+    "2017-07-28": {
+      "locationId": "philadelphia",
+      "text": "\"I thought we weren't supposed to cross the river?\" I'm looking questioningly at Pish, who appears deep in thought. We rented bikes a few miles back and have been riding along the Schuylkill River which cuts through Philly. A detour took us on an alternate route. Not that it matters much; we have no schedule. We'll drive home after the ride, deep in discussion about politics and religion. Pish is a good travel companion, often carrying conversations and unafraid to share his opinion on controversial or sensitive topics. I appreciate his candor, even if we don't agree about everything."
+    },
+    "2017-07-29": {
+      "locationId": "mechanicsburg-2",
+      "text": "I left Microsoft in mid-2014 to become employee #14 at [Firebase](https://firebase.google.com/), a San Francisco-based startup. I had grown tired of Microsoft's bureaucracy and slow pace and wanted larger ownership over my work. Startup life comprised long hours and high stress, but I was passionate about Firebase's mission and I made friends across the fast-moving team. Seven months later, Google acquired us. I was back at a big tech company. Despite this being a positive financial outcome, I was one of the few Firebasers unhappy to don my [Noogler hat](http://www.zdnet.com/article/10-weird-and-wonderful-things-you-didnt-know-about-google/). I knew things were about to change."
+    },
+    "2017-07-30": {
+      "locationId": "mechanicsburg-2",
+      "text": "I played tennis with Pish this afternoon. You know the frustration of hitting a simple volley directly into the net? It's similar to how I felt as time passed at Google. I held out hope for months that we'd operate like a startup within Google. But as the team grew and goalposts shifted, I felt pigeonholed, powerless to affect change outside my diminishing sphere of influence. At Firebase, I had the team's trust to contribute across the organization. At Google, I was a cog in a big machine, one I increasingly found difficult to support and get excited about."
+    },
+    "2017-07-31": {
+      "locationId": "mechanicsburg-2",
+      "text": "I was deeply invested in Firebase. The product, the people, the mission. But my frustrations grew and eventually seeped outside the office. My relationships with my then-girlfriend, my friends, and even myself started to deteriorate. I became uninterested in doing things that previously brought me joy. I needed to make a change. The idea of dropping everything and experiencing the world had always been there. This seemed like the time to do it, with no one depending on me, money saved up, and the flexibility to work from anywhere. So I quit, packed up my apartment, and said my goodbyes."
+    },
+    "2017-08-01": {
+      "locationId": "mechanicsburg-2",
+      "text": "I'm thankful for my time at Firebase. I gave everything I had and did good work there. And for that, I was well-rewarded. But I have zero regrets about leaving. I no longer wanted to trade happiness and time for money. And although I'm still recovering from work-induced burnout and I'm unsure of what lies beyond this worldwide trip, I'm now on the upswing. Success is irrelevant unless I'm pursuing the right things. Discovering those things is tantamount, and this trip is forcing me to revaluate what those are, something that would likely never have happened if I had stayed."
     }
   }
 }
