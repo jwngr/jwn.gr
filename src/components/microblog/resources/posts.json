@@ -23,7 +23,8 @@
     "west-bridgewater",
     "mechanicsburg",
     "philadelphia",
-    "mechanicsburg-2"
+    "mechanicsburg-2",
+    "brussels"
   ],
   "locations": {
     "orlando": {
@@ -227,7 +228,19 @@
         "2017-07-29",
         "2017-07-30",
         "2017-07-31",
-        "2017-08-01"
+        "2017-08-01",
+        "2017-08-02",
+        "2017-08-03",
+        "2017-08-04"
+      ]
+    },
+    "brussels": {
+      "name": "Brussels, Belgium",
+      "posts": [
+        "2017-08-05",
+        "2017-08-06",
+        "2017-08-07",
+        "2017-08-08"
       ]
     }
   },
@@ -571,6 +584,34 @@
     "2017-08-01": {
       "locationId": "mechanicsburg-2",
       "text": "I'm thankful for my time at Firebase. I gave everything I had and did good work there. And for that, I was well-rewarded. But I have zero regrets about leaving. I no longer wanted to trade happiness and time for money. And although I'm still recovering from work-induced burnout and I'm unsure of what lies beyond this worldwide trip, I'm now on the upswing. Success is irrelevant unless I'm pursuing the right things. Discovering those things is tantamount, and this trip is forcing me to revaluate what those are, something that would likely never have happened if I had stayed."
+    },
+    "2017-08-02": {
+      "locationId": "mechanicsburg-2",
+      "text": "I need to turn my consumption into production. With the second leg of my trip fast approaching, I’ve pondered how to get more done while abroad. I try stay informed by following world news, keeping tabs on the programming community, and reading blogs from founders and technologists I respect. But I could read about doing things forever without ever actually doing anything. So I’m going on a diet, a news and social media diet. I pruned my RSS feeds, unsubscribed from email newsletters, and am limiting myself to two 10 minute blocks of social media daily. Let's get to work!"
+    },
+    "2017-08-03": {
+      "locationId": "mechanicsburg-2",
+      "text": "My relationship with social media has deteriorated over the years. The signal-to-noise ratio is low, and trending lower. For every piece of useful advice, humorous anecdote, or meaning life update, there are dozens of posts filled with vitriol, spam, and opinions presented as facts. I consistently feel unhappier and more frustrated *after* spending time on social media, which isn’t how it always was. The current political climate certainly plays a role, but the virality of bad news and people's inclination to present a pristine, non-representative version of themselves online are also to blame. Time to wean myself off this addiction."
+    },
+    "2017-08-04": {
+      "locationId": "mechanicsburg-2",
+      "text": "Back into the unknown! I stopped by my sister’s house to read to and play games with my adorable niece, Audrey, before driving down to Baltimore with my dad to spend the rest of the day on a plane. My bag is a little lighter this time around, as I dropped some dead weight (goodbye GoPro camera) and replaced a few clothes with lighter alternatives. I also replenished my toiletries and gave everything - my bag included - a good cleaning. I catalogued my gear into a [traveling guide](https://docs.google.com/document/d/1WxOazKQk37f_57QT8HA2TbzWHO5POuwxPAxE47WfedQ/edit?usp=sharing), which may be useful for others embarking on a similar trip."
+    },
+    "2017-08-05": {
+      "locationId": "brussels",
+      "text": "It only took about two hours and a giant stuffed meatball eaten atop the cobblestone of [*Grote Markt*](https://en.wikipedia.org/wiki/Grand_Place) for me to realize how glad I am to be back in Europe. After a short layover in Iceland, I landed in [Brussels, Belgium](https://en.wikipedia.org/wiki/Brussels). The density of chocolate shops, waffle houses, [*frites*](https://en.wikipedia.org/wiki/French_fries) (\"fries\") stands, and beer halls is higher than I could've imagined, but you'll see no complaints about that from this guy. And despite the streets and buildings appearing to be straight out of medieval times, they are well-maintained and effective. Belgium feels like my kind of place!"
+    },
+    "2017-08-06": {
+      "locationId": "brussels",
+      "text": "I was fortunate to visit [Antwerp](https://en.wikipedia.org/wiki/Antwerp) on Sunday to experience the [*Vogelenmarkt*](https://nl.wikipedia.org/wiki/Vogelenmarkt) (\"Bird Market\"), a large outdoor market featuring a menagerie of foods, wares, and live animals. I spent an inordinate amount of time sampling dried sausages to figure out which three flavors to purchase. Fig, pepper, and the wildcard kangaroo were the winners. I complemented those sausages with nothing other than some more sausage, this time a giant food truck [currywurst](https://en.wikipedia.org/wiki/Currywurst). I plopped down on a bench on the outskirts of the market, sized up how to logistically eat what was in my hand, and took my first bite."
+    },
+    "2017-08-07": {
+      "locationId": "brussels",
+      "text": "A special visitor is joining me for a few days: [Andrew](https://twitter.com/startupandrew), Firebase co-founder and my manager while at Firebase and Google. Over that time, the two of us became good friends. I have a profound amount of respect for him, for what he built at Firebase, for the tough business and personnel decisions I saw him make, for always having my back throughout our entire working relationship. Both of us enjoyed our newfound freedom to talk with no work restrictions. Although he did fill me in on how my former co-workers were doing as I showed him around Brussels."
+    },
+    "2017-08-08": {
+      "locationId": "brussels",
+      "text": "Andrew and I packed our rain jackets, hopped aboard the train, and traded startup ideas the entire way to [Bruges](https://en.wikipedia.org/wiki/Bruges), a picturesque town in northern Belgium which is straight out of a fairy tale. We had plenty to talk about as we strolled alongside horse-drawn carriages, crisscrossing the town’s canal system. It’s refreshing to get feedback from him on where my mind is. He's been graciously imparting his knowledge about startups and the tech industry onto me. He can relate to what I'm thinking about and struggling with as he's been through similar experiences, thus providing me with invaluable mentorship."
     }
   }
 }
