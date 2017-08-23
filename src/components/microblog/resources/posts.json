@@ -24,7 +24,11 @@
     "mechanicsburg",
     "philadelphia",
     "mechanicsburg-2",
-    "brussels"
+    "brussels",
+    "amsterdam",
+    "berlin",
+    "stockholm",
+    "copenhagen"
   ],
   "locations": {
     "orlando": {
@@ -240,7 +244,41 @@
         "2017-08-05",
         "2017-08-06",
         "2017-08-07",
-        "2017-08-08"
+        "2017-08-08",
+        "2017-08-09"
+      ]
+    },
+    "amsterdam": {
+      "name": "Amsterdam, Netherlands",
+      "posts": [
+        "2017-08-10",
+        "2017-08-11",
+        "2017-08-12"
+      ]
+    },
+    "berlin": {
+      "name": "Berlin, Germany",
+      "posts": [
+        "2017-08-13",
+        "2017-08-14",
+        "2017-08-15",
+        "2017-08-16"
+      ]
+    },
+    "stockholm": {
+      "name": "Stockholm, Sweden",
+      "posts": [
+        "2017-08-17",
+        "2017-08-18",
+        "2017-08-19",
+        "2017-08-20"
+      ]
+    },
+    "copenhagen": {
+      "name": "Copenhagen, Denmark",
+      "posts": [
+        "2017-08-21",
+        "2017-08-22"
       ]
     }
   },
@@ -612,6 +650,62 @@
     "2017-08-08": {
       "locationId": "brussels",
       "text": "Andrew and I packed our rain jackets, hopped aboard the train, and traded startup ideas the entire way to [Bruges](https://en.wikipedia.org/wiki/Bruges), a picturesque town in northern Belgium which is straight out of a fairy tale. We had plenty to talk about as we strolled alongside horse-drawn carriages, crisscrossing the town’s canal system. It’s refreshing to get feedback from him on where my mind is. He's been graciously imparting his knowledge about startups and the tech industry onto me. He can relate to what I'm thinking about and struggling with as he's been through similar experiences, thus providing me with invaluable mentorship."
+    },
+    "2017-08-09": {
+      "locationId": "brussels",
+      "text": "Brussels hosted the [1958 World’s Fair](https://en.wikipedia.org/wiki/Expo_58), the first held after World War II. Andrew and I visited the expo site, sauntering through the simultaneously cheesy and delightful [Mini Europe](https://en.wikipedia.org/wiki/Mini-Europe). We then ascended [Atomium](https://en.wikipedia.org/wiki/Atomium), a giant scale model of an iron crystal magnified 165 billion times. Everything felt straight out of the Jetsons, or maybe even Fallout. A chrome-clad future that turned out quite differently. It reminded me of a modern-day [World's Fair Nano](http://www.worldsfairusa.com/nano/sf/2016) I attended earlier this year, which involved much eye-rolling at the fantastical products. But I wonder what hindsight will reveal about that expo 60 years from now."
+    },
+    "2017-08-10": {
+      "locationId": "amsterdam",
+      "text": "Two noteworthy things happened on the bus ride to Amsterdam, Netherlands: (1) the Dutch border patrol pulled us over, resulting in heavily armed guards inspecting everyone's passports and (2) I finished [\"Listen, Liberal: Or, What Ever Happened to the Party of the People?\"](https://smile.amazon.com/dp/B012N992EK/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1). It details how the Democrats' betrayal of America's lower and middle classes in favor of Wall Street and Silicon Valley has helped accelerate income inequality as much as Republicans. As someone growing more politically conscious, it was a sobering look at how \"fixing things\" will take more than the Democrats simply winning back control. A probing read."
+    },
+    "2017-08-11": {
+      "locationId": "amsterdam",
+      "text": "It didn’t take long after Andrew and I said our goodbyes yesterday for me to join up with another travel partner: my sister, Hannah. We spent the day exploring Amsterdam, taking guided walking and boat tours and inching along for hours as we waited in line for the [Anne Frank House](https://en.wikipedia.org/wiki/Anne_Frank_House). We both found the latter experience strikingly memorable. Anne Frank’s life was treacherous, cut short by an evil regime who saw her as less than human. Undeterred, she lived her life as fully as possible, using her words to inspire millions and showing she was more human than most."
+    },
+    "2017-08-12": {
+      "locationId": "amsterdam",
+      "text": "Birthdays weren’t a huge deal growing up. The highlight was typically a family meal capped with a chocolate cake with chocolate icing and sprinkles. As I’ve gotten older, I aim to make birthdays more memorable. Today was Hannah’s birthday, her first abroad. We spent the morning successfully disarming a bomb at an escape room, followed by gorging ourselves on Dutch pancakes. We walked them off across several parks surrounding the city en route to view the masterpieces at the [Van Gogh Museum](https://en.wikipedia.org/wiki/Van_Gogh_Museum), finishing the day with *tapas*. I have a feeling this birthday will be a memorable one."
+    },
+    "2017-08-13": {
+      "locationId": "berlin",
+      "text": "In an ironic and distressing twist of fate, I found myself reading about deadly neo-Nazi gatherings back home in America on the same day as I visited sites across Berlin, Germany memorializing victims of the Holocaust and condemning the terrors of the Nazi movement. Sites recounting these horrific incidents in German history are prominently placed throughout the city, serving as public reminders, safeguards against history being repeated. Yet here we stand, with a growing movement of hate and prejudice in America spurred on by leaders who should be uniting us. We cannot forget. I will not forget."
+    },
+    "2017-08-14": {
+      "locationId": "berlin",
+      "text": "As we roam, Hannah and I find time to read quietly in parks. I just finished [\"Ready Player One,\"](https://smile.amazon.com/dp/B004J4WKUQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) a much anticipated read given several recommendations and an upcoming Spielberg adaptation. The book is a scavenger hunt of sorts, set in a time when virtual reality supersedes actual reality and with a plot revolving around 1980’s video games and pop culture. It was a quick, intriguing read, but I was left underwhelmed. The brutalist dialogue was uncomfortable and the unrealistic ways characters solved puzzles made Dan Brown’s plots appear airtight. A good book which I was anticipating to be great."
+    },
+    "2017-08-15": {
+      "locationId": "berlin",
+      "text": "Hannah and I both fell face down onto our beds. A day walking the entirety of Potsdam had worn us out. But we enjoyed the change of scenery from Berlin, which is honestly kind of ugly. It lacks the charm of many other European cities. Ravaged by bombings in World War II, the city was rebuilt and thus features a lot of uninspired modern architecture. That's not to say Berlin is without beauty, but I prefer to stroll through the old palaces and neighborhoods of a place like Potsdam, which was not as heavily bombed during the war."
+    },
+    "2017-08-16": {
+      "locationId": "berlin",
+      "text": "Hannah and I have done a ton of sightseeing over the few days we've been in each city, resulting in a grueling pace of travel. I’m finding it hard to get anything else done, which is leaving me a bit uneasy. I certainly cannot keep this pace up for much longer. Thankfully, today was more laid back, including laundry and some quiet work time at a coffee shop before our evening flight. It's great to have a travel partner, but I feel guilty spending a day of their vacation doing something they could do anywhere. A good lesson to learn."
+    },
+    "2017-08-17": {
+      "locationId": "stockholm",
+      "text": "After a delayed flight and barely catching the last bus from the airport, my sister and I were greeted by our pajama-clad cousin Allie around 2 AM. Allie is currently living and working in Stockholm, Sweden, a picturesque waterside city Hannah and I spent the day exploring. We met up with Allie and her friends in the evening at a Swedish cultural festival, where I enjoyed a \"Fuck Trump\" food truck burger on the lawn of the Swedish parliament. Cultural festival indeed. Our night ended later with some homemade mead in a viking-inspired tavern straight out of *Game of Thrones*."
+    },
+    "2017-08-18": {
+      "locationId": "stockholm",
+      "text": "The view got better every passing minute aboard the *Cinderella I* as it navigated across the Swedish archipelago. The sun dropped slowly, coloring the sky as if with random colors pulled from a box of crayons. The three hour trip took Allie, her boyfriend Niklas, Hannah, and I to a cabin on the island of [Södermöja](https://www.google.dk/maps/place/S%C3%B6derm%C3%B6ja/@59.3963883,18.8411447,13.96z/data=!4m5!3m4!1s0x46f57021f3973cad:0x6cbedf83a6ffaec9!8m2!3d59.3993668!4d18.8579656), devoid of running water and equipped with outhouses out back. After so much time staying in big cities, it's refreshing to be out in the wilderness. If only I had remembered my bug spray for the nagging mosquitoes feasting on my legs."
+    },
+    "2017-08-19": {
+      "locationId": "stockholm",
+      "text": "The worst part wasn't leaping into the water, it was opening the sauna door, a rush of wind sliding over my sweaty skin. My teeth bit down. My hands tensed into fists. I quickstepped the slippery wooden walkway to the water's edge, not pausing for long before taking the plunge. My feet paused momentarily on the surprisingly shallow, pebble-covered bottom. I launched myself straight up, away from the cold, flopping in the air like a dying fish. I made quick work navigating the ladder and walkway back to the sauna door, the 140 degree heat a strangely welcome relief."
+    },
+    "2017-08-20": {
+      "locationId": "stockholm",
+      "text": "The early morning sun shone brightly in the living room of our second cabin of the weekend, this one on [Finnhamn](https://en.wikipedia.org/wiki/Finnhamn), a larger, less residential island we arrived at yesterday afternoon. A soreness in my throat notified me almost immediately of an oncoming cold. I somewhat surprisingly avoided sickness up to this point in my trip, even while in India. But my luck ran out, and I only partook in a portion of today's planned hikes. Being sick at home sucks, but it's even worse on the road, where sitting on your couch and watching Netflix isn't really an option."
+    },
+    "2017-08-21": {
+      "locationId": "copenhagen",
+      "text": "Allie concluded her gracious hosting of Hannah and I by sending us off with a pancake breakfast before we departed for the airport. I headed on to Copenhagen, Denmark; my sister back home to Chicago. Despite the occasional sibling bickering about this wrong turn or that incorrect dessert selection, we'd make a good duo on *The Amazing Race*. She's addicted to [my daily step goal](https://jwn.gr/microblog/2017-05-25), which we hit each day. And although I know she's ready to sleep in her own bed and I'm relieved to only have to entertain myself again, I'll treasure these past two weeks we shared."
+    },
+    "2017-08-22": {
+      "locationId": "copenhagen",
+      "text": "It didn't take long to remember how hostel life feels, with one of my nine roommates shaking the earth with his 4 AM snoring. I put on my headphones and got some sleep, doing what I could to fight back this cold. It was my first full day on my own in several weeks, one I spent doing some sightseeing (oh hey, [*Little Mermaid*](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))), but mostly just catching up on trip and life planning. I'm not currently in the best work mindset, but I've got some down time these next few days and plan to make the most of them."
     }
   }
 }
