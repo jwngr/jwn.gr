@@ -28,7 +28,9 @@
     "amsterdam",
     "berlin",
     "stockholm",
-    "copenhagen"
+    "copenhagen",
+    "porto-2",
+    "milan"
   ],
   "locations": {
     "orlando": {
@@ -278,7 +280,24 @@
       "name": "Copenhagen, Denmark",
       "posts": [
         "2017-08-21",
-        "2017-08-22"
+        "2017-08-22",
+        "2017-08-23",
+        "2017-08-24"
+      ]
+    },
+    "porto-2": {
+      "name": "Porto, Portugal",
+      "posts": [
+        "2017-08-25",
+        "2017-08-26",
+        "2017-08-27",
+        "2017-08-28"
+      ]
+    },
+    "milan": {
+      "name": "Milan, Italy",
+      "posts": [
+        "2017-08-29"
       ]
     }
   },
@@ -706,6 +725,34 @@
     "2017-08-22": {
       "locationId": "copenhagen",
       "text": "It didn't take long to remember how hostel life feels, with one of my nine roommates shaking the earth with his 4 AM snoring. I put on my headphones and got some sleep, doing what I could to fight back this cold. It was my first full day on my own in several weeks, one I spent doing some sightseeing (oh hey, [*Little Mermaid*](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))), but mostly just catching up on trip and life planning. I'm not currently in the best work mindset, but I've got some down time these next few days and plan to make the most of them."
+    },
+    "2017-08-23": {
+      "locationId": "copenhagen",
+      "text": "\"Why would you ever do that? Isn’t that supposed to be like the best place to work?\" Quitting my job at Google has been a common topic of discussion for people I've met abroad. Not everyone grasps where I'm coming from, thinking it's unfathomable to be unhappy at a place where you get free meals and can take midday nap in sleeping pods. I unsuccessfully explain how leaving was the best decision for myself. I'm sitting on a lot of unknowns, but I'm much happier today than I was a year ago, which means I'm headed in the right direction."
+    },
+    "2017-08-24": {
+      "locationId": "copenhagen",
+      "text": "Copenhagen has an unbelievably vibrant food scene, highlighted by two distinctly different food halls, [Torvehallerne](https://torvehallernekbh.dk/) and [Copenhagen Street Food](http://copenhagenstreetfood.dk/en/). I've indulged in BBQ ([Warpigs](http://warpigs.dk/eat-drink/)), tacos ([Hija de Sanchez](http://www.hijadesanchez.dk/)), Brazilian *rodizio* ([Brasa](http://copenhagenstreetfood.dk/en/stade/brasa/)), chocolate-covered cinnamon rolls ([Lauras](http://laurasbakery.com/)), duck confit ([Ma Poule](http://www.visitcopenhagen.com/copenhagen/ma-poule-torvehallerne-gdk794135)), and some excellent beer. Oh, and a [crème brûlée donut](http://imgur.com/gallery/N3Xvci9) encrusted in crystalized sugar using a blowtorch. The only downside has been on my wallet, as Copenhagen’s 25% food tax results in some vendors charging $20 for a main dish. But they wouldn’t survive long charging high prices for mediocre food. The result is a city brimming with quality dining options."
+    },
+    "2017-08-25": {
+      "locationId": "porto-2",
+      "text": "I've returned to Porto, one of my favorite stops on the trip so far. I'm here to see Germana, who you may remember from [an earlier post](https://jwn.gr/microblog/2017-05-28). We've stayed in touch since that night, making plans to reunite. We recreated our first night together, starting with some port wine across the Douro River in Gaia. Midnight quickly passed as we lost track of time, deep in conversation similar to that which made us quick companions. Even the Portuguese restaurants were closed as we searched for food. Time is a fickle thing; it weighs most on those who have it least."
+    },
+    "2017-08-26": {
+      "locationId": "porto-2",
+      "text": "[Guimarães](https://en.wikipedia.org/wiki/Guimar%C3%A3es) is considered the birthplace of Portugal, a UNESCO World Heritage Site with charming plazas and a castle which defended the city many centuries ago. Germana and I took our time exploring the small downtown area, visiting churches, sharing traditional (that is, heavily fried) Portuguese tapas, and laying on the grass together to dodge the midday sun. We then headed high above the city to Penha Park, littered with moss-covered boulders the size of vans that were as splendid as they were unexpected. Quaint is the best word to describe the town of Guimarães, and to describe this day."
+    },
+    "2017-08-27": {
+      "locationId": "porto-2",
+      "text": "\"Are you boyfriend and girlfriend?\" Germana and I exchange a quick glance and an uncomfortable, but suggestive smile. “No, just friends,” I tell the little girl we just recently met. We're having lunch with six strangers, in the midst of a day tasting wine, olive oil, and honey in Portugal’s Douro Valley. There’s something to the directness of her question. The people I've most enjoyed meeting and talking to lately are those who, like this little girl, don't mince their words. I much prefer the sincerity behind awkward questions and equally uncomfortable answers to the superficiality of most everyday conversations."
+    },
+    "2017-08-28": {
+      "locationId": "porto-2",
+      "text": "Life sometimes feels like a giant balancing act, hedging one bet against another. Defenses constructed to temper life's lows simultaneously dampen its highs. Yet a fully realized loving friendship or romantic relationship requires vulnerability. A crushing right hook directly to the face is sometimes a potential hazard to experience that feeling you hear people singing about on the radio. Constantly guarding oneself against possible - or even probable - negative outcomes comes at a high cost. The me of one year ago would not have made this trip to Porto; the me of today is overjoyed that I did."
+    },
+    "2017-08-29": {
+      "locationId": "milan",
+      "text": "A single photo cannot adequately portray the sheer size of the [Duomo di Milano](https://en.wikipedia.org/wiki/Milan_Cathedral), an imposing marble structure covered in intricate sculptures which are each impressive works of art in their own right. Today's tour around Milan was with my former San Francisco roommate, Mythila, and her Italian boyfriend, Edoardo. Although just 8.3% Italian, I've inherited a love for Italian cuisine. My previous Italian excursion was highlighted by one of the best meals of my life in a tiny restaurant in Pisa. Tonight's pasta dish may have topped that mark, one I hope to again surpass in the coming weeks."
     }
   }
 }
