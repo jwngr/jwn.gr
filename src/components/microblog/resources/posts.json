@@ -30,7 +30,9 @@
     "stockholm",
     "copenhagen",
     "porto-2",
-    "milan"
+    "milan",
+    "naples",
+    "amalfi-coast"
   ],
   "locations": {
     "orlando": {
@@ -297,7 +299,24 @@
     "milan": {
       "name": "Milan, Italy",
       "posts": [
-        "2017-08-29"
+        "2017-08-29",
+        "2017-08-30",
+        "2017-08-31"
+      ]
+    },
+    "naples": {
+      "name": "Naples, Italy",
+      "posts": [
+        "2017-09-01",
+        "2017-09-02",
+        "2017-09-03",
+        "2017-09-04"
+      ]
+    },
+    "amalfi-coast": {
+      "name": "Amalfi Coast, Italy",
+      "posts": [
+        "2017-09-05"
       ]
     }
   },
@@ -753,6 +772,34 @@
     "2017-08-29": {
       "locationId": "milan",
       "text": "A single photo cannot adequately portray the sheer size of the [Duomo di Milano](https://en.wikipedia.org/wiki/Milan_Cathedral), an imposing marble structure covered in intricate sculptures which are each impressive works of art in their own right. Today's tour around Milan was with my former San Francisco roommate, Mythila, and her Italian boyfriend, Edoardo. Although just 8.3% Italian, I've inherited a love for Italian cuisine. My previous Italian excursion was highlighted by one of the best meals of my life in a tiny restaurant in Pisa. Tonight's pasta dish may have topped that mark, one I hope to again surpass in the coming weeks."
+    },
+    "2017-08-30": {
+      "locationId": "milan",
+      "text": "Milan doesn’t look like a stereotypical Italian city. The streets are wide and orderly, lined with retailers that wouldn’t be out of place in America. One notable exception is Starbucks, whose absence appears to be a point of pride. What they have instead is [Panini Durini](http://www.paninidurini.it), where I spent much of today writing. Dinner was at [Sorbillo](http://www.sorbillo.it), possibly the most famous of the many Italian pizzerias. Their pizzas are made of the same thin, light crust as those from the original restaurant of the same name in Naples. The wait was long, but it certainly lived up to the hype."
+    },
+    "2017-08-31": {
+      "locationId": "milan",
+      "text": "When I heard we were visiting where Leonardo da Vinci allegedly painted the \"Mona Lisa,\" I didn’t expect to end up in nothing but my bright red boxer briefs. But life comes at you fast. As does the water's surface after jumping off a 25 foot high ledge. And apparently also the current, which was taking me somewhere fast. I snagged the dock and climbed out of the river, ready for more of Bergamo and its surroundings. It was a day spent experiencing what it was like for Edoardo and his friends to grow up in the suburbs of Milan."
+    },
+    "2017-09-01": {
+      "locationId": "naples",
+      "text": "Naples feels more like the Italy I was expecting. Laundry is strung like tapestries along the narrow streets, covering faded, peeling walls in need of a fresh coat of paint for what seems like decades. An elderly woman leans out a window, tugging at a rope tied to a water bucket two stories below. Walking is not for the faint of heart, nor the distracted. You're just one misstep away from an Italian curse word sent your way, or, even worse, a car bumper. The historic center seeps with history, culture, and a strong personality, one I find enthralling."
+    },
+    "2017-09-02": {
+      "locationId": "naples",
+      "text": "It's that time of year again, where my emotions hinge on the athletic achievements of a group of late teenagers and early 20-somethings. Yup, college football is back! As a Notre Dame fan, each season brings a precarious mix of trepidation and inflated expectations. This season will be the first since 2007 where I won’t attend any games in person. I’ll miss the tailgating, the Irish jigs, the postgame analysis with my buddies as we mindlessly watch whatever late night Pac 12 game is on. Timezone differences will make watching more difficult, but may help reduce stress over the results."
+    },
+    "2017-09-03": {
+      "locationId": "naples",
+      "text": "I awoke early to beat the crowd - and the heat - to [Pompeii](https://en.wikipedia.org/wiki/Pompeii). Weaving through the architectural ruins, I caught a glimpse of the imposing [Mount Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius). I pondered Pompeii's proximity to the volcano that buried it, as well as the historic flooding occurring in Houston. Countless people live in places vulnerable to natural disasters. Hell, I myself live on [a major fault line](https://en.wikipedia.org/wiki/San_Andreas_Fault)! Yet natural disasters feel distant, somethings I only see on the news or in history books. I hope I never experience one firsthand, but I realize it's in many regards just a game of chance."
+    },
+    "2017-09-04": {
+      "locationId": "naples",
+      "text": "I had every intention to wake up and head to Ischia, an island off the coast of Naples. But I arose in a sour mood, overcome with a wave of anxiety about seemingly wasted time and with no desire for more sightseeing. So I found a seat at a table in the hostel kitchen, put on my headphones, and dug into some code. I've been spinning my wheels lately with one project, so I turned my focus to a separate idea. Getting in a solid day of work felt good, and was the perfect antidote to alleviate this morning's apprehension."
+    },
+    "2017-09-05": {
+      "locationId": "amalfi-coast",
+      "text": "As the ferry pulled away from Naples, I was able to fully appreciate the sprawling city which clearly still had more to offer. The ferry took me across the gulf to Sorrento and the Amalfi Coast, a place I've long dreamed of visiting for its famous beaches and stunning views. My favorite spot was Bagni della Regina Giovanna, a secluded bathing cove where I again stripped down to my boxers. As I swam, light refracted across the water like lasers dancing off fog at a concert. I dried off on the rocks nearby, watching the sunset over the Mediterranean Sea."
     }
   }
 }
