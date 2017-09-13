@@ -32,7 +32,9 @@
     "porto-2",
     "milan",
     "naples",
-    "amalfi-coast"
+    "sorrento",
+    "amalfi",
+    "salerno"
   ],
   "locations": {
     "orlando": {
@@ -313,10 +315,27 @@
         "2017-09-04"
       ]
     },
-    "amalfi-coast": {
-      "name": "Amalfi Coast, Italy",
+    "sorrento": {
+      "name": "Sorrento, Italy",
       "posts": [
-        "2017-09-05"
+        "2017-09-05",
+        "2017-09-06"
+      ]
+    },
+    "amalfi": {
+      "name": "Amalfi, Italy",
+      "posts": [
+        "2017-09-07",
+        "2017-09-08",
+        "2017-09-09"
+      ]
+    },
+    "salerno": {
+      "name": "Salerno, Italy",
+      "posts": [
+        "2017-09-10",
+        "2017-09-11",
+        "2017-09-12"
       ]
     }
   },
@@ -798,8 +817,36 @@
       "text": "I had every intention to wake up and head to Ischia, an island off the coast of Naples. But I arose in a sour mood, overcome with a wave of anxiety about seemingly wasted time and with no desire for more sightseeing. So I found a seat at a table in the hostel kitchen, put on my headphones, and dug into some code. I've been spinning my wheels lately with one project, so I turned my focus to a separate idea. Getting in a solid day of work felt good, and was the perfect antidote to alleviate this morning's apprehension."
     },
     "2017-09-05": {
-      "locationId": "amalfi-coast",
+      "locationId": "sorrento",
       "text": "As the ferry pulled away from Naples, I was able to fully appreciate the sprawling city which clearly still had more to offer. The ferry took me across the gulf to Sorrento and the Amalfi Coast, a place I've long dreamed of visiting for its famous beaches and stunning views. My favorite spot was Bagni della Regina Giovanna, a secluded bathing cove where I again stripped down to my boxers. As I swam, light refracted across the water like lasers dancing off fog at a concert. I dried off on the rocks nearby, watching the sunset over the Mediterranean Sea."
+    },
+    "2017-09-06": {
+      "locationId": "sorrento",
+      "text": "Listening to Radiolab's [\"Breaking News\"](http://www.radiolab.org/story/breaking-news/) episode disturbed me today. They discussed emerging technologies which simulate voices and facial expressions, using them to create [alarmingly realistic “fake news.”](http://futureoffakenews.com/) The most disconcerting part was the interview with the facial technology lead, a Facebook and University of Washington employee. She claimed her position as a \"technologist\" allows her to forego thinking about the implications of the technology her team develops. This is one data point in a troubling trend. We as \"technologists\" aren't excused from thinking about how our creations can be used maliciously. We must accept that responsibility before it's too late."
+    },
+    "2017-09-07": {
+      "locationId": "amalfi",
+      "text": "I used to view vacations as a temporary escape from life's daily ups and downs. But extended solo travel is my daily life. Every day is unique, but that inconsistency is itself weirdly consistent. As with anyone's daily life, I have both good and bad days. Today was one of the latter. I stood crammed on a crowded bus for two hours. I lugged my bags up and down hundreds of steps in Praiano in pouring rain. I discovered Amalfi has no coffee shops with Wi-Fi. The hostel accommodations weren’t quite as expected. Some days I wish I was back."
+    },
+    "2017-09-08": {
+      "locationId": "amalfi",
+      "text": "Just over a week after [spending time with Mythila in Milan](https://jwn.gr/microblog/locations/milan), our mutual former San Francisco roommate, Ramya, joined me. We bussed to [Positano](https://en.wikipedia.org/wiki/Positano), the poshest spot along the Amalfi Coast. The sight of the pastel-painted houses situated precariously on the Positano mountainside is what initially drew me to the Amalfi Coast. We did our best to escape tourists by following my strategy of heading up, which meant climbing hundreds, if not thousands, of steps. We were rewarded with one incredible view after another. Turns out there’s a reason so many tourists and celebrities come here after all."
+    },
+    "2017-09-09": {
+      "locationId": "amalfi",
+      "text": "Ramya and I spent the day lounging and swimming on the tiny black sand beach of [Atrani](https://en.wikipedia.org/wiki/Atrani). I glimpsed the exquisite coastline as I waded in the warm Mediterranean water. I could see unreal amounts of traffic along the tiny mountainside road, reminding me how much more touristy it was than expected. The Amalfi Coast is not great for backpackers. Buses are scarce, resulting in Ramya and I having to hitchhike back yesterday. Accommodations are also scarce, making last minute visits both challenging and expensive. I’d like to come back again, but I'd do things differently next time."
+    },
+    "2017-09-10": {
+      "locationId": "salerno",
+      "text": "I said goodbye to Ramya yesterday and boarded a bus to [Salerno](https://en.wikipedia.org/wiki/Salerno), a quiet beachside town just beyond the Amalfi Coast. I booked an Airbnb for my stay here, one with a large bed, warm shower, and strong Wi-Fi. I miss the comforts of having my own place to return to after a tiring day. And even simple things like not having to lock up my stuff or put away my computer before heading out frees up my mind for other things. If today was any indication, I should do this more often if I want to get things done."
+    },
+    "2017-09-11": {
+      "locationId": "salerno",
+      "text": "Today was by far the rainiest day of the trip to date. Fine by me. I had planned to stay inside and work anyway, so the rain just gave me extra motivation to do that. After a constructive day spent trip planning and coding, I found a burger joint to fulfill my urge for American food. Turns out American food in Italy is as bad as Italian food in America! A post-meal stroll along the seaside presented views of giant waves crashing into [breakwaters](https://en.wikipedia.org/wiki/Breakwater_(structure)), tossing boats around, even sinking an unlucky few. Seems like staying inside was a good choice."
+    },
+    "2017-09-12": {
+      "locationId": "salerno",
+      "text": "[Notre Dame Magazine](https://magazine.nd.edu/), my alma mater’s quarterly alumni publication, runs an [annual contest](https://magazine.nd.edu/news/young-alumni-essay-contest-2017-rules/) for nonfiction, first person essays from young alumni. I’ve considered entering since the contest first began, but I never made time for it. Now that I find myself with some free time and the courage to share my personal experiences after 18 weeks of writing this daily microblog, I decided to give it a shot this year. Even if my entry is not selected as a winner, it feels good to finally submit something after years of waffling about it in my mind, yet doing nothing."
     }
   }
 }
