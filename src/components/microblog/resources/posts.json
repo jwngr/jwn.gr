@@ -34,7 +34,9 @@
     "naples",
     "sorrento",
     "amalfi",
-    "salerno"
+    "salerno",
+    "naples-2",
+    "bangkok"
   ],
   "locations": {
     "orlando": {
@@ -336,6 +338,23 @@
         "2017-09-10",
         "2017-09-11",
         "2017-09-12"
+      ]
+    },
+    "naples-2": {
+      "name": "Naples, Italy",
+      "posts": [
+        "2017-09-13",
+        "2017-09-14"
+      ]
+    },
+    "bangkok": {
+      "name": "Bangkok, Thailand",
+      "posts": [
+        "2017-09-15",
+        "2017-09-16",
+        "2017-09-17",
+        "2017-09-18",
+        "2017-09-19"
       ]
     }
   },
@@ -847,6 +866,34 @@
     "2017-09-12": {
       "locationId": "salerno",
       "text": "[Notre Dame Magazine](https://magazine.nd.edu/), my alma mater’s quarterly alumni publication, runs an [annual contest](https://magazine.nd.edu/news/young-alumni-essay-contest-2017-rules/) for nonfiction, first person essays from young alumni. I’ve considered entering since the contest first began, but I never made time for it. Now that I find myself with some free time and the courage to share my personal experiences after 18 weeks of writing this daily microblog, I decided to give it a shot this year. Even if my entry is not selected as a winner, it feels good to finally submit something after years of waffling about it in my mind, yet doing nothing."
+    },
+    "2017-09-13": {
+      "locationId": "naples-2",
+      "text": "After a quiet stint in Salerno which recharged my batteries, I grabbed a train back to Naples. [Germana](https://jwn.gr/microblog/2017-08-25)'s good friend, Chiara, gave me a tour of [Scugnizzo Liberato](https://www.facebook.com/ScugnizzoLiberato/), an abandoned prison occupied by local community members in late 2015. They're progressively renovating the giant building, turning its walls into art studios, music rooms, and even a makeshift gym where Chiara practices trapeze. Occupations like this are becoming increasingly common in Naples, [spurred on by their mayor](http://politicalcritique.org/world/2017/in-naples-we-are-all-illegal-or-no-one-is/) who sees it as a unique form of democratic participation. From my perspective, the building seemed to be put to good use."
+    },
+    "2017-09-14": {
+      "locationId": "naples-2",
+      "text": "My American passport permits me to spend 90 days in Europe (well, technically just [Schengen countries](https://en.wikipedia.org/wiki/Schengen_Area)) every 180 days without a visa. Today was day 90. Which means I needed to get out of the continent, although I would have gladly stayed longer. My next destination is Bangkok, Thailand. I visited Hanoi, Vietnam for work in 2016 and, after some initial culture shock, really enjoyed my time there. It inspired me to make Southeast Asia part of my worldwide trip. But it's unfortunately quite a distance from Europe, which made for a long day in the air."
+    },
+    "2017-09-15": {
+      "locationId": "bangkok",
+      "text": "My time in Bangkok is off to a rough start. I felt extremely groggy after being unable to sleep on the plane. That probably contributed to me forgetting my debit card in the airport ATM machine soon after landing. I didn’t recognize its absence until I was falling victim to a suit scam which, although elaborately orchestrated, should have been obvious to spot in hindsight. Short on cash, soaking wet from an evening downpour, and nursing a rumbling stomach from the mysterious street meat I ate for dinner, I called it an early night, hoping it'll be uphill from here."
+    },
+    "2017-09-16": {
+      "locationId": "bangkok",
+      "text": "After yesterday's misadventures, I decided to treat myself to a massage from one of the dozens of parlors nearby. The hourlong Thai massage cost me just 200 baht (~$6). Thailand in general is very inexpensive. My room at [Bed Station Hostel](https://www.bedstationhostel.com/en/index), one of the nicer hostels of the trip, is just 380 baht (~$12) per night. My delicious pad thai dinner was only 70 baht (~$2). The most expensive things are the tourist attractions, which I'm forgoing for now. Of all places to be low on cash and sans debit card, I could have picked worse."
+    },
+    "2017-09-17": {
+      "locationId": "bangkok",
+      "text": "I like to think that interacting with dozens of new people every week over the course of this trip has improved my ability to hold interesting conversation. There's a solid lesson my brain recently formalized: if you ask general questions, you'll get general answers; if you ask specific questions, you'll get specific answers. And a corollary: if you ask interesting questions, you'll get interesting answers. Asking good questions is sometimes all it takes to facilitate conversation. This has broad application to many life situations, a reason why I now try to actively remember this tip during all my conversations."
+    },
+    "2017-09-18": {
+      "locationId": "bangkok",
+      "text": "[Rattanakosin Island](https://en.wikipedia.org/wiki/Rattanakosin_Island), also known as Old Town, was absolutely overrun with people dressed in black long sleeves and pants, a baffling display on an extremely hot and muggy day. A local explained that Thais were headed to pay their respects to [their former king](https://en.wikipedia.org/wiki/Bhumibol_Adulyadej), who will soon be cremated on the one year anniversary of his death. I stood out like a sore thumb as I navigated through the sea of black that overtook sidewalks and streets, on my way to visit many of Bangkok's most famous sites, including the [Grand Palace](https://en.wikipedia.org/wiki/Grand_Palace) and the giant leaning Buddha at [Wat Pho](https://en.wikipedia.org/wiki/Wat_Pho)."
+    },
+    "2017-09-19": {
+      "locationId": "bangkok",
+      "text": "A 30 minute train ride, a 40 minute walk, and a two minute forging of the Chao Phraya River by motor boat brought me to [Phra Pradaeng, Bangkok's \"Green Lung.\"](https://www.wheresidewalksend.com/prapadaeng-green-lung-bangkok/) My next four hours comprised riding a rickety, rusted bicycle through the jungle, often along a raised sidewalk approximately a meter wide and with no railings to save me from a muddy demise. I had a slow lunch at [Bangkok Tree House](http://www.bangkoktreehouse.com/), a lush hotel seemingly materializing out of nowhere. After a stressful time in the concrete jungle of central Bangkok, I relished the tranquil beauty of the actual jungle."
     }
   }
 }
