@@ -36,7 +36,9 @@
     "amalfi",
     "salerno",
     "naples-2",
-    "bangkok"
+    "bangkok",
+    "phuket",
+    "krabi"
   ],
   "locations": {
     "orlando": {
@@ -354,7 +356,24 @@
         "2017-09-16",
         "2017-09-17",
         "2017-09-18",
-        "2017-09-19"
+        "2017-09-19",
+        "2017-09-20",
+        "2017-09-21",
+        "2017-09-22"
+      ]
+    },
+    "phuket": {
+      "name": "Phuket, Thailand",
+      "posts": [
+        "2017-09-23"
+      ]
+    },
+    "krabi": {
+      "name": "Krabi, Thailand",
+      "posts": [
+        "2017-09-24",
+        "2017-09-25",
+        "2017-09-26"
       ]
     }
   },
@@ -894,6 +913,34 @@
     "2017-09-19": {
       "locationId": "bangkok",
       "text": "A 30 minute train ride, a 40 minute walk, and a two minute forging of the Chao Phraya River by motor boat brought me to [Phra Pradaeng, Bangkok's \"Green Lung.\"](https://www.wheresidewalksend.com/prapadaeng-green-lung-bangkok/) My next four hours comprised riding a rickety, rusted bicycle through the jungle, often along a raised sidewalk approximately a meter wide and with no railings to save me from a muddy demise. I had a slow lunch at [Bangkok Tree House](http://www.bangkoktreehouse.com/), a lush hotel seemingly materializing out of nowhere. After a stressful time in the concrete jungle of central Bangkok, I relished the tranquil beauty of the actual jungle."
+    },
+    "2017-09-20": {
+      "locationId": "bangkok",
+      "text": "Late September marks the tail end of monsoon season in this part of the world. Rain storms come at predictable times, with early afternoon and late night showers being the norm. The rain brings along lightning which blankets the foggy sky and thunder which reverberates in your chest. Rain falls in heavy sheets, growing in intensity beyond the point you'd consider reasonable. San Francisco doesn’t get storms like this, and their intensity exceeds what I remember from growing up in Pennsylvania and the Midwest. The storms are satisfying to watch, as long as I'm not stuck in the downpour."
+    },
+    "2017-09-21": {
+      "locationId": "bangkok",
+      "text": "Street vendors are everywhere in Bangkok, offering a prodigious variety of food and drinks. I've eaten fruits and vegetables I’ve never even seen before, let alone tasted. I've also consumed mystery meats that, upon further inspection, turn out to instead be organs I can only guess to be hearts and intestines. Large food markets are plentiful, and food carts line a multitude of streets, turning sidewalks into impromptu restaurants. Ordering is often challenging, involving a combination of pointing and mumbling. Sanitary policies are most definitely not enforced. The result is some incredibly cheap and delicious food."
+    },
+    "2017-09-22": {
+      "locationId": "bangkok",
+      "text": "There's a short comic I have in my browser bookmarks bar that I think about almost daily. It's called [\"Amusing Ourselves to Death: Huxley vs Orwell\"](http://highexistence.com/amusing-ourselves-to-death-huxley-vs-orwell/) and I suggest you take a minute to read it. Both *Brave New World* and *1984* grow more relevant with each passing day. Although they present markedly different dystopias, I increasingly see manifestations of both in my life. The world has changed drastically in recent years, with tech at the forefront. I'm far from a [Luddite](https://en.wikipedia.org/wiki/Luddite), but my eyes are opening to the negative aspects of technological innovation when put in the wrong hands."
+    },
+    "2017-09-23": {
+      "locationId": "phuket",
+      "text": "I had enough with city life, so I headed down south to the beaches of Phuket, Thailand to meet up with my newest travel companion. [Mike](https://twitter.com/asciimike) is a former coworker from Firebase / Google and a close friend from back in San Francisco. We both had a lot to catch up on, which we did over some pineapple fried rice, panang chicken curry, and Chang beers, followed by a soak in the warm ocean waters. The two of us enjoy talking (and bitching) about similar life and work things, and it's entertaining to have someone to talk tech with again."
+    },
+    "2017-09-24": {
+      "locationId": "krabi",
+      "text": "Mike and I spent the morning traveling to Krabi, a Thai province known for its limestone cliffs and pristine beaches. We made friends en route with Becky from the UK, who was headed to our same final destination of [Railay Beach](https://en.wikipedia.org/wiki/Railay_Beach). The last leg was on a questionably seaworthy traditional [long-tail boat](https://en.wikipedia.org/wiki/Long-tail_boat). The craft was powered by a car engine mounted on its bow which drove a long driveshaft connected to a freely spinning propellor just meters behind the boat. The loud and wet ride offered striking views, and we spent the afternoon lounging on one of Thailand's nicest beaches."
+    },
+    "2017-09-25": {
+      "locationId": "krabi",
+      "text": "I can think of few things as relaxing as floating belly up in the ocean in the middle of a monsoon, the waves lifting me up and down, forward and backwards, like a natural metronome. Submerging my head in the water, I could hear the hypnotic pitter patter of the rain as it repeatedly slammed against the surface of the water. Heavy rain may have prevented Mike, Becky, and I from going on our planned hike to the lagoon, but it didn't stop us from venturing to a secluded beach and enjoying some peaceful time in the water."
+    },
+    "2017-09-26": {
+      "locationId": "krabi",
+      "text": "Getting my scuba diving certification last year has made traveling that much more enjoyable. Life is unbelievably vibrant just below the ocean's surface. Mike and I hopped on a long-tail boat this morning and headed out for a couple local island dives. Visibility was somewhat low due to the recent storms, but the water was warm and the marine life was plentiful. Coral, crabs, eels, rays, and countless species of fish were on full display, seeming to hardly notice us passing by. I expect this to be the first of many diving adventures as I travel around Southeast Asia."
     }
   }
 }
