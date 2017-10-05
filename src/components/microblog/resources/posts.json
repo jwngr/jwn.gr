@@ -38,7 +38,9 @@
     "naples-2",
     "bangkok",
     "phuket",
-    "krabi"
+    "krabi",
+    "phuket-2",
+    "siem-reap"
   ],
   "locations": {
     "orlando": {
@@ -374,6 +376,23 @@
         "2017-09-24",
         "2017-09-25",
         "2017-09-26"
+      ]
+    },
+    "phuket-2": {
+      "name": "Phuket, Thailand",
+      "posts": [
+        "2017-09-27",
+        "2017-09-28",
+        "2017-09-29",
+        "2017-09-30",
+        "2017-10-01",
+        "2017-10-02"
+      ]
+    },
+    "siem-reap": {
+      "name": "Siem Reap, Cambodia",
+      "posts": [
+        "2017-10-03"
       ]
     }
   },
@@ -941,6 +960,34 @@
     "2017-09-26": {
       "locationId": "krabi",
       "text": "Getting my scuba diving certification last year has made traveling that much more enjoyable. Life is unbelievably vibrant just below the ocean's surface. Mike and I hopped on a long-tail boat this morning and headed out for a couple local island dives. Visibility was somewhat low due to the recent storms, but the water was warm and the marine life was plentiful. Coral, crabs, eels, rays, and countless species of fish were on full display, seeming to hardly notice us passing by. I expect this to be the first of many diving adventures as I travel around Southeast Asia."
+    },
+    "2017-09-27": {
+      "locationId": "phuket-2",
+      "text": "For a while I was in a groove pumping out these daily posts. But I've lately found them increasingly harder to write. After five minutes staring at my computer today, I only managed to write \"Mike and I took a ferry back to mainland Phuket.\" Part of the problem is people seem less interested with the posts each passing week. I also feel self-conscious that even after so many weeks, I have little to show beyond this microblog. At this point, I worry the trip is becoming a delay tactic, allowing me to avoid the question of what comes next."
+    },
+    "2017-09-28": {
+      "locationId": "phuket-2",
+      "text": "Karon Beach is much busier and less remote than Railay Beach, reminiscent of many popular American beaches. Mike and I spent a relaxing day bodysurfing and getting sunburnt. We talked over Jack and coke from 7-Eleven in the evening as we awaited the arrival of Chad, a Notre Dame friend and former Seattle roommate. We convinced him to drop off his luggage and come with us to Bangla Road on Patong Beach, Phuket's major party spot. Becky joined us for what turned into what could either be considered a late night or an early morning. Either way, it was noteworthy."
+    },
+    "2017-09-29": {
+      "locationId": "phuket-2",
+      "text": "Chad is taking over Mike's role as my travel buddy for the next two weeks. The three of us slept in for some much needed extra hours, waking just in time to grab lunch (so much pad thai!) followed by another round of Thai massages. Mike said his goodbyes as he headed off for some business in Bangkok, while Chad and I spent the day lounging on the beach until the rain chased us away. In the evening, we filled our bellies with various street foods from the temple night market. Just another typical day in paradise."
+    },
+    "2017-09-30": {
+      "locationId": "phuket-2",
+      "text": "Despite yet another rainy day (which has honestly been every day), Chad and I did some sightseeing with the help of [Grab](https://www.grab.com/th/en/taxi/), the Uber of Southeast Asia. Highlights included [Wat Chalong](http://www.wat-chalong-phuket.com/), the largest of Phuket's dozens of temples. We also ascended a mountain to [Big Buddha](http://www.phuket-big-buddha.com/), a towering 45 meter concrete structure covered in marble. The fog unfortunately obscured most of its supposedly impressive 360 degree island views. A lack of cell coverage up there led to an adventurous tuk tuk ride back to Karon Beach. Phuket has more to offer than its beaches, but nothing is entirely a don't-miss."
+    },
+    "2017-10-01": {
+      "locationId": "phuket-2",
+      "text": "Scuba diving can be exhausting. Beyond the obvious physical exertion of making your way through the water for fifty-ish minutes every dive, it takes a lot of mental energy to ensure your equipment is functioning properly, your air supply is sufficient, and your depth is within tolerable ranges. We were drained by the time we got back after three dives around the twin islands of [Ko Racha](https://wikitravel.org/en/Ko_Racha?title=Ko_Racha), situated a few miles off Phuket's southeastern coast. So naturally we decided to walk the two miles to and from another night market. I've got to get my steps in after all."
+    },
+    "2017-10-02": {
+      "locationId": "phuket-2",
+      "text": "I didn't hear about the latest deadliest American mass shooting in Las Vegas until I was scrolling through Twitter this afternoon. Every day brings some new unnecessary killing or natural disaster or war crime or threat of nuclear annihilation or democratic crisis or on some days, all of the above. My brain isn't capable of reliably processing so many negative events. Prior generations of humans rarely knew about issues outside their local communities. How can I possibly deal with all the terrible things I know are happening across the span of 8 billion humans, or even just 320 million Americans?"
+    },
+    "2017-10-03": {
+      "locationId": "siem-reap",
+      "text": "I was going to use today’s post to discuss how stupidly ineffective airport security has been during my trip after my blunted travel scissors were confiscated in the Vietnam airport because they \"could cut things.\" And then Chad and I spent the day touring around the incredible, video game-like sights of [Angkor Archaeological Park](https://en.wikipedia.org/wiki/Angkor) outside Siem Reap, Cambodia, so I figured I'd write about that. But then I succumbed to food poisoning and dehydration and found myself puking over the walls of a nearly thousand year old temple. Some days are too hard to fit into 100 words."
     }
   }
 }
