@@ -11,7 +11,7 @@
     "seville",
     "marseille",
     "nice",
-    "lux",
+    "luxembourg",
     "paris",
     "mumbai",
     "mundiyambakkam",
@@ -40,7 +40,8 @@
     "phuket",
     "krabi",
     "phuket-2",
-    "siem-reap"
+    "siem-reap",
+    "ho-chi-minh-city"
   ],
   "locations": {
     "orlando": {
@@ -98,6 +99,7 @@
       "posts": [
         "2017-05-29",
         "2017-05-30",
+        "2017-05-31",
         "2017-06-01",
         "2017-06-02"
       ]
@@ -140,7 +142,7 @@
         "2017-06-20"
       ]
     },
-    "lux": {
+    "luxembourg": {
       "name": "Luxembourg City, Luxembourg",
       "posts": [
         "2017-06-21",
@@ -392,7 +394,19 @@
     "siem-reap": {
       "name": "Siem Reap, Cambodia",
       "posts": [
-        "2017-10-03"
+        "2017-10-03",
+        "2017-10-04",
+        "2017-10-05",
+        "2017-10-06",
+        "2017-10-07"
+      ]
+    },
+    "ho-chi-minh-city": {
+      "name": "Ho Chi Minh City, Vietnam",
+      "posts": [
+        "2017-10-08",
+        "2017-10-09",
+        "2017-10-10"
       ]
     }
   },
@@ -570,15 +584,15 @@
       "text": "An hour train ride the opposite direction from Monaco is [Cannes](https://en.wikipedia.org/wiki/Cannes), internationally known for its ritzy annual film festival. The town was bustling with a major #branding conference sporting all types of tech companies, highlighted by a [Snapchat ferris wheel](http://blog.hollywoodbranded.com/june-3-snapchats-brand-marketing-wins-big-at-cannes). Before heading back to Nice, I stopped by [Antibes](https://en.wikipedia.org/wiki/Antibes) to see some super yachts up close and personal. Today’s podcast was [Song Exploder](http://songexploder.net/), the only podcast I don't listen to on double speed. The host interviews musicians and composers, breaking down their music into its composite parts. A unique podcast to round out this week's list."
     },
     "2017-06-21": {
-      "locationId": "lux",
+      "locationId": "luxembourg",
       "text": "I always pause before I send out my weekly newsletter. I imagine what my parents will think. I wonder if my college friends will judge me. Hell, I even wonder if my ex-girlfriends will read it. Not caring what other people think is incredibly difficult. Am I holding back because I know others are following along? I often think about Lena Dunham's parents. Do they watch \"Girls\"? What are they thinking when she's spewing vulgarities or completely naked? I envy her ability to do creative work with no restraint. How do I allow myself to create without restrictions?"
     },
     "2017-06-22": {
-      "locationId": "lux",
+      "locationId": "luxembourg",
       "text": "This trip constitutes the longest I've been apart from anyone I know. Well, it did, until I saw Caroline, one of my first college friends. My visit to [Luxembourg](https://en.wikipedia.org/wiki/Luxembourg_City), her residence for the past two years, coincides with [*Nationalfeiertag*](https://en.wikipedia.org/wiki/Grand_Duke's_Official_Birthday). Caroline always has a smile on her face and usually puts one on mine. She and her fiancée guided me around Luxembourg, the kind of place found on jigsaw puzzles at antique stores. I'm glad she lives here; I wouldn't have thought to come otherwise. And it's not just the views. As I found out, the Luxembourgish throw a great party!"
     },
     "2017-06-23": {
-      "locationId": "lux",
+      "locationId": "luxembourg",
       "text": "*&ast;buzzz&ast; &ast;buzzz&ast; &ast;buzzz&ast;* What the fuck? It's so bright. What time is it? I need to turn this alarm off before I annoy my roommates. When did I even get back last night? My sense of time is always the first thing to go. Around 3 AM? I dunno, the details are fuzzy. Fireworks. Rum out of a champagne glass. Oh, that girl! I wish I had gotten her number. Not that I’ll ever see her again... Oh well, I guess. Ah, here’s my phone. 9:43. Shit! I gotta check out of here soon. *&ast;loud exhale&ast;* Time for another day."
     },
     "2017-06-24": {
@@ -988,6 +1002,34 @@
     "2017-10-03": {
       "locationId": "siem-reap",
       "text": "I was going to use today’s post to discuss how stupidly ineffective airport security has been during my trip after my blunted travel scissors were confiscated in the Vietnam airport because they \"could cut things.\" And then Chad and I spent the day touring around the incredible, video game-like sights of [Angkor Archaeological Park](https://en.wikipedia.org/wiki/Angkor) outside Siem Reap, Cambodia, so I figured I'd write about that. But then I succumbed to food poisoning and dehydration and found myself puking over the walls of a nearly thousand year old temple. Some days are too hard to fit into 100 words."
+    },
+    "2017-10-04": {
+      "locationId": "siem-reap",
+      "text": "In an curious quirk of monetary policy, the US dollar happens to be Cambodia's de facto currency. A street vendor on Pub Street just outside our hotel which sold chicken fried rice for $1.50 accepted two greenbacks as payment. To add to the intrigue, the vendor didn't give back American change since Cambodia is a coinless society. Instead, they produced a 2,000 riel note, Cambodia's local currency which is much weaker than the dollar. It's strange to use American money in such a foreign land, but I do appreciate the short break from the mental overhead of constantly converting currencies."
+    },
+    "2017-10-05": {
+      "locationId": "siem-reap",
+      "text": "I turned 10,000 days old today. This worldwide trip started on day 9,850 of my life, at which point I had visited 9 countries (🇺🇸🇨🇦🇲🇽🇮🇳🇪🇸🇮🇹🇯🇵🇻🇳🇰🇷). But in the past 150 days, I've been to 16 countries, 11 of which were new (🇵🇹🇫🇷🇲🇨🇱🇺🇧🇪🇳🇱🇩🇪🇸🇪🇩🇰🇹🇭🇰🇭), bringing my total country count to 20 (an increase of 222% in just the last 1.50% of my life)! I spent my metric birthday visiting more incredible temples along Angkor Archeological Park's Grand Circuit. In the evening, I attended [Phare](https://pharecircus.org/), the Cambodian Circus, an acrobatics show which, although a far cry from Cirque du Soleil, was quite entertaining."
+    },
+    "2017-10-06": {
+      "locationId": "siem-reap",
+      "text": "Chad and I took a day trip to the floating village of [Kompong Khleang](https://www.kompongkhleang.org/). A nonprofit called [Bridge of Life](http://www.bridgeoflifeschool.org/) uses this tour's proceeds to provide educational and community wellness programming in Cambodia. Tours simultaneously increase their exposure and provide an alternate revenue stream beyond charitable donations. The day trip, guided by a young man born in the village, earned top marks from us. It, in addition to last night's circus organized by a separate nonprofit, spurred me to consider if [Communities Rising](https://jwn.gr/microblog/2017-06-29) could do something similar, although our work doesn't happen anywhere near a tourist area like Siem Reap."
+    },
+    "2017-10-07": {
+      "locationId": "siem-reap",
+      "text": "Walking around downtown Siem Reap, as well as other Southeast Asia cities I've visited, is sensory overload. Smells of cooking food and vehicle exhaust permeate the air. My eyes work to identify obstacles along the sidewalk as vendors shove shirts, jewelry, and artwork in my face. [Fried ice cream](https://en.wikipedia.org/wiki/Stir-fried_ice_cream) vendors shout deals at me as I walk by already eating a competitor's offering. Tuk tuk drivers brush my arm or shoulder as I pass by, seeking my business. Thankfully, as my brain improves its ability to filter this giant stream of data, I feel increasingly comfortable in this frenetic environment."
+    },
+    "2017-10-08": {
+      "locationId": "ho-chi-minh-city",
+      "text": "Chad and I arrived in Ho Chi Minh City, Vietnam past midnight after a hectic airport experience during which our flight was canceled and subsequently uncanceled, resulting in us having the front ten rows to ourselves. The city is in constant motion. Crossing the wide downtown streets is an exercise in trust with hundreds of motorbikes weaving around us. We enjoyed pho in the bustling [Ben Thanh Market](https://en.wikipedia.org/wiki/B%E1%BA%BFn_Th%C3%A0nh_Market) before sampling some - okay, quite a few - craft brews at [Heart of Darkness](http://heartofdarknessbrewery.com/) brewery, capping the night with doing laundry above a bitcoin cafe near the nightlife street of [Pham Ngu Lao](https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o_Street)."
+    },
+    "2017-10-09": {
+      "locationId": "ho-chi-minh-city",
+      "text": "It’s somewhat strange to be in Vietnam knowing [the United States fought a war here](https://en.wikipedia.org/wiki/Vietnam_War) just over 40 years ago. To learn more about the war, we visited the [Cu Chi tunnels](https://en.wikipedia.org/wiki/C%E1%BB%A7_Chi_tunnels), an immense network of connecting underground tunnels used by the Viet Cong as part of their guerrilla warfare tactics against the Americans. The tour started uncomfortably with a heavily anti-American propaganda video about the tunnels, but, as they say, history is written by the victors. Squatting - and at points crawling - through the tunnels was eerie and claustrophobic, but helped me comprehend the lengths soldiers go through in wartime."
+    },
+    "2017-10-10": {
+      "locationId": "ho-chi-minh-city",
+      "text": "In the midst of a day trip on the [Mekong Delta](https://en.wikipedia.org/wiki/Mekong_Delta), I learned [my entry for Notre Dame Magazine's essay contest](https://jwn.gr/microblog/2017-09-12) was not selected. The failure is disappointing, but it won't deter me from writing. This trip has provided ample time to reflect on other failures from these past few years. From prioritizing work over spending time with my ex-girlfriend to holding grudges at work because I took business decisions as personal slights, I recognize my unhappiness and frustrations were often fruits of my own personal failings. It's up to me to use those failings as fuel for future success."
     }
   }
 }
