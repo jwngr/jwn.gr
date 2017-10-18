@@ -41,7 +41,9 @@
     "krabi",
     "phuket-2",
     "siem-reap",
-    "ho-chi-minh-city"
+    "ho-chi-minh-city",
+    "nha-trang",
+    "da-lat"
   ],
   "locations": {
     "orlando": {
@@ -406,7 +408,24 @@
       "posts": [
         "2017-10-08",
         "2017-10-09",
-        "2017-10-10"
+        "2017-10-10",
+        "2017-10-11"
+      ]
+    },
+    "nha-trang": {
+      "name": "Nha Trang, Vietnam",
+      "posts": [
+        "2017-10-12",
+        "2017-10-13",
+        "2017-10-14",
+        "2017-10-15"
+      ]
+    },
+    "da-lat": {
+      "name": "Da Lat, Vietnam",
+      "posts": [
+        "2017-10-16",
+        "2017-10-17"
       ]
     }
   },
@@ -1030,6 +1049,34 @@
     "2017-10-10": {
       "locationId": "ho-chi-minh-city",
       "text": "In the midst of a day trip on the [Mekong Delta](https://en.wikipedia.org/wiki/Mekong_Delta), I learned [my entry for Notre Dame Magazine's essay contest](https://jwn.gr/microblog/2017-09-12) was not selected. The failure is disappointing, but it won't deter me from writing. This trip has provided ample time to reflect on other failures from these past few years. From prioritizing work over spending time with my ex-girlfriend to holding grudges at work because I took business decisions as personal slights, I recognize my unhappiness and frustrations were often fruits of my own personal failings. It's up to me to use those failings as fuel for future success."
+    },
+    "2017-10-11": {
+      "locationId": "ho-chi-minh-city",
+      "text": "I woke up to an alert about the US men’s national soccer team failing to qualify for the 2018 World Cup, a first in my lifetime. Of all possible sporting results, seeing the US win the World Cup is at the very top for me. Given the event is held every four years, I’ll optimistically be alive for only 15 or so more of them. And that makes this embarrassing failure even more devastating. Despite pumping oodles of money into the association and some minor successes at recent World Cups, it feels like my dream is quite far from reality."
+    },
+    "2017-10-12": {
+      "locationId": "nha-trang",
+      "text": "Chad took an early morning flight home and, just like that, I was back to solo travel. Vietnam has a well-worn backpacking route from Ho Chi Minh City in the south to Hanoi up north. Instead of planning several days or weeks in advance as I've mostly done so far, I'm embracing the true backpacker spirit of booking last-minute accommodations. A short plane ride north took me to my first stop along the route, the beach town of Nha Trang. Lethargy and stomach cramps were my travel partners, resulting in an early bed time in hopes of sleeping them off."
+    },
+    "2017-10-13": {
+      "locationId": "nha-trang",
+      "text": "I arose from a twelve hour rest feeling not quite perfect, but decent enough to do some exploring. The main attractions in Nha Trang other than the beach are a few temples and a sizable market. To be honest, I’ve already seen my fair share of temples and markets for the trip. Similarly to what happened with European churches, I've reached the point where it becomes hard to distinguish new ones from the dozens I've seen before. There are of course exceptions (e.g., [Angkor Wat](https://jwn.gr/microblog/2017-10-03), [Milan’s Duomo](https://jwn.gr/microblog/2017-08-29)), but the ones here are definitely not amongst them."
+    },
+    "2017-10-14": {
+      "locationId": "nha-trang",
+      "text": "I’ve had a loner mindset these past few days. After traveling with Mike and then Chad for so many weeks straight, I just wanted some alone time, which I was not getting at my hostel or around Nha Trang. I found some solitude at the Ba Ho pools north of the city, seeing no more than two dozen other people my entire time there. The hike involved some daunting rock parkour, but the payoff of floating motionless in a refreshing pool as waterfalls crashed nearby and fish nipped softly at my skin was well worth the trek."
+    },
+    "2017-10-15": {
+      "locationId": "nha-trang",
+      "text": "Vietnamese hostels operate differently from those elsewhere. The bedrooms are similar, packed tight with bunk beds and storage lockers. But instead of paying for things up front or as you use them, you accrue a tab during your stay. And every night there's a \"family dinner,\" where you enjoy an unreasonably large amount of food with your hostel mates for just a few dollars. And of course there is the *free beer* happy hour, which is exactly as it sounds, although it tastes like the watered-down crap I drank in college. But hey, it's hard to argue with free beer."
+    },
+    "2017-10-16": {
+      "locationId": "da-lat",
+      "text": "A common topic of discussion with other travelers in Nha Trang was other places that are better than Nha Trang. One location I heard enthusiastic reviews for was Da Lat, a mountain town a four hour bus ride to the southeast. I still plan to move north towards Hanoi, but my gut convinced me to take the slight backtrack. That spontaneous decision is already paying dividends after just one evening here. It's a calmer, greener place than my prior stops in Vietnam, and I appreciated not sweating away half my body weight as I walked along the town's large lake."
+    },
+    "2017-10-17": {
+      "locationId": "da-lat",
+      "text": "I try to never say I don't have time for something. The truth is often instead that I don't *make* time for it. I will always feel busy. I have nearly no commitments and spend my days visiting places like Pongour Waterfall, yet I still find myself \"too busy\" to write 100 words, make my current project mobile-friendly, or respond to that email I've been meaning to for the past month. Like air in a room, busy-ness expands to fill whatever space I give it. If I'm too busy to do something, I'm simply not prioritizing it properly."
     }
   }
 }
