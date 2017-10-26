@@ -43,7 +43,9 @@
     "siem-reap",
     "ho-chi-minh-city",
     "nha-trang",
-    "da-lat"
+    "da-lat",
+    "hoi-an",
+    "hue"
   ],
   "locations": {
     "orlando": {
@@ -425,7 +427,24 @@
       "name": "Da Lat, Vietnam",
       "posts": [
         "2017-10-16",
-        "2017-10-17"
+        "2017-10-17",
+        "2017-10-18",
+        "2017-10-19"
+      ]
+    },
+    "hoi-an": {
+      "name": "Hoi An, Vietnam",
+      "posts": [
+        "2017-10-20",
+        "2017-10-21",
+        "2017-10-22"
+      ]
+    },
+    "hue": {
+      "name": "Hue, Vietnam",
+      "posts": [
+        "2017-10-23",
+        "2017-10-24"
       ]
     }
   },
@@ -1077,6 +1096,34 @@
     "2017-10-17": {
       "locationId": "da-lat",
       "text": "I try to never say I don't have time for something. The truth is often instead that I don't *make* time for it. I will always feel busy. I have nearly no commitments and spend my days visiting places like Pongour Waterfall, yet I still find myself \"too busy\" to write 100 words, make my current project mobile-friendly, or respond to that email I've been meaning to for the past month. Like air in a room, busy-ness expands to fill whatever space I give it. If I'm too busy to do something, I'm simply not prioritizing it properly."
+    },
+    "2017-10-18": {
+      "locationId": "da-lat",
+      "text": "[They](http://highlandsporttravel.com/) suggested not looking down at the waterfall, so of course that was the first thing I did after getting roped in. I had already slid down one waterfall and leaped off another, so I was ready to abseil directly into this one. The \"Washing Machine\" spun me around like a load of laundry, forcefully depositing me into the river below. For a few seconds I didn’t know which way was up, not that I could swim through the heavy current even if I did. My head eventually bobbed to the surface, wishing I could have another go."
+    },
+    "2017-10-19": {
+      "locationId": "da-lat",
+      "text": "After a few too many drinks at the ingenious [Maze Bar](https://www.tripadvisor.com/ShowUserReviews-g293922-d6948253-r469246314-Duong_Len_Trang_Cafe_Tram_Mai-Da_Lat_Lam_Dong_Province.html) last night, I wasn’t in ideal shape to wake up for my planned morning hike. I instead opted to work out of a cafe before jumping on a 14 hour evening sleeper bus headed for Hoi An. The reclining seats were equal parts disgusting and dysfunctional. Some had no clip, others had two buckles, even more had belts with nothing on the end. My life was in the driver’s hands as we barreled along mountain roads. It wasn't until long after sunset that I forced myself to sleep."
+    },
+    "2017-10-20": {
+      "locationId": "hoi-an",
+      "text": "Hoi An was almost universally praised by fellow backpackers traveling Vietnam in the opposite direction than I. After a day here, I understand why - it is quaint as fuck. And that's saying nothing of its pristine beaches. Streets and building facades are strung with lanterns that only get more charming after sundown. The market is packed with stands selling delicious local dishes like [cao lau](https://en.wikipedia.org/wiki/Cao_l%E1%BA%A7u) and [white rose](http://hoianfoodtour.com/white-rose-hoi-an/). And biking through rice paddies as far as the eye can see outside the town provides the stereotypical views of friendly local farmers in [conical hats](https://en.wikipedia.org/wiki/Asian_conical_hat) doing their daily work."
+    },
+    "2017-10-21": {
+      "locationId": "hoi-an",
+      "text": "People often underestimate how likely it is for some unlikely event to happen to them. It's the same reason why the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem) seems so surprising at first glance. A specific random event may be unlikely to happen, but given the sheer number of unlikely events that could possibly occur, it's actually probable some unlikely event will come to pass. Yet when that event does happen, people like to attribute it to fate or maybe even God's will. But maybe that random event is just that, a coincidence bound to happen when you sit down and look at the odds."
+    },
+    "2017-10-22": {
+      "locationId": "hoi-an",
+      "text": "Amongst my regular social media doses of Notre Dame football hype and Trump’s childish feuds, the [#MeToo hashtag](https://en.wikipedia.org/wiki/Me_too_(hashtag)) has been popping up across my feeds. It’s one thing to hear about the sexual assault of a famous actor, athlete, or musician. It’s another when it’s high school friends, former co-workers, and relatives. I of course know the statistics, but so often statistics are divorced from reality. I applaud the courage of those speaking out to illuminate these issues for people like myself. To them and the others who remain silent, I want you to know you are never alone."
+    },
+    "2017-10-23": {
+      "locationId": "hue",
+      "text": "There have been a handful of special moments over the course of this trip when I realize how different my life is now compared to what it was back in California. Doing 50 miles per hour in the pouring rain dressed like a smurf in a ridiculous blue rain jacket on the back of a motorcycle driven by Mr. Phu over the [Hai Van Pass](https://en.wikipedia.org/wiki/H%E1%BA%A3i_V%C3%A2n_Pass) (Vietnam’s Highway 1) en route to Hue was most definitely one of those moments. An experience I didn’t even know existed just days prior, it turned out to be a day I won't soon forget."
+    },
+    "2017-10-24": {
+      "locationId": "hue",
+      "text": "I enjoyed yesterday's ride so much that I asked Mr. Phu to drive me today around Hue, the nation's capital prior to the Vietnam War. Instead, a man who claimed to be Mr. Phu's brother - yet most certainly was not - greeted me this morning. We endured the on and off rain as he took me by scooter to see ornate tombs of past emperors, an American bunker overrun with weeds and cows, an abandoned water park that sadly was blocked by a government official unwilling to take a bribe, and the already crumbling [Imperial City](https://en.wikipedia.org/wiki/Imperial_City,_Hu%E1%BA%BF) where emperors lived and worked."
     }
   }
 }
