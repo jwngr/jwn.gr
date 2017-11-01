@@ -45,7 +45,10 @@
     "nha-trang",
     "da-lat",
     "hoi-an",
-    "hue"
+    "hue",
+    "phong-nha",
+    "ninh-binh",
+    "cat-ba"
   ],
   "locations": {
     "orlando": {
@@ -445,6 +448,28 @@
       "posts": [
         "2017-10-23",
         "2017-10-24"
+      ]
+    },
+    "phong-nha": {
+      "name": "Phong Nha, Vietnam",
+      "posts": [
+        "2017-10-25",
+        "2017-10-26",
+        "2017-10-27"
+      ]
+    },
+    "ninh-binh": {
+      "name": "Ninh Binh, Vietnam",
+      "posts": [
+        "2017-10-28",
+        "2017-10-29"
+      ]
+    },
+    "cat-ba": {
+      "name": "Cat Ba, Vietnam",
+      "posts": [
+        "2017-10-30",
+        "2017-10-31"
       ]
     }
   },
@@ -1124,6 +1149,34 @@
     "2017-10-24": {
       "locationId": "hue",
       "text": "I enjoyed yesterday's ride so much that I asked Mr. Phu to drive me today around Hue, the nation's capital prior to the Vietnam War. Instead, a man who claimed to be Mr. Phu's brother - yet most certainly was not - greeted me this morning. We endured the on and off rain as he took me by scooter to see ornate tombs of past emperors, an American bunker overrun with weeds and cows, an abandoned water park that sadly was blocked by a government official unwilling to take a bribe, and the already crumbling [Imperial City](https://en.wikipedia.org/wiki/Imperial_City,_Hu%E1%BA%BF) where emperors lived and worked."
+    },
+    "2017-10-25": {
+      "locationId": "phong-nha",
+      "text": "Choosing today's photo was damn near impossible, but I ended up going with my nearly naked self riding a water buffalo named Donald Trump taking a dump. I arrived in Phong Nha, Vietnam last night and joined Natalia and Meredith, two San Francisco natives I keep running across. The day started with the massively breathtaking [Phong Nha Cave](http://phongnhatourism.com.vn/en/phong-nha-cave/). But it was outshone by [Duck Stop](https://www.tripadvisor.co.uk/Attraction_Review-g4014591-d12878877-Reviews-The_Duck_Stop-Phong_Nha_Ke_Bang_National_Park_Quang_Binh_Province.html), where we played with ducks and rode that infamous water buffalo. I was impressed and inspired by their ability to transform a small, rural Vietnamese farm into a unique business whose weirdness makes it great."
+    },
+    "2017-10-26": {
+      "locationId": "phong-nha",
+      "text": "Natalia explained the concept of [passive participant observation](https://en.wikipedia.org/wiki/Participant_observation) to me as a chicken was caught and killed in front of our eyes. While sharing drinks with the Duck Stop crew last night at our energetic hostel, [Easy Tiger](http://www.easytigerhostel.com/), they invited the three of us over to the farm for lunch today. We got a little more than we bargained for, including some bicycle malfunctions and a firsthand view of how food is prepared in this part of the world. After a morning hike in the jungle, we appreciated the gracious offering of food, beer, and views from our new friends."
+    },
+    "2017-10-27": {
+      "locationId": "phong-nha",
+      "text": "The towering limestone cliffs and heavy rainfall in Phong Nha and the surrounding [Ke Bang National Park](https://en.wikipedia.org/wiki/Phong_Nha-K%E1%BA%BB_B%C3%A0ng_National_Park) combine to litter the area with hundreds of caves and underground rivers, including the world's largest known cave. Camille, a Parisian I met last night in the hostel, drove me around the park, shrouded in thick forest like that of Jurassic Park. Along the route, we zip-lined into [Dark Cave](http://phongnhatourism.com.vn/en/dark-cave/), where we covered ourselves with mud in its pitch black, waist-high mud baths. We also trekked for over an hour inside the gorgeous [Paradise Cave](https://en.wikipedia.org/wiki/Thi%C3%AAn_%C4%90%C6%B0%E1%BB%9Dng_Cave), by far the largest cave I've ever explored."
+    },
+    "2017-10-28": {
+      "locationId": "ninh-binh",
+      "text": "Another lengthy sleeper bus ride left me in Ninh Binh, Vietnam at 4 AM. Despite not booking anything, my homestay for the following night graciously let me crash in their living room and fed me a huge breakfast. A full day bike ride felt like traveling through the pages of National Geographic, with empty rice paddies reflecting massive limestone cliffs on a perfectly overcast day. Somewhat surprisingly, my three weeks so far in Vietnam (plus last year's trip to Hanoi) makes it my third-most frequented country, behind only the US and Spain. It's beauty continues to exceed any prior expectations."
+    },
+    "2017-10-29": {
+      "locationId": "ninh-binh",
+      "text": "I've been moving quickly through Vietnam and have come to terms with the fact that I won't create anything substantial while traveling like this. I do still spend time working on projects, but my mentality has shifted. Instead of stressing about my next career move, I’m honing my skills through projects I enjoy and appreciating the experiences and people each day brings. It's not exactly what I envisioned for this trip, but my career will always be there when I'm ready for it. I may never have a trip like this again, so I best make the most of it."
+    },
+    "2017-10-30": {
+      "locationId": "cat-ba",
+      "text": "Rock climbing is one of those activities that uses muscles I didn't know existed. I arrived on Cat Ba Island yesterday afternoon and immediately booked myself a [full day kayaking and rock climbing tour](http://www.asiaoutdoors.com.vn/top-rope-rock-climbing.html) in Lan Ha Bay, which features the same impressive limestone cliffs as Phong Nha, just surrounded by water instead of more land. It was my first time rock climbing outside, a much different beast than the indoor climbing I've done before. The real rocks did a number on my arms and legs, but the marvelous views at the tops of the ascents beat any gym's views."
+    },
+    "2017-10-31": {
+      "locationId": "cat-ba",
+      "text": "Some days it's hard to be abroad, so far away from the people and things I care about. Notre Dame football game days, birthday parties, product launches, holiday festivities. Today was one of those days I spent homesick, or maybe just nostalgic, wishing I could join my Halloween costumed friends back home and my former co-workers celebrating a well-earned feature release in Amsterdam. I did enjoy a strenuous morning hike in [Cat Ba National Park](https://en.wikipedia.org/wiki/C%C3%A1t_B%C3%A0_National_Park) with some new friends, but I would have gladly traded today's beautiful sights for a chance to shoot the shit with my college buddies."
     }
   }
 }
