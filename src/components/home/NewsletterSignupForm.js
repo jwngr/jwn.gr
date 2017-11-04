@@ -37,6 +37,7 @@ class NewsletterSignupForm extends Component {
           action='//jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&amp;id=46d31d866a'
           name='mc-embedded-subscribe-form'
           target='_blank'
+          rel='noopener'
           noValidate
         >
           <div>

@@ -72,7 +72,7 @@ const Project = ({projectId}) => {
 
   return (
     <div className='project'>
-      <a href={href} target='_blank'>
+      <a href={href} target='_blank' rel='noopener'>
         <img src={image} alt={alt} />
         <div className='hover-content'>
           <p className='project-name'>{name}</p>
