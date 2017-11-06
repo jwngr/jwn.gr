@@ -7,6 +7,7 @@ import './index.css';
 import Home from './components/home';
 import Microblog from './components/microblog';
 
+import registerServiceWorker from './registerServiceWorker';
 
 // Load fonts
 require('typeface-alegreya');
@@ -26,3 +27,5 @@ ReactDOM.render(
   <RouterContainer />,
   document.getElementById('root')
 );
+
+registerServiceWorker();
