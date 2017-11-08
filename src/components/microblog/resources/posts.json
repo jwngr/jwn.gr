@@ -48,7 +48,10 @@
     "hue",
     "phong-nha",
     "ninh-binh",
-    "cat-ba"
+    "cat-ba",
+    "sa-pa",
+    "hanoi",
+    "luang-prabang"
   ],
   "locations": {
     "orlando": {
@@ -470,6 +473,28 @@
       "posts": [
         "2017-10-30",
         "2017-10-31"
+      ]
+    },
+    "sa-pa": {
+      "name": "Sa Pa, Vietnam",
+      "posts": [
+        "2017-11-01",
+        "2017-11-02",
+        "2017-11-03"
+      ]
+    },
+    "hanoi": {
+      "name": "Hanoi, Vietnam",
+      "posts": [
+        "2017-11-04"
+      ]
+    },
+    "luang-prabang": {
+      "name": "Luang Prabang, Laos",
+      "posts": [
+        "2017-11-05",
+        "2017-11-06",
+        "2017-11-07"
       ]
     }
   },
@@ -1177,6 +1202,34 @@
     "2017-10-31": {
       "locationId": "cat-ba",
       "text": "Some days it's hard to be abroad, so far away from the people and things I care about. Notre Dame football game days, birthday parties, product launches, holiday festivities. Today was one of those days I spent homesick, or maybe just nostalgic, wishing I could join my Halloween costumed friends back home and my former co-workers celebrating a well-earned feature release in Amsterdam. I did enjoy a strenuous morning hike in [Cat Ba National Park](https://en.wikipedia.org/wiki/C%C3%A1t_B%C3%A0_National_Park) with some new friends, but I would have gladly traded today's beautiful sights for a chance to shoot the shit with my college buddies."
+    },
+    "2017-11-01": {
+      "locationId": "sa-pa",
+      "text": "After six months of what has largely felt like perpetual summer, the brisk mountain air in Sa Pa, Vietnam momentarily confused my senses. I arrived in the town, situated just 35 km south of China, at 2 AM after a twelve hour bus ride. Unlike prior rides, I made sure to book a room for the night, \"splurging\" on a private hotel room ($10 per night instead of a $5 hostel dorm) to facilitate some quality sleep and a clean shower. I sorely needed both after the bus. The good rest kickstarted a relaxing day spent catching up on life."
+    },
+    "2017-11-02": {
+      "locationId": "sa-pa",
+      "text": "Rice is by far Sa Pa's largest export. But it is the region's second largest export which brings travelers to this remote part of Vietnam. And that would be its stunning views. My eyes took in plenty of those today on a hiking tour through the seemingly endless rice paddies dotting mountains and valleys alike. The tour brought me through several villages inhabited by Vietnam's various ethnic minority groups, always selling a variety of handmade crafts and clothing. I relished the opportunity to walk with and learn from locals who helped explain life in this different part of the country."
+    },
+    "2017-11-03": {
+      "locationId": "sa-pa",
+      "text": "Watching fog swallow mountain tops from the peak of [Mount Fansipan](https://en.wikipedia.org/wiki/Fansipan) reminded me how life is often about making the best of non-ideal situations. Appreciation for the clear skies I saw from the cable car turned into disappointment as heavy fog and wind rolled in up high. I debated not climbing the final 600 steps to the highest peak in all of Indochina, worried my view would be obscured by a blanket of fog. But up I went. And although the rice paddies sadly weren't visible, the view I got was beautiful in its own way and worth the climb."
+    },
+    "2017-11-04": {
+      "locationId": "hanoi",
+      "text": "Hanoi provided my introductory taste of Southeast Asia a year ago. Returning to the city for a short stopover brought back the culture shock from that first visit. The city has a hectic, “watch-out-for-your-life” pace that grows on your over time. In the midst of the mania, I found [my favorite pho place](https://www.tripadvisor.co.uk/Restaurant_Review-g293924-d1124697-Reviews-Pho_Thin-Hanoi.html) from my prior trip, a fitting last meal after an incredible month in Vietnam. I hopped on a short evening flight to the next stop on my worldwide trip: Luang Prabang, Laos. Vietnam lifted my spirits and I hope to carry those feelings on into Laos."
+    },
+    "2017-11-05": {
+      "locationId": "luang-prabang",
+      "text": "If Laos is known for anything, it has to be its stunning waterfalls. The first one up for me was the majestic [Kuang Si Falls](https://en.wikipedia.org/wiki/Kuang_Si_Falls), which looked how I imagine the Garden of Eden would. Multi-tiered pools of vibrant turquoise water overflowing into the forest floor, a towering 60 meter cascade roaring in the distance. I of course jumped in the crisp water, marveling at nature's very own infinity pools from underneath the pounding water of a minor fall. This is the first of many waterfalls I’ll come across in Laos, but it’s going to be damn hard to beat."
+    },
+    "2017-11-06": {
+      "locationId": "luang-prabang",
+      "text": "I spent a majority of my day at [Utopia](https://www.tripadvisor.co.uk/Restaurant_Review-g295415-d1552033-Reviews-Utopia_Restaurant_and_Bar-Luang_Prabang_Luang_Prabang_Province.html), an open air restaurant bar overlooking the Mekong River and featuring sunrise yoga, beach volleyball, an extensive drink menu, and cushioned mats for lounging atop its bamboo floors. Oh, and strong Wi-Fi, which gives it a few bonus points in my book. Its chill, laid-back vibe is a perfect microcosm for the rest of Luang Prabang. The city, like the river I spent much of the day peering at over my computer screen, appears to move in slow motion. It’s a welcome change from the fast-paced style of life in Vietnam."
+    },
+    "2017-11-07": {
+      "locationId": "luang-prabang",
+      "text": "I’ve rarely woken up early enough to catch a sunrise on this trip. I've been more likely to be awake at that hour due to travel to a new destination or still being out from the prior night. But today I forced myself out of bed at 5:30 AM and climbed [Mount Phou Si](https://en.wikipedia.org/wiki/Phou_si), a big hill in central Luang Prabang offering scenic views of the town and the surrounding mountains. The bright orange glow off the morning clouds provided a great start to a day highlighted by visiting [Tad Sae Falls](https://www.tripadvisor.co.uk/Attraction_Review-g295415-d454895-Reviews-Tad_Sae_Waterfall-Luang_Prabang_Luang_Prabang_Province.html), where I came face-to-face with some elephants."
     }
   }
 }
