@@ -51,7 +51,10 @@
     "cat-ba",
     "sa-pa",
     "hanoi",
-    "luang-prabang"
+    "luang-prabang",
+    "pakbeng",
+    "huay-xai",
+    "luang-namtha"
   ],
   "locations": {
     "orlando": {
@@ -494,7 +497,29 @@
       "posts": [
         "2017-11-05",
         "2017-11-06",
-        "2017-11-07"
+        "2017-11-07",
+        "2017-11-08"
+      ]
+    },
+    "pakbeng": {
+      "name": "Pakbeng, Laos",
+      "posts": [
+        "2017-11-09"
+      ]
+    },
+    "huay-xai": {
+      "name": "Huay Xai, Laos",
+      "posts": [
+        "2017-11-10",
+        "2017-11-11",
+        "2017-11-12",
+        "2017-11-13"
+      ]
+    },
+    "luang-namtha": {
+      "name": "Luang Namtha, Laos",
+      "posts": [
+        "2017-11-14"
       ]
     }
   },
@@ -1230,6 +1255,34 @@
     "2017-11-07": {
       "locationId": "luang-prabang",
       "text": "I’ve rarely woken up early enough to catch a sunrise on this trip. I've been more likely to be awake at that hour due to travel to a new destination or still being out from the prior night. But today I forced myself out of bed at 5:30 AM and climbed [Mount Phou Si](https://en.wikipedia.org/wiki/Phou_si), a big hill in central Luang Prabang offering scenic views of the town and the surrounding mountains. The bright orange glow off the morning clouds provided a great start to a day highlighted by visiting [Tad Sae Falls](https://www.tripadvisor.co.uk/Attraction_Review-g295415-d454895-Reviews-Tad_Sae_Waterfall-Luang_Prabang_Luang_Prabang_Province.html), where I came face-to-face with some elephants."
+    },
+    "2017-11-08": {
+      "locationId": "luang-prabang",
+      "text": "[Visiting local farms](https://jwn.gr/microblog/2017-10-25) is quickly becoming one of my favorite travel experiences. This morning it was [Living Land Rice Farm](https://www.backstreetacademy.com/luang-prabang/154/rice-farming), where I learned firsthand how to plant, grow, harvest, clean, and cook rice. From ploughing a rice paddy in knee deep mud with Rudolph the water buffalo to using traditional Lao machines and some muscle to grind rice into flour, it was an informative experience which left a big smile on my face. As someone with a career possible from the comfort of a couch, experiences like this give me an appreciation for those whose jobs require backbreaking manual labor."
+    },
+    "2017-11-09": {
+      "locationId": "pakbeng",
+      "text": "I arose early to embark on a two day \"slow boat\" journey up the Mekong River, destined for the border town of Huay Xai, stopping over in Pakbeng. Travelers typically make this trip in the opposite direction, crossing over from northern Thailand to ride the current of Laos' muddy brown river into Luang Prabang. My boat carried a handful of backpackers alongside a rotating cast of locals hopping on and off at various riverside villages. It was a lazy day spent catching up on my reading list and podcasts, enjoying the landscapes, and reflecting on a frenetic past few weeks."
+    },
+    "2017-11-10": {
+      "locationId": "huay-xai",
+      "text": "Day two of the 205 mile (330 km) boat ride to Huay Xai featured more water buffalo bathing in the river and goats balancing precariously along limestone cliffs. But the sight of a sleeping young boy no older than ten held my attention most strongly. His shaved head and vibrant orange robe told me he, like roughly one third of all Lao males at some point in their lives, was a monk. I struggled to imagine myself being born into his life, a common sensation I feel when interacting with locals whose lives are so vastly different from my own."
+    },
+    "2017-11-11": {
+      "locationId": "huay-xai",
+      "text": "The main attraction in Huay Xai is [The Gibbon Experience](https://www.gibbonexperience.org/), a unique trekking and zip lining trip with overnight accommodation in the world’s highest tree houses. Although more expensive than most activities in Southeast Asia, I couldn't pass up this once-in-a-lifetime opportunity. I chose the three day, two night [waterfall tour](https://www.gibbonexperience.org/waterfall/) since it involved more trekking and zipping with stays in two different tree houses. The first day did not disappoint, culminating in a 500 meter zip line featuring a surreal view of a rainbow emerging from the endless mountains as I cruised high above the forest in light rain."
+    },
+    "2017-11-12": {
+      "locationId": "huay-xai",
+      "text": "The tree houses, situated up to 40 meters above the forest floor, are only accessible by zip line. Each one is an imposing, multi-level structure featuring a full bathroom, a dining table with stools, running, drinkable water, mattresses and pillows protected under heavy mosquito nets (which keep out other tree dwellers like spiders and rats), and, of course, stunning 360 degree views of the surrounding forest. The open air structures comfortably and safely held our group of eight. Falling asleep high in the trees, listening to the surprisingly loud din of the nighttime forest was a truly extraordinary experience."
+    },
+    "2017-11-13": {
+      "locationId": "huay-xai",
+      "text": "Long days of trekking and zip lining left me and the rest of my group with little energy by sunset. We were in bed early both nights, making it easier to wake up in time for today's sunrise. Not that I could actually see anything! I was greeted by a thick wall of fog hugging the forest canopy, thin films of water coating zip lines which seemingly disappeared just a few arm lengths away. I enjoyed an hour of uninterrupted time watching sunlight fight its way through the cloud cover, soaking in my last few hours in this unique lodging."
+    },
+    "2017-11-14": {
+      "locationId": "luang-namtha",
+      "text": "I arrived in Luang Namtha, Laos last night after yet another harrowing bus ride. I had planned to do a trekking tour here, but sore muscles and anxiety over a growing list of neglected life responsibilities prompted me to stay inside for most of the day. In the evening, I read [a post about creativity and productivity](https://kottke.org/17/11/the-tension-between-creativity-and-productivity) on [Jason Kotke’s incredibly entertaining blog](https://kottke.org/) which crystallized some of my recent thoughts in a way that I couldn't formulate in my mind. David Allen's recommendation of \"deliberate, mindful prioritization\" is a critical concept I will keep in mind as my travels continue."
     }
   }
 }
