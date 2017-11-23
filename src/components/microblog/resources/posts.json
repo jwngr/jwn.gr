@@ -54,7 +54,11 @@
     "luang-prabang",
     "pakbeng",
     "huay-xai",
-    "luang-namtha"
+    "luang-namtha",
+    "muang-khua",
+    "muang-ngoi",
+    "vang-vieng",
+    "phonsavan"
   ],
   "locations": {
     "orlando": {
@@ -520,6 +524,33 @@
       "name": "Luang Namtha, Laos",
       "posts": [
         "2017-11-14"
+      ]
+    },
+    "muang-khua": {
+      "name": "Muang Khua, Laos",
+      "posts": [
+        "2017-11-15"
+      ]
+    },
+    "muang-ngoi": {
+      "name": "Muang Ngoi, Laos",
+      "posts": [
+        "2017-11-16",
+        "2017-11-17"
+      ]
+    },
+    "vang-vieng": {
+      "name": "Vang Vieng, Laos",
+      "posts": [
+        "2017-11-18",
+        "2017-11-19",
+        "2017-11-20"
+      ]
+    },
+    "phonsavan": {
+      "name": "Phonsavan, Laos",
+      "posts": [
+        "2017-11-21"
       ]
     }
   },
@@ -1283,6 +1314,34 @@
     "2017-11-14": {
       "locationId": "luang-namtha",
       "text": "I arrived in Luang Namtha, Laos last night after yet another harrowing bus ride. I had planned to do a trekking tour here, but sore muscles and anxiety over a growing list of neglected life responsibilities prompted me to stay inside for most of the day. In the evening, I read [a post about creativity and productivity](https://kottke.org/17/11/the-tension-between-creativity-and-productivity) on [Jason Kotke’s incredibly entertaining blog](https://kottke.org/) which crystallized some of my recent thoughts in a way that I couldn't formulate in my mind. David Allen's recommendation of \"deliberate, mindful prioritization\" is a critical concept I will keep in mind as my travels continue."
+    },
+    "2017-11-15": {
+      "locationId": "muang-khua",
+      "text": "\"This too shall pass.\" That's something I've repeated to myself throughout this trip. The phrase, [tracing back to a Persian adage](https://en.wikipedia.org/wiki/This_too_shall_pass), has become a sort of life philosophy for me. Those four little words remind me that life, as well as its constituent ups and downs, are ephemeral. Bad times, like the asocial, brooding mood I find myself in as I travel a northern loop through Laos, won't afflict me forever. Similarly, good times should be savored since who knows what tomorrow will bring. Believing my current human condition is permanent not only extends bad times, it shortens good ones."
+    },
+    "2017-11-16": {
+      "locationId": "muang-ngoi",
+      "text": "Two dozen travelers and locals, along with their belongings and a cage of chickens, most certainly put today's boat over capacity for the four hour journey to Muang Ngoi. The ride left my shoes soaked and body sore, although it also provided incredible views of the river cutting through giant, jungle-covered limestone mountains as we arrived into town. Muang Ngoi is only accessible by water and comprises a single dirt road packed with guest houses, restaurants, and bars, mostly catering to tourists. Hammocks and Beerlao are plentiful in this picturesque town which has the perfect balance of activity and silence."
+    },
+    "2017-11-17": {
+      "locationId": "muang-ngoi",
+      "text": "High atop Muang Ngoi, waiting for the early morning fog to dissipate, I felt a pang of cognitive dissonance. In many ways, my life is about minimizing discomfort. Money brings the comfort of security, friends the comfort of togetherness, a girlfriend the comfort of intimacy. Yet I also believe comfort breeds complacency, explaining why I consistently uproot my life once it gets too comfortable in search of a higher local maximum of comfort. Will I ever accept my current comfort as good enough, or am I doomed to indefinitely look for more, never stopping to appreciate what I've already achieved?"
+    },
+    "2017-11-18": {
+      "locationId": "vang-vieng",
+      "text": "An epic travel day seems like the right time to discuss Lao transportation, where each trip could be my last. A one hour morning trip to Nong Khiaw on a barely seaworthy boat was followed by back-to-back four hour minivan rides to Luang Prabang onto Vang Vieng which were driven at dangerous speeds along pockmarked mountainside roads. At least one person puked on each leg and last week's minivan even ran over a stray dog. And don't even get me started about bus stations being intentionally located well outside city centers. I never imagined I'd miss SF MUNI so much."
+    },
+    "2017-11-19": {
+      "locationId": "vang-vieng",
+      "text": "Vang Vieng is no longer the hedonistic backpacker playground it's known to be due to [2012 police crackdowns](https://www.independent.co.uk/travel/asia/how-vang-vieng-in-laos-has-worked-hard-to-improve-its-dangerous-reputation-a6897616.html). It's been reborn as a hotbed for outdoor activities, a fitting pivot given the town's breathtaking surroundings. Its most iconic activity - barhopping down the riverside in inner tubes - is legal once again, just significantly toned down. And you'll still find some restaurants offering a special \"happy\" menu. So, naturally, I spent my first day here doing nothing in particular, instead going on my own barhop in search of coffee shops and restaurants with solid WiFi, as opposed to bars with cheap drinks."
+    },
+    "2017-11-20": {
+      "locationId": "vang-vieng",
+      "text": "I took a full day tour of Vang Vieng's major highlights: tubing with a headlamp through the dark, low-ceilinged Water Cave, quickly walking through the unimpressive Elephant Cave (Vietnam's caves have clearly spoiled me), kayaking down the Nam Song River surrounded by drunk tubers, and playing in the cool waters of Blue Lagoon. The chill vibes found in Luang Prabang permeate Vang Vieng as well. Lao people rarely seem to be in a hurry, which makes even jam-packed tour days like today seem leisurely. While the lax attitudes sometimes get on my impatient nerves, they were quite welcome today."
+    },
+    "2017-11-21": {
+      "locationId": "phonsavan",
+      "text": "Per capita, [Laos is the world's most bombed country](http://legaciesofwar.org/about-laos/secret-war-laos/). During the Vietnam War, the USA dropped a jaw-dropping quarter ton of bombs on Laos *on average for each of its seven million citizens*. An estimated 30% of bombs never detonated. These unexploded ordnances (UXOs) continue to maim and kill locals to this day. I spent today traveling to Phonsavan in northeast Laos, smack dab in the center of what looks like a giant blood splat on charts mapping the bombings. Bomb shells repurposed as everything from trash cans to house stilts to interior decor are a sobering reminder of war."
     }
   }
 }
