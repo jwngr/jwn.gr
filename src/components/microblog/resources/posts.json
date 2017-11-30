@@ -58,7 +58,11 @@
     "muang-khua",
     "muang-ngoi",
     "vang-vieng",
-    "phonsavan"
+    "phonsavan",
+    "vientiane",
+    "kong-lor",
+    "pakse",
+    "don-det"
   ],
   "locations": {
     "orlando": {
@@ -550,7 +554,34 @@
     "phonsavan": {
       "name": "Phonsavan, Laos",
       "posts": [
-        "2017-11-21"
+        "2017-11-21",
+        "2017-11-22"
+      ]
+    },
+    "vientiane": {
+      "name": "Vientiane, Laos",
+      "posts": [
+        "2017-11-23"
+      ]
+    },
+    "kong-lor": {
+      "name": "Kong Lor, Laos",
+      "posts": [
+        "2017-11-24",
+        "2017-11-25"
+      ]
+    },
+    "pakse": {
+      "name": "Pakse, Laos",
+      "posts": [
+        "2017-11-26",
+        "2017-11-27"
+      ]
+    },
+    "don-det": {
+      "name": "Don Det, Laos",
+      "posts": [
+        "2017-11-28"
       ]
     }
   },
@@ -1342,6 +1373,34 @@
     "2017-11-21": {
       "locationId": "phonsavan",
       "text": "Per capita, [Laos is the world's most bombed country](http://legaciesofwar.org/about-laos/secret-war-laos/). During the Vietnam War, the USA dropped a jaw-dropping quarter ton of bombs on Laos *on average for each of its seven million citizens*. An estimated 30% of bombs never detonated. These unexploded ordnances (UXOs) continue to maim and kill locals to this day. I spent today traveling to Phonsavan in northeast Laos, smack dab in the center of what looks like a giant blood splat on charts mapping the bombings. Bomb shells repurposed as everything from trash cans to house stilts to interior decor are a sobering reminder of war."
+    },
+    "2017-11-22": {
+      "locationId": "phonsavan",
+      "text": "I’m particularly drawn to the works of Christopher Nolan (*Inception*, *The Prestige*, *Memento*) and David Lindelof (*Lost*, *The Leftovers*) due to their willingness to leave questions unanswered. Pondering theories explaining their cliffhangers is what makes their work especially memorable. I feel the same about the [Plain of Jars](https://en.wikipedia.org/wiki/Plain_of_Jars), a landscape spotted with clusters of giant stone jars carved during the Iron Age. Today I visited sites 1, 2, and 3, soaking in theories about their purpose, ranging from brewing liquor to burials. But evidence is lacking, and that’s okay. After all, the mystery is the reason I’m here."
+    },
+    "2017-11-23": {
+      "locationId": "vientiane",
+      "text": "Turkey is unfortunately not a very popular meat option in Laos. But I was able to find a donor kebab stand selling turkey wraps for an impromptu Thanksgiving meal along the banks of the Mekong River in Vientiane. I didn't mind the solitude after spending the prior night on a sleeper bus where I legitimately shared a bed with a random Lao dude. Despite being the capital city, there’s not a lot to do here. I saw all the major sites today, including some temples and the bizarre [Buddha Park](https://en.wikipedia.org/wiki/Buddha_Park). It was a unique Thanksgiving that felt far from normal."
+    },
+    "2017-11-24": {
+      "locationId": "kong-lor",
+      "text": "Day 200 of the worldwide trip was spent entirely in transit to the remote Kong Lor Cave. I read [\"The Western Elite From A Chinese Perspective,\"](https://americanaffairsjournal.org/2017/11/western-elite-chinese-perspective/) an insightful article providing an outside perspective on my culture. I particularly liked Puzhong's comment that \"we should neither become too excited by what we have achieved nor too depressed by what we failed to achieve.\" It's cliche to say \"If you work hard, you’ll succeed; if you don't, you’ll fail.\" But it's increasingly clear to me the latter rings much truer than the former, hard work being necessary, but not sufficient, for success."
+    },
+    "2017-11-25": {
+      "locationId": "kong-lor",
+      "text": "Although [Kong Lor Cave](https://wikitravel.org/en/Konglor) is known as a must-see destination in Laos, it is truly in the middle of nowhere. I debated whether or not to visit given my [recent caving adventures in Phong Nha, Vietnam](https://jwn.gr/microblog/locations/phong-nha), but I’m glad I did. A tiny boat took me and a fellow French backpacker through the 7 km deep cave with mammoth openings on both ends. Headlamps were the only light sources, outside of an exquisite fully lit walking section. The experience of speeding through the cave was exhilarating, as if I was traveling into the belly of a giant monster."
+    },
+    "2017-11-26": {
+      "locationId": "pakse",
+      "text": "I haven’t pre-booked accommodations in Laos as I typically have no issues finding a hostel or guesthouse with cheap rooms available upon arriving. But after a fourth straight day spent traveling at least six hours, my stubbornness caused trouble in Pakse. Most places were fully booked, but I found a hotel room for $25 per night. After traveling so cheaply across Southeast Asia for the past three months, I balked at the price, eventually finding another place for half that cost after much searching. The experience left me tired and frustrated, a poor and irrational tradeoff for $13 in savings."
+    },
+    "2017-11-27": {
+      "locationId": "pakse",
+      "text": "I try to understand the basics about countries I visit, reading up on histories and learning words like \"hello\" and \"thank you.\" I also attempt to responsibly interact with locals. Today I toured the [Bolaven Plateau](https://en.wikipedia.org/wiki/Bolaven_Plateau), an elevated region in southern Laos home to many local ethnic groups and waterfalls. The waterfalls were great, but visits to two local villages left a bad taste in my mouth. The tour offered no way to buy goods to support the tribes nor to even interact with them. These villages should not be zoos for foreigners to visit to snap their Instagram pictures."
+    },
+    "2017-11-28": {
+      "locationId": "don-det",
+      "text": "Laos is a landlocked country, nuzzled between China to the north, Vietnam to the east, Cambodia to the south, and Thailand to the west. Despite that, its southernmost tip is called [Si Phan Don](https://wikitravel.org/en/Si_Phan_Don) (\"Four Thousand Islands\"), a unique landform arising from the meandering of the Mekong River. Most islands are small and uninhabited, but a few are large enough to support communities. Don Det is one of those, a well known backpacking paradise whose remoteness adds to its allure. After so much transit in the prior weeks, I’m bumming out here until my Lao visa expires next week."
     }
   }
 }
