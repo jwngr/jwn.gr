@@ -62,7 +62,11 @@
     "vientiane",
     "kong-lor",
     "pakse",
-    "don-det"
+    "don-det",
+    "kratie",
+    "kampong-cham",
+    "phnom-penh",
+    "kampot"
   ],
   "locations": {
     "orlando": {
@@ -581,7 +585,41 @@
     "don-det": {
       "name": "Don Det, Laos",
       "posts": [
-        "2017-11-28"
+        "2017-11-28",
+        "2017-11-29",
+        "2017-11-30",
+        "2017-12-01",
+        "2017-12-02"
+      ]
+    },
+    "kratie": {
+      "name": "Kratie, Cambodia",
+      "posts": [
+        "2017-12-03",
+        "2017-12-04",
+        "2017-12-05"
+      ]
+    },
+    "kampong-cham": {
+      "name": "Kampong Cham, Cambodia",
+      "posts": [
+        "2017-12-06",
+        "2017-12-07",
+        "2017-12-08",
+        "2017-12-09"
+      ]
+    },
+    "phnom-penh": {
+      "name": "Phnom Penh, Cambodia",
+      "posts": [
+        "2017-12-10",
+        "2017-12-11"
+      ]
+    },
+    "kampot": {
+      "name": "Kampot, Cambodia",
+      "posts": [
+        "2017-12-12"
       ]
     }
   },
@@ -620,7 +658,7 @@
     },
     "2017-05-17": {
       "locationId": "tenerife",
-      "text": "Time to cross \"hike up a volcano\" off my bucket list. At 3.7 km above sea level, [Pico del Teide](https://en.wikipedia.org/wiki/Teide) is Spain’s highest point. A grueling 3.5 hour hike of steep switchbacks akin to a non-stop StairMaster with majestic views took me to the peak, where I was joined by dozens who had similarly made the hike. I kid - most took the ten minute lift up the volcano. But I can guarantee none enjoyed that view as much as I did. The difficult journey amplified the ultimate reward, a lesson I’ll keep in mind over the coming months."
+      "text": "Time to cross \"hike up a volcano\" off my bucket list. At 3.7 km above sea level, [Pico del Teide](https://en.wikipedia.org/wiki/Teide) is Spain’s highest point. A grueling 3.5 hour hike of steep switchbacks akin to a non-stop StairMaster with majestic views took me to the peak, where I was joined by dozens who had similarly made the hike. I kid &mdash; most took the ten minute lift up the volcano. But I can guarantee none enjoyed that view as much as I did. The difficult journey amplified the ultimate reward, a lesson I’ll keep in mind over the coming months."
     },
     "2017-05-18": {
       "locationId": "tenerife",
@@ -632,11 +670,11 @@
     },
     "2017-05-20": {
       "locationId": "lanzarote",
-      "text": "If you ever need inspiration, make your way to an Ironman finish line and watch the sheer joy on the faces of the men and women running, walking, and fainting across it. That’s where I unexpectedly found myself after some scuba diving in [Puerto del Carmen](https://en.wikipedia.org/wiki/Puerto_del_Carmen). The [Ironman Lanzarote](http://eu.ironman.com/triathlon/events/emea/ironman/lanzarote.aspx#axzz4i0zKRgo3) is one of the hardest Ironmans in the world because, well, the course is a series of massive volcanoes. The vibe at the finish line was electric as hundreds - myself included - cheered finishers down the final stretch. My first birthday on my own was a memorable and inspiring one."
+      "text": "If you ever need inspiration, make your way to an Ironman finish line and watch the sheer joy on the faces of the men and women running, walking, and fainting across it. That’s where I unexpectedly found myself after some scuba diving in [Puerto del Carmen](https://en.wikipedia.org/wiki/Puerto_del_Carmen). The [Ironman Lanzarote](http://eu.ironman.com/triathlon/events/emea/ironman/lanzarote.aspx#axzz4i0zKRgo3) is one of the hardest Ironmans in the world because, well, the course is a series of massive volcanoes. The vibe at the finish line was electric as hundreds &mdash; myself included &mdash; cheered finishers down the final stretch. My first birthday on my own was a memorable and inspiring one."
     },
     "2017-05-21": {
       "locationId": "gran-canaria-2",
-      "text": "I took a late morning flight back to Gran Canaria, this time choosing to stay on the southern end of the island, in [Maspalomas](https://en.wikipedia.org/wiki/Maspalomas). The main draw was the [Maspalomas Dunes](https://en.wikipedia.org/wiki/Maspalomas_Dunes), yet another foreign landscape to explore on these volcanic islands. I allowed myself to get lost in the dunes and happened upon a community of men who - how do I put this? - were full body sunbathing. Not the sights I wanted! Other than the dunes, Maspalomas was a drab, touristy area. I wouldn't come here again, but at least I found some time to relax in the evening."
+      "text": "I took a late morning flight back to Gran Canaria, this time choosing to stay on the southern end of the island, in [Maspalomas](https://en.wikipedia.org/wiki/Maspalomas). The main draw was the [Maspalomas Dunes](https://en.wikipedia.org/wiki/Maspalomas_Dunes), yet another foreign landscape to explore on these volcanic islands. I allowed myself to get lost in the dunes and happened upon a community of men who &mdash; how do I put this? &mdash; were full body sunbathing. Not the sights I wanted! Other than the dunes, Maspalomas was a drab, touristy area. I wouldn't come here again, but at least I found some time to relax in the evening."
     },
     "2017-05-22": {
       "locationId": "porto",
@@ -688,7 +726,7 @@
     },
     "2017-06-03": {
       "locationId": "lagos",
-      "text": "I made a last minute decision to stay in Portugal and head down south to [Lagos](https://en.wikipedia.org/wiki/Lagos,_Portugal). It was recommended by both locals and fellow travelers enough times that I had to check it out. Now that I've walked along the scenic beaches, I understand why. It did mean packing up and saying goodbyes though. Restarting every week is somewhat exhausting. I've made friends, but not without effort. I can tell some of my walls are falling down and I’m more open to meeting people - which was something I had hoped for - but I’ve still got a long way to go."
+      "text": "I made a last minute decision to stay in Portugal and head down south to [Lagos](https://en.wikipedia.org/wiki/Lagos,_Portugal). It was recommended by both locals and fellow travelers enough times that I had to check it out. Now that I've walked along the scenic beaches, I understand why. It did mean packing up and saying goodbyes though. Restarting every week is somewhat exhausting. I've made friends, but not without effort. I can tell some of my walls are falling down and I’m more open to meeting people &mdash; which was something I had hoped for &mdash; but I’ve still got a long way to go."
     },
     "2017-06-04": {
       "locationId": "lagos",
@@ -700,7 +738,7 @@
     },
     "2017-06-06": {
       "locationId": "lagos",
-      "text": "My biggest fear for this trip was loneliness. Some days I simply want to share with someone special, not just a new acquaintance. Today was one of those days. I took a trip to hike along the prodigious cliffs of [Sagres](https://en.wikipedia.org/wiki/Sagres_(Vila_do_Bispo)). Being left alone with my thoughts was tiresome, and this week's events - including the [day I cracked both of my phone's screens](https://twitter.com/_jwngr/status/871486110530142212) - finally caught up with me. Loneliness comes and goes, but it's not a foreign feeling. It's one I've felt back home surrounded by roommates, family, and friends. I'm hoping this trip can help me better understand it."
+      "text": "My biggest fear for this trip was loneliness. Some days I simply want to share with someone special, not just a new acquaintance. Today was one of those days. I took a trip to hike along the prodigious cliffs of [Sagres](https://en.wikipedia.org/wiki/Sagres_(Vila_do_Bispo)). Being left alone with my thoughts was tiresome, and this week's events &mdash; including the [day I cracked both of my phone's screens](https://twitter.com/_jwngr/status/871486110530142212) &mdash; finally caught up with me. Loneliness comes and goes, but it's not a foreign feeling. It's one I've felt back home surrounded by roommates, family, and friends. I'm hoping this trip can help me better understand it."
     },
     "2017-06-07": {
       "locationId": "lagos",
@@ -720,7 +758,7 @@
     },
     "2017-06-11": {
       "locationId": "seville",
-      "text": "I've started experimenting with how long I can last before asking someone where they're from or what they do. Rehashing the same conversation with new faces every day gets exhausting. Thankfully, today I endured the sweltering heat alongside two girls from my hostel, one Brazilian and the other German. After a subpar free walking tour - you generally get what you pay for - we shared some sangria and visited [Seville's bullring](https://en.wikipedia.org/wiki/Maestranza_(Sevilla)), enjoying wide-ranging conversations throughout. Avoiding boilerplate smalltalk is good for my sanity while traveling, but I also think it's a useful exercise I'll bring back home."
+      "text": "I've started experimenting with how long I can last before asking someone where they're from or what they do. Rehashing the same conversation with new faces every day gets exhausting. Thankfully, today I endured the sweltering heat alongside two girls from my hostel, one Brazilian and the other German. After a subpar free walking tour &mdash; you generally get what you pay for &mdash; we shared some sangria and visited [Seville's bullring](https://en.wikipedia.org/wiki/Maestranza_(Sevilla)), enjoying wide-ranging conversations throughout. Avoiding boilerplate smalltalk is good for my sanity while traveling, but I also think it's a useful exercise I'll bring back home."
     },
     "2017-06-12": {
       "locationId": "seville",
@@ -732,7 +770,7 @@
     },
     "2017-06-14": {
       "locationId": "seville",
-      "text": "At a rate of around 1,000 steps every ten minutes, it takes about 2.5 hours of walking to reach [my daily step goal of 14,286](https://jwn.gr/microblog/2017-05-25). I make as much out of that time as I can. As I explore sights like today's stop, the [Seville Cathedral](https://en.wikipedia.org/wiki/Seville_Cathedral), I listen to podcasts, possibly my favorite - and arguably the most underrated - entertainment medium. I use [Overcast](https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8) to listen to podcasts ranging from tech to science to psychology to Notre Dame to murder mysteries. The podcasting landscape is vast and varied. I’ll be sharing my all-time favorite podcasts and episodes throughout this week."
+      "text": "At a rate of around 1,000 steps every ten minutes, it takes about 2.5 hours of walking to reach [my daily step goal of 14,286](https://jwn.gr/microblog/2017-05-25). I make as much out of that time as I can. As I explore sights like today's stop, the [Seville Cathedral](https://en.wikipedia.org/wiki/Seville_Cathedral), I listen to podcasts, possibly my favorite &mdash; and arguably the most underrated &mdash; entertainment medium. I use [Overcast](https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8) to listen to podcasts ranging from tech to science to psychology to Notre Dame to murder mysteries. The podcasting landscape is vast and varied. I’ll be sharing my all-time favorite podcasts and episodes throughout this week."
     },
     "2017-06-15": {
       "locationId": "marseille",
@@ -780,7 +818,7 @@
     },
     "2017-06-26": {
       "locationId": "paris",
-      "text": "A trip to Paris is incomplete without visiting some art museums. Today it was [Musée de l'Orangerie](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie) and the world-renowned [Louvre](https://en.wikipedia.org/wiki/Louvre). While it's surreal to observe pieces like Monet's [*Water Lilies*](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie#Monet.27s_Water_Lilies), da Vinci's [*Mona Lisa*](https://en.wikipedia.org/wiki/Mona_Lisa), and [*Venus de Milo*](https://en.wikipedia.org/wiki/Venus_de_Milo) in person, I most enjoy art that is either technically impressive or a creative application of the medium. And when it's both, like Panini's duo of paintings [*Ancient Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Ancient_Rome.jpg) and [*Modern Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Modern_Rome.jpg), I'm absolutely mesmerized. I was immediately drawn to the concept of an art gallery within a painting, and the execution - down to the smallest details - is remarkable."
+      "text": "A trip to Paris is incomplete without visiting some art museums. Today it was [Musée de l'Orangerie](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie) and the world-renowned [Louvre](https://en.wikipedia.org/wiki/Louvre). While it's surreal to observe pieces like Monet's [*Water Lilies*](https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie#Monet.27s_Water_Lilies), da Vinci's [*Mona Lisa*](https://en.wikipedia.org/wiki/Mona_Lisa), and [*Venus de Milo*](https://en.wikipedia.org/wiki/Venus_de_Milo) in person, I most enjoy art that is either technically impressive or a creative application of the medium. And when it's both, like Panini's duo of paintings [*Ancient Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Ancient_Rome.jpg) and [*Modern Rome*](https://en.wikipedia.org/wiki/File:Giovanni_Paolo_Panini_%E2%80%93_Modern_Rome.jpg), I'm absolutely mesmerized. I was immediately drawn to the concept of an art gallery within a painting, and the execution &mdash; down to the smallest details &mdash; is remarkable."
     },
     "2017-06-27": {
       "locationId": "paris",
@@ -936,7 +974,7 @@
     },
     "2017-08-04": {
       "locationId": "mechanicsburg-2",
-      "text": "Back into the unknown! I stopped by my sister’s house to read to and play games with my adorable niece, Audrey, before driving down to Baltimore with my dad to spend the rest of the day on a plane. My bag is a little lighter this time around, as I dropped some dead weight (goodbye GoPro camera) and replaced a few clothes with lighter alternatives. I also replenished my toiletries and gave everything - my bag included - a good cleaning. I catalogued my gear into a [traveling guide](https://docs.google.com/document/d/1WxOazKQk37f_57QT8HA2TbzWHO5POuwxPAxE47WfedQ/edit?usp=sharing), which may be useful for others embarking on a similar trip."
+      "text": "Back into the unknown! I stopped by my sister’s house to read to and play games with my adorable niece, Audrey, before driving down to Baltimore with my dad to spend the rest of the day on a plane. My bag is a little lighter this time around, as I dropped some dead weight (goodbye GoPro camera) and replaced a few clothes with lighter alternatives. I also replenished my toiletries and gave everything &mdash; my bag included &mdash; a good cleaning. I catalogued my gear into a [traveling guide](https://docs.google.com/document/d/1WxOazKQk37f_57QT8HA2TbzWHO5POuwxPAxE47WfedQ/edit?usp=sharing), which may be useful for others embarking on a similar trip."
     },
     "2017-08-05": {
       "locationId": "brussels",
@@ -1032,7 +1070,7 @@
     },
     "2017-08-28": {
       "locationId": "porto-2",
-      "text": "Life sometimes feels like a giant balancing act, hedging one bet against another. Defenses constructed to temper life's lows simultaneously dampen its highs. Yet a fully realized loving friendship or romantic relationship requires vulnerability. A crushing right hook directly to the face is sometimes a potential hazard to experience that feeling you hear people singing about on the radio. Constantly guarding oneself against possible - or even probable - negative outcomes comes at a high cost. The me of one year ago would not have made this trip to Porto; the me of today is overjoyed that I did."
+      "text": "Life sometimes feels like a giant balancing act, hedging one bet against another. Defenses constructed to temper life's lows simultaneously dampen its highs. Yet a fully realized loving friendship or romantic relationship requires vulnerability. A crushing right hook directly to the face is sometimes a potential hazard to experience that feeling you hear people singing about on the radio. Constantly guarding oneself against possible &mdash; or even probable &mdash; negative outcomes comes at a high cost. The me of one year ago would not have made this trip to Porto; the me of today is overjoyed that I did."
     },
     "2017-08-29": {
       "locationId": "milan",
@@ -1056,7 +1094,7 @@
     },
     "2017-09-03": {
       "locationId": "naples",
-      "text": "I awoke early to beat the crowd - and the heat - to [Pompeii](https://en.wikipedia.org/wiki/Pompeii). Weaving through the architectural ruins, I caught a glimpse of the imposing [Mount Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius). I pondered Pompeii's proximity to the volcano that buried it, as well as the historic flooding occurring in Houston. Countless people live in places vulnerable to natural disasters. Hell, I myself live on [a major fault line](https://en.wikipedia.org/wiki/San_Andreas_Fault)! Yet natural disasters feel distant, somethings I only see on the news or in history books. I hope I never experience one firsthand, but I realize it's in many regards just a game of chance."
+      "text": "I awoke early to beat the crowd &mdash; and the heat &mdash; to [Pompeii](https://en.wikipedia.org/wiki/Pompeii). Weaving through the architectural ruins, I caught a glimpse of the imposing [Mount Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius). I pondered Pompeii's proximity to the volcano that buried it, as well as the historic flooding occurring in Houston. Countless people live in places vulnerable to natural disasters. Hell, I myself live on [a major fault line](https://en.wikipedia.org/wiki/San_Andreas_Fault)! Yet natural disasters feel distant, somethings I only see on the news or in history books. I hope I never experience one firsthand, but I realize it's in many regards just a game of chance."
     },
     "2017-09-04": {
       "locationId": "naples",
@@ -1196,11 +1234,11 @@
     },
     "2017-10-08": {
       "locationId": "ho-chi-minh-city",
-      "text": "Chad and I arrived in Ho Chi Minh City, Vietnam past midnight after a hectic airport experience during which our flight was canceled and subsequently uncanceled, resulting in us having the front ten rows to ourselves. The city is in constant motion. Crossing the wide downtown streets is an exercise in trust with hundreds of motorbikes weaving around us. We enjoyed pho in the bustling [Ben Thanh Market](https://en.wikipedia.org/wiki/B%E1%BA%BFn_Th%C3%A0nh_Market) before sampling some - okay, quite a few - craft brews at [Heart of Darkness](http://heartofdarknessbrewery.com/) brewery, capping the night with doing laundry above a bitcoin cafe near the nightlife street of [Pham Ngu Lao](https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o_Street)."
+      "text": "Chad and I arrived in Ho Chi Minh City, Vietnam past midnight after a hectic airport experience during which our flight was canceled and subsequently uncanceled, resulting in us having the front ten rows to ourselves. The city is in constant motion. Crossing the wide downtown streets is an exercise in trust with hundreds of motorbikes weaving around us. We enjoyed pho in the bustling [Ben Thanh Market](https://en.wikipedia.org/wiki/B%E1%BA%BFn_Th%C3%A0nh_Market) before sampling some &mdash; okay, quite a few &mdash; craft brews at [Heart of Darkness](http://heartofdarknessbrewery.com/) brewery, capping the night with doing laundry above a bitcoin cafe near the nightlife street of [Pham Ngu Lao](https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Ng%C5%A9_L%C3%A3o_Street)."
     },
     "2017-10-09": {
       "locationId": "ho-chi-minh-city",
-      "text": "It’s somewhat strange to be in Vietnam knowing [the United States fought a war here](https://en.wikipedia.org/wiki/Vietnam_War) just over 40 years ago. To learn more about the war, we visited the [Cu Chi tunnels](https://en.wikipedia.org/wiki/C%E1%BB%A7_Chi_tunnels), an immense network of connecting underground tunnels used by the Viet Cong as part of their guerrilla warfare tactics against the Americans. The tour started uncomfortably with a heavily anti-American propaganda video about the tunnels, but, as they say, history is written by the victors. Squatting - and at points crawling - through the tunnels was eerie and claustrophobic, but helped me comprehend the lengths soldiers go through in wartime."
+      "text": "It’s somewhat strange to be in Vietnam knowing [the United States fought a war here](https://en.wikipedia.org/wiki/Vietnam_War) just over 40 years ago. To learn more about the war, we visited the [Cu Chi tunnels](https://en.wikipedia.org/wiki/C%E1%BB%A7_Chi_tunnels), an immense network of connecting underground tunnels used by the Viet Cong as part of their guerrilla warfare tactics against the Americans. The tour started uncomfortably with a heavily anti-American propaganda video about the tunnels, but, as they say, history is written by the victors. Squatting &mdash; and at points crawling &mdash; through the tunnels was eerie and claustrophobic, but helped me comprehend the lengths soldiers go through in wartime."
     },
     "2017-10-10": {
       "locationId": "ho-chi-minh-city",
@@ -1244,7 +1282,7 @@
     },
     "2017-10-20": {
       "locationId": "hoi-an",
-      "text": "Hoi An was almost universally praised by fellow backpackers traveling Vietnam in the opposite direction than I. After a day here, I understand why - it is quaint as fuck. And that's saying nothing of its pristine beaches. Streets and building facades are strung with lanterns that only get more charming after sundown. The market is packed with stands selling delicious local dishes like [cao lau](https://en.wikipedia.org/wiki/Cao_l%E1%BA%A7u) and [white rose](http://hoianfoodtour.com/white-rose-hoi-an/). And biking through rice paddies as far as the eye can see outside the town provides the stereotypical views of friendly local farmers in [conical hats](https://en.wikipedia.org/wiki/Asian_conical_hat) doing their daily work."
+      "text": "Hoi An was almost universally praised by fellow backpackers traveling Vietnam in the opposite direction than I. After a day here, I understand why &mdash; it is quaint as fuck. And that's saying nothing of its pristine beaches. Streets and building facades are strung with lanterns that only get more charming after sundown. The market is packed with stands selling delicious local dishes like [cao lau](https://en.wikipedia.org/wiki/Cao_l%E1%BA%A7u) and [white rose](http://hoianfoodtour.com/white-rose-hoi-an/). And biking through rice paddies as far as the eye can see outside the town provides the stereotypical views of friendly local farmers in [conical hats](https://en.wikipedia.org/wiki/Asian_conical_hat) doing their daily work."
     },
     "2017-10-21": {
       "locationId": "hoi-an",
@@ -1260,7 +1298,7 @@
     },
     "2017-10-24": {
       "locationId": "hue",
-      "text": "I enjoyed yesterday's ride so much that I asked Mr. Phu to drive me today around Hue, the nation's capital prior to the Vietnam War. Instead, a man who claimed to be Mr. Phu's brother - yet most certainly was not - greeted me this morning. We endured the on and off rain as he took me by scooter to see ornate tombs of past emperors, an American bunker overrun with weeds and cows, an abandoned water park that sadly was blocked by a government official unwilling to take a bribe, and the already crumbling [Imperial City](https://en.wikipedia.org/wiki/Imperial_City,_Hu%E1%BA%BF) where emperors lived and worked."
+      "text": "I enjoyed yesterday's ride so much that I asked Mr. Phu to drive me today around Hue, the nation's capital prior to the Vietnam War. Instead, a man who claimed to be Mr. Phu's brother &mdash; yet most certainly was not &mdash; greeted me this morning. We endured the on and off rain as he took me by scooter to see ornate tombs of past emperors, an American bunker overrun with weeds and cows, an abandoned water park that sadly was blocked by a government official unwilling to take a bribe, and the already crumbling [Imperial City](https://en.wikipedia.org/wiki/Imperial_City,_Hu%E1%BA%BF) where emperors lived and worked."
     },
     "2017-10-25": {
       "locationId": "phong-nha",
@@ -1364,7 +1402,7 @@
     },
     "2017-11-19": {
       "locationId": "vang-vieng",
-      "text": "Vang Vieng is no longer the hedonistic backpacker playground it's known to be due to [2012 police crackdowns](https://www.independent.co.uk/travel/asia/how-vang-vieng-in-laos-has-worked-hard-to-improve-its-dangerous-reputation-a6897616.html). It's been reborn as a hotbed for outdoor activities, a fitting pivot given the town's breathtaking surroundings. Its most iconic activity - barhopping down the riverside in inner tubes - is legal once again, just significantly toned down. And you'll still find some restaurants offering a special \"happy\" menu. So, naturally, I spent my first day here doing nothing in particular, instead going on my own barhop in search of coffee shops and restaurants with solid WiFi, as opposed to bars with cheap drinks."
+      "text": "Vang Vieng is no longer the hedonistic backpacker playground it's known to be due to [2012 police crackdowns](https://www.independent.co.uk/travel/asia/how-vang-vieng-in-laos-has-worked-hard-to-improve-its-dangerous-reputation-a6897616.html). It's been reborn as a hotbed for outdoor activities, a fitting pivot given the town's breathtaking surroundings. Its most iconic activity &mdash; barhopping down the riverside in inner tubes &mdash; is legal once again, just significantly toned down. And you'll still find some restaurants offering a special \"happy\" menu. So, naturally, I spent my first day here doing nothing in particular, instead going on my own barhop in search of coffee shops and restaurants with solid WiFi, as opposed to bars with cheap drinks."
     },
     "2017-11-20": {
       "locationId": "vang-vieng",
@@ -1401,6 +1439,62 @@
     "2017-11-28": {
       "locationId": "don-det",
       "text": "Laos is a landlocked country, nuzzled between China to the north, Vietnam to the east, Cambodia to the south, and Thailand to the west. Despite that, its southernmost tip is called [Si Phan Don](https://wikitravel.org/en/Si_Phan_Don) (\"Four Thousand Islands\"), a unique landform arising from the meandering of the Mekong River. Most islands are small and uninhabited, but a few are large enough to support communities. Don Det is one of those, a well known backpacking paradise whose remoteness adds to its allure. After so much transit in the prior weeks, I’m bumming out here until my Lao visa expires next week."
+    },
+    "2017-11-29": {
+      "locationId": "don-det",
+      "text": "*\"Bum of Don Det\"* ([*\"Fresh Prince of Bel-Air\"*](https://www.youtube.com/watch?v=3qHA366oRMs) parody)\n\n&nbsp;\n\nNow this is a story all about how,\n\nMy trip got flipped, turned upside down.\n\nAnd I’d like to take a minute, just don’t you fret,\n\nI’ll tell you how I became the bum of a town called Don Det.\n\n&nbsp;\n\nAll across Laos, on a traveling craze,\n\nOn public transit is where I spent most of my days.\n\nPackin' tight, maxin’, definitely not chill,\n\nPraying boats don’t sink nor buses spill.\n\nWhen a local Lao guy who was looking quite sour,\n\nDecided we should share a bed the next dozen hours."
+    },
+    "2017-11-30": {
+      "locationId": "don-det",
+      "text": "One of many journeys I hoped to soon forget,\n\nI said, \"Won’t be long 'til I relax in Don Det.\"\n\n&nbsp;\n\nI booked one last bus, and when it came near,\n\nThe plate said \"4K\" and it had Buddha in the mirror.\n\nIf anything I could say this bus was suspect,\n\nBut I thought, \"Nah, forget it. Yo homes, to Don Det.\"\n\n&nbsp;\n\nI pulled up to the island around two or three,\n\nAnd I yelled to the bartender, \"Yo homes, *sabaidee*.\"\n\nI looked at my bungalow, I was finally set,\n\nTo lay on my hammock as the Bum of Don Det."
+    },
+    "2017-12-01": {
+      "locationId": "don-det",
+      "text": "Other than boats, kayaks provide the most effective way to see the Four Thousand Islands. Just don't get pulled too far downstream into [Khone Phapheng Falls](https://en.wikipedia.org/wiki/Khone_Phapheng_Falls), the widest in all of Southeast Asia. I managed to avoid that rough ride on a full day kayak tour along the Mekong River, featuring plenty of waterfalls, a BBQ lunch and some sand soccer on one of the many minor islands, and a few quick glances at one of the rare freshwater [Irrawaddy dolphins](https://en.wikipedia.org/wiki/Irrawaddy_dolphin) which call this place home. Sunset views from a hammock &mdash; Beerlao in hand &mdash; were my rewards for today's exercise."
+    },
+    "2017-12-02": {
+      "locationId": "don-det",
+      "text": "My mind desires rationality. It's helped me excel in school and explains why I'm drawn to math and science, where things generally are expressed using well-defined formulae. And it frames my passion for programming, where things like designing efficient algorithms and simplifying complex user interactions light up my brain's pleasure center. But rationality has its drawbacks. I'm befuddled and dismayed by our current political and social cultures where tribalism trumps &mdash; or, maybe \"Trumps\" &mdash; facts. And it causes strife in relationships, since my mind and my heart aren't always on the same page. It seems being rational is sometimes irrational."
+    },
+    "2017-12-03": {
+      "locationId": "kratie",
+      "text": "The overland border crossing between Laos and Cambodia is one of the most corrupt in the world. From my bus driver offering a service to skip the entire visa process to Lao officials illegally requesting money for my exit stamp to Cambodian officials charging fees for bogus \"health checks,\" the border crossing requires a lot of patience, determination, and a few extra dollars on top of the standard visa cost. After well over an hour and threats from Lao and Cambodian officials saying I would never be allowed to leave or enter their countries, respectively, I had returned to Cambodia."
+    },
+    "2017-12-04": {
+      "locationId": "kratie",
+      "text": "[My prior trip to Cambodia](https://jwn.gr/microblog/locations/siem-reap) was brief, so I'm back to see more of the country. First up is Kratie, a little town on the Mekong which is silent by 8 PM. Tourists are few and far between, giving me more than enough reason to spend the day alone working on my computer. But I did get out this afternoon, biking north to Kampi &mdash; with a Frenchman I met on the bus from Laos &mdash; to see more Irrawaddy dolphins. The larger population here led to some incredible close encounters, although I still struggled to catch the quick creatures on camera."
+    },
+    "2017-12-05": {
+      "locationId": "kratie",
+      "text": "I've mostly avoided discussing US politics on this microblog. But that is a bit disingenuous given how often it's on my mind. The daily coming to terms with a Trump presidency certainly takes a toll on my well-being. As stories of border walls, healthcare repeals, corporate tax cuts, and pedophilic congressmen continually stream in, I often revisit an article called [\"I Don’t Know How To Explain To You That You Should Care About Other People.\"](https://www.huffingtonpost.com/entry/i-dont-know-how-to-explain-to-you-that-you-should_us_59519811e4b0f078efd98440) It's one of those rare pieces which gracefully pieces together my own jumbled thoughts. Empathy is severely lacking in our homes, offices, schools, and governments."
+    },
+    "2017-12-06": {
+      "locationId": "kampong-cham",
+      "text": "I continued south along the Mekong River's meandering path to Kampong Cham, yet another town situated on the banks of the world's 12th longest river. I quickly left the French colonial downtown for my homestay in the countryside. Upon arriving, I was ferried onto a boat for a sunset fishing trip, during which I attempted to catch fish by casting a weighted net into the river. The Mekong may just be a temporary companion on my journey, but for the people here, it's their lifeblood. That's fortunate for me, as my lifelong streak of never catching a fish continued."
+    },
+    "2017-12-07": {
+      "locationId": "kampong-cham",
+      "text": "[OBT](http://www.obtchiro.com/) is a Cambodian-run NGO dedicated to the education and empowerment of children living in Chiro village, just a few kilometers from Kampong Cham. The homestay I'm staying at, consisting of a bamboo dormitory and four private bamboo bungalows, is one of the NGO's revenue streams. Their premium [Sky Bungalow](http://www.obtchiro.com/sky-bungalow/), complete with a private bathroom and loft, runs me $13 a night. The bungalow is one of the few calm spots on the OBT premises, frolicking children and animals constantly overflowing into the surrounding classrooms and crop fields, a handful of Western volunteers providing some organization to the chaos."
+    },
+    "2017-12-08": {
+      "locationId": "kampong-cham",
+      "text": "I haven’t been a huge fan of Cambodian food. Surrounded by countries whose cuisines I particularly enjoy, it seems bland and uninspired in comparison. But while staying at OBT, I've had the opportunity dine in local houses. And those fresh home cooked meals have been delicious! Plus I appreciate the experience of eating alongside locals and knowing my money goes directly to a family in need. And thanks to the OBT school just down the road, many of the children at these houses speak English well enough to hold a conversation and explain more of their culture to me."
+    },
+    "2017-12-09": {
+      "locationId": "kampong-cham",
+      "text": "There isn’t a ton to do around Kampong Cham, beyond visiting the ruins of [Nokor Wat](https://en.wikipedia.org/wiki/Banteay_Prey_Nokor) (a miniature [Angkor Wat](https://jwn.gr/microblog/2017-10-03)), scaling the relatively small Pros and Srey Mountains, and climbing the abandoned French lighthouse. Having already done those things, I rented a bicycle today to cross the world's longest bamboo bridge to Koh Pen Island. However, the bamboo bridge, which had to be rebuilt after it washed away every rainy season, was recently replaced with a permanent concrete one. A minor bummer for me, but surely a huge improvement for locals living on either side of the bridge."
+    },
+    "2017-12-10": {
+      "locationId": "phnom-penh",
+      "text": "After a long stretch without visitors, I headed to Phnom Penh, Cambodia's capital, to meet up with my friend [Caleb](https://twitter.com/calebatwd) Since he had a late flight, I headed to a tiny movie theater in the evening to watch [\"First They Killed My Father,\"](https://en.wikipedia.org/wiki/First_They_Killed_My_Father_(film)) a 2017 Angelina Jolie-directed film documenting one girl's experience during the Cambodian genocide. The tragic story filled in a lot of gaps I had about the [Khmer Rouge](https://en.wikipedia.org/wiki/Khmer_Rouge), the name given to Cambodian communists, who carried out the genocide. Viewing a film like that in the place where the events happened made it that much more impactful."
+    },
+    "2017-12-11": {
+      "locationId": "phnom-penh",
+      "text": "On April 17, 1975, the Khmer Rouge evacuated the entirety of Phnom Penh. Over the course of the next four years, they [brutally murdered 1.7 million people](https://en.wikipedia.org/wiki/Cambodian_genocide) - a shocking quarter of the entire country - through work, starvation, and torture. Caleb and I contemplated this terrible chapter in human history as we visited [Tuol Sleng Genocide Museum](https://en.wikipedia.org/wiki/Tuol_Sleng_Genocide_Museum) (a school turned torture and execution center) and [Choeung Ek](https://en.wikipedia.org/wiki/Choeung_Ek) (an orchard turned mass grave and the best-known of the Killing Fields). It was an extremely somber way to kick off Caleb's trip, but learning history is important to ensure we never repeat it."
+    },
+    "2017-12-12": {
+      "locationId": "kampot",
+      "text": "After a morning visit to the [Royal Palace](https://en.wikipedia.org/wiki/Royal_Palace,_Phnom_Penh), Caleb got introduced to transportation in Southeast Asia inside a hot van packed with locals and topped off with a puking child. Our destination was Kampot, a riverside town in southern Cambodia, where we've booked [a bamboo bungalow overlooking the Mekong](http://samonvillagekampot.com/). Caleb is a fellow Notre Dame '12 grad, although our friendship grew while we worked at Microsoft in Seattle upon graduation. He's always good for lively discussions on anything from tech to politics to sports, all of which were covered over some Cambodia beer after a refreshing dip in the river."
     }
   }
 }
