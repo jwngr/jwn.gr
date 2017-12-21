@@ -66,7 +66,8 @@
     "kratie",
     "kampong-cham",
     "phnom-penh",
-    "kampot"
+    "kampot",
+    "koh-rong-sanloem"
   ],
   "locations": {
     "orlando": {
@@ -619,7 +620,19 @@
     "kampot": {
       "name": "Kampot, Cambodia",
       "posts": [
-        "2017-12-12"
+        "2017-12-12",
+        "2017-12-13",
+        "2017-12-14",
+        "2017-12-15"
+      ]
+    },
+    "koh-rong-sanloem": {
+      "name": "Koh Rong Sanloem, Cambodia",
+      "posts": [
+        "2017-12-16",
+        "2017-12-17",
+        "2017-12-18",
+        "2017-12-19"
       ]
     }
   },
@@ -1495,6 +1508,34 @@
     "2017-12-12": {
       "locationId": "kampot",
       "text": "After a morning visit to the [Royal Palace](https://en.wikipedia.org/wiki/Royal_Palace,_Phnom_Penh), Caleb got introduced to transportation in Southeast Asia inside a hot van packed with locals and topped off with a puking child. Our destination was Kampot, a riverside town in southern Cambodia, where we've booked [a bamboo bungalow overlooking the Mekong](http://samonvillagekampot.com/). Caleb is a fellow Notre Dame '12 grad, although our friendship grew while we worked at Microsoft in Seattle upon graduation. He's always good for lively discussions on anything from tech to politics to sports, all of which were covered over some Cambodia beer after a refreshing dip in the river."
+    },
+    "2017-12-13": {
+      "locationId": "kampot",
+      "text": "Caleb shares my entrepreneurial passion, constantly working on side projects, often juggling multiple concurrently. He showed me his group messaging app, Minecraft mod, and tank-based infinite runner game. I reciprocated by showing him the half done projects I've built during this trip. We discussed the difficulty of actually completing projects, the last 10% always taking 90% of the work. Even though we both know we should just release a project to get it out there and garner feedback, when push comes to shove, it's difficult to be comfortable enough to release something you know isn't quite good enough just yet."
+    },
+    "2017-12-14": {
+      "locationId": "kampot",
+      "text": "I've met a number of people online, most of which I've never seen in person. Some were introduced through Firebase, providing support for their side project or company. Others, I devoured their work until deciding to reach out with praise or a request for advice. And vice versa. Living in San Francisco even gave me the opportunity to meet some in the flesh. We consume so much content online and sometimes Internet strangers feel akin to celebrities. But they're just normal people, and a simple email can form a new friendship and possibly turn around that person's day or week."
+    },
+    "2017-12-15": {
+      "locationId": "kampot",
+      "text": "It took about half an hour for Caleb and I to accept the fact our scheduled transportation for our guided tour through [Bokor National Park](https://en.wikipedia.org/wiki/Preah_Monivong_National_Park) was never going to show up. Our guesthouse helped book us a private car instead and we enjoyed the day seeing the lush mountainous park at our own pace, stopping by many crumbling buildings of abandoned French outposts, a waterfall strangely adorned for a photo shoot, and some sweeping views of the Cambodian coastline. It wasn't exactly what we had planned, but it's amazing how well a map and Wikipedia can replace a tour guide."
+    },
+    "2017-12-16": {
+      "locationId": "koh-rong-sanloem",
+      "text": "Sadly, Caleb’s visit is over after just one week. He’s headed back to the States, smashing together a variety of vacations and holiday plans before starting an exciting new job at Unity in 2018. We parted ways after shooting the shit over one last game of cards and paying our hilariously low bill given the amount we ate and drank at our riverside accommodations in Kampot. He left for his flight from Phnom Penh and I grabbed a bus to [Koh Rong Sanloem](https://en.wikipedia.org/wiki/Koh_Rong_Sanloem), trading the muddy river banks of the Mekong for the white sand beaches of the Cambodian islands."
+    },
+    "2017-12-17": {
+      "locationId": "koh-rong-sanloem",
+      "text": "The beauty of Saracen Bay on Koh Rong Sanloem lies not in its long white sand beach &mdash; which is beautiful, albeit filled with more trash than I imagined &mdash; but rather in its simplicity. The bay is free of motorized vehicles and roads, such a rarity in today’s world. Hell, [even the Moon has vehicles on it](https://en.wikipedia.org/wiki/Lunar_Roving_Vehicle)! The path from one resort to the next is the beach itself, providing ample opportunity for relaxation in tree swings and hammocks along the way. The beach also served as my seating area for a delicious candlelight BBQ dinner I enjoyed under the stars."
+    },
+    "2017-12-18": {
+      "locationId": "koh-rong-sanloem",
+      "text": "A spark flashes as I snap my fingers, a lighter barely failing to ignite. I stare at my outstretched, upturned palm, dancing flames tricking me into thinking I'm about to summon a magic spell. It’s pitch black out, but my body becomes faintly visible as I continue to tread water, countless [bioluminescent plankton](https://en.wikipedia.org/wiki/Phytoplankton) revealing themselves upon contact. I'm just a short kayak trip under the stars from Sunset Beach, an isolated spot 30 minutes across the jungle from Saracen Bay. An overhead conversation between strangers an hour ago has left me here, taking in the otherworldliness of this natural wonder."
+    },
+    "2017-12-19": {
+      "locationId": "koh-rong-sanloem",
+      "text": "Last night's sleep was one of the trip's worst, despite my accommodations possibly being the coolest. My \"room\" at [Sleeping Trees](http://www.sleeping-trees.com/what.html) was a hanging tent suspended just five meters from the crashing waves of Sunset Beach. But a cold brewing all day combined with this trip's second case of food poisoning made for a long and painful night under the stars. I felt barely better in the morning as I boarded a boat to navigate the choppy waters to M’pai Bay on the island's northern coast. But thankfully I made it without losing whatever was left in my stomach."
     }
   }
 }
