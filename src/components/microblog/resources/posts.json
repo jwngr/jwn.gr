@@ -70,7 +70,10 @@
     "koh-rong-sanloem",
     "koh-rong",
     "sihanoukville",
-    "phnom-penh-2"
+    "phnom-penh-2",
+    "ubud",
+    "kuta",
+    "gili-trawangan"
   ],
   "locations": {
     "orlando": {
@@ -450,6 +453,18 @@
     "phnom-penh-2": {
       "name": "Phnom Penh, Cambodia",
       "posts": ["2017-12-26"]
+    },
+    "ubud": {
+      "name": "Ubud, Indonesia",
+      "posts": ["2017-12-27", "2017-12-28", "2017-12-29"]
+    },
+    "kuta": {
+      "name": "Kuta, Indonesia",
+      "posts": ["2017-12-30", "2017-12-31", "2018-01-01"]
+    },
+    "gili-trawangan": {
+      "name": "Gili Trawangan, Indonesia",
+      "posts": ["2018-01-02"]
     }
   },
   "posts": {
@@ -1612,6 +1627,41 @@
       "locationId": "phnom-penh-2",
       "text":
         "I woke up to three heavily armed security guards standing over me, asking to see my passport. I can't really blame them. I'd also be curious why a man looking like a cross between the title characters of [*Where the Wild Things Are*](https://images-na.ssl-images-amazon.com/images/M/MV5BNzQ1NzAwODEwM15BMl5BanBnXkFtZTcwNTE4MjI4Mg@@._V1_SY1000_CR0,0,676,1000_AL_.jpg) and [a puppet from the carnival cat rack game](https://s-media-cache-ak0.pinimg.com/originals/58/e9/6c/58e96c880792dc85846e4066c5bfb1a0.jpg) was fast asleep on the floor. I explained to them how I flew into Singapore from Phnom Penh and was resting during an overnight layover before my morning flight. My story sold well enough and I fell back asleep quickly, knowing I still had a long day ahead."
+    },
+    "2017-12-27": {
+      "locationId": "ubud",
+      "text":
+        "Jonny, a former Firebase co-worker and close friend from San Francisco, has joined along on my travels, our first destination being Ubud, Indonesia on the island of Bali. It seems Jonny's primary motive is making up for my cheap backpacker living these past three months. We're sharing a bamboo bungalow at [Bali Bohemia](https://www.balibohemia.com/), a hotel adjacent to the courageous and unrestrained inhabitants of [Ubud's Monkey Forest](https://en.wikipedia.org/wiki/Ubud_Monkey_Forest). We also partook in some fine dining with an eight-course prix fixe tasting menu at [Mozaic](https://mozaic-bali.com/home/). If Jonny had been my travel partner these entire past eight months, my savings might already be depleted."
+    },
+    "2017-12-28": {
+      "locationId": "ubud",
+      "text":
+        "[Mepantigan](http://www.mepantiganbali.com/about-mepantigan/) is a traditional Balinese martial art and sport taking place in muddy rice paddies. A Christmas gift from my brother and sister-in-law gave Jonny and I a chance to try it ourselves. Our session began with learning their traditional warrior dance, with similar amounts of yelling and chest pounding to New Zealand's [haka](https://en.wikipedia.org/wiki/Haka). Covered in body paint, we headed to the mud pits where I promptly took an awkward fall and wrecked my left ankle. Jonny continued on, learning hand-to-hand combat techniques and hilariously having Bob the duck poop on his head. An awesome experience with an unfortunate injury."
+    },
+    "2017-12-29": {
+      "locationId": "ubud",
+      "text":
+        "Traffic in Bali is an absolute nightmare, especially during the current busy season. I can barely imagine how much worse it would be if travelers weren’t scared off this year by [Mount Agung's ongoing volcanic activity](https://en.wikipedia.org/wiki/2017_eruption_of_Mount_Agung) on the island's east side. We sat in plenty of traffic today as we had a private driver take us around greater Ubud. The tour was highlighted by the stunning [Tegallalang rice terraces](http://www.bali-indonesia.com/ubud/tegallalang-rice-terraces.htm) and scenic lunchtime views of [Mount Batur](https://en.wikipedia.org/wiki/Mount_Batur), the island's other active volcano. Locals like our driver brush off the volcanoes as just a part of normal life, albeit a dangerous one."
+    },
+    "2017-12-30": {
+      "locationId": "kuta",
+      "text":
+        "The suckling pig waiting for us at [Ibu Oka](https://www.zomato.com/bali/babi-guling-ibu-oka-ubud/menu) was well worth the walk on a swollen, bruised ankle. Following lunch, we left behind the [moss-covered stone buildings of Ubud](https://www.google.com.sg/search?rlz=1C5CHFA_enUS735US735&biw=1440&bih=803&tbm=isch&sa=1&ei=Tu5OWvj6F8OHggfSooHADg&q=moss+covered+buildings+ubud&oq=moss+covered+buildings+ubud&gs_l=psy-ab.3...8788.9681.0.9867.10.6.0.0.0.0.403.403.4-1.1.0....0...1c.1.64.psy-ab..10.0.0....0.yp9dd--CFK0) for the beaches and bars of Kuta. Honestly, I had low expectations for it given its notoriously trashy reputation. Trashy with regards to physical waste as well as the stereotypical visitors to the area. My fears were confirmed after seeing the piles of plastic and absurd crowds on the main beach. I realized it was a disservice to [call the Cambodian islands dirty](https://jwn.gr/microblog/2017-12-17), as this beach was truly next level."
+    },
+    "2017-12-31": {
+      "locationId": "kuta",
+      "text":
+        "New Year’s Eve may be my least favorite day of the year. Overhyped, anticlimactic, and a stupid reason to overpay for bottle service and the social status of standing behind a VIP velvet rope. Nevertheless, we aren't in Bali often, so we bought tickets for a party at [Cocoon Beach Club](https://cocoon-beach.com/) in Seminyak. The venue was packed, its pool overflowing with swimsuit-clad partygoers. I did my best to dance in the new year without injuring my ankle further and did pretty well until a girl puked all over my shoes shortly after midnight. Hopefully that event doesn't foreshadow my 2018."
+    },
+    "2018-01-01": {
+      "locationId": "kuta",
+      "text":
+        "I didn’t expect to be at this point by the time 2018 rolled around. I certainly had no expectations I'd still be traveling, assuming my trip would only last three to six months. I also figured I'd know what was next for my life by this point, but my mind has a tendency to postpone that topic. In 2016, [I ran 850 miles](https://running-2016.firebaseapp.com/). In 2017, [I documented my daily experiences traveling the world](https://jwn.gr/microblog). I don’t know what 2018 has in store yet, but I hope it involves creating the things I’ve had only in my head for far too long."
+    },
+    "2018-01-02": {
+      "locationId": "gili-trawangan",
+      "text":
+        "On today's fast boat to Gili Trawangan, the largest of Indonesia's gorgeous [Gili Islands](https://wikitravel.org/en/Gili_Islands), I read about [\"third places,\"](https://en.wikipedia.org/wiki/Third_place) social surroundings beyond the usual home (\"first place\") and work (\"second place\"). In San Francisco, my \"third place\" was my coed soccer league for a time and maybe even Golden Gate Park during my year of running. While I've been traveling, I lost not only my \"third places,\" but also my \"first\" and \"second\" ones, making me somewhat cede my sense of place in general. Wherever I end up next, I plan to more consciously seek out a healthy \"third place.\""
     }
   }
 }
