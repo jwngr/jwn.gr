@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
-
 
 export const addVisibilitySensor = (WrappedComponent) => {
   class WithVisibilitySensor extends Component {

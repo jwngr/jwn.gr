@@ -54,7 +54,7 @@
 }
 
 .project:hover {
-  background: #3085A3;
+  background: #3085a3;
 }
 
 .project:hover img {
@@ -87,14 +87,14 @@
 }
 
 .project .hover-content::before {
-  border-top: 3px solid #C6D7C7;
-  border-bottom: 3px solid #C6D7C7;
+  border-top: 3px solid #c6d7c7;
+  border-bottom: 3px solid #c6d7c7;
   transform: scale(0, 1);
 }
 
 .project .hover-content::after {
-  border-right: 3px solid #C6D7C7;
-  border-left: 3px solid #C6D7C7;
+  border-right: 3px solid #c6d7c7;
+  border-left: 3px solid #c6d7c7;
   transform: scale(1, 0);
 }
 
@@ -106,7 +106,7 @@
 
 .project .project-name,
 .project .project-tagline {
-  color: #C6D7C7;
+  color: #c6d7c7;
   opacity: 0;
   transition: opacity 0.5s, transform 0.5s;
 }
@@ -126,7 +126,7 @@
 .project:hover .project-name,
 .project:hover .project-tagline {
   opacity: 1;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }
 
 @media (max-width: 1200px) {
@@ -152,4 +152,3 @@
     font-size: 16px;
   }
 }
-

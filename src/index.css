@@ -24,7 +24,9 @@ img {
 }
 
 /* Set height of top-level elements to 100% to get allow for sections which cover the whole screen */
-html, body, body > div {
+html,
+body,
+body > div {
   height: 100%;
 }
 

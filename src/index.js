@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import './index.css';
 
@@ -13,19 +13,15 @@ import registerServiceWorker from './registerServiceWorker';
 require('typeface-alegreya');
 require('typeface-alegreya-sans-sc');
 
-
 const RouterContainer = () => (
   <Router>
     <div>
-      <Route exact path='/' component={Home} />
-      <Route path='/microblog' component={Microblog} />
+      <Route exact path="/" component={Home} />
+      <Route path="/microblog" component={Microblog} />
     </div>
   </Router>
 );
 
-ReactDOM.render(
-  <RouterContainer />,
-  document.getElementById('root')
-);
+ReactDOM.render(<RouterContainer />, document.getElementById('root'));
 
 registerServiceWorker();

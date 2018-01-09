@@ -8,9 +8,11 @@ import Post from './Post';
 
 import posts from './resources/posts.json';
 import {
-  getNextDateKey, getPreviousDateKey, getShortFormattedDate, getImageKeyFromDate,
+  getNextDateKey,
+  getPreviousDateKey,
+  getShortFormattedDate,
+  getImageKeyFromDate,
 } from './utils';
-
 
 const PostsCarousel = ({match}) => {
   let {dateKey} = match.params;
@@ -37,44 +39,41 @@ const PostsCarousel = ({match}) => {
   let nextDateKey = getNextDateKey(dateKey);
   if (nextDateKey in posts.posts) {
     nextDateLink = (
-      <Link className='next-post-link' to={`/microblog/${nextDateKey}`}>
-        <img
-          alt={nextDateKey}
-          src={require(`../../images/microblog/posts/${nextDateKey}.jpg`)}
-        />
-        <div className='next-post-date-container'>
+      <Link className="next-post-link" to={`/microblog/${nextDateKey}`}>
+        <img alt={nextDateKey} src={require(`../../images/microblog/posts/${nextDateKey}.jpg`)} />
+        <div className="next-post-date-container">
           <p>{getShortFormattedDate(nextDateKey)}</p>
         </div>
       </Link>
     );
   } else {
-    nextDateLink = <div className='empty-post-link' />;
+    nextDateLink = <div className="empty-post-link" />;
   }
 
   let previousDateLink;
   let previousDateKey = getPreviousDateKey(dateKey);
   if (previousDateKey in posts.posts) {
     previousDateLink = (
-      <Link className='previous-post-link' to={`/microblog/${previousDateKey}`}>
+      <Link className="previous-post-link" to={`/microblog/${previousDateKey}`}>
         <img
           alt={previousDateKey}
           src={require(`../../images/microblog/posts/${previousDateKey}.jpg`)}
         />
-        <div className='previous-post-date-container'>
+        <div className="previous-post-date-container">
           <p>{getShortFormattedDate(previousDateKey)}</p>
         </div>
       </Link>
     );
   } else {
-    previousDateLink = <div className='empty-post-link' />;
+    previousDateLink = <div className="empty-post-link" />;
   }
 
   return (
-    <div className='post-carousel'>
+    <div className="post-carousel">
       <MediaQuery maxWidth={750}>
         <Post dateKey={dateKey} includeLocationLink={true} />
 
-        <div className='next-and-previous-post-links'>
+        <div className="next-and-previous-post-links">
           {previousDateLink}
           {nextDateLink}
         </div>
@@ -87,8 +86,6 @@ const PostsCarousel = ({match}) => {
 
         {nextDateLink}
       </MediaQuery>
-
-
     </div>
   );
 };

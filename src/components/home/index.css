@@ -2,13 +2,13 @@
 /*  SECTIONS  */
 /**************/
 body {
-  background-color: #C6D7C7;
+  background-color: #c6d7c7;
 }
 
 .section-header {
   font-family: 'Alegreya Sans SC';
   font-size: 44px;
-  color: #FF5035;
+  color: #ff5035;
   text-align: center;
   margin: 30px 0;
   font-weight: bold;
@@ -21,7 +21,6 @@ body {
 .home {
   height: 100%;
 }
-
 
 /******************/
 /*  MAIN SECTION  */
@@ -39,7 +38,8 @@ body {
   width: 50%;
 }
 
-#experience-section, #newsletter-section {
+#experience-section,
+#newsletter-section {
   height: 100%;
   min-height: 500px;
   display: flex;
@@ -53,7 +53,7 @@ body {
 }
 
 .tagline {
-  color: #3085A3;
+  color: #3085a3;
   font-size: 44px;
   text-align: center;
   margin-bottom: 20px;
@@ -80,7 +80,7 @@ body {
   display: inline-block;
   font-size: 20px;
   color: #777;
-  border-bottom: solid 3px #C6D7C7;
+  border-bottom: solid 3px #c6d7c7;
   transition: border 0.5s;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .nav a:hover {
-  border-bottom: solid 3px #FF5035;
+  border-bottom: solid 3px #ff5035;
 }
 
 .nav-separator {
@@ -111,7 +111,9 @@ body {
   }
 }
 
-.tagline, .hash, .nav {
+.tagline,
+.hash,
+.nav {
   animation: fadeInAndSlideUp 1.5s both;
 }
 

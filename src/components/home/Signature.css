@@ -4,7 +4,7 @@
 
 .signature path {
   stroke-width: 3;
-  fill: #C6D7C7;
+  fill: #c6d7c7;
   stroke: #000;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -87,12 +87,12 @@
 /****************/
 @keyframes draw {
   75% {
-    fill: #C6D7C7;
+    fill: #c6d7c7;
     stroke-dashoffset: 0;
   }
 
   100% {
-    fill: #FF5035;
+    fill: #ff5035;
     stroke-dashoffset: 0;
   }
 }

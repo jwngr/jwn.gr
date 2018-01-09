@@ -1,4 +1,3 @@
-const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 const tinify = require('tinify');
@@ -19,12 +18,7 @@ const sourceImageFilename = process.argv[2];
 const sourceImagePath = `${sourceImagesDir}/${sourceImageFilename}`;
 
 // Create full-sized image
-resizeAndCompress(
-  sourceImagePath,
-  `${targetImagesDir}/${sourceImageFilename}`,
-  512,
-  512
-);
+resizeAndCompress(sourceImagePath, `${targetImagesDir}/${sourceImageFilename}`, 512, 512);
 
 // Create thumbnail
 resizeAndCompress(
@@ -33,7 +27,6 @@ resizeAndCompress(
   200,
   200
 );
-
 
 /**
  * Resizes and compresses a source image, saving it at the target file path.

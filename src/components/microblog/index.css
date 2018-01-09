@@ -1,5 +1,5 @@
 body {
-  background-color: #C6D7C7;
+  background-color: #c6d7c7;
 }
 
 .subscribe-button {
@@ -10,9 +10,9 @@ body {
   padding: 10px;
   border-radius: 10px;
   z-index: 100;
-  color: #EEE;
+  color: #eee;
   border: none;
-  background-color: #FF5035;
+  background-color: #ff5035;
   text-decoration: none;
   font-family: 'Alegreya Sans SC';
   font-size: 24px;
@@ -25,13 +25,13 @@ body {
 }
 
 .header {
-  background-color: #3085A3;
+  background-color: #3085a3;
   text-align: center;
   padding: 25px;
 }
 
 .header a {
-  color: #C6D7C7;
+  color: #c6d7c7;
   font-size: 60px;
   font-family: 'Alegreya Sans SC';
   font-weight: bold;

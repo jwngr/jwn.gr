@@ -7,7 +7,6 @@ import PostsCarousel from './PostsCarousel';
 import LocationPosts from './LocationPosts';
 import LocationArchive from './LocationArchive';
 
-
 class Microblog extends Component {
   componentWillReceiveProps(nextProps) {
     // Scroll to the top of the page on route transitions
@@ -19,9 +18,14 @@ class Microblog extends Component {
 
     return (
       <div>
-        <a className='subscribe-button' href='https://jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a'>Subscribe</a>
+        <a
+          className="subscribe-button"
+          href="https://jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a"
+        >
+          Subscribe
+        </a>
 
-        <div className='header'>
+        <div className="header">
           <Link to={match.url}>Worldwide Trip Microblog</Link>
         </div>
 

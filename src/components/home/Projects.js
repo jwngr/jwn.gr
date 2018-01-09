@@ -1,72 +1,72 @@
-import React, { Component } from "react";
-import classNames from "classnames";
+import React, {Component} from 'react';
+import classNames from 'classnames';
 
-import "./Projects.css";
+import './Projects.css';
 
-import { addVisibilitySensor } from "./utils";
+import {addVisibilitySensor} from './utils';
 
-import seerImage from "../../images/home/projects/seer.jpg";
-import openSourceImage from "../../images/home/projects/gitHubProfile.jpg";
-import running2016Image from "../../images/home/projects/running2016.jpg";
-import rusticCitrusImage from "../../images/home/projects/rusticCitrus.jpg";
-import presentationsImage from "../../images/home/projects/presentations.jpg";
-import ticTacTicTacToeImage from "../../images/home/projects/ticTacTicTacToe.jpg";
-import worldwideTripMicroblogImage from "../../images/home/projects/worldwideTripMicroblog.jpg";
+import seerImage from '../../images/home/projects/seer.jpg';
+import openSourceImage from '../../images/home/projects/gitHubProfile.jpg';
+import running2016Image from '../../images/home/projects/running2016.jpg';
+import rusticCitrusImage from '../../images/home/projects/rusticCitrus.jpg';
+import presentationsImage from '../../images/home/projects/presentations.jpg';
+import ticTacTicTacToeImage from '../../images/home/projects/ticTacTicTacToe.jpg';
+import worldwideTripMicroblogImage from '../../images/home/projects/worldwideTripMicroblog.jpg';
 
 const projects = {
   rusticCitrus: {
-    name: "Rustic Citrus",
-    description: "Make sense out of alphabet stew.",
-    href: "https://rusticcitrus.com/",
+    name: 'Rustic Citrus',
+    description: 'Make sense out of alphabet stew.',
+    href: 'https://rusticcitrus.com/',
     image: rusticCitrusImage,
-    alt: "Rustic Citrus screenshot"
+    alt: 'Rustic Citrus screenshot',
   },
   ticTacTicTacToe: {
-    name: "Tic-tac-tic-tac-toe",
-    description: "Tic-tac-toe with a multiplayer twist.",
-    href: "https://tic-tac-tic-tac-toe.firebaseapp.com/",
+    name: 'Tic-tac-tic-tac-toe',
+    description: 'Tic-tac-toe with a multiplayer twist.',
+    href: 'https://tic-tac-tic-tac-toe.firebaseapp.com/',
     image: ticTacTicTacToeImage,
-    alt: "Tic-tac-tic-tac-toe screenshot"
+    alt: 'Tic-tac-tic-tac-toe screenshot',
   },
   worldwideTripMicroblog: {
-    name: "Worldwide Trip Microblog",
-    description: "Documenting my trip around the world.",
-    href: "https://jwn.gr/microblog/",
+    name: 'Worldwide Trip Microblog',
+    description: 'Documenting my trip around the world.',
+    href: 'https://jwn.gr/microblog/',
     image: worldwideTripMicroblogImage,
-    alt: "Worldwide Trip Microblog screenshot"
+    alt: 'Worldwide Trip Microblog screenshot',
   },
   running2016: {
-    name: "Running 2016",
-    description: "Catalogging 850 miles of running.",
-    href: "https://running-2016.firebaseapp.com/",
+    name: 'Running 2016',
+    description: 'Catalogging 850 miles of running.',
+    href: 'https://running-2016.firebaseapp.com/',
     image: running2016Image,
-    alt: "Running 2016 screenshot"
+    alt: 'Running 2016 screenshot',
   },
   seer: {
-    name: "Seer",
+    name: 'Seer',
     description: `Freshen up your GitHub org's repos.`,
-    href: "https://seer.firebaseapp.com/",
+    href: 'https://seer.firebaseapp.com/',
     image: seerImage,
-    alt: "Seer screenshot"
+    alt: 'Seer screenshot',
   },
   openSource: {
-    name: "Open Source",
-    description: "Making and maintaining software.",
-    href: "https://github.com/jwngr",
+    name: 'Open Source',
+    description: 'Making and maintaining software.',
+    href: 'https://github.com/jwngr',
     image: openSourceImage,
-    alt: "GitHub profile screenshot"
+    alt: 'GitHub profile screenshot',
   },
   presentations: {
-    name: "Presentations",
-    description: "Speaking on development and life.",
-    href: "https://github.com/jwngr/presentations",
+    name: 'Presentations',
+    description: 'Speaking on development and life.',
+    href: 'https://github.com/jwngr/presentations',
     image: presentationsImage,
-    alt: "Google I/O 2016 presentation"
-  }
+    alt: 'Google I/O 2016 presentation',
+  },
 };
 
-const Project = ({ projectId }) => {
-  const { name, description, href, image, alt } = projects[projectId];
+const Project = ({projectId}) => {
+  const {name, description, href, image, alt} = projects[projectId];
 
   return (
     <div className="project">
@@ -85,7 +85,7 @@ class Projects extends Component {
   render() {
     const projectsClassNames = classNames({
       projects: true,
-      visible: this.props.isVisible
+      visible: this.props.isVisible,
     });
 
     return (
