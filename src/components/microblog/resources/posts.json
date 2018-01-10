@@ -73,7 +73,9 @@
     "phnom-penh-2",
     "ubud",
     "kuta",
-    "gili-trawangan"
+    "gili-trawangan",
+    "nusa-dua",
+    "chiang-mai"
   ],
   "locations": {
     "orlando": {
@@ -414,7 +416,15 @@
     },
     "gili-trawangan": {
       "name": "Gili Trawangan, Indonesia",
-      "posts": ["2018-01-02"]
+      "posts": ["2018-01-02", "2018-01-03", "2018-01-04", "2018-01-05"]
+    },
+    "nusa-dua": {
+      "name": "Nusa Dua, Indonesia",
+      "posts": ["2018-01-06", "2018-01-07"]
+    },
+    "chiang-mai": {
+      "name": "Chiang Mai, Thailand",
+      "posts": ["2018-01-08", "2018-01-09"]
     }
   },
   "posts": {
@@ -1612,6 +1622,41 @@
       "locationId": "gili-trawangan",
       "text":
         "On today's fast boat to Gili Trawangan, the largest of Indonesia's gorgeous [Gili Islands](https://wikitravel.org/en/Gili_Islands), I read about [\"third places,\"](https://en.wikipedia.org/wiki/Third_place) social surroundings beyond the usual home (\"first place\") and work (\"second place\"). In San Francisco, my \"third place\" was my coed soccer league for a time and maybe even Golden Gate Park during my year of running. While I've been traveling, I lost not only my \"third places,\" but also my \"first\" and \"second\" ones, making me somewhat cede my sense of place in general. Wherever I end up next, I plan to more consciously seek out a healthy \"third place.\""
+    },
+    "2018-01-03": {
+      "locationId": "gili-trawangan",
+      "text":
+        "With Jonny dealing with a case of \"Bali Belly\" and me coming down with a cold on top of my already sore ankle, we spent much of the day poolside at our resort, the [Pearl of Trawangan](https://www.pearloftrawangan.com/). After hours of swimming, reading, and some competitive games of [Würfel Bohnanza](https://boardgamegeek.com/boardgame/111148/wurfel-bohnanza), we walked the dirt road spanning the eastern side of Gili T in search of dinner. We ended up at a pop-up beachside movie theater for a showing of the surprisingly humorous [“The Nice Guys”](http://www.imdb.com/title/tt3799694/) before closing out the night with some live reggae music. A relaxing day in paradise."
+    },
+    "2018-01-04": {
+      "locationId": "gili-trawangan",
+      "text":
+        "There's awe and trepidation aplenty when diving alongside turtles the size of satellite dishes and [moray eels reminiscent of Mario's adventures](https://www.mariowiki.com/Maw-Ray). I've had many remarkable experiences like this over the past eight months, but what I really desire is that sudden revelation, that moment of pure clarity about my future. I naively assumed it would happen at some point on this journey, but my life isn't a movie and I won't always be lucky enough for nature to reveal its mysteries to me. In the meantime, I'll keep pushing forward into the abyss, taking in its beauty along the way."
+    },
+    "2018-01-05": {
+      "locationId": "gili-trawangan",
+      "text":
+        "Traveling with someone puts your friendship in a unique situation. I'm not used to spending 24/7 with the same person, not even roommates. But when traveling, I typically eat every meal with my travel companion and each activity is a shared one. As much as I enjoy spending time with Jonny (and the others I've traveled with, for that matter), sometimes I need to step away for some alone time. Despite Jonny making an art out of pushing my buttons for his enjoyment at points today, our final meal on Gili T reminded me how much I appreciate his friendship."
+    },
+    "2018-01-06": {
+      "locationId": "nusa-dua",
+      "text":
+        "Podcasts have replaced my consumption of TV shows and movies while traveling. I just finished season two of [\"Heavyweight,\"](https://gimletmedia.com/heavyweight/) a curiosity amongst podcasts in which Jonathan Goldstein uses dry humor to narrate the seemingly trivial redemption of everyday people. He bluntly addresses our tendency to spend our lives holding guilt or regretting things which can be resolved with a single, uncomfortable conversation. Humans are prideful, afraid to openly express our true feelings for a myriad of reasons. If there's one lesson to take from the show, it's that you'll regret things you don't say much more than things you do."
+    },
+    "2018-01-07": {
+      "locationId": "nusa-dua",
+      "text":
+        "Nusa Dua, my last stop with Jonny as well as my last one in Indonesia, is an area on the southern tip of Bali known for its many ritzy beachside resorts. Ours is [Inaya Putri Bali](http://inayaputribali.com/), a gorgeous complex with several restaurants, easy beach access, an impressive multi-level infinity pool, and extravagant golf cart delivery of your luggage and your person a whole 50 meters from the reception area to your room. It stands in stark contrast to our recent adventures in Kuta, and it's a perfect place for us to end our travels together on a relaxing note."
+    },
+    "2018-01-08": {
+      "locationId": "chiang-mai",
+      "text":
+        "Jonny and I said our goodbyes as I headed to the airport for a flight to Chiang Mai, Thailand, returning to the country to hit the northern part I missed on my last visit. I’ve been looking forward to seeing Chiang Mai, a major hub for \"digital nomads\" like myself given its cheap cost of living and preponderance of coffee shops and co-working spaces with strong Wi-Fi. After weeks of splurging on the beaches of Cambodia and Indonesia which in many ways felt like a mini-vacation within this larger trip, it’s back to hostel living and street food for me."
+    },
+    "2018-01-09": {
+      "locationId": "chiang-mai",
+      "text":
+        "I had one of the best breakfasts of the trip this morning at [Rustic & Blue](http://rusticandblue.com/), where I met up with Tracy, a friend of a Firebaser who currently lives and works in Chiang Mai. She took me to the co-working space she works out of in the old city, where I did my best not to get distracted by the ongoing college football championship game. I took off in the early afternoon to explore the old city, a 1.5 km by 1.5 km square area surrounded by a moat and unsurprisingly jam-packed with markets, temples, and delicious food."
     }
   }
 }
