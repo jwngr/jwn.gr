@@ -1,4 +1,6 @@
 .post {
+  display: flex;
+  flex-direction: row;
   width: 80%;
   max-width: 800px;
   background-color: #c6d7c7;
@@ -9,10 +11,6 @@
   box-shadow: 0 0 10px 0;
   text-align: justify;
   margin: 20px 0;
-}
-
-.post > div {
-  display: flex;
 }
 
 .date-location-text-container {
@@ -85,6 +83,7 @@
 
 @media (max-width: 1000px) {
   .post {
+    flex-direction: row;
     width: 80%;
     padding: 12px;
   }
@@ -94,10 +93,6 @@
     height: 250px;
     margin-right: 20px;
     border-radius: 12px;
-  }
-
-  .post > div {
-    flex-direction: row;
   }
 
   .post-location,
@@ -136,6 +131,8 @@
 
 @media (max-width: 750px) {
   .post {
+    flex-direction: column;
+    align-items: center;
     width: 90%;
     max-width: 500px;
     border-width: 0;
@@ -144,11 +141,6 @@
 
   .location-posts .post.post img {
     margin-bottom: 10px;
-  }
-
-  .post > div {
-    flex-direction: column;
-    align-items: center;
   }
 
   .post img {

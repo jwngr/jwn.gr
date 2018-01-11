@@ -1,4 +1,4 @@
-.post-carousel > div {
+.post-carousel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,8 +28,8 @@
 
 .next-post-link img,
 .previous-post-link img {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 0 #777;
   opacity: 0.5;
@@ -120,7 +120,7 @@
 }
 
 @media (max-width: 750px) {
-  .post-carousel > div {
+  .post-carousel {
     flex-direction: column;
   }
 
@@ -158,7 +158,7 @@
     width: 100%;
   }
 
-  .post-carousel > div {
+  .post-carousel {
     margin: 10px 0;
   }
 }
