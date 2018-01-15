@@ -8,7 +8,7 @@
     "react-markdown": "^3.1.4",
     "react-responsive": "^4.0.3",
     "react-router-dom": "^4.0.0",
-    "react-scripts": "1.0.17",
+    "react-scripts": "1.1.0",
     "react-scroll": "^1.7.5",
     "react-visibility-sensor": "^3.11.0",
     "typeface-alegreya": "0.0.45",
@@ -23,7 +23,10 @@
     "tinify": "^1.5.0"
   },
   "lint-staged": {
-    "{src,scripts}/**/*.{js,json,css}": ["prettier --write", "git add"]
+    "{src,scripts}/**/*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
