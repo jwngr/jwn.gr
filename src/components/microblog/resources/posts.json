@@ -75,7 +75,9 @@
     "kuta",
     "gili-trawangan",
     "nusa-dua",
-    "chiang-mai"
+    "chiang-mai",
+    "pai",
+    "chiang-rai"
   ],
   "locations": {
     "orlando": {
@@ -424,7 +426,15 @@
     },
     "chiang-mai": {
       "name": "Chiang Mai, Thailand",
-      "posts": ["2018-01-08", "2018-01-09"]
+      "posts": ["2018-01-08", "2018-01-09", "2018-01-10", "2018-01-11"]
+    },
+    "pai": {
+      "name": "Pai, Thailand",
+      "posts": ["2018-01-12", "2018-01-13", "2018-01-14", "2018-01-15"]
+    },
+    "chiang-rai": {
+      "name": "Chiang Rai, Thailand",
+      "posts": ["2018-01-16"]
     }
   },
   "posts": {
@@ -1657,6 +1667,41 @@
       "locationId": "chiang-mai",
       "text":
         "I had one of the best breakfasts of the trip this morning at [Rustic & Blue](http://rusticandblue.com/), where I met up with Tracy, a friend of a Firebaser who currently lives and works in Chiang Mai. She took me to the co-working space she works out of in the old city, where I did my best not to get distracted by the ongoing college football championship game. I took off in the early afternoon to explore the old city, a 1.5 km by 1.5 km square area surrounded by a moat and unsurprisingly jam-packed with markets, temples, and delicious food."
+    },
+    "2018-01-10": {
+      "locationId": "chiang-mai",
+      "text":
+        "I finally managed to see *Star Wars: Episode VIII &mdash; The Last Jedi* this afternoon, an entertaining and unexpectedly thought-provoking follow-up to what I consider a disappointingly mediocre *Episode VII*. But the most surprising part of the experience actually occurred before the film's iconic text scrolling over a starscape even began. Following the previews, the screen prompted the audience to stand for a two-minute-long musical homage to [the late Thai King Bhumibol](https://en.wikipedia.org/wiki/Bhumibol_Adulyadej). I couldn't help but shake my head at the thought of being forced to stand up in a theater back home, a giant red MAGA hat projected on the screen."
+    },
+    "2018-01-11": {
+      "locationId": "chiang-mai",
+      "text":
+        "Visiting elephants treated humanely is surprisingly difficult. There are obvious places to avoid, including those offering basket rides, a dangerous activity for which an elephant is not well suited. Beyond that, each agency claims moral high ground over the others. They name themselves with buzzwords like \"sanctuary\" to project humane practices, all the while mistreating elephants once the day's visitors depart. The gentle majesty of the elephants which naturally makes me smile stands in stark contrast to the brutal, profitable business surrounding them. Despite my best attempts at responsible tourism, I’m left unsure of my role in the whole thing."
+    },
+    "2018-01-12": {
+      "locationId": "pai",
+      "text":
+        "Today started as many good days do &mdash; with a delicious meal. [Khao soi](https://en.wikipedia.org/wiki/Khao_soi) is a spicy, Burmese-influenced soup-like dish containing both deep-fried and boiled egg noodles that is a specialty of northern Thailand. A meager 40 baht ($1.25) was enough for a filling bowl of the stuff at the popular [Mae Sai](https://www.tripadvisor.co.uk/Restaurant_Review-g293917-d7779592-Reviews-Khao_Soi_Mae_Sai-Chiang_Mai.html) restaurant. Following the meal &mdash; and a fruit smoothie stop &mdash; Tracy, her college friend Steven, and I jumped in a van headed for Pai. I immediately knew I liked the small, peaceful town nestled along a river in a valley amongst the mountains of northern Thailand."
+    },
+    "2018-01-13": {
+      "locationId": "pai",
+      "text":
+        "I can’t help but think that Pai feels artificial, although not in an entirely negative way. It's overflowing with westerners who come for the laid-back atmosphere, beautiful riverside lodgings, and daily night market which consumes the town's main streets and features an impressive variety of Thai and western staples. But it feels like it's losing its charm, a place transitioning into a tourist trap. As with other places I've visited along this trip, tourism has transformed it, providing much needed jobs and money for locals while simultaneously papering over some things which made it worth visiting in the first place."
+    },
+    "2018-01-14": {
+      "locationId": "pai",
+      "text":
+        "I had high standards for [Tham Lod Cave](https://en.wikipedia.org/wiki/Tham_Lot_cave) after some [remarkable caving experiences in Phong Nha, Vietnam](https://jwn.gr/microblog/locations/phong-nha) Thankfully, today's visit was worth the trip. Our non-English speaking guide used grunts and her forefinger to point out rock formations resembling an alligator, a UFO, and randomly even a breast as we explored the enormous cave. But the tour highlight was climbing aboard a rickety bamboo raft to wade through the cave's shallow waters teeming with thousands of massive half-meter-long fish as bats screeched loudly in the darkness above. I'm always amazed at the diversity of life in such seemingly inhospitable environments."
+    },
+    "2018-01-15": {
+      "locationId": "pai",
+      "text":
+        "As I gazed upon the mountains from [an egg-shaped swinging chair](https://www.facebook.com/pg/iloveupaicafe/posts/), a thought struck: maybe [my post about avoiding comfort](https://jwn.gr/microblog/2017-11-17) is actually about subconsciously recognizing diminishing returns. Comfort could just be a symptom. I've recently grown weary of travel, possibly because it's become easier and I see my personal growth plateauing as a result. Maybe I leave things once I get out of them most of what I think I can get. This line of thought may be as naive as my last and may even indicate a personality flaw. Or just maybe I'm inching closer to some underlying truth."
+    },
+    "2018-01-16": {
+      "locationId": "chiang-rai",
+      "text":
+        "Although I could easily continue eating my way through Pai's night market, it was time to move on. An early rise and a seven-hour van ride brought me to Chiang Rai, famous for the pristinely haunting [Wat Rong Khun (\"White Temple\")](https://en.wikipedia.org/wiki/Wat_Rong_Khun). The city itself lacks Pai's charm and Chiang Rai's scale, often used as the last stopover before Laos. A girl on my van was actually en route to Laos for the Gibbon Experience. I dispensed travel knowledge from [my time there](https://jwn.gr/microblog/locations/huay-xai), surprising even myself at how much I knew about a country I could barely locate months ago."
     }
   }
 }
