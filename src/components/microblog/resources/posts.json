@@ -77,7 +77,8 @@
     "nusa-dua",
     "chiang-mai",
     "pai",
-    "chiang-rai"
+    "chiang-rai",
+    "chiang-mai-2"
   ],
   "locations": {
     "orlando": {
@@ -434,7 +435,11 @@
     },
     "chiang-rai": {
       "name": "Chiang Rai, Thailand",
-      "posts": ["2018-01-16"]
+      "posts": ["2018-01-16", "2018-01-17", "2018-01-18"]
+    },
+    "chiang-mai-2": {
+      "name": "Chiang Mai, Thailand",
+      "posts": ["2018-01-19", "2018-01-20", "2018-01-21", "2018-01-22", "2018-01-23"]
     }
   },
   "posts": {
@@ -1702,6 +1707,41 @@
       "locationId": "chiang-rai",
       "text":
         "Although I could easily continue eating my way through Pai's night market, it was time to move on. An early rise and a seven-hour van ride brought me to Chiang Rai, famous for the pristinely haunting [Wat Rong Khun (\"White Temple\")](https://en.wikipedia.org/wiki/Wat_Rong_Khun). The city itself lacks Pai's charm and Chiang Rai's scale, often used as the last stopover before Laos. A girl on my van was actually en route to Laos for the Gibbon Experience. I dispensed travel knowledge from [my time there](https://jwn.gr/microblog/locations/huay-xai), surprising even myself at how much I knew about a country I could barely locate months ago."
+    },
+    "2018-01-17": {
+      "locationId": "chiang-rai",
+      "text":
+        "As I assemble the past week's ramblings into a coherent newsletter each Wednesday, apprehension builds out of a desire for it to consistently display depth and creativity. I often agonize over whether this week’s edition is too bland or uninspired. So I throw in [a stream of consciousness](https://jwn.gr/microblog/2017-06-23) here and [a rap](https://jwn.gr/microblog/2017-11-29) there in the midst of standard posts recapping my days. But sometimes inspiration or motivation are lacking. I need to remind myself that not every post will be my best and, by definition, half of them will be below average. Then I write, hit publish, and carry on."
+    },
+    "2018-01-18": {
+      "locationId": "chiang-rai",
+      "text":
+        "I spent most of the day going through [YearCompass’ Yeah Ahead Worksheet](http://yearcompass.com/). It was an opportunity to look back on an eventful and tumultuous 2017 and look forward to a fulfilling and productive 2018. Given my tendency to be constantly in motion, I sometimes feel precariously on edge, like a spinning top that may topple over at any moment. I rarely take time, let alone an entire day, to stop, turn my attention inward, and reflect on the status of my life. Today didn’t exactly change anything, but it was enlightening to see what in my life I truly care about."
+    },
+    "2018-01-19": {
+      "locationId": "chiang-mai-2",
+      "text":
+        "My Fitbit got run over by a car today, which isn't a thing that typically happens to watches. I’m a happy Fitbit customer, although the rubber straps consistently bubble and need free replacement. The latest [Charge 2](https://www.fitbit.com/charge2) has straps which still bubble, but are detachable, surely reducing replacement costs. But now the connectors break. Nothing that can't be fixed with tape, right? Wrong. Tape failing at an inoportune time led to today's car incident. The watch is still salvaeable, but there's a moral here: solve the root problem or be forced to deal with new problems caused by your workaround."
+    },
+    "2018-01-20": {
+      "locationId": "chiang-mai-2",
+      "text":
+        "I’m back in Chiang Mai after a few quiet, productive days spent hopping around temples and coffee shops in Chiang Rai. I spent most of my time there on my computer, riding that zen programming flow which has been all too rare this past year. It’s amazing how much I can get done when my mind is clear and I just need to churn out code. If this microblog were film, the past few entries would be a single shot zooming in on me hunched over my computer, the sun and moon rising and setting in rapid succession behind me."
+    },
+    "2018-01-21": {
+      "locationId": "chiang-mai-2",
+      "text":
+        "I recently started following [Naval Ravikant](https://twitter.com/naval), the founder of AngelList, on Twitter. He's a sharp follow, uniquely blending together interests in startups, crypto, and philosophy. [He got on Periscope today](https://www.pscp.tv/w/1eaKbqrWloRxX) and, although I'm not a huge fan of the format, the hour he spent answering live questions was exceptionally insightful. One of the many bits of wisdom he imparted involved the vast disparity between how long people stay in jobs and how little time they spend applying for or considering them. As someone doing a lot of career soul-searching, it settled some concerns about my indecision as of late."
+    },
+    "2018-01-22": {
+      "locationId": "chiang-mai-2",
+      "text":
+        "Being twelve to fifteen hours ahead of friends and family back home has made staying in touch difficult. It can be frustrating when a simple back and forth takes place across an entire day given opposite sleep schedules. That's why it's been comforting to be somewhere without many plans but with a connection like Tracy who shares many of my interests. Between a memorable [kathoey](https://en.wikipedia.org/wiki/Kathoey) cabaret show last night and our conversations about love, life, and everything in between tonight over some traditional Thai [hot pot](https://en.wikipedia.org/wiki/Hot_pot), we've become quick friends and she's helped make the road feel less lonely."
+    },
+    "2018-01-23": {
+      "locationId": "chiang-mai-2",
+      "text":
+        "After slightly over four months in Southeast Asia, my time here has drawn to a close. I look forward to one day revisiting the wonderful and vibrant East as it still has plenty more to offer. But for now, my worldwide trip enters the home stretch, a thirty-hour journey taking me back to Europe for one final stop before returning to the USA. Any anxieties about my future are overpowered by my desire to finish this trip strong, to squeeze every last drop out of this experience and carry that momentum into whatever I do and wherever I go next."
     }
   }
 }
