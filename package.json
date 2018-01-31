@@ -9,14 +9,14 @@
     "react-responsive": "^4.0.3",
     "react-router-dom": "^4.0.0",
     "react-scripts": "1.1.0",
-    "react-scroll": "^1.7.5",
+    "react-scroll": "^1.7.6",
     "react-visibility-sensor": "^3.11.0",
-    "typeface-alegreya": "0.0.45",
-    "typeface-alegreya-sans-sc": "0.0.45"
+    "typeface-alegreya": "0.0.54",
+    "typeface-alegreya-sans-sc": "0.0.54"
   },
   "devDependencies": {
     "husky": "^0.14.3",
-    "lint-staged": "^6.0.0",
+    "lint-staged": "^6.1.0",
     "prettier": "^1.10.2",
     "sharp": "^0.18.4",
     "source-map-explorer": "^1.5.0",
