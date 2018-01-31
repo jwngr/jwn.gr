@@ -78,7 +78,8 @@
     "chiang-mai",
     "pai",
     "chiang-rai",
-    "chiang-mai-2"
+    "chiang-mai-2",
+    "porto-3"
   ],
   "locations": {
     "orlando": {
@@ -440,6 +441,18 @@
     "chiang-mai-2": {
       "name": "Chiang Mai, Thailand",
       "posts": ["2018-01-19", "2018-01-20", "2018-01-21", "2018-01-22", "2018-01-23"]
+    },
+    "porto-3": {
+      "name": "Porto, Portugal",
+      "posts": [
+        "2018-01-24",
+        "2018-01-25",
+        "2018-01-26",
+        "2018-01-27",
+        "2018-01-28",
+        "2018-01-29",
+        "2018-01-30"
+      ]
     }
   },
   "posts": {
@@ -1742,6 +1755,41 @@
       "locationId": "chiang-mai-2",
       "text":
         "After slightly over four months in Southeast Asia, my time here has drawn to a close. I look forward to one day revisiting the wonderful and vibrant East as it still has plenty more to offer. But for now, my worldwide trip enters the home stretch, a thirty-hour journey taking me back to Europe for one final stop before returning to the USA. Any anxieties about my future are overpowered by my desire to finish this trip strong, to squeeze every last drop out of this experience and carry that momentum into whatever I do and wherever I go next."
+    },
+    "2018-01-24": {
+      "locationId": "porto-3",
+      "text":
+        "I find myself back in the charming city of Porto, one of my favorite places along this entire journey. Its scenic riverside setting and delicious wines surely deserve some credit, but, as longtime readers of the microblog know, [the location itself doesn’t tell the whole story](https://jwn.gr/microblog/2017-06-25). I had a wonderful [chance encounter with an Italian named Germana](https://jwn.gr/microblog/2017-05-28) here on my first visit, leading me to [return for a long weekend](https://jwn.gr/microblog/locations/porto-2) to see her again. My third stay in Portugal is the last international stop of my trip, and it feels like a fitting way to close this thing out."
+    },
+    "2018-01-25": {
+      "locationId": "porto-3",
+      "text":
+        "Today will most likely be my lifetime high-water mark for the amount of hair on my head and face. With the worldwide trip soon coming to an end and my desire to look like my regular self once again, I spent a transformative hour at [Barbearia Porto](https://www.facebook.com/barbeariaporto1946/) losing what felt like two pounds of weight and five years of age. I now do a double take when looking at the unfamiliar face in the mirror, retraining my mind which acclimated to my shaggy *Into The Wild* look. It feels good to be back, and to no longer need a comb."
+    },
+    "2018-01-26": {
+      "locationId": "porto-3",
+      "text":
+        "There really are few date formats better than a surprise date. The anticipation of the unknown, the sheer cluelessness over what to even wear, the fear on the other person's face when I hint that I may be taking them skydiving. I'm a real sucker for surprise dates, whether I'm the one planning them or just tagging along. Germana and I split duties today, her organizing a relaxing afternoon couples massage for us at a spa and me following that up with a meat-filled dinner at [Terminal 4450](http://terminal4450.pt/). Today was further evidence that surprise dates are the best dates."
+    },
+    "2018-01-27": {
+      "locationId": "porto-3",
+      "text":
+        "Germana and I hopped on the train this morning for a day trip to [Braga](https://en.wikipedia.org/wiki/Braga), a quaint city an hour north of Porto. The highlight was most certainly the sanctuary of [*Bom Jesus do Monte*](https://en.wikipedia.org/wiki/Bom_Jesus_do_Monte) (\"Good Jesus of the Mount\"). Moss-covered chapels depicting life-sized Stations of the Cross lined its lower staircase. Its main upper staircase featured sculptures and fountains dedicated to the five senses, zigzagging up to a Baroque church containing a detailed altar scene of Jesus' crucifixion. History and meaning permeated the grounds, making the sanctuary feel like a plot point straight out of a Dan Brown novel."
+    },
+    "2018-01-28": {
+      "locationId": "porto-3",
+      "text":
+        "It's common for me to assume technological solutions exist for every problem. As soon as issues arise in my life, I start brainstorming ways to solve them using the vast arsenal of apps, websites, and programming languages at my disposal. But some things are immune to such weapons. Want to solve homelessness in San Francisco? Or reduce political polarization? Or figure out how to make things work with the pretty girl who lives on the opposite side of the world? Unfortunately, technology probably won't help me out there. My personal classifier hasn't been trained on how to solve such things."
+    },
+    "2018-01-29": {
+      "locationId": "porto-3",
+      "text":
+        "I don’t have much experience leading a typical daily life in a foreign country outside of a short summer abroad in Spain during college. I'm testing it out while in Porto, but it's taking time to get comfortable. Even simple things like grocery shopping are painful. Staples from back home bear unknown brands or are nonexistent. Translating Portuguese words into English and metric units into imperial doubles shopping time. The tomato paste I used as a chili base was too sweet, tasting almost like ketchup. Differences in culture and lifestyle seem more plentiful than when I was quickly traveling along."
+    },
+    "2018-01-30": {
+      "locationId": "porto-3",
+      "text":
+        "While Germana has been going off to work during the days, I've headed into Porto's old town in search of cafes out of which to do my own work. After she finished up this afternoon, we meandered to [Ponte d’Arrábida](https://en.wikipedia.org/wiki/Arr%C3%A1bida_Bridge), a bridge across the Duoro River which was the largest concrete arch in the world upon its completion in 1963. It's home to [Porto Bridge Climb](https://www.portobridgeclimb.com/home-en), a 262-step ascent which took us 65 meters above the water. We chose the perfect time to go, catching the sun as it set into the Atlantic Ocean, painting the sky pink and orange."
     }
   }
 }
