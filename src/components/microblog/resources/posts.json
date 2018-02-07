@@ -79,7 +79,9 @@
     "pai",
     "chiang-rai",
     "chiang-mai-2",
-    "porto-3"
+    "porto-3",
+    "lisbon-2",
+    "porto-4"
   ],
   "locations": {
     "orlando": {
@@ -451,8 +453,18 @@
         "2018-01-27",
         "2018-01-28",
         "2018-01-29",
-        "2018-01-30"
+        "2018-01-30",
+        "2018-01-31",
+        "2018-02-01"
       ]
+    },
+    "lisbon-2": {
+      "name": "Lisbon, Portugal",
+      "posts": ["2018-02-02", "2018-02-03", "2018-02-04"]
+    },
+    "porto-4": {
+      "name": "Porto, Portugal",
+      "posts": ["2018-02-05", "2018-02-06"]
     }
   },
   "posts": {
@@ -1790,6 +1802,41 @@
       "locationId": "porto-3",
       "text":
         "While Germana has been going off to work during the days, I've headed into Porto's old town in search of cafes out of which to do my own work. After she finished up this afternoon, we meandered to [Ponte d’Arrábida](https://en.wikipedia.org/wiki/Arr%C3%A1bida_Bridge), a bridge across the Douro River which was the largest concrete arch in the world upon its completion in 1963. It's home to [Porto Bridge Climb](https://www.portobridgeclimb.com/home-en), a 262-step ascent which took us 65 meters above the water. We chose the perfect time to go, catching the sun as it set into the Atlantic Ocean, painting the sky pink and orange."
+    },
+    "2018-01-31": {
+      "locationId": "porto-3",
+      "text":
+        "[\"Call Me By Your Name\"](http://www.imdb.com/title/tt5726616/) is a touching love story, albeit one whose dialogue at times requires a film degree to appreciate. The most personally impactful scene comes near the end, in which the main character's father contemplates how failed relationships change us: \"We rip out so much of ourselves to be cured of things faster than we should that we go bankrupt by the age of 30 and have less to offer each time we start with someone new. But to make yourself feel nothing so as not to feel anything &mdash; what a waste!\" Sometimes words hit me hard."
+    },
+    "2018-02-01": {
+      "locationId": "porto-3",
+      "text":
+        "Germana and I made quick work of season four of [*Black Mirror*](http://www.imdb.com/title/tt2085059/), my favorite in the surprisingly crowded genre of dystopian TV series. Although this season felt somewhat less fresh than prior ones, it once again expertly threaded the needle to create plots which felt just a few years &mdash; and a couple technological advances &mdash; away. My personal favorites were the Star Trek parody-turned-tragedy [\"USS Callister\"](http://www.imdb.com/title/tt5710974/) and the hauntingly nihilistic [\"Crocodile\"](http://www.imdb.com/title/tt5710976/) which repeatedly left me breathless. *Black Mirror* is, in my opinion, required viewing for anyone building the technologies of tomorrow so as to ensure these stories remain as fiction."
+    },
+    "2018-02-02": {
+      "locationId": "lisbon-2",
+      "text":
+        "Portugal may be the last international stop on my trip, but that doesn’t mean the city-hopping is over. After Germana finished up work for the day, we took a bus to Lisbon for a reunion with a handful of international friends I made during my time in San Francisco. It was my [second time](https://jwn.gr/microblog/locations/milan) seeing Mythila, my former roommate, and her husband, Edoardo, on this trip and my first seeing Julio and Victoria, both of whom now live in Paris. We started the trip by catching up with each other while sharing laughs, stories, and copious amounts fried Portuguese tapas."
+    },
+    "2018-02-03": {
+      "locationId": "lisbon-2",
+      "text":
+        "After many months of scheduling daily activities for myself, it was relieving to hand over the reigns to Edoardo for the day. He and Mythila are quite the foodies, so the six of us spent much of the day traveling from one dining establishment to the next. And that was totally fine with me, as I enjoyed every stop on the epic food tour, from my glorious, sugar-filled return to [Pop Cereal Cafe](https://jwn.gr/microblog/2017-06-02) to the striking waterside views at [Ponto Final](https://get10things.com/lisbon/dinner-lisbon/ponto-final/) to [Pastéis de Belém](http://pasteisdebelem.pt/en/)'s warm gooey pastel de nata to the unique flavors in the dishes at [Lost In](http://www.lostinesplanada.com/#)."
+    },
+    "2018-02-04": {
+      "locationId": "lisbon-2",
+      "text":
+        "I woke up today feeling tired. Tired of sightseeing. Tired of constantly being on planes, trains, and buses. Tired of waking up in unfamiliar places. Tired of having no routine. I'm very much looking forward to being in one place for a while and not worrying about how to get to my next destination. It felt a bit like I was running on autopilot today, a shame given I was surrounded by friends I now rarely see. But upon returning to Porto and getting in bed, I was happy to have one less day of sightseeing and travel remaining."
+    },
+    "2018-02-05": {
+      "locationId": "porto-4",
+      "text":
+        "I’ve struggled in the past with not saying things until it was too late. Although I'm mainly talking about romantic relationships, similar issues have arisen with friendships and at work. I'm usually one to speak my mind, but I clam up when it concerns things which can fundamentally change the course of the relationship, fearing the worst. But it's a terrible life strategy. The conversation eventually happens anyway and, by that time, I'm full of pent-up resentment which blinds me from any objectivity. I'm exasperated from committing this mistake time and again. It's time to stop avoiding these difficult discussions."
+    },
+    "2018-02-06": {
+      "locationId": "porto-4",
+      "text":
+        "\"Everything's relative\" is one of those trite phrases I believe people rarely actually think about. So, naturally, I've given it considerable thought. Should the fact people are suffering from poverty or living under autocratic regimes make my daily pains and disappointments any less painful and disappointing? I think not, since I'm allowed to feel an emotion even if another person has reason to feel that emotion more strongly. Nonetheless, maintaining perspective is important. There are different degrees of pain and suffering, whole classes of which I've avoided by sheer luck. Everything may be relative, but it's critical to realize that."
     }
   }
 }
