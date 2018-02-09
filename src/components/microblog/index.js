@@ -1,11 +1,31 @@
+import Loadable from 'react-loadable';
 import React, {Component} from 'react';
 import {Link, Route} from 'react-router-dom';
 
+import Loading from './Loading';
+
 import './index.css';
 
-import PostsCarousel from './PostsCarousel';
-import LocationPosts from './LocationPosts';
-import LocationArchive from './LocationArchive';
+const AsyncPostsCarousel = Loadable({
+  loader: () => import('./PostsCarousel'),
+  loading() {
+    return <Loading text="Loading posts from across the world..." />;
+  },
+});
+
+const AsyncLocationPosts = Loadable({
+  loader: () => import('./LocationPosts'),
+  loading(props) {
+    return <Loading text="Loading posts from selected location..." />;
+  },
+});
+
+const AsyncLocationArchive = Loadable({
+  loader: () => import('./LocationArchive'),
+  loading() {
+    return null;
+  },
+});
 
 class Microblog extends Component {
   componentWillReceiveProps(nextProps) {
@@ -29,10 +49,9 @@ class Microblog extends Component {
           <Link to={match.url}>Worldwide Trip Microblog</Link>
         </div>
 
-        <Route exact path={`${match.url}/:dateKey?`} component={PostsCarousel} />
-        <Route exact path={`${match.url}/locations/:locationId?`} component={LocationPosts} />
-
-        <LocationArchive />
+        <Route exact path={`${match.url}/:dateKey?`} component={AsyncPostsCarousel} />
+        <Route exact path={`${match.url}/locations/:locationId?`} component={AsyncLocationPosts} />
+        <Route component={AsyncLocationArchive} />
       </div>
     );
   }
