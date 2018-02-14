@@ -2,28 +2,6 @@ body {
   background-color: #c6d7c7;
 }
 
-.subscribe-button {
-  position: fixed;
-  top: 38px;
-  bottom: inherit;
-  right: 24px;
-  padding: 10px;
-  border-radius: 10px;
-  z-index: 100;
-  color: #eee;
-  border: none;
-  background-color: #ff5035;
-  text-decoration: none;
-  font-family: 'Alegreya Sans SC';
-  font-size: 24px;
-  font-weight: bold;
-  opacity: 0.8;
-}
-
-.subscribe-button:hover {
-  opacity: 1;
-}
-
 .header {
   background-color: #3085a3;
   text-align: center;
@@ -39,24 +17,8 @@ body {
 }
 
 @media (max-width: 1100px) {
-  .subscribe-button {
-    font-size: 20px;
-    top: 32px;
-    bottom: inherit;
-    right: 20px;
-  }
-
   .header a {
     font-size: 44px;
-  }
-}
-
-@media (max-width: 800px) {
-  .subscribe-button {
-    font-size: 20px;
-    top: inherit;
-    bottom: 12px;
-    right: 12px;
   }
 }
 
