@@ -81,7 +81,9 @@
     "chiang-mai-2",
     "porto-3",
     "lisbon-2",
-    "porto-4"
+    "porto-4",
+    "new-york-city-2",
+    "mechanicsburg-3"
   ],
   "locations": {
     "orlando": {
@@ -464,7 +466,15 @@
     },
     "porto-4": {
       "name": "Porto, Portugal",
-      "posts": ["2018-02-05", "2018-02-06"]
+      "posts": ["2018-02-05", "2018-02-06", "2018-02-07"]
+    },
+    "new-york-city-2": {
+      "name": "New York City, New York",
+      "posts": ["2018-02-08", "2018-02-09", "2018-02-10"]
+    },
+    "mechanicsburg-3": {
+      "name": "Mechanicsburg, Pennsylvania",
+      "posts": ["2018-02-11", "2018-02-12", "2018-02-13"]
     }
   },
   "posts": {
@@ -1837,6 +1847,41 @@
       "locationId": "porto-4",
       "text":
         "\"Everything's relative\" is one of those trite phrases I believe people rarely actually think about. So, naturally, I've given it considerable thought. Should the fact people are suffering from poverty or living under autocratic regimes make my daily pains and disappointments any less painful and disappointing? I think not, since I'm allowed to feel an emotion even if another person has reason to feel that emotion more strongly. Nonetheless, maintaining perspective is important. There are different degrees of pain and suffering, whole classes of which I've avoided by sheer luck. Everything may be relative, but it's critical to realize that."
+    },
+    "2018-02-07": {
+      "locationId": "porto-4",
+      "text":
+        "Daily life often feels like a constant fight to get rid of the sense of uncertainty, an intolerance for the unknown. That drive for security and simplicity is, ironically, often the root cause of my insecurity and feelings of being overwhelmed. Rarely can I just exist in the current moment, embracing an indeterminate future. But that's exactly what I attempted to do today on my last full day abroad. The comforts of home were a tempting siren song urging me to look beyond the present, but as my time with Germana wound down, I fought the urge to glimpse ahead."
+    },
+    "2018-02-08": {
+      "locationId": "new-york-city-2",
+      "text":
+        "You'd think a grown-ass adult would realize there are infinitely more appropriate times to clip your fingernails than on a crowded transatlantic flight. But you'd be wrong, as I discovered on today's flight back to America. Thankfully, this trip hardened me against unsanitary behaviors and I eventually landed in Newark, taking public transit onto New York City. It's my first visit to Brooklyn, where I'm staying with Matt, a friend working alongside me on Communities Rising, and his wife, Archana. Despite the sticker shock from consuming [an albeit delicious $27 burger](https://www.pizzalovesemily.com/), it feels good to be back in my homeland."
+    },
+    "2018-02-09": {
+      "locationId": "new-york-city-2",
+      "text":
+        "Despite bone-chilling temperatures to which the West Coast has made me soft, I meandered through downtown Brooklyn, along the Brooklyn Heights Promenade, over the Brooklyn Bridge, right alongside One World Trade Center. The 9/11 Museum drew me in, a moving, exceptionally well put together remembrance of lives lost and heroes formed on that tragic day. It's dizzying to contemplate 9/11's compounding effects, from the formation of absurd airplane regulations to the growing wave of nationalism spreading throughout the West brought on by our ongoing fight against terrorism. I didn't realize at the time how that day would really change everything."
+    },
+    "2018-02-10": {
+      "locationId": "new-york-city-2",
+      "text":
+        "Each Saturday, Matt attends classes as part of Columbia University's MBA program. I joined him and many of his fellow classmates after today's classes for a night full of food, drinks, and engaging conversations. Following so many months on the road traveling as a vagabond, it was strange to be back surrounded by a group of people so focused on their careers. I saw that career-oriented version of myself in nearly everyone I talked to. But, as I enter this next stage of my career, I cannot help but see it in a new light and with a fresh perspective."
+    },
+    "2018-02-11": {
+      "locationId": "mechanicsburg-3",
+      "text":
+        "Despite a late last night, I was wide awake by 6 AM, well before an alarm scheduled to wake me for my train to Harrisburg, Pennsylvania. As I laid motionless on the inflatable mattress, staring at a blank ceiling, I mulled over whether it was jet lag or the emotional cocktail of excitement and anxiety about my worldwide trip ending which roused me. After all the planes, trains, boats, buses, vans, cars, motorbikes, tuk tuks, songthaews, bicycles, kayaks, and [water buffalo](https://jwn.gr/microblog/2017-10-25) I used as transportation over the past nine months, today’s train ride was bringing me to my final destination."
+    },
+    "2018-02-12": {
+      "locationId": "mechanicsburg-3",
+      "text":
+        "Time to grade performance on my trip goals. (1) [Maintain this microblog](https://jwn.gr/microblog/2017-05-24): A. Despite some delayed newsletters, every day was documented. (2) [Walk 14,286 steps daily](https://jwn.gr/microblog/2017-05-25): A-. Aggressive goal accomplished 80% of days, easily averaging above target. (3) [Meditate daily](https://jwn.gr/microblog/2017-05-26): F. I cannot recall the last time I opened Headspace. (4) [Meet someone new daily](https://jwn.gr/microblog/2017-05-28): B-. I put myself out there frequently, although I became reclusive these past couple months. (5) [Brainstorm ideas daily](https://jwn.gr/microblog/2017-05-29): F. Would grade myself lower if I could. (6) [Release something every week](https://jwn.gr/microblog/2017-05-30): D. Overly optimistic given working while traveling proved difficult, but several projects progressed."
+    },
+    "2018-02-13": {
+      "locationId": "mechanicsburg-3",
+      "text":
+        "A malaise slowly but thoroughly blanketed me two years ago. Frustration with work, dismay over American politics, doubts concerning my romantic relationship. They eventually drove me to quit my job, stuff my belongings into a storage unit, and book a one way ticket far away. Standing here, on the other side of that nine month journey, I don a new outlook forged from coming to terms with my shortcomings and contemplating what truly matters to me. I can’t change the past, but I can &mdash; and I sure as hell will &mdash; make sure I don’t repeat those same mistakes again."
     }
   }
 }
