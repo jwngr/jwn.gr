@@ -6,7 +6,7 @@ import './PostsCarousel.css';
 
 import Post from './Post';
 
-import posts from './resources/posts.json';
+import posts from '../../resources/posts.json';
 import {
   getNextDateKey,
   getPreviousDateKey,

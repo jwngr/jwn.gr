@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import './Post.css';
 
 import {getFormattedDate} from './utils';
-import posts from './resources/posts.json';
+import posts from '../../resources/posts.json';
 
 const Post = ({match, dateKey, includeDateLink, includeLocationLink}) => {
   const {locationId, text} = posts.posts[dateKey];

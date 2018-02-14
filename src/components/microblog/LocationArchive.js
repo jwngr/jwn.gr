@@ -4,7 +4,7 @@ import './LocationArchive.css';
 
 import LocationArchiveItem from './LocationArchiveItem';
 
-import posts from './resources/posts.json';
+import posts from '../../resources/posts.json';
 
 const LocationArchive = () => {
   const locationLocationArchiveItems = posts.locationsVisitOrder.map((locationId) => {

@@ -5,7 +5,7 @@ import './LocationPosts.css';
 import Post from './Post';
 
 import {getDateRange} from './utils';
-import posts from './resources/posts.json';
+import posts from '../../resources/posts.json';
 
 const LocationPosts = ({match}) => {
   const location = posts.locations[match.params.locationId];

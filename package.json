@@ -19,6 +19,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.1.0",
     "prettier": "^1.10.2",
+    "remove-markdown": "^0.2.2",
     "sharp": "^0.18.4",
     "source-map-explorer": "^1.5.0",
     "tinify": "^1.5.0"

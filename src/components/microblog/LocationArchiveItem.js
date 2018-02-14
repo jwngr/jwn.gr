@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import './LocationArchiveItem.css';
 
 import {getDateRange} from './utils';
-import posts from './resources/posts.json';
+import posts from '../../resources/posts.json';
 
 const LocationArchiveItem = ({locationId}) => {
   const location = posts.locations[locationId];
