@@ -23,13 +23,10 @@ class NewsletterSignupForm extends Component {
     return (
       <div className="newsletter">
         <div className="newsletter-intro">
-          <p>I'm on a worldwide excursion.</p>
+          <p>I'm out and about.</p>
           <p>
-            Join a{' '}
-            <a href="http://us15.campaign-archive1.com/home/?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a">
-              weekly newsletter
-            </a>{' '}
-            recounting my travels, focused on building experiences and improving myself.
+            Subscribe to a low-volume newsletter to stay updated on what I'm working on and where
+            I'm headed.
           </p>
         </div>
 
