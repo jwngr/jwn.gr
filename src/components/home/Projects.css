@@ -48,7 +48,7 @@
 }
 
 .empty-project {
-  width: 450px;
+  width: 31%;
 }
 
 .project img {
@@ -116,7 +116,7 @@
 }
 
 .project .project-name {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
   transform: translate3d(0, -20px, 0);
