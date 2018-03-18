@@ -1,11 +1,32 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
 
 import Link from 'gatsby-link';
 
 import LocationArchive from '../components/microblog/LocationArchive/';
 
-import './microblog.css';
+const Header = styled.div`
+  background-color: #3085a3;
+  text-align: center;
+  padding: 25px;
+
+  & > a {
+    color: #c6d7c7;
+    font-size: 60px;
+    font-family: 'Alegreya Sans SC';
+    font-weight: bold;
+    text-decoration: none;
+
+    @media (max-width: 1100px) {
+      font-size: 44px;
+    }
+
+    @media (max-width: 700px) {
+      font-size: 36px;
+    }
+  }
+`;
 
 export default class MicroblogLayout extends React.Component {
   componentWillReceiveProps() {
@@ -28,19 +49,19 @@ export default class MicroblogLayout extends React.Component {
     });
 
     return (
-      <div>
+      <React.Fragment>
         <Helmet
           title="Worldwide Trip Microblog | Jacob Wenger"
           meta={[
             {name: 'description', content: `Microblog of Jacob Wenger's 2017-18 worldwide trip`},
           ]}
         />
-        <div className="header">
-          <Link to={'/microblog/'}>Worldwide Trip Microblog</Link>
-        </div>
+        <Header>
+          <Link to="/microblog/">Worldwide Trip Microblog</Link>
+        </Header>
         {children()}
         <LocationArchive locations={locations} />
-      </div>
+      </React.Fragment>
     );
   }
 }
