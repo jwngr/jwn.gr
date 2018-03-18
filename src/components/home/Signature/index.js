@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Signature.css';
+import './index.css';
 
 const Signature = () => (
   <div className="signature">

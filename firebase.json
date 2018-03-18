@@ -1,10 +1,10 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
-        "source": "/service-worker.js",
+        "source": "/sw.js",
         "headers": [
           {
             "key": "Cache-Control",

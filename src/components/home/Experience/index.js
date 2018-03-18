@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
 
-import './Experience.css';
+import './index.css';
 
-import {addVisibilitySensor} from './utils';
+import {addVisibilitySensor} from '../utils';
 
-import notreDameLogo from '../../images/home/experience/notreDameLogo.png';
-import microsoftLogo from '../../images/home/experience/microsoftLogo.png';
-import firebaseLogo from '../../images/home/experience/firebaseLogo.png';
-import googleLogo from '../../images/home/experience/googleLogo.png';
+import notreDameLogo from '../../../images/home/experience/notreDameLogo.png';
+import microsoftLogo from '../../../images/home/experience/microsoftLogo.png';
+import firebaseLogo from '../../../images/home/experience/firebaseLogo.png';
+import googleLogo from '../../../images/home/experience/googleLogo.png';
 
 const experienceItems = {
   notreDame: {

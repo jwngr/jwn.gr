@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './SocialIcons.css';
+import './index.css';
 
 /* Icon masks from https://github.com/markhuge/svg-social-icons */
 const socialIcons = {

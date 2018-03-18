@@ -3,13 +3,17 @@ import {Link as ScrollLink} from 'react-scroll';
 
 import './index.css';
 
-import Projects from './Projects';
-import Signature from './Signature';
-import Experience from './Experience';
-import SocialIcons from './SocialIcons';
-import NewsletterSignupForm from './NewsletterSignupForm';
+import Projects from '../components/home/Projects';
+import Signature from '../components/home/Signature';
+import Experience from '../components/home/Experience';
+import SocialIcons from '../components/home/SocialIcons';
+import NewsletterSignupForm from '../components/home/NewsletterSignupForm';
 
-class Home extends Component {
+// Load fonts
+require('typeface-alegreya');
+require('typeface-alegreya-sans-sc');
+
+class IndexPage extends Component {
   render() {
     return (
       <div className="home">
@@ -66,4 +70,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default IndexPage;
