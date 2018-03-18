@@ -23,13 +23,6 @@ img {
   text-decoration: none;
 }
 
-/* Set height of top-level elements to 100% to get allow for sections which cover the whole screen */
-html,
-body,
-body > div {
-  height: 100%;
-}
-
 @viewport {
   width: device-width;
 }
@@ -77,4 +70,11 @@ body > div {
 
 .visible:nth-of-type(6) {
   transition-delay: 1s, 1.67s;
+}
+
+/*****************/
+/*  PAGE STYLES  */
+/*****************/
+body {
+  background-color: #c6d7c7;
 }

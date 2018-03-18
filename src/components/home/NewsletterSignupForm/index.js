@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './NewsletterSignupForm.css';
+
+import './index.css';
 
 class NewsletterSignupForm extends Component {
   constructor(props) {

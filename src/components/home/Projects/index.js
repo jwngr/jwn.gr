@@ -1,17 +1,18 @@
-import React, {Component} from 'react';
+import Link from 'gatsby-link';
 import classNames from 'classnames';
+import React, {Component} from 'react';
 
-import './Projects.css';
+import './index.css';
 
-import {addVisibilitySensor} from './utils';
+import {addVisibilitySensor} from '../utils';
 
-import seerImage from '../../images/home/projects/seer.jpg';
-import openSourceImage from '../../images/home/projects/gitHubProfile.jpg';
-import running2016Image from '../../images/home/projects/running2016.jpg';
-import rusticCitrusImage from '../../images/home/projects/rusticCitrus.jpg';
-import presentationsImage from '../../images/home/projects/presentations.jpg';
-import ticTacTicTacToeImage from '../../images/home/projects/ticTacTicTacToe.jpg';
-import worldwideTripMicroblogImage from '../../images/home/projects/worldwideTripMicroblog.jpg';
+import seerImage from '../../../images/home/projects/seer.jpg';
+import openSourceImage from '../../../images/home/projects/gitHubProfile.jpg';
+import running2016Image from '../../../images/home/projects/running2016.jpg';
+import rusticCitrusImage from '../../../images/home/projects/rusticCitrus.jpg';
+import presentationsImage from '../../../images/home/projects/presentations.jpg';
+import ticTacTicTacToeImage from '../../../images/home/projects/ticTacTicTacToe.jpg';
+import worldwideTripMicroblogImage from '../../../images/home/projects/worldwideTripMicroblog.jpg';
 
 const projects = {
   rusticCitrus: {
@@ -31,7 +32,7 @@ const projects = {
   worldwideTripMicroblog: {
     name: 'Worldwide Trip Microblog',
     description: 'Documenting my trip around the world.',
-    href: 'https://jwn.gr/microblog/',
+    relativeLink: '/microblog/',
     image: worldwideTripMicroblogImage,
     alt: 'Worldwide Trip Microblog screenshot',
   },
@@ -66,19 +67,34 @@ const projects = {
 };
 
 const Project = ({projectId}) => {
-  const {name, description, href, image, alt} = projects[projectId];
+  const {name, description, href, relativeLink, image, alt} = projects[projectId];
 
-  return (
-    <div className="project">
-      <a href={href} target="_blank" rel="noopener">
-        <img src={image} alt={alt} />
-        <div className="hover-content">
-          <p className="project-name">{name}</p>
-          <p className="project-tagline">{description}</p>
-        </div>
-      </a>
+  let imageContent = <img src={image} alt={alt} />;
+  let hoverContent = (
+    <div className="hover-content">
+      <p className="project-name">{name}</p>
+      <p className="project-tagline">{description}</p>
     </div>
   );
+
+  let linkContent;
+  if (typeof href !== 'undefined') {
+    linkContent = (
+      <a href={href} target="_blank" rel="noopener">
+        {imageContent}
+        {hoverContent}
+      </a>
+    );
+  } else {
+    linkContent = (
+      <Link to={relativeLink}>
+        {imageContent}
+        {hoverContent}
+      </Link>
+    );
+  }
+
+  return <div className="project">{linkContent}</div>;
 };
 
 class Projects extends Component {

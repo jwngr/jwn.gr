@@ -1,15 +1,23 @@
 {
   "name": "jwn.gr",
   "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "classnames": "^2.2.5",
+    "gatsby": "^1.9.158",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-manifest": "^1.0.15",
+    "gatsby-plugin-offline": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-source-filesystem": "^1.5.19",
+    "gatsby-transformer-json": "^1.0.15",
+    "lodash": "^4.17.5",
     "react": "^16.0.2",
     "react-dom": "^16.0.2",
-    "react-loadable": "^5.3.1",
+    "react-helmet": "^5.2.0",
     "react-markdown": "^3.1.4",
     "react-responsive": "^4.0.3",
-    "react-router-dom": "^4.0.0",
-    "react-scripts": "1.1.0",
     "react-scroll": "^1.7.6",
     "react-visibility-sensor": "^3.11.0",
     "typeface-alegreya": "0.0.54",
@@ -32,10 +40,9 @@
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "precommit": "lint-staged",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

@@ -1,14 +1,12 @@
 import React from 'react';
 
-import './LocationArchive.css';
+import './index.css';
 
-import LocationArchiveItem from './LocationArchiveItem';
+import LocationArchiveItem from '../LocationArchiveItem';
 
-import posts from '../../resources/posts.json';
-
-const LocationArchive = () => {
-  const locationLocationArchiveItems = posts.locationsVisitOrder.map((locationId) => {
-    return <LocationArchiveItem locationId={locationId} key={locationId} />;
+export default ({locations}) => {
+  const locationLocationArchiveItems = locations.map((location) => {
+    return <LocationArchiveItem {...location} key={location.id} />;
   });
 
   // Add empty flex box items to ensure the last row left-aligns itself
@@ -20,5 +18,3 @@ const LocationArchive = () => {
 
   return <div className="archive">{locationLocationArchiveItems}</div>;
 };
-
-export default LocationArchive;

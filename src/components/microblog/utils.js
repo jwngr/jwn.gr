@@ -50,14 +50,14 @@ export function getImageKeyFromDate(date) {
   return `${year}-${padWithZero(month)}-${padWithZero(dayOfMonth)}`;
 }
 
-export function getNextDateKey(startDateKey) {
-  var date = new Date(startDateKey);
+export function getNextDateId(startDateId) {
+  var date = new Date(startDateId);
   date.setDate(date.getDate() + 1);
   return getImageKeyFromDate(date);
 }
 
-export function getPreviousDateKey(startDateKey) {
-  var date = new Date(startDateKey);
+export function getPreviousDateId(startDateId) {
+  var date = new Date(startDateId);
   date.setDate(date.getDate() - 1);
   return getImageKeyFromDate(date);
 }
