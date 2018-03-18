@@ -47,29 +47,37 @@ img {
 /************************/
 /*  FADE-IN ANIMATIONS  */
 /************************/
-.visible {
+.visible > * {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
-.visible:nth-of-type(2) {
+.visible > *:nth-of-type(2) {
   transition-delay: 0.2s, 0.33s;
 }
 
-.visible:nth-of-type(3) {
+.visible > *:nth-of-type(3) {
   transition-delay: 0.4s, 0.67s;
 }
 
-.visible:nth-of-type(4) {
+.visible > *:nth-of-type(4) {
   transition-delay: 0.6s, 1s;
 }
 
-.visible:nth-of-type(5) {
+.visible > *:nth-of-type(5) {
   transition-delay: 0.8s, 1.33s;
 }
 
-.visible:nth-of-type(6) {
+.visible > *:nth-of-type(6) {
   transition-delay: 1s, 1.67s;
+}
+
+.visible > *:nth-of-type(7) {
+  transition-delay: 1.2s, 2s;
+}
+
+.visible > *:nth-of-type(8) {
+  transition-delay: 1.4s, 2.33s;
 }
 
 /*****************/

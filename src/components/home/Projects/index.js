@@ -6,6 +6,7 @@ import './index.css';
 
 import {addVisibilitySensor} from '../utils';
 
+import sdowImage from '../../../images/home/projects/sdow.jpg';
 import seerImage from '../../../images/home/projects/seer.jpg';
 import openSourceImage from '../../../images/home/projects/gitHubProfile.jpg';
 import running2016Image from '../../../images/home/projects/running2016.jpg';
@@ -42,6 +43,13 @@ const projects = {
     href: 'https://running-2016.firebaseapp.com/',
     image: running2016Image,
     alt: 'Running 2016 screenshot',
+  },
+  sdow: {
+    name: 'Six Degrees of Wikipedia',
+    description: `Find the shortest paths between pages.`,
+    href: 'https://www.sixdegreesofwikipedia.com/',
+    image: sdowImage,
+    alt: 'Six Degrees of Wikipedia screenshot',
   },
   seer: {
     name: 'Seer',
@@ -106,9 +114,10 @@ class Projects extends Component {
 
     return (
       <div className={projectsClassNames}>
+        <Project projectId="sdow" />
+        <Project projectId="worldwideTripMicroblog" />
         <Project projectId="rusticCitrus" />
         <Project projectId="ticTacTicTacToe" />
-        <Project projectId="worldwideTripMicroblog" />
         <Project projectId="running2016" />
         <Project projectId="seer" />
         <Project projectId="openSource" />

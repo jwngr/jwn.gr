@@ -38,13 +38,17 @@
   transition-delay: 1.8s;
 }
 
+.project:nth-of-type(8) {
+  transition-delay: 2.1s;
+}
+
 .projects.visible .project {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
 .empty-project {
-  width: 450px;
+  width: 31%;
 }
 
 .project img {
@@ -112,7 +116,7 @@
 }
 
 .project .project-name {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
   transform: translate3d(0, -20px, 0);
