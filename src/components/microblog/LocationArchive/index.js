@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 
 import './index.css';
 
@@ -6,7 +7,11 @@ import LocationArchiveItem from '../LocationArchiveItem';
 
 export default ({locations}) => {
   const locationLocationArchiveItems = locations.map((location) => {
-    return <LocationArchiveItem {...location} key={location.id} />;
+    return (
+      <LazyLoad once={true} offset={100} height={130} key={location.id}>
+        <LocationArchiveItem {...location} />
+      </LazyLoad>
+    );
   });
 
   // Add empty flex box items to ensure the last row left-aligns itself
