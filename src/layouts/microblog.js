@@ -1,32 +1,29 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import styled from 'styled-components';
+import MediaQuery from 'react-responsive';
 
 import Link from 'gatsby-link';
 
 import LocationArchive from '../components/microblog/LocationArchive/';
 
-const Header = styled.div`
-  background-color: #3085a3;
-  text-align: center;
-  padding: 25px;
+// TODO: fix super-hack which inlines the header CSS because otherwise the CSS is not properly
+//       cached by gatsby-plugin-offline?!? Will probably be fixed in Gatsby v2...
+const headerStyles = {
+  backgroundColor: '#3085a3',
+  textAlign: 'center',
+  padding: '25px',
+};
 
-  & > a {
-    color: #c6d7c7;
-    font-size: 60px;
-    font-family: 'Alegreya Sans SC';
-    font-weight: bold;
-    text-decoration: none;
+const linkStyles = {
+  color: '#c6d7c7',
+  fontSize: '60px',
+  fontFamily: 'Alegreya Sans SC',
+  fontWeight: 'bold',
+  textDecoration: 'none',
+};
 
-    @media (max-width: 1100px) {
-      font-size: 44px;
-    }
-
-    @media (max-width: 700px) {
-      font-size: 36px;
-    }
-  }
-`;
+const mediumLinkStyles = Object.assign({}, linkStyles, {fontSize: '44px'});
+const smallLinkStyles = Object.assign({}, linkStyles, {fontSize: '36px'});
 
 export default class MicroblogLayout extends React.Component {
   componentWillReceiveProps() {
@@ -56,9 +53,23 @@ export default class MicroblogLayout extends React.Component {
             {name: 'description', content: `Microblog of Jacob Wenger's 2017-18 worldwide trip`},
           ]}
         />
-        <Header>
-          <Link to="/microblog/">Worldwide Trip Microblog</Link>
-        </Header>
+        <div style={headerStyles}>
+          <MediaQuery minWidth={1101}>
+            <Link to="/microblog/" style={linkStyles}>
+              Worldwide Trip Microblog
+            </Link>
+          </MediaQuery>
+          <MediaQuery minWidth={701} maxWidth={1100}>
+            <Link to="/microblog/" style={mediumLinkStyles}>
+              Worldwide Trip Microblog
+            </Link>
+          </MediaQuery>
+          <MediaQuery maxWidth={700}>
+            <Link to="/microblog/" style={smallLinkStyles}>
+              Worldwide Trip Microblog
+            </Link>
+          </MediaQuery>
+        </div>
         {children()}
         <LocationArchive locations={locations} />
       </React.Fragment>
