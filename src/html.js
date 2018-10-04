@@ -1,5 +1,8 @@
 import React from 'react';
-import favicon from '!file-loader!../static/favicon-32x32.ico';
+import favicon16 from '!file-loader!../static/favicon-16x16.png';
+import favicon32 from '!file-loader!../static/favicon-32x32.png';
+import favicon96 from '!file-loader!../static/favicon-96x96.png';
+import appleTouchIcon from '!file-loader!../static/apple-touch-icon-180x180.png';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
@@ -32,7 +35,11 @@ module.exports = class HTML extends React.Component {
           <meta name="author" content="Jacob Wenger" />
           <meta name="theme-color" content="#C6D7C7" />
 
-          <link rel="shortcut icon" href={favicon} />
+          <link rel="shortcut icon" type="image/png" href={favicon16} sizes="16x16" />
+          <link rel="shortcut icon" type="image/png" href={favicon32} sizes="32x32" />
+          <link rel="shortcut icon" type="image/png" href={favicon96} sizes="96x96" />
+
+          <link rel="apple-touch-icon" href={appleTouchIcon} sizes="180x180" />
 
           {this.props.headComponents}
           {css}
