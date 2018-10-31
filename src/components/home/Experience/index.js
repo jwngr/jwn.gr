@@ -9,6 +9,7 @@ import notreDameLogo from '../../../images/home/experience/notreDameLogo.png';
 import microsoftLogo from '../../../images/home/experience/microsoftLogo.png';
 import firebaseLogo from '../../../images/home/experience/firebaseLogo.png';
 import googleLogo from '../../../images/home/experience/googleLogo.png';
+import floatingHouseStudiosLogo from '../../../images/home/experience/floatingHouseStudiosLogo.png';
 
 const experienceItems = {
   notreDame: {
@@ -34,6 +35,12 @@ const experienceItems = {
     dates: 'October 2014 - April 2017',
     image: googleLogo,
     alt: 'Google logo',
+  },
+  floatingHouseStudios: {
+    role: 'Founder, Firebase Consultant',
+    dates: 'May 2018 - Present',
+    image: floatingHouseStudiosLogo,
+    alt: 'Floating House Studios logo',
   },
 };
 
@@ -64,6 +71,7 @@ class Experience extends Component {
         <ExperienceItem experienceItemId="microsoft" />
         <ExperienceItem experienceItemId="firebase" />
         <ExperienceItem experienceItemId="google" />
+        <ExperienceItem experienceItemId="floatingHouseStudios" />
       </div>
     );
   }
