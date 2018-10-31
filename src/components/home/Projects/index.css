@@ -142,10 +142,18 @@
     width: 48%;
     margin-bottom: 20px;
   }
+
+  .empty-project {
+    width: 48%;
+  }
 }
 
 @media (max-width: 700px) {
   .project {
+    width: 100%;
+  }
+
+  .empty-project {
     width: 100%;
   }
 }
