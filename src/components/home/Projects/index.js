@@ -8,6 +8,7 @@ import {addVisibilitySensor} from '../utils';
 
 import sdowImage from '../../../images/home/projects/sdow.jpg';
 import seerImage from '../../../images/home/projects/seer.jpg';
+import notreda_meImage from '../../../images/home/projects/notreda.me.png';
 import openSourceImage from '../../../images/home/projects/gitHubProfile.jpg';
 import running2016Image from '../../../images/home/projects/running2016.jpg';
 import rusticCitrusImage from '../../../images/home/projects/rusticCitrus.jpg';
@@ -57,6 +58,13 @@ const projects = {
     href: 'https://seer.firebaseapp.com/',
     image: seerImage,
     alt: 'Seer screenshot',
+  },
+  'notreda.me': {
+    name: 'notreda.me',
+    description: 'Irish football stats and schedules.',
+    href: 'https://notreda.me/',
+    image: notreda_meImage,
+    alt: 'notreda.me screenshot',
   },
   openSource: {
     name: 'Open Source',
@@ -114,6 +122,7 @@ class Projects extends Component {
 
     return (
       <div className={projectsClassNames}>
+        <Project projectId="notreda.me" />
         <Project projectId="sdow" />
         <Project projectId="worldwideTripMicroblog" />
         <Project projectId="rusticCitrus" />

@@ -42,6 +42,10 @@
   transition-delay: 2.1s;
 }
 
+.project:nth-of-type(9) {
+  transition-delay: 2.4s;
+}
+
 .projects.visible .project {
   opacity: 1;
   transform: translate3d(0, 0, 0);
