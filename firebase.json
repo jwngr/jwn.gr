@@ -18,6 +18,14 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "redirects": [
+      {
+        "source": "/newsletter",
+        "destination":
+          "https://jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a",
+        "type": 302
+      }
     ]
   }
 }
