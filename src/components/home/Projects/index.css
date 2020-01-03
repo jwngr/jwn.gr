@@ -46,6 +46,30 @@
   transition-delay: 2.4s;
 }
 
+.project:nth-of-type(10) {
+  transition-delay: 2.7s;
+}
+
+.project:nth-of-type(11) {
+  transition-delay: 3s;
+}
+
+.project:nth-of-type(12) {
+  transition-delay: 3.3s;
+}
+
+.project:nth-of-type(13) {
+  transition-delay: 3.6s;
+}
+
+.project:nth-of-type(14) {
+  transition-delay: 3.9s;
+}
+
+.project:nth-of-type(15) {
+  transition-delay: 4.2s;
+}
+
 .projects.visible .project {
   opacity: 1;
   transform: translate3d(0, 0, 0);
