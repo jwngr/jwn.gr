@@ -13,6 +13,7 @@ import openSourceImage from '../../../images/home/projects/gitHubProfile.jpg';
 import running2016Image from '../../../images/home/projects/running2016.jpg';
 import rusticCitrusImage from '../../../images/home/projects/rusticCitrus.jpg';
 import presentationsImage from '../../../images/home/projects/presentations.jpg';
+import youTubeChannelImage from '../../../images/home/projects/youTubeChannel.png';
 import ticTacTicTacToeImage from '../../../images/home/projects/ticTacTicTacToe.jpg';
 import worldwideTripMicroblogImage from '../../../images/home/projects/worldwideTripMicroblog.jpg';
 
@@ -80,6 +81,13 @@ const projects = {
     image: presentationsImage,
     alt: 'Google I/O 2016 presentation',
   },
+  youTubeChannel: {
+    name: 'YouTube Channel',
+    description: 'Experimenting with a new format.',
+    href: 'https://www.youtube.com/channel/UCndkjnoQawp7Tjy1uNj53yQ/',
+    image: youTubeChannelImage,
+    alt: 'YouTube channel screenshot',
+  },
 };
 
 const Project = ({projectId}) => {
@@ -124,8 +132,9 @@ class Projects extends Component {
       <div className={projectsClassNames}>
         <Project projectId="notreda.me" />
         <Project projectId="sdow" />
-        <Project projectId="worldwideTripMicroblog" />
         <Project projectId="rusticCitrus" />
+        <Project projectId="youTubeChannel" />
+        <Project projectId="worldwideTripMicroblog" />
         <Project projectId="ticTacTicTacToe" />
         <Project projectId="running2016" />
         <Project projectId="seer" />
