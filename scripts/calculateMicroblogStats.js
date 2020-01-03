@@ -3,11 +3,11 @@ const removeMarkdown = require('remove-markdown');
 
 const posts = require('../src/resources/posts.json');
 
-let postCount = Object.keys(posts.posts).length;
+let postCount = posts.length;
 let wordCount = 0;
 let characterCount = 0;
 
-_.forEach(posts.posts, (post, date) => {
+_.forEach(posts, (post) => {
   const str = removeMarkdown(post.text).replace(/&mdash;/g, '-');
 
   var tokens = _.filter(str.split(' '), (token) => {
@@ -15,7 +15,7 @@ _.forEach(posts.posts, (post, date) => {
   });
 
   if (tokens.length > 100) {
-    console.log(`[ERROR] Post dated ${date} has ${tokens.length} words: "${str}"`);
+    console.log(`[ERROR] Post dated ${post.id} has ${tokens.length} words: "${str}"`);
   }
 
   wordCount += tokens.length;
