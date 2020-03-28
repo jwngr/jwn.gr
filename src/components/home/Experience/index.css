@@ -23,6 +23,10 @@
   transition-delay: 0.8s, 1.33s;
 }
 
+.experience-item:nth-of-type(6) {
+  transition-delay: 1s, 1.67s;
+}
+
 .experience-item {
   margin-bottom: 60px;
 }

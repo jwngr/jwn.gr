@@ -10,6 +10,7 @@ import microsoftLogo from '../../../images/home/experience/microsoftLogo.png';
 import firebaseLogo from '../../../images/home/experience/firebaseLogo.png';
 import googleLogo from '../../../images/home/experience/googleLogo.png';
 import floatingHouseStudiosLogo from '../../../images/home/experience/floatingHouseStudiosLogo.png';
+import stealthModeStartupLogo from '../../../images/home/experience/stealthModeStartup.png';
 
 const experienceItems = {
   notreDame: {
@@ -38,9 +39,15 @@ const experienceItems = {
   },
   floatingHouseStudios: {
     role: 'Founder, Firebase Consultant',
-    dates: 'May 2018 - Present',
+    dates: 'May 2018 - December 2019',
     image: floatingHouseStudiosLogo,
     alt: 'Floating House Studios logo',
+  },
+  stealthModeStartup: {
+    role: 'Co-founder, CPO',
+    dates: 'January 2020 - Present',
+    image: stealthModeStartupLogo,
+    alt: 'Question mark',
   },
 };
 
@@ -72,6 +79,7 @@ class Experience extends Component {
         <ExperienceItem experienceItemId="firebase" />
         <ExperienceItem experienceItemId="google" />
         <ExperienceItem experienceItemId="floatingHouseStudios" />
+        <ExperienceItem experienceItemId="stealthModeStartup" />
       </div>
     );
   }
