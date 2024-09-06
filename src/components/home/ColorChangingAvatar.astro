@@ -18,13 +18,42 @@ const mobileSizePx = `${mobileSize}px`;
 </div>
 
 <script>
-  import pattern1Image from '../../images/home/patterns/1.png';
-  import pattern2Image from '../../images/home/patterns/2.png';
-  import pattern3Image from '../../images/home/patterns/3.png';
-  import pattern4Image from '../../images/home/patterns/4.png';
-  import pattern5Image from '../../images/home/patterns/5.png';
-  import pattern6Image from '../../images/home/patterns/6.png';
-  import {throttle} from '../../lib/utils';
+  import pattern1Image from '../../images/home/patterns/pattern1.png';
+  import pattern2Image from '../../images/home/patterns/pattern2.png';
+  import pattern3Image from '../../images/home/patterns/pattern3.png';
+  import pattern4Image from '../../images/home/patterns/pattern4.png';
+  import pattern5Image from '../../images/home/patterns/pattern5.png';
+  import pattern6Image from '../../images/home/patterns/pattern6.png';
+  import pattern7Image from '../../images/home/patterns/pattern7.png';
+  import pattern8Image from '../../images/home/patterns/pattern8.png';
+  import pattern9Image from '../../images/home/patterns/pattern9.png';
+  import pattern10Image from '../../images/home/patterns/pattern10.png';
+  import pattern11Image from '../../images/home/patterns/pattern11.png';
+  import pattern12Image from '../../images/home/patterns/pattern12.png';
+  import pattern13Image from '../../images/home/patterns/pattern13.png';
+  import pattern14Image from '../../images/home/patterns/pattern14.png';
+  import pattern15Image from '../../images/home/patterns/pattern15.png';
+  import pattern16Image from '../../images/home/patterns/pattern16.png';
+  import pattern17Image from '../../images/home/patterns/pattern17.png';
+  import pattern18Image from '../../images/home/patterns/pattern18.png';
+  import pattern19Image from '../../images/home/patterns/pattern19.png';
+  import pattern20Image from '../../images/home/patterns/pattern20.png';
+  import pattern21Image from '../../images/home/patterns/pattern21.png';
+  import pattern22Image from '../../images/home/patterns/pattern22.png';
+  import pattern23Image from '../../images/home/patterns/pattern23.png';
+  import pattern24Image from '../../images/home/patterns/pattern24.png';
+  import pattern25Image from '../../images/home/patterns/pattern25.png';
+  import pattern26Image from '../../images/home/patterns/pattern26.png';
+  import pattern27Image from '../../images/home/patterns/pattern27.png';
+  import pattern28Image from '../../images/home/patterns/pattern28.png';
+  import pattern29Image from '../../images/home/patterns/pattern29.png';
+  import pattern30Image from '../../images/home/patterns/pattern30.png';
+  import pattern31Image from '../../images/home/patterns/pattern31.png';
+  import pattern32Image from '../../images/home/patterns/pattern32.png';
+  import pattern33Image from '../../images/home/patterns/pattern33.png';
+  import pattern34Image from '../../images/home/patterns/pattern34.png';
+  import pattern35Image from '../../images/home/patterns/pattern35.png';
+  import {sample, throttle} from '../../lib/utils';
 
   const patternImages = [
     pattern1Image,
@@ -33,14 +62,47 @@ const mobileSizePx = `${mobileSize}px`;
     pattern4Image,
     pattern5Image,
     pattern6Image,
+    pattern7Image,
+    pattern8Image,
+    pattern9Image,
+    pattern10Image,
+    pattern11Image,
+    pattern12Image,
+    pattern13Image,
+    pattern14Image,
+    pattern15Image,
+    pattern16Image,
+    pattern17Image,
+    pattern18Image,
+    pattern19Image,
+    pattern20Image,
+    pattern21Image,
+    pattern22Image,
+    pattern23Image,
+    pattern24Image,
+    pattern25Image,
+    pattern26Image,
+    pattern27Image,
+    pattern28Image,
+    pattern29Image,
+    pattern30Image,
+    pattern31Image,
+    pattern32Image,
+    pattern33Image,
+    pattern34Image,
+    pattern35Image,
   ];
 
   function getRandomPattern(): string {
-    const randomIndex = Math.floor(Math.random() * patternImages.length);
-    return patternImages[randomIndex].src;
+    return sample(patternImages).src;
   }
 
   const avatarContainer = document.getElementById('avatar-container');
+
+  setInterval(() => {
+    if (!avatarContainer) return;
+    avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
+  }, 10000);
 
   if (avatarContainer) {
     avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
