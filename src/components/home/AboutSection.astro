@@ -1,0 +1,47 @@
+---
+import {SocialLinkId} from '../../lib/types';
+import FlexColumn from '../atoms/FlexColumn.astro';
+import FlexRow from '../atoms/FlexRow.astro';
+import SocialTextLink from '../atoms/SocialTextLink.astro';
+import Spacer from '../atoms/Spacer.astro';
+import Text from '../atoms/Text.astro';
+import ColorChangingAvatar from './ColorChangingAvatar.astro';
+---
+
+<div class="about-section-wrapper">
+  <ColorChangingAvatar desktopSize={172} mobileSize={100} />
+
+  <FlexColumn flex>
+    <Text as="h3" monospace>
+      I build software with a focus on productivity, dev tools, and data viz.
+    </Text>
+    <Spacer y={12} />
+    <Text as="h3" monospace>Welcome to my online garden.</Text>
+    <Spacer y={28} />
+    <FlexRow gap={{mobile: 28, desktop: 32}}>
+      <SocialTextLink type={SocialLinkId.Email} />
+      <SocialTextLink type={SocialLinkId.GitHub} />
+      <SocialTextLink type={SocialLinkId.LinkedIn} />
+      <SocialTextLink type={SocialLinkId.Twitter} />
+    </FlexRow>
+  </FlexColumn>
+
+  <style>
+    .about-section-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 40px;
+    }
+
+    @media (max-width: 760px) {
+      .about-section-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: stretch;
+        gap: 20px;
+      }
+    }
+  </style>
+</div>

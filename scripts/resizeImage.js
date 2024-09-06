@@ -41,7 +41,7 @@ function resizeAndCompress(source, target, width, height) {
     .resize(width, height)
     .toBuffer()
     .then((data) => {
-      tinify.fromBuffer(data).toFile(target, function(error) {
+      tinify.fromBuffer(data).toFile(target, function (error) {
         if (error !== null) {
           throw error;
         } else {

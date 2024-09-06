@@ -1,0 +1,21 @@
+---
+import FlexColumn from '../components/atoms/FlexColumn.astro';
+import Link from '../components/atoms/Link.astro';
+import Text from '../components/atoms/Text.astro';
+import HomeLayout from '../layouts/HomeLayout.astro';
+import {Urls} from '../lib/urls';
+---
+
+<HomeLayout title="Jacob Wenger" showFooter={false}>
+  <FlexColumn class="wrapper" align="center" justify="center" gap={20} flex>
+    <Text as="h1">404: Page not found</Text>
+    <Link href={Urls.forHome()} underline="always"><Text as="p">Return home</Text></Link>
+  </FlexColumn>
+</HomeLayout>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+</style>

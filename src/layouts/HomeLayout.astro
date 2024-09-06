@@ -1,0 +1,29 @@
+---
+import Footer from '../components/layout/Footer.astro';
+import Header from '../components/layout/Header.astro';
+
+import '../styles/index.css';
+
+import BaseHead from '../components/layout/BaseHead.astro';
+
+interface Props {
+  readonly title: string;
+  readonly showFooter?: boolean;
+}
+
+let {title, showFooter = true} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <BaseHead title={title} />
+  <body>
+    <Header />
+
+    <main>
+      <slot />
+    </main>
+
+    {showFooter ? <Footer /> : null}
+  </body>
+</html>

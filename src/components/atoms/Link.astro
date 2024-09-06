@@ -1,0 +1,35 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+
+interface Props extends Omit<HTMLAttributes<'a'>, 'href'> {
+  readonly class?: string;
+  readonly href: string;
+  readonly underline?: 'hover' | 'always' | 'never';
+}
+
+const {underline = 'hover', class: className, ...rest} = Astro.props;
+---
+
+<a class:list={['link', `underline-${underline}`, className]} {...rest}>
+  <slot />
+</a>
+
+<style>
+  .link {
+    color: var(--black-0);
+  }
+
+  .link:hover {
+    color: var(--accent);
+  }
+
+  .underline-hover,
+  .underline-never {
+    text-decoration: none;
+  }
+
+  .underline-always,
+  .underline-hover:hover {
+    text-decoration: underline;
+  }
+</style>

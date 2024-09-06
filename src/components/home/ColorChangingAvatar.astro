@@ -1,0 +1,81 @@
+---
+import {Image} from 'astro:assets';
+
+import selfieImage from '../../images/home/selfieNoBackground.png';
+
+interface Props {
+  readonly desktopSize: number;
+  readonly mobileSize: number;
+}
+
+const {desktopSize, mobileSize} = Astro.props;
+const desktopSizePx = `${desktopSize}px`;
+const mobileSizePx = `${mobileSize}px`;
+---
+
+<div id="avatar-container">
+  <Image src={selfieImage} alt="Avatar" />
+</div>
+
+<script>
+  import pattern1Image from '../../images/home/patterns/1.png';
+  import pattern2Image from '../../images/home/patterns/2.png';
+  import pattern3Image from '../../images/home/patterns/3.png';
+  import pattern4Image from '../../images/home/patterns/4.png';
+  import pattern5Image from '../../images/home/patterns/5.png';
+  import pattern6Image from '../../images/home/patterns/6.png';
+  import {throttle} from '../../lib/utils';
+
+  const patternImages = [
+    pattern1Image,
+    pattern2Image,
+    pattern3Image,
+    pattern4Image,
+    pattern5Image,
+    pattern6Image,
+  ];
+
+  function getRandomPattern(): string {
+    const randomIndex = Math.floor(Math.random() * patternImages.length);
+    return patternImages[randomIndex].src;
+  }
+
+  const avatarContainer = document.getElementById('avatar-container');
+
+  if (avatarContainer) {
+    avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
+
+    const throttledPatternChange = throttle(() => {
+      avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
+    }, 100);
+
+    avatarContainer.addEventListener('mousemove', throttledPatternChange);
+    avatarContainer.addEventListener('click', throttledPatternChange);
+  }
+</script>
+
+<style define:vars={{desktopSizePx, mobileSizePx}}>
+  #avatar-container {
+    width: var(--desktopSizePx);
+    height: var(--desktopSizePx);
+    border: solid 1px var(--black-1);
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #avatar-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 760px) {
+    #avatar-container {
+      width: var(--mobileSizePx);
+      height: var(--mobileSizePx);
+    }
+  }
+</style>

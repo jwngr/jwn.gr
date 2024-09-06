@@ -1,18 +1,28 @@
-# Project dependencies
-node_modules/
-.cache/
+# Astro build output
+.astro/
+dist/
 
-# Build directory
-public/
+# Dependencies.
+node_modules/
+
+# Log.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables.
+.env
+.env.production
 
 # Firebase
 firebase-debug.log
 
-# Secrets / API keys
-config.json
-
-# Miscellaneous
+# macOS.
 .DS_Store
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+# VSCode.
+.vscode/
+
+# JetBrains.
+.idea/

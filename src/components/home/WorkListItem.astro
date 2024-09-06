@@ -1,0 +1,54 @@
+---
+import type {WorkEntryId} from '../../lib/types';
+import {WORK_HISTORY} from '../../lib/workHistory';
+import FlexRow from '../atoms/FlexRow.astro';
+import ListItem from '../atoms/ListItem.astro';
+import Text from '../atoms/Text.astro';
+
+interface Props {
+  readonly experienceItemId: WorkEntryId;
+}
+
+const {experienceItemId} = Astro.props;
+
+const {name, role, startYear, endYear, url} = WORK_HISTORY[experienceItemId];
+
+const years = `${startYear}-${endYear.toString().slice(-2)}`;
+---
+
+<ListItem url={url} gap={{mobile: 0, desktop: 32}}>
+  <FlexRow gap={8} align="center" justify="flex-start">
+    <Text class="work-name">{name}</Text>
+    <Text as="h5" class="work-years-mobile" light>{years}</Text>
+  </FlexRow>
+  <Text class="work-role" flex light>{role}</Text>
+  <Text as="h5" class="work-years-desktop" light>{years}</Text>
+</ListItem>
+
+<style>
+  .work-name {
+    width: 240px;
+  }
+
+  .work-years-mobile {
+    display: none;
+  }
+
+  .work-years-desktop {
+    display: inline-block;
+  }
+
+  @media (max-width: 760px) {
+    .work-name {
+      width: unset;
+    }
+
+    .work-years-mobile {
+      display: inline-block;
+    }
+
+    .work-years-desktop {
+      display: none;
+    }
+  }
+</style>

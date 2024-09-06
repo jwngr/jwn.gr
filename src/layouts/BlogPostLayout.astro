@@ -1,0 +1,100 @@
+---
+import type {CollectionEntry} from 'astro:content';
+
+import Spacer from '../components/atoms/Spacer.astro';
+import Text from '../components/atoms/Text.astro';
+import Footer from '../components/layout/Footer.astro';
+import Header from '../components/layout/Header.astro';
+
+import '../styles/index.css';
+
+import DoubleDivider from '../components/atoms/DoubleDivider.astro';
+import {NewsletterSignupForm} from '../components/blog/NewsletterSignupForm';
+import BaseHead from '../components/layout/BaseHead.astro';
+import {LONG_MONTH_DATE_FORMATTER} from '../lib/datetimes';
+
+interface Props {
+  readonly frontmatter: CollectionEntry<'posts'>['data'];
+}
+
+let {frontmatter} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <BaseHead title={`${frontmatter.title} | Jacob Wenger`} />
+
+  <body>
+    <Header />
+
+    <main>
+      <Spacer y={32} />
+      <Text as="h1" bold>{frontmatter.title}</Text>
+      <Spacer y={4} />
+      <Text class="blog-post-metadata" as="h3" light>
+        <span>{LONG_MONTH_DATE_FORMATTER.format(new Date(frontmatter.publishDate))}</span>
+        <span>{`//`}</span>
+        <span>{`${frontmatter.readingTimeMins} min read`}</span>
+      </Text>
+
+      <Spacer y={32} />
+
+      <DoubleDivider />
+
+      <Spacer y={12} />
+
+      <div class="blog-post-content">
+        <slot />
+      </div>
+      <NewsletterSignupForm />
+      <Spacer y={40} />
+    </main>
+
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  .blog-post-metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .blog-post-content p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Reduce top margin for first paragraph after header. */
+  .blog-post-content h2 + p,
+  .blog-post-content h3 + p {
+    margin-top: 0.5rem;
+  }
+
+  .blog-post-content li {
+    font-size: 1.125rem; /* 18px */
+    /* Slightly taller than standard p to visually distinguish list items. */
+    line-height: 2rem; /* 32px */
+  }
+
+  /* Increase top margins and reduce bottom margins on headers to clearly indicate sections.*/
+  .blog-post-content h2 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .blog-post-content h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  pre {
+    padding: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    border-radius: 4px;
+    line-height: 1.5rem;
+  }
+</style>

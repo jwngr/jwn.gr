@@ -1,0 +1,83 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+
+type FontWeight = 'normal' | 'bold' | '900';
+const DEFAULT_FONT_WEIGHT = 'normal';
+function getFontWeight(bold?: boolean, weight?: FontWeight) {
+  if (typeof weight === 'undefined') {
+    return bold ? 'bold' : DEFAULT_FONT_WEIGHT;
+  } else {
+    return weight;
+  }
+}
+
+type TextElement = 'p' | 'span' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+
+interface Props extends HTMLAttributes<'p'> {
+  readonly class?: string;
+  readonly as?: TextElement;
+  readonly align?: 'left' | 'center' | 'right';
+  readonly bold?: boolean;
+  readonly weight?: FontWeight;
+  readonly color?: string;
+  readonly hoverColor?: string;
+  readonly flex?: number | string | boolean;
+  readonly truncate?: boolean;
+  readonly monospace?: boolean;
+  readonly light?: boolean;
+}
+
+const {as: Element = 'p', hoverColor, class: className, ...rest} = Astro.props;
+
+const inlineStyles = {
+  textAlign: rest.align,
+  fontWeight: getFontWeight(rest.bold, rest.weight),
+  color: rest.color,
+  flex: rest.flex === true ? 1 : rest.flex === false ? 0 : rest.flex,
+};
+---
+
+<Element
+  class:list={[
+    'text',
+    {
+      light: rest.light,
+      monospace: rest.monospace,
+      truncate: rest.truncate,
+    },
+    className,
+  ]}
+  style={inlineStyles}
+  {...rest}
+>
+  <slot />
+</Element>
+
+<style define:vars={{hoverColor}}>
+  .text {
+    color: var(--black-0);
+  }
+
+  .text:hover {
+    color: var(--hoverColor);
+  }
+
+  .text.light {
+    color: var(--black-1);
+  }
+
+  .text.light:hover {
+    color: var(--black-1);
+  }
+
+  .monospace {
+    font-family: ui-monospace, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+</style>

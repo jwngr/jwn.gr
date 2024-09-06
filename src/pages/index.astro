@@ -1,0 +1,28 @@
+---
+import DoubleDivider from '../components/atoms/DoubleDivider.astro';
+import Spacer from '../components/atoms/Spacer.astro';
+import AboutSection from '../components/home/AboutSection.astro';
+import ProjectsSection from '../components/home/ProjectsSection.astro';
+import WorkSection from '../components/home/WorkSection.astro';
+import WritingSection from '../components/home/WritingSection.astro';
+import HomeLayout from '../layouts/HomeLayout.astro';
+---
+
+<HomeLayout title="Jacob Wenger">
+  <Spacer y={{mobile: 20, desktop: 32}} />
+
+  <AboutSection />
+  <Spacer y={40} />
+
+  <DoubleDivider />
+  <Spacer y={40} />
+
+  <WritingSection />
+  <Spacer y={56} />
+
+  <ProjectsSection />
+  <Spacer y={56} />
+
+  <WorkSection />
+  <Spacer y={40} />
+</HomeLayout>

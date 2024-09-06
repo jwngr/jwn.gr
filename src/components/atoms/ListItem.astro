@@ -1,0 +1,74 @@
+---
+interface Props {
+  readonly class?: string;
+  readonly url?: string;
+  readonly gap?: number | {readonly mobile?: number; readonly desktop?: number};
+}
+
+const {url, gap, class: className} = Astro.props;
+
+const mobileGap = typeof gap === 'number' ? gap : (gap?.mobile ?? 0);
+const desktopGap = typeof gap === 'number' ? gap : (gap?.desktop ?? 0);
+---
+
+{
+  url ? (
+    <a href={url}>
+      <div class:list={['list-item', 'list-item-link', className]}>
+        <slot />
+      </div>
+    </a>
+  ) : (
+    <div class:list={['list-item', className]}>
+      <slot />
+    </div>
+  )
+}
+
+<style define:vars={{mobileGap, desktopGap}}>
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: calc(var(--desktopGap) * 1px);
+    padding: 8px 0;
+    /* Enable truncation for child elements. */
+    min-width: 0;
+  }
+
+  .list-item-link {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    border-radius: 8px;
+  }
+
+  .list-item-link:hover {
+    cursor: pointer;
+    background-color: var(--accent-light);
+  }
+
+  @media (max-width: 760px) {
+    .list-item {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: stretch;
+      gap: calc(var(--mobileGap) * 1px);
+    }
+
+    .list-item-link {
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+  }
+</style>
