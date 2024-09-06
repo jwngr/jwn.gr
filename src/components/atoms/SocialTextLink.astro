@@ -1,0 +1,26 @@
+---
+import {SOCIAL_LINKS} from '../../lib/social';
+import type {SocialLinkId} from '../../lib/types';
+import Link from './Link.astro';
+import Text from './Text.astro';
+
+interface Props {
+  readonly class?: string;
+  readonly type: SocialLinkId;
+}
+
+const {type, class: className} = Astro.props;
+const {url, name} = SOCIAL_LINKS[type];
+---
+
+<Link href={url} underline="always" class:list={['social-text', className]}>
+  <Text class="social-text" as="h3">
+    {name}
+  </Text>
+</Link>
+
+<style>
+  .social-text {
+    white-space: nowrap;
+  }
+</style>

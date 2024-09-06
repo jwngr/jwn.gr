@@ -1,0 +1,20 @@
+---
+import {SocialLinkId} from '../../lib/types';
+import {Urls} from '../../lib/urls';
+import Divider from '../atoms/Divider.astro';
+import FlexRow from '../atoms/FlexRow.astro';
+import Link from '../atoms/Link.astro';
+import SocialIconLink from '../atoms/SocialIconLink.astro';
+import Text from '../atoms/Text.astro';
+---
+
+<footer>
+  <FlexRow class="footer" gap={20}>
+    <Link href={Urls.forHome()} underline="hover"><Text as="h2" monospace>jwn.gr</Text></Link>
+    <Divider y={1} flex />
+    <SocialIconLink type={SocialLinkId.Email} />
+    <SocialIconLink type={SocialLinkId.GitHub} />
+    <SocialIconLink type={SocialLinkId.LinkedIn} />
+    <SocialIconLink type={SocialLinkId.Twitter} />
+  </FlexRow>
+</footer>

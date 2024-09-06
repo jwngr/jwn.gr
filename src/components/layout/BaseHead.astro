@@ -1,0 +1,48 @@
+---
+import {Urls} from '../../lib/urls';
+
+interface Props {
+  readonly title: string;
+}
+
+let {title} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Title. -->
+  <title>{title}</title>
+
+  <!-- Primary meta tags. -->
+  <meta name="title" content="Jacob Wenger" />
+  <meta name="description" content="Jacob Wenger's online garden" />
+  <meta name="author" content="Jacob Wenger" />
+  <!-- TODO: Convert this hard-coded hex value (`background`) into a variable. -->
+  <meta name="theme-color" content="#ffefe1" />
+
+  <!-- Icons. -->
+  <link href="/favicon.ico" rel="icon" sizes="32x32" />
+  <link href="/icon.svg" rel="icon" type="image/svg+xml" />
+  <link href="/apple-touch-icon-180.png" rel="apple-touch-icon" />
+
+  <!-- RSS feed. -->
+  <link href={Urls.forRss()} rel="alternate" title="Jacob Wenger" type="application/rss+xml" />
+
+  <!-- Manifest. -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Sitemap. -->
+  <link rel="sitemap" href="/sitemap-index.xml" />
+
+  <!-- Canonical URL. -->
+  <link rel="canonical" href={canonicalURL} />
+
+  <!-- Astro-specific meta tag which adds build metadata. -->
+  <meta name="generator" content={Astro.generator} />
+
+  <slot />
+</head>

@@ -1,29 +1,11 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "headers": [
-      {
-        "source": "/sw.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ],
     "redirects": [
       {
         "source": "/newsletter",
-        "destination":
-          "https://jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a",
+        "destination": "https://jwn.us15.list-manage.com/subscribe/post?u=d19fa80c86cc4e9017baf4f4b&id=46d31d866a",
         "type": 302
       }
     ]

@@ -1,0 +1,17 @@
+---
+import {getPostsByPublishDate} from '../../lib/posts';
+import FlexColumn from '../atoms/FlexColumn.astro';
+import BlogPostListItem from './BlogPostListItem.astro';
+
+interface Props {
+  readonly limit?: number;
+}
+
+const {limit} = Astro.props;
+
+const posts = await getPostsByPublishDate(limit);
+---
+
+<FlexColumn gap={{mobile: 8, desktop: 0}}>
+  {posts.map((post) => <BlogPostListItem post={post} />)}
+</FlexColumn>

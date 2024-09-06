@@ -1,0 +1,48 @@
+---
+import type {FlexProps} from '../../lib/types';
+
+interface Props extends FlexProps {
+  readonly direction: 'row' | 'column';
+  readonly align: FlexProps['align'];
+  readonly justify: FlexProps['justify'];
+  readonly class?: string;
+}
+
+const {
+  gap,
+  direction,
+  align,
+  justify,
+  wrap = 'nowrap',
+  flex,
+  class: className,
+  ...rest
+} = Astro.props;
+
+const mobileGap = typeof gap === 'number' ? gap : (gap?.mobile ?? 0);
+const desktopGap = typeof gap === 'number' ? gap : (gap?.desktop ?? 0);
+
+const flexValue = flex === true ? 1 : flex === false ? 0 : flex;
+---
+
+<div class:list={['flex-wrapper', className]} {...rest}>
+  <slot />
+</div>
+
+<style define:vars={{mobileGap, desktopGap, direction, wrap, align, justify, flexValue}}>
+  .flex-wrapper {
+    display: flex;
+    flex-direction: var(--direction);
+    flex-wrap: var(--wrap);
+    align-items: var(--align);
+    justify-content: var(--justify);
+    flex: var(--flexValue);
+    gap: calc(var(--desktopGap) * 1px);
+  }
+
+  @media (max-width: 768px) {
+    .flex-wrapper {
+      gap: calc(var(--mobileGap) * 1px);
+    }
+  }
+</style>

@@ -1,0 +1,34 @@
+---
+import {SocialLinkId} from '../../lib/types';
+import {Urls} from '../../lib/urls';
+import Divider from '../atoms/Divider.astro';
+import FlexRow from '../atoms/FlexRow.astro';
+import Link from '../atoms/Link.astro';
+import SocialIconLink from '../atoms/SocialIconLink.astro';
+import Text from '../atoms/Text.astro';
+---
+
+<header>
+  <FlexRow class="header" gap={{mobile: 16, desktop: 40}}>
+    <Link href={Urls.forHome()}>
+      <FlexRow gap={16}>
+        <Text as="h2" align="center" monospace>Jacob Wenger</Text>
+      </FlexRow>
+    </Link>
+    <Divider y={1} flex />
+    <FlexRow class="social-links" gap={{mobile: 8, desktop: 16}}>
+      <SocialIconLink type={SocialLinkId.Email} />
+      <SocialIconLink type={SocialLinkId.GitHub} />
+      <SocialIconLink type={SocialLinkId.LinkedIn} />
+      <SocialIconLink type={SocialLinkId.Twitter} />
+    </FlexRow>
+  </FlexRow>
+</header>
+
+<style>
+  @media (max-width: 760px) {
+    .social-links {
+      display: none;
+    }
+  }
+</style>

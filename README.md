@@ -1,3 +1,9 @@
-# Personal Website [![Build Status](https://semaphoreci.com/api/v1/jwngr/jwn-gr/branches/master/badge.svg)](https://semaphoreci.com/jwngr/jwn-gr)
+# Personal website
 
-https://jwn.gr
+This repo contains the personal website for Jacob Wenger. It is available live at
+[https://jwn.gr](https://jwn.gr).
+
+See [here](./.github/CONTRIBUTING.md) for local setup instructions.
+
+![Screenshot of the website](./.github/images/screenshot.png)
+

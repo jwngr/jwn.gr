@@ -1,0 +1,14 @@
+---
+import type {FlexProps} from '../../lib/types';
+import Flex from './Flex.astro';
+
+interface Props extends FlexProps {
+  readonly class?: string;
+}
+
+const {align = 'center', justify = 'flex-start', ...rest} = Astro.props;
+---
+
+<Flex direction="row" align={align} justify={justify} {...rest}>
+  <slot />
+</Flex>

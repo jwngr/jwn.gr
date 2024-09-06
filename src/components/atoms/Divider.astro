@@ -1,0 +1,21 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {
+  readonly class?: string;
+  readonly x?: number;
+  readonly y?: number;
+  readonly flex?: number | string | boolean;
+}
+
+const {x, y, flex, class: className, ...rest} = Astro.props;
+
+const inlineStyles = {
+  width: typeof x === 'undefined' ? '100%' : `${x}px`,
+  height: typeof y === 'undefined' ? '100%' : `${y}px`,
+  backgroundColor: 'var(--black-0)',
+  flex: flex === true ? '1' : flex === false ? '0' : flex,
+};
+---
+
+<div class:list={['divider', className]} style={inlineStyles} {...rest}></div>

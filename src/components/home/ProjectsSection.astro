@@ -1,0 +1,24 @@
+---
+import {ProjectId} from '../../lib/types';
+import FlexColumn from '../atoms/FlexColumn.astro';
+import Text from '../atoms/Text.astro';
+import ProjectListItem from './ProjectListItem.astro';
+---
+
+<FlexColumn gap={12}>
+  <Text as="h2" monospace>Projects</Text>
+  <FlexColumn gap={{mobile: 8, desktop: 0}}>
+    <!-- Active projects. -->
+    <ProjectListItem projectId={ProjectId.SixDegreesOfWikipedia} />
+    <ProjectListItem projectId={ProjectId.NotreDame} />
+    <ProjectListItem projectId={ProjectId.RusticCitrus} />
+
+    <!-- Archived projects. -->
+    <ProjectListItem projectId={ProjectId.YouTubeChannel} />
+    <ProjectListItem projectId={ProjectId.TicTacTicTacToe} />
+    <ProjectListItem projectId={ProjectId.Running2016} />
+    <!-- TODO: Add this entry back in. -->
+    <!-- <ProjectListItem projectId={ProjectId.WorldwideTripMicroblog} /> -->
+    <ProjectListItem projectId={ProjectId.Seer} />
+  </FlexColumn>
+</FlexColumn>

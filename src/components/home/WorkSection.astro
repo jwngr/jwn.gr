@@ -1,0 +1,25 @@
+---
+import {WorkEntryId} from '../../lib/types';
+import FlexColumn from '../atoms/FlexColumn.astro';
+import Text from '../atoms/Text.astro';
+import WorkListItem from './WorkListItem.astro';
+
+const orderedWorkEntryIds = [
+  WorkEntryId.Shortwave,
+  WorkEntryId.FloatingHouseStudios,
+  WorkEntryId.Firebase,
+  WorkEntryId.Microsoft,
+  WorkEntryId.NotreDame,
+];
+---
+
+<FlexColumn gap={12}>
+  <Text as="h2" monospace>Work & Education</Text>
+  <FlexColumn gap={{mobile: 8, desktop: 0}}>
+    {
+      orderedWorkEntryIds.map((experienceItemId) => (
+        <WorkListItem experienceItemId={experienceItemId} />
+      ))
+    }
+  </FlexColumn>
+</FlexColumn>
