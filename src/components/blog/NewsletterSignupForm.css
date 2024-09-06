@@ -24,12 +24,6 @@
   justify-content: flex-end;
 }
 
-.newsletter-hidden-bot-input,
-.newsletter-first-name-input {
-  position: absolute;
-  left: -5000px;
-}
-
 .newsletter-email-input {
   flex: 1;
   margin-left: 56px;
