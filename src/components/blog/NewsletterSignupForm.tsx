@@ -17,6 +17,7 @@ export const NewsletterSignupForm: React.FC = () => {
         Subscribe to new posts by email or <a href={Urls.forRss()}>RSS</a>
       </p>
 
+      {/* Note: This form does not work locally on Safari. */}
       <form
         className="newsletter-form"
         method="post"
