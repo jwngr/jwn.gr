@@ -14,6 +14,8 @@ const mobileSizePx = `${mobileSize}px`;
 ---
 
 <div id="avatar-container">
+  <div class="background-image"></div>
+  <div class="background-image"></div>
   <Image src={selfieImage} alt="Avatar" />
 </div>
 
@@ -31,31 +33,9 @@ const mobileSizePx = `${mobileSize}px`;
   import pattern11Image from '../../images/home/patterns/pattern11.png';
   import pattern12Image from '../../images/home/patterns/pattern12.png';
   import pattern13Image from '../../images/home/patterns/pattern13.png';
-  import pattern14Image from '../../images/home/patterns/pattern14.png';
-  import pattern15Image from '../../images/home/patterns/pattern15.png';
-  import pattern16Image from '../../images/home/patterns/pattern16.png';
-  import pattern17Image from '../../images/home/patterns/pattern17.png';
-  import pattern18Image from '../../images/home/patterns/pattern18.png';
-  import pattern19Image from '../../images/home/patterns/pattern19.png';
-  import pattern20Image from '../../images/home/patterns/pattern20.png';
-  import pattern21Image from '../../images/home/patterns/pattern21.png';
-  import pattern22Image from '../../images/home/patterns/pattern22.png';
-  import pattern23Image from '../../images/home/patterns/pattern23.png';
-  import pattern24Image from '../../images/home/patterns/pattern24.png';
-  import pattern25Image from '../../images/home/patterns/pattern25.png';
-  import pattern26Image from '../../images/home/patterns/pattern26.png';
-  import pattern27Image from '../../images/home/patterns/pattern27.png';
-  import pattern28Image from '../../images/home/patterns/pattern28.png';
-  import pattern29Image from '../../images/home/patterns/pattern29.png';
-  import pattern30Image from '../../images/home/patterns/pattern30.png';
-  import pattern31Image from '../../images/home/patterns/pattern31.png';
-  import pattern32Image from '../../images/home/patterns/pattern32.png';
-  import pattern33Image from '../../images/home/patterns/pattern33.png';
-  import pattern34Image from '../../images/home/patterns/pattern34.png';
-  import pattern35Image from '../../images/home/patterns/pattern35.png';
   import {sample, throttle} from '../../lib/utils';
 
-  const patternImages = [
+  const PATTERN_IMAGES = [
     pattern1Image,
     pattern2Image,
     pattern3Image,
@@ -69,55 +49,101 @@ const mobileSizePx = `${mobileSize}px`;
     pattern11Image,
     pattern12Image,
     pattern13Image,
-    pattern14Image,
-    pattern15Image,
-    pattern16Image,
-    pattern17Image,
-    pattern18Image,
-    pattern19Image,
-    pattern20Image,
-    pattern21Image,
-    pattern22Image,
-    pattern23Image,
-    pattern24Image,
-    pattern25Image,
-    pattern26Image,
-    pattern27Image,
-    pattern28Image,
-    pattern29Image,
-    pattern30Image,
-    pattern31Image,
-    pattern32Image,
-    pattern33Image,
-    pattern34Image,
-    pattern35Image,
   ];
 
+  // Remember recent patterns to avoid immediate repetition.
+  const recentPatterns: string[] = [];
+  const PATTERN_HISTORY_SIZE = 8;
+
+  /**
+   * Returns a random pattern from the list of available patterns.
+   */
   function getRandomPattern(): string {
-    return sample(patternImages).src;
+    let availablePatterns = PATTERN_IMAGES.filter(
+      (pattern) => !recentPatterns.includes(pattern.src)
+    );
+
+    // If all patterns have been used recently, reset and use all patterns.
+    if (availablePatterns.length === 0) {
+      availablePatterns = PATTERN_IMAGES;
+      recentPatterns.length = 0;
+    }
+
+    const selectedPatternSrc = sample(availablePatterns).src;
+
+    // Add the selected pattern to the recent patterns, removing the oldest one if necessary.
+    recentPatterns.push(selectedPatternSrc);
+    if (recentPatterns.length > PATTERN_HISTORY_SIZE) {
+      recentPatterns.shift();
+    }
+
+    return selectedPatternSrc;
   }
 
   const avatarContainer = document.getElementById('avatar-container');
+  const backgroundImages = avatarContainer?.querySelectorAll(
+    '.background-image'
+  ) as NodeListOf<HTMLElement>;
 
-  setInterval(() => {
-    if (!avatarContainer) return;
-    avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
-  }, 10000);
+  // The index of the current background image. We alternate between 0 and 1 because we have two
+  // background images which toggle between source and target pattern.
+  let currentIndex = 0;
 
-  if (avatarContainer) {
-    avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
+  function changePattern(): void {
+    if (!backgroundImages || backgroundImages.length !== 2) return;
 
-    const throttledPatternChange = throttle(() => {
-      avatarContainer.style.backgroundImage = `url(${getRandomPattern()})`;
-    }, 100);
+    // Get the current and next background images.
+    const currentBg = backgroundImages[currentIndex];
+    const nextBg = backgroundImages[1 - currentIndex];
 
+    // Get a new pattern.
+    const newPattern = getRandomPattern();
+
+    // Set the new pattern.
+    nextBg.style.backgroundImage = `url(${newPattern})`;
+    nextBg.style.opacity = '1';
+    currentBg.style.opacity = '0';
+
+    // Update the current index.
+    currentIndex = 1 - currentIndex;
+  }
+
+  if (avatarContainer && backgroundImages.length === 2) {
+    // Initialize both background images
+    const initialPattern = getRandomPattern();
+    const secondPattern = getRandomPattern();
+
+    // Set the initial pattern without transition
+    backgroundImages[0].style.transition = 'none';
+    backgroundImages[0].style.backgroundImage = `url(${initialPattern})`;
+    backgroundImages[0].style.opacity = '1';
+
+    // Force a reflow to ensure the 'none' transition is applied.
+    void backgroundImages[0].offsetWidth;
+
+    // Restore the transition for future changes.
+    backgroundImages[0].style.transition = '';
+
+    // Set up the second background image (hidden).
+    backgroundImages[1].style.backgroundImage = `url(${secondPattern})`;
+    backgroundImages[1].style.opacity = '0';
+
+    // Set an interval to automatically change the pattern.
+    setInterval(changePattern, 5_000);
+
+    const throttledPatternChange = throttle(changePattern, 100);
+
+    // Change the pattern on mouse move (desktop).
     avatarContainer.addEventListener('mousemove', throttledPatternChange);
-    avatarContainer.addEventListener('click', throttledPatternChange);
+
+    // Change the pattern on click / tap (mainly for mobile).
+    avatarContainer.addEventListener('click', changePattern);
   }
 </script>
 
 <style define:vars={{desktopSizePx, mobileSizePx}}>
   #avatar-container {
+    position: relative;
     width: var(--desktopSizePx);
     height: var(--desktopSizePx);
     border: solid 1px var(--black-1);
@@ -128,7 +154,20 @@ const mobileSizePx = `${mobileSize}px`;
     background-position: center;
   }
 
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
   #avatar-container img {
+    position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
