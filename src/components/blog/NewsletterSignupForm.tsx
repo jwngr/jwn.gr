@@ -39,7 +39,7 @@ export const NewsletterSignupForm: React.FC = () => {
         {/* From MailChimp: do not remove this or risk form bot signups */}
         <input
           className="newsletter-hidden-bot-input"
-          type="text"
+          type="hidden"
           name="b_d19fa80c86cc4e9017baf4f4b_46d31d866a"
           tabIndex={-1}
           value=""
