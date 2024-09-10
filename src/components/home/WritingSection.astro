@@ -2,14 +2,13 @@
 import FlexColumn from '../atoms/FlexColumn.astro';
 import Spacer from '../atoms/Spacer.astro';
 import Text from '../atoms/Text.astro';
-// import BlogPostList from '../blog/BlogPostList.astro';
+import BlogPostList from '../blog/BlogPostList.astro';
 import {NewsletterSignupForm} from '../blog/NewsletterSignupForm';
 ---
 
 <FlexColumn gap={12}>
   <Text as="h2" monospace>Writing</Text>
-  <!-- <BlogPostList /> -->
-  <Text>Coming soon...</Text>
+  <BlogPostList />
   <Spacer y={0} />
   <NewsletterSignupForm />
 </FlexColumn>
