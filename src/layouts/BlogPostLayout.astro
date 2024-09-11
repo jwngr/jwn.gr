@@ -76,7 +76,7 @@ let {frontmatter} = Astro.props;
   .blog-post-content li {
     font-size: 1.125rem; /* 18px */
     /* Slightly taller than standard p to visually distinguish list items. */
-    line-height: 2rem; /* 32px */
+    line-height: 1.875rem; /* 30px */
   }
 
   /* Increase top margins and reduce bottom margins on headers to clearly indicate sections.*/
@@ -96,5 +96,14 @@ let {frontmatter} = Astro.props;
     margin-right: -12px;
     border-radius: 4px;
     line-height: 1.5rem;
+  }
+
+  /* TODO: Rethink these colors and make it so that these styles are not needed at all. */
+  a {
+    color: var(--accent);
+  }
+
+  a:hover {
+    color: var(--accent-dark);
   }
 </style>
