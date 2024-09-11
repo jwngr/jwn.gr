@@ -56,7 +56,12 @@ p {
 li {
   font-size: 1.125rem; /* 18px */
   /* Slightly taller than standard p to visually distinguish list items. */
-  line-height: 2rem; /* 32px */
+  line-height: 1.875rem; /* 30px */
+  padding-left: 8px;
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 8px;
 }
 
 h1 {
