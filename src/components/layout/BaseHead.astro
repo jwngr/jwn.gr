@@ -30,7 +30,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <link href="/apple-touch-icon-180.png" rel="apple-touch-icon" />
 
   <!-- RSS feed. -->
-  <link href={Urls.forRss()} rel="alternate" title="Jacob Wenger" type="application/rss+xml" />
+  <link rel="alternate" href={Urls.forRss()} type="application/rss+xml" title="Jacob Wenger" />
 
   <!-- Manifest. -->
   <link rel="manifest" href="/manifest.json" />
