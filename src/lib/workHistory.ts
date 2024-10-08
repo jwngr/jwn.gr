@@ -7,6 +7,18 @@ import shortwaveLogo from '../images/home/experience/shortwaveLogo.png';
 import {WorkEntryId, type WorkEntry} from './types';
 
 export const WORK_HISTORY: Record<WorkEntryId, WorkEntry> = {
+  [WorkEntryId.Notion]: {
+    id: WorkEntryId.Notion,
+    name: 'Notion',
+    role: 'Software Engineer',
+    startMonth: 'October',
+    startYear: 2024,
+    endMonth: null,
+    endYear: null,
+    image: shortwaveLogo,
+    alt: 'Notion logo',
+    url: 'https://notion.so',
+  },
   [WorkEntryId.Shortwave]: {
     id: WorkEntryId.Shortwave,
     name: 'Shortwave',
@@ -46,7 +58,7 @@ export const WORK_HISTORY: Record<WorkEntryId, WorkEntry> = {
   [WorkEntryId.Firebase]: {
     id: WorkEntryId.Firebase,
     name: 'Firebase / Google',
-    role: 'Senior Software Engineer',
+    role: 'Software Engineer',
     startMonth: 'April',
     startYear: 2014,
     endMonth: 'April',
