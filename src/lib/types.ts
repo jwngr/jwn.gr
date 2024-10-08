@@ -23,6 +23,7 @@ export enum WorkEntryId {
   // Google = 'GOOGLE',
   FloatingHouseStudios = 'FLOATING_HOUSE_STUDIOS',
   Shortwave = 'SHORTWAVE',
+  Notion = 'NOTION',
 }
 
 export interface WorkEntry {
@@ -31,8 +32,8 @@ export interface WorkEntry {
   readonly role: string;
   readonly startMonth: string;
   readonly startYear: number;
-  readonly endMonth: string;
-  readonly endYear: number;
+  readonly endMonth: string | null;
+  readonly endYear: number | null;
   readonly image: ImageMetadata;
   readonly alt: string;
   readonly url?: string;
