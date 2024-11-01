@@ -16,7 +16,7 @@
     "@astrojs/react": "^3.6.2",
     "@astrojs/rss": "^4.0.8",
     "@astrojs/sitemap": "^3.2.0",
-    "astro": "^4.16.2"
+    "astro": "^4.16.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
