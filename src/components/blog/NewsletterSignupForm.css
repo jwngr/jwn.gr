@@ -62,7 +62,7 @@
 }
 
 .newsletter-form-wrapper a:hover {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 @media (max-width: 760px) {

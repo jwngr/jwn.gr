@@ -1,11 +1,24 @@
-name: Deploy frontend preview on PR
-on: pull_request
+name: Preview staging website on PR
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - '.firebaserc'
+      - '.prettierignore'
+      - '.prettierrc'
+      - 'astro.config.mjs'
+      - 'eslint.config.mjs'
+      - 'firebase.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
 permissions:
   checks: write
   contents: read
   pull-requests: write
 jobs:
-  build_and_preview:
+  deploy_hosting_stag:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
     steps:

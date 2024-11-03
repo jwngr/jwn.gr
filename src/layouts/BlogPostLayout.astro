@@ -46,6 +46,7 @@ let {frontmatter} = Astro.props;
       <div class="blog-post-content">
         <slot />
       </div>
+      <Spacer y={20} />
       <NewsletterSignupForm />
       <Spacer y={40} />
     </main>
@@ -100,7 +101,7 @@ let {frontmatter} = Astro.props;
 
   /* TODO: Rethink these colors and make it so that these styles are not needed at all. */
   a {
-    color: var(--accent);
+    color: var(--accent-text);
   }
 
   a:hover {
