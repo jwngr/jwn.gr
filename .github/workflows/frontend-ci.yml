@@ -1,5 +1,18 @@
-name: Run Frontend CI on push
-on: [push]
+name: Run frontend CI on push
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - '.firebaserc'
+      - '.prettierignore'
+      - '.prettierrc'
+      - 'astro.config.mjs'
+      - 'eslint.config.mjs'
+      - 'firebase.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
 jobs:
   frontend-ci:
     runs-on: ubuntu-latest

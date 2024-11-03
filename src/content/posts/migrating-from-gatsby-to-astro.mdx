@@ -13,15 +13,22 @@ import lighthouse from '../../images/blog/migrating-from-gatsby-to-astro/lightho
 import newSiteSmall from '../../images/blog/migrating-from-gatsby-to-astro/newSiteThumbnail.png';
 import oldSiteSmall from '../../images/blog/migrating-from-gatsby-to-astro/oldSiteThumbnail.png';
 
-The lifecycle of a developer's personal website is a reflection of the ever-evolving landscape of web technologies. Mine is no exception, having gone from humble HTML and CSS beginnings through Create React App and eventually landing on Gatsby. However, Gatsby has shown its age and I found myself seeking a modern alternative. Enter Astro – a framework that has breathed some new life into this site.
+The lifecycle of a developer's personal website is a reflection of the ever-evolving landscape of
+web technologies. Mine is no exception, having gone from humble HTML and CSS beginnings through
+Create React App and eventually landing on Gatsby. However, Gatsby has shown its age and I found
+myself seeking a modern alternative. Enter [Astro](https://astro.build/) — a framework that has
+breathed some new life into this site.
 
 ## Catalysts for change
 
 My decision to redesign wasn't just about using a new framework. I had specific goals in mind:
 
-1. **Create a dedicated writing space:** I wanted a platform fully under my control for showcasing my ideas.
-2. **Reduce maintenance overhead:** My Gatsby site had become a burden. I couldn't build the site locally or upgrade dependencies, leaving it outdated since 2019.
-3. **Make the design feel more professional:** I wanted a cleaner, simpler look that reflected my growth as a developer and designer.
+1. **Create a dedicated writing space:** I wanted a platform fully under my control for showcasing
+   my ideas.
+2. **Reduce maintenance overhead:** My Gatsby site had become a burden. I couldn't build the site
+   locally or upgrade dependencies, leaving it outdated since 2019.
+3. **Make the design feel more professional:** I wanted a cleaner, simpler look that reflected my
+   growth as a developer and designer.
 
 ## The transformation
 
@@ -92,8 +99,8 @@ Astro does a lot right. Here's what stood out to me during the migration:
   No more GraphQL queries everywhere — just straightforward data access using `import` and `await`.
   [Content collections](https://docs.astro.build/en/guides/content-collections/) provide a clean,
   type-safe API for my blog with minimal code.
-- **TypeScript support:** Astro's extensive [TypeScript support](https://docs.astro.build/en/guides/typescript/) provides peace of mind and speeds up
-  development.
+- **TypeScript support:** Astro's extensive [TypeScript support](https://docs.astro.build/en/guides/typescript/)
+  provides peace of mind and speeds up development.
 - **Simple, well-designed integrations:** Astro's [integrations](https://docs.astro.build/en/guides/integrations-guide/)
   required less code and configuration than I remember from Gatsby. I easily added an RSS feed,
   sitemap, and MDX support for the blog.
@@ -112,10 +119,13 @@ The migration was not without hurdles:
    tasks more tedious compared to using `styled-components`. Conditionally applying styles using
    classes and CSS, even with the help of `class:list`, required more code than I would like.
 2. **Component conversion:** Moving from untyped React class components to `.astro` components
-   with TypeScript was time-consuming but ultimately beneficial. I still have some hesitation with the
-   proprietary file format, but it looks and behaves like TypeScript, JSX, and CSS.
+   with TypeScript was time-consuming but ultimately beneficial. I still have some hesitation with
+   the proprietary file format, but it looks and behaves like TypeScript, JSX, and CSS.
 3. **Lack of multiple exports from `.astro` files:** This limitation led to some code organization
-   challenges. `FlexRow` and `FlexColumn` share a common [`Flex` component](https://github.com/jwngr/jwn.gr/blob/master/src/components/atoms/Flex.astro) that ideally would never be exported. Named exports are important for maintaining large codebases, and I would love to see support for this added to the format.
+   challenges. `FlexRow` and `FlexColumn` share a common
+   [`Flex` component](https://github.com/jwngr/jwn.gr/blob/master/src/components/atoms/Flex.astro)
+   that ideally would never be exported. Named exports are important for maintaining large
+   codebases, and I would love to see support for this added to the format.
 
 ## The results
 

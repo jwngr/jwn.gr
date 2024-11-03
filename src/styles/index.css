@@ -5,6 +5,7 @@
   --black-0: #0a0a0a;
   --black-1: #6a6a6a;
   --accent: #ff9d47;
+  --accent-text: #ea580c;
   --accent-light: #ffdec2;
   --accent-dark: #a94f00;
 }
@@ -90,6 +91,7 @@ h5,
 h6 {
   font-size: 1rem; /* 16px */
   line-height: 1.5rem; /* 24px */
+  font-weight: normal;
 }
 
 pre,
