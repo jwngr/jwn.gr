@@ -5,9 +5,9 @@ import {Image} from 'astro:assets';
 import Text from '../atoms/Text.astro';
 
 interface Props {
-  src: ImageMetadata;
-  alt: string;
-  caption: string;
+  readonly src: ImageMetadata;
+  readonly alt: string;
+  readonly caption: string;
 }
 
 const {src, alt, caption} = Astro.props;
