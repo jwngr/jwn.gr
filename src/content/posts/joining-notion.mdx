@@ -10,6 +10,7 @@ readingTimeMins: 5
 import {Image} from 'astro:assets';
 
 import Blockquote from '../../components/atoms/Blockquote.astro';
+import ImageWithCaption from '../../components/blog/ImageWithCaption.astro';
 import firstNotionEmail from '../../images/blog/joining-notion/firstNotionEmail.png';
 
 export const components = {blockquote: Blockquote};
@@ -61,16 +62,11 @@ became my personal "second brain" and our company backbone at Shortwave. Notion 
 crucial about software: rich capabilities can emerge from simple building blocks.
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
-  <Image
+  <ImageWithCaption
     src={firstNotionEmail}
     alt="My oldest email from Notion, dated August 2016. The images no longer resolve and Notion's ambitions have grown well beyond just word processing."
-    style="width: 100%; height: auto; border: solid 1px #0e0e0e; border-radius: 4px;"
+    caption="My oldest email from Notion, dated August 2016. Images no longer resolve and Notion's ambitions have grown well beyond just word processing."
   />
-  {/* TODO: Introduce proper caption component. */}
-  <div style="text-align: center; max-width: 90%; font-size: 1rem; font-style: italic; margin-top: -16px;">
-    My oldest email from Notion, dated August 2016. Images no longer resolve and Notion's ambitions
-    have grown well beyond just word processing.
-  </div>
 </div>
 
 I used Notion to build what [Tiago Forte](https://www.buildingasecondbrain.com/) describes as a

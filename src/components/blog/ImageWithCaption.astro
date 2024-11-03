@@ -1,0 +1,43 @@
+---
+import type {ImageMetadata} from 'astro';
+import {Image} from 'astro:assets';
+
+import Text from '../atoms/Text.astro';
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  caption: string;
+}
+
+const {src, alt, caption} = Astro.props;
+---
+
+<figure class="image-with-caption">
+  <Image src={src} alt={alt} class="image" />
+  <figcaption><Text as="h6">{caption}</Text></figcaption>
+</figure>
+
+<style>
+  .image-with-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border: solid 1px #0e0e0e;
+    border-radius: 4px;
+  }
+
+  figcaption {
+    text-align: center;
+    max-width: 90%;
+    font-size: 1rem;
+    font-style: italic;
+  }
+</style>
