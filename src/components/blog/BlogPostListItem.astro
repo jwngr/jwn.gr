@@ -2,6 +2,7 @@
 import type {CollectionEntry} from 'astro:content';
 
 import {SHORT_MONTH_DATE_FORMATTER} from '../../lib/datetimes';
+import {Urls} from '../../lib/urls';
 import ListItem from '../atoms/ListItem.astro';
 import Text from '../atoms/Text.astro';
 
@@ -13,7 +14,7 @@ const {post} = Astro.props;
 const {publishDate, title} = post.data;
 
 const formattedDate = SHORT_MONTH_DATE_FORMATTER.format(publishDate);
-const postUrl = `/posts/${post.id}`;
+const postUrl = Urls.forPost(post.id);
 ---
 
 <ListItem url={postUrl} gap={{mobile: 0, desktop: 24}}>

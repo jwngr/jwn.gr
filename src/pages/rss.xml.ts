@@ -6,8 +6,6 @@ import {Urls} from '../lib/urls';
 export async function GET() {
   const postsCollection = await getPosts();
 
-  console.log('postsCollection', postsCollection);
-
   return rss({
     title: 'Jacob Wenger',
     description: 'On software and life',
