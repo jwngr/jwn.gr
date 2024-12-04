@@ -6,6 +6,8 @@ import {Urls} from '../lib/urls';
 export async function GET() {
   const postsCollection = await getPosts();
 
+  console.log('postsCollection', postsCollection);
+
   return rss({
     title: 'Jacob Wenger',
     description: 'On software and life',
@@ -14,7 +16,7 @@ export async function GET() {
       title: post.data.title,
       pubDate: post.data.publishDate,
       description: post.data.description,
-      link: Urls.forPost(post.slug),
+      link: Urls.forPost(post.id),
     })),
   });
 }

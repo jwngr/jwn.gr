@@ -1,6 +1,6 @@
 ---
 import type {GetStaticPaths} from 'astro';
-import {type CollectionEntry} from 'astro:content';
+import {render, type CollectionEntry} from 'astro:content';
 
 import {getPosts} from '../../lib/posts';
 
@@ -9,7 +9,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return posts.map((post) => {
     return {
-      params: {slug: post.slug},
+      params: {id: post.id},
       props: {post},
     };
   });
@@ -20,7 +20,7 @@ interface Props {
 }
 
 const {post} = Astro.props;
-const {Content} = await post.render();
+const {Content} = await render(post);
 ---
 
 <Content />

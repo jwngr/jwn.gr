@@ -13,7 +13,7 @@ const {post} = Astro.props;
 const {publishDate, title} = post.data;
 
 const formattedDate = SHORT_MONTH_DATE_FORMATTER.format(publishDate);
-const postUrl = `/posts/${post.slug}`;
+const postUrl = `/posts/${post.id}`;
 ---
 
 <ListItem url={postUrl} gap={{mobile: 0, desktop: 24}}>
