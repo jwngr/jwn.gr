@@ -16,7 +16,7 @@ export class Urls {
     return Urls.SITEMAP;
   }
 
-  static forPost(slug: string) {
-    return `${Urls.POSTS}${slug}`;
+  static forPost(id: string) {
+    return `${Urls.POSTS}${id}`;
   }
 }

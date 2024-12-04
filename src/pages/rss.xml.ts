@@ -14,7 +14,7 @@ export async function GET() {
       title: post.data.title,
       pubDate: post.data.publishDate,
       description: post.data.description,
-      link: Urls.forPost(post.slug),
+      link: Urls.forPost(post.id),
     })),
   });
 }
