@@ -15,6 +15,4 @@ const blogPostsCollection = defineCollection({
 });
 
 // Register collections as a single object.
-export const collections = {
-  posts: blogPostsCollection,
-};
+export const collections = {posts: blogPostsCollection};

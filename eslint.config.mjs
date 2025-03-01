@@ -18,9 +18,7 @@ export default tseslint.config(
   {
     files: ['**/*.{js,jsx,ts,tsx,astro,mjs}'],
     ignores: ['**/dist'],
-    plugins: {
-      'react-hooks': reactHooks,
-    },
+    plugins: {'react-hooks': reactHooks},
     rules: {
       '@typescript-eslint/no-extraneous-class': 'off',
       ...reactHooks.configs.recommended.rules,

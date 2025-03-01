@@ -3,11 +3,9 @@
   "bracketSpacing": false,
   "printWidth": 100,
   "singleQuote": true,
+  "objectWrap": "collapse",
   "trailingComma": "es5",
-  "plugins": [
-    "@ianvs/prettier-plugin-sort-imports",
-    "prettier-plugin-astro"
-  ],
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-astro"],
   "importOrder": ["<BUILT_IN_MODULES>", "", "<THIRD_PARTY_MODULES>", "", "^[.]"],
   "overrides": [
     {
