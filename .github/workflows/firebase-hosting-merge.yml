@@ -1,4 +1,5 @@
 name: Deploy prod website on merge
+
 on:
   push:
     branches:
@@ -15,6 +16,11 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - '.github/workflows/firebase-hosting-merge.yml'
+
+permissions:
+  contents: read
+
 jobs:
   deploy_hosting_prod:
     runs-on: ubuntu-latest
