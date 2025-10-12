@@ -1,4 +1,5 @@
 name: Run frontend CI on push
+
 on:
   push:
     paths:
@@ -13,6 +14,11 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - 'frontend-ci.yml'
+
+permissions:
+  contents: read
+
 jobs:
   frontend-ci:
     runs-on: ubuntu-latest

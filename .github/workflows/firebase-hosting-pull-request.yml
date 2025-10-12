@@ -1,4 +1,5 @@
 name: Preview staging website on PR
+
 on:
   pull_request:
     paths:
@@ -13,10 +14,13 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - 'firebase-hosting-pull-request.yml'
+
 permissions:
   checks: write
   contents: read
   pull-requests: write
+
 jobs:
   deploy_hosting_stag:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
