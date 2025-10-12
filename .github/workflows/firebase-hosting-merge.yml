@@ -16,7 +16,7 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
-      - 'firebase-hosting-merge.yml'
+      - '.github/workflows/firebase-hosting-merge.yml'
 
 permissions:
   contents: read

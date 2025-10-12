@@ -14,7 +14,7 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
-      - 'frontend-ci.yml'
+      - '.github/workflows/frontend-ci.yml'
 
 permissions:
   contents: read
