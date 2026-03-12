@@ -40,7 +40,7 @@ gh api repos/{owner}/{repo}/pulls/<PR_NUMBER>/comments
 
 ### 3. Wait for pending checks
 
-Before analyzing, ensure all status checks have completed. If any checks are `PENDING` or `IN_PROGRESS`, poll every 30 seconds until all checks reach a terminal state (success or failure). This ensures that review bot comments (Greptile, linters, etc.) are available before analysis.
+Before analyzing, ensure all status checks have completed. If any checks are `PENDING` or `IN_PROGRESS`, poll every 30 seconds until all checks reach a terminal state (success or failure), up to a maximum of 10 minutes. If checks are still not complete after 10 minutes, proceed with analysis using available results and note which checks are still pending. This ensures that review bot comments (Greptile, linters, etc.) are available before analysis.
 
 ### 4. Analyze the PR
 

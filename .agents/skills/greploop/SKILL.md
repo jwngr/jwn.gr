@@ -49,6 +49,12 @@ Then request a fresh Greptile review by posting a PR comment (Greptile watches f
 gh pr comment <PR_NUMBER> --body "@greptile review"
 ```
 
+Then wait 5 seconds:
+
+```bash
+sleep 5
+```
+
 Then poll for the Greptile check to complete:
 
 ```bash
