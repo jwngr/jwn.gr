@@ -21,6 +21,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: firebase-hosting-merge-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy_hosting_prod:
     runs-on: ubuntu-latest
