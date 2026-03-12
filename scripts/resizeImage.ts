@@ -1,59 +1,70 @@
-import {access} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 import sharp from 'sharp';
+import tinify from 'tinify';
+import config from '../config.json' assert {type: 'json'};
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+tinify.key = config.tinifyApiKey;
+
 if (process.argv.length !== 3) {
-  console.log('[ERROR] Filename to resize must be provided.');
+  console.log('[ERROR] Filename to resize and compress must be provided.');
   console.log('[INFO] Usage: npx tsx scripts/resizeImage.ts <filename>');
   process.exit(1);
 }
 
 const sourceImagesDir = path.resolve(__dirname, './originals');
 const targetImagesDir = path.resolve(__dirname, '../src/images/microblog/posts');
-const sourceImageFilename = process.argv[2];
-const sourceImagePath = path.resolve(sourceImagesDir, sourceImageFilename);
 
-const resizeAndCompress = async (
+const sourceImageFilename = process.argv[2];
+const sourceImagePath = `${sourceImagesDir}/${sourceImageFilename}`;
+
+// Create full-sized image
+void resizeAndCompress(sourceImagePath, `${targetImagesDir}/${sourceImageFilename}`, 512, 512);
+
+// Create thumbnail
+void resizeAndCompress(
+  sourceImagePath,
+  `${targetImagesDir}/${sourceImageFilename.split('.')[0]}-thumbnail.jpg`,
+  200,
+  200
+);
+
+/**
+ * Resizes and compresses a source image, saving it at the target file path.
+ *
+ * @param source Full file path to source image.
+ * @param target Full file path to the target image.
+ * @param width Width of the target image.
+ * @param height Height of the target image.
+ */
+function resizeAndCompress(
   source: string,
   target: string,
   width: number,
   height: number
-): Promise<void> => {
-  try {
-    await sharp(source).resize(width, height).jpeg({mozjpeg: true, quality: 80}).toFile(target);
+): Promise<void> {
+  return sharp(source)
+    .resize(width, height)
+    .toBuffer()
+    .then(
+      (data) =>
+        new Promise<void>((resolve, reject) => {
+          tinify.fromBuffer(data).toFile(target, (error: unknown) => {
+            if (error !== null) {
+              reject(error);
+              return;
+            }
 
-    console.log(`Successfully resized and compressed ${source} to ${target}.`);
-  } catch (error) {
-    console.log(`Error resizing and compressing ${source} to ${target}:`, error);
-    process.exitCode = 1;
-  }
-};
-
-const main = async (): Promise<void> => {
-  await access(sourceImagePath);
-
-  await Promise.all([
-    resizeAndCompress(
-      sourceImagePath,
-      path.resolve(targetImagesDir, sourceImageFilename),
-      512,
-      512
-    ),
-    resizeAndCompress(
-      sourceImagePath,
-      path.resolve(targetImagesDir, `${path.parse(sourceImageFilename).name}-thumbnail.jpg`),
-      200,
-      200
-    ),
-  ]);
-};
-
-await main().catch((error: unknown) => {
-  console.error('Failed to resize image:', error);
-  process.exit(1);
-});
+            console.log(`Successfully resized and compressed ${source} to ${target}!`);
+            resolve();
+          });
+        })
+    )
+    .catch((error) => {
+      console.log(`Error resizing and compressing ${source} to ${target}:`, error);
+    });
+}
