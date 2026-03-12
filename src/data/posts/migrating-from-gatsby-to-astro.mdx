@@ -106,7 +106,7 @@ Astro does a lot right. Here's what stood out to me during the migration:
   sitemap, and MDX support for the blog.
 - **Framework flexibility:** The ability to fall back to React (or other frameworks) when needed
   feels like the right trade-off, avoiding lock-in to Astro's ecosystem. I leveraged this for my
-  [newsletter signup form](https://github.com/jwngr/jwn.gr/blob/master/src/components/blog/NewsletterSignupForm.tsx),
+  [newsletter signup form](https://github.com/jwngr/jwn.gr/blob/main/src/components/blog/NewsletterSignupForm.tsx),
   which I didn't have time to migrate from React.
 - **Thoughtful documentation:** The docs are extensive, well-organized, and even include a [guide on
   migrating from Gatsby](https://docs.astro.build/en/guides/migrate-to-astro/from-gatsby/).
@@ -123,7 +123,7 @@ The migration was not without hurdles:
    the proprietary file format, but it looks and behaves like TypeScript, JSX, and CSS.
 3. **Lack of multiple exports from `.astro` files:** This limitation led to some code organization
    challenges. `FlexRow` and `FlexColumn` share a common
-   [`Flex` component](https://github.com/jwngr/jwn.gr/blob/master/src/components/atoms/Flex.astro)
+   [`Flex` component](https://github.com/jwngr/jwn.gr/blob/main/src/components/atoms/Flex.astro)
    that ideally would never be exported. Named exports are important for maintaining large
    codebases, and I would love to see support for this added to the format.
 
