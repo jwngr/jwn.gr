@@ -5,24 +5,28 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 ## Development Commands
 
 **Initial setup:**
+
 ```bash
 npm install
 ```
 
 **Core development:**
+
 ```bash
 npm run start    # Start dev server at http://localhost:4321
-npm run build    # Type check and build for production  
+npm run build    # Type check and build for production
 npm run preview  # Preview production build locally
 ```
 
 **Code quality:**
+
 ```bash
 npm run lint     # Run Prettier + ESLint with zero warnings policy
 npm run format   # Auto-format all code with Prettier
 ```
 
 **Maintenance:**
+
 ```bash
 npm run update-deps  # Update all dependencies to latest versions
 ```
@@ -62,6 +66,7 @@ src/
 ### Content Management
 
 **Blog posts** are managed through Astro Content Collections:
+
 - Written as `.mdx` files in `src/data/posts/`
 - Frontmatter schema defined in `src/content.config.ts`
 - Type-safe access via `getCollection('posts')`
@@ -73,6 +78,7 @@ src/
 ### Component System
 
 The site uses a **atomic design** approach:
+
 - **Atoms**: Basic UI primitives (`Text`, `Spacer`, `Flex`, `Link`)
 - **Molecules**: Combined atoms (`BlogPostListItem`, `ProjectListItem`)
 - **Organisms**: Full sections (`AboutSection`, `ProjectsSection`)
@@ -91,7 +97,7 @@ Most components are `.astro` files for static content, with selective use of Rea
 
 - **GitHub Actions** handle CI/CD:
   - PR previews via Firebase Hosting
-  - Automatic production deploys on merge to `master`
+  - Automatic production deploys on merge to `main`
   - Lint and build validation on all PRs
 - **Astro build** generates optimized static HTML/CSS/JS to `dist/`
 - **Type checking** runs before each build via `astro check`

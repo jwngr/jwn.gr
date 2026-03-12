@@ -9,5 +9,5 @@ Deploys are handled by GitHub Actions and Firebase Hosting.
 
 ## Production
 
-- Merges to `master` deploy to production.
+- Merges to `main` deploy to production.
 - Build output lives in `dist/`.
