@@ -3,7 +3,8 @@ import {fileURLToPath} from 'node:url';
 
 import sharp from 'sharp';
 import tinify from 'tinify';
-import config from '../config.json' assert {type: 'json'};
+
+import config from '../config.json' with {type: 'json'};
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

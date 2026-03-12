@@ -1,11 +1,9 @@
 import _ from 'lodash';
 import removeMarkdown from 'remove-markdown';
-import postsData from '../src/resources/posts.json' assert {type: 'json'};
 
-type MicroblogPost = {
-  id: string;
-  text: string;
-};
+import postsData from '../src/resources/posts.json' with {type: 'json'};
+
+type MicroblogPost = {id: string; text: string};
 
 const posts = postsData as MicroblogPost[];
 
