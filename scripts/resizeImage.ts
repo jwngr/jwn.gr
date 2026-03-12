@@ -1,15 +1,13 @@
+import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 import sharp from 'sharp';
 import tinify from 'tinify';
 
-import config from '../config.json' with {type: 'json'};
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-tinify.key = config.tinifyApiKey;
+const configPath = path.resolve(__dirname, '../config.json');
 
 if (process.argv.length !== 3) {
   console.log('[ERROR] Filename to resize and compress must be provided.');
@@ -24,15 +22,19 @@ const sourceImageFilename = process.argv[2];
 const sourceImagePath = `${sourceImagesDir}/${sourceImageFilename}`;
 
 // Create full-sized image
-void resizeAndCompress(sourceImagePath, `${targetImagesDir}/${sourceImageFilename}`, 512, 512);
+const main = async (): Promise<void> => {
+  tinify.key = await loadTinifyApiKey();
 
-// Create thumbnail
-void resizeAndCompress(
-  sourceImagePath,
-  `${targetImagesDir}/${sourceImageFilename.split('.')[0]}-thumbnail.jpg`,
-  200,
-  200
-);
+  await Promise.all([
+    resizeAndCompress(sourceImagePath, `${targetImagesDir}/${sourceImageFilename}`, 512, 512),
+    resizeAndCompress(
+      sourceImagePath,
+      `${targetImagesDir}/${sourceImageFilename.split('.')[0]}-thumbnail.jpg`,
+      200,
+      200
+    ),
+  ]);
+};
 
 /**
  * Resizes and compresses a source image, saving it at the target file path.
@@ -42,30 +44,55 @@ void resizeAndCompress(
  * @param width Width of the target image.
  * @param height Height of the target image.
  */
-function resizeAndCompress(
+async function resizeAndCompress(
   source: string,
   target: string,
   width: number,
   height: number
 ): Promise<void> {
-  return sharp(source)
-    .resize(width, height)
-    .toBuffer()
-    .then(
-      (data) =>
-        new Promise<void>((resolve, reject) => {
-          tinify.fromBuffer(data).toFile(target, (error: unknown) => {
-            if (error !== null) {
-              reject(error);
-              return;
-            }
+  try {
+    const data = await sharp(source).resize(width, height).toBuffer();
 
-            console.log(`Successfully resized and compressed ${source} to ${target}!`);
-            resolve();
-          });
-        })
-    )
-    .catch((error) => {
-      console.log(`Error resizing and compressing ${source} to ${target}:`, error);
+    await new Promise<void>((resolve, reject) => {
+      tinify.fromBuffer(data).toFile(target, (error: unknown) => {
+        if (error !== null) {
+          reject(error);
+          return;
+        }
+
+        console.log(`Successfully resized and compressed ${source} to ${target}!`);
+        resolve();
+      });
     });
+  } catch (error) {
+    console.log(`Error resizing and compressing ${source} to ${target}:`, error);
+    throw error;
+  }
 }
+
+async function loadTinifyApiKey(): Promise<string> {
+  const apiKey = process.env.TINIFY_API_KEY;
+
+  if (apiKey !== undefined && apiKey.length > 0) {
+    return apiKey;
+  }
+
+  try {
+    const config = JSON.parse(await readFile(configPath, 'utf8')) as {tinifyApiKey?: string};
+
+    if (config.tinifyApiKey !== undefined && config.tinifyApiKey.length > 0) {
+      return config.tinifyApiKey;
+    }
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+      throw error;
+    }
+  }
+
+  throw new Error(`Missing Tinify API key. Set TINIFY_API_KEY or add ${configPath}.`);
+}
+
+await main().catch((error: unknown) => {
+  console.error('Failed to resize image:', error);
+  process.exit(1);
+});

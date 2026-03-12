@@ -52,6 +52,6 @@ const main = async (): Promise<void> => {
 };
 
 await main().catch((error: unknown) => {
-  console.error('Failed to generate post table of contents:', error);
+  console.error(`Failed to generate post table of contents from ${postsPath}:`, error);
   process.exit(1);
 });
