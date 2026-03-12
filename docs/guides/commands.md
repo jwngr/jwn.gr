@@ -10,3 +10,4 @@ Prefer `npm run <script>` so local behavior matches CI.
 - `npm run preview` - serve the production build locally
 - `npm run lint`
 - `npm run format`
+- `npm run update-deps` - update all dependencies to latest versions
