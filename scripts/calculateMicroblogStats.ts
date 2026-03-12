@@ -3,18 +3,20 @@ import removeMarkdown from 'remove-markdown';
 
 import postsData from '../src/resources/posts.json' with {type: 'json'};
 
-type MicroblogPost = {id: string; text: string};
+interface MicroblogPost {
+  id: string;
+  text: string;
+}
 
 const posts = postsData as MicroblogPost[];
 
-let postCount = posts.length;
 let wordCount = 0;
 let characterCount = 0;
 
-_.forEach(posts, (post) => {
+_.forEach(posts, (post: MicroblogPost) => {
   const str = removeMarkdown(post.text).replace(/&mdash;/g, '-');
 
-  const tokens = _.filter(str.split(' '), (token) => {
+  const tokens = _.filter(str.split(' '), (token: string) => {
     return token !== '-';
   });
 
@@ -26,6 +28,6 @@ _.forEach(posts, (post) => {
   characterCount += str.length;
 });
 
-console.log('Posts:', postCount);
+console.log('Posts:', posts.length);
 console.log('Words:', wordCount);
 console.log('Characters:', characterCount);
