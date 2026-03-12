@@ -1,9 +1,10 @@
 import eslint from '@eslint/js';
 import eslintPluginAstro from 'eslint-plugin-astro';
 import reactHooks from 'eslint-plugin-react-hooks';
+import {defineConfig} from 'eslint/config';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
   // ESLint.
   eslint.configs.recommended,
 

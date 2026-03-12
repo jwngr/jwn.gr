@@ -1,7 +1,7 @@
-const _ = require('lodash');
-const removeMarkdown = require('remove-markdown');
+import _ from 'lodash';
+import removeMarkdown from 'remove-markdown';
 
-const posts = require('../src/resources/posts.json');
+import posts from '../src/resources/posts.json' with {type: 'json'};
 
 let postCount = posts.length;
 let wordCount = 0;

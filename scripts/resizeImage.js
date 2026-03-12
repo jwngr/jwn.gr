@@ -1,8 +1,13 @@
-const path = require('path');
-const sharp = require('sharp');
-const tinify = require('tinify');
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
 
-const config = require('../config.json');
+import sharp from 'sharp';
+import tinify from 'tinify';
+
+import config from '../config.json' with {type: 'json'};
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 tinify.key = config.tinifyApiKey;
 
 if (process.argv.length !== 3) {

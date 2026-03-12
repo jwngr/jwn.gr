@@ -1,6 +1,6 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
-const posts = require('../src/resources/posts.json');
+import posts from '../src/resources/posts.json' with {type: 'json'};
 
 let previousLocation = null;
 let previousLocationPostCount = 0;
