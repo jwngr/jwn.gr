@@ -99,13 +99,6 @@ const mobileSizePx = `${mobileSize}px`;
     // Get a new pattern.
     const newPattern = getRandomPattern();
 
-    // Check if mouse is currently hovering over the avatar container.
-    const isHovering = avatarContainer?.matches(':hover');
-    console.log('changePattern', {isHovering});
-    if (!isHovering) {
-      return;
-    }
-
     // Set the new pattern.
     nextBg.style.backgroundImage = `url(${newPattern})`;
     nextBg.style.opacity = '1';
@@ -113,42 +106,6 @@ const mobileSizePx = `${mobileSize}px`;
 
     // Update the current index.
     currentIndex = 1 - currentIndex;
-  }
-
-  // 1) Auto-change every N ms via interval
-  const AUTO_CHANGE_INTERVAL_MS = 5_000; // N
-
-  // 2) Mouse-move updates limited to every M ms while hovered
-  const MOUSEMOVE_THROTTLE_MS = 100; // M
-  const HOVER_IDLE_RESUME_MS = 500; // resume auto interval after no movement
-
-  let autoChangeIntervalId: number | undefined;
-  let hoverIdleTimeoutId: number | undefined;
-
-  function startAutoChangeInterval(): void {
-    stopAutoChangeInterval();
-    autoChangeIntervalId = window.setInterval(changePattern, AUTO_CHANGE_INTERVAL_MS);
-  }
-
-  function stopAutoChangeInterval(): void {
-    if (autoChangeIntervalId != null) {
-      clearInterval(autoChangeIntervalId);
-      autoChangeIntervalId = undefined;
-    }
-  }
-
-  function clearHoverIdleTimeout(): void {
-    if (hoverIdleTimeoutId != null) {
-      clearTimeout(hoverIdleTimeoutId);
-      hoverIdleTimeoutId = undefined;
-    }
-  }
-
-  function scheduleHoverIdleResume(): void {
-    clearHoverIdleTimeout();
-    hoverIdleTimeoutId = window.setTimeout(() => {
-      startAutoChangeInterval();
-    }, HOVER_IDLE_RESUME_MS);
   }
 
   if (avatarContainer && backgroundImages.length === 2) {
@@ -171,34 +128,16 @@ const mobileSizePx = `${mobileSize}px`;
     backgroundImages[1].style.backgroundImage = `url(${secondPattern})`;
     backgroundImages[1].style.opacity = '0';
 
-    // Start the auto interval.
-    startAutoChangeInterval();
+    // Set an interval to automatically change the pattern.
+    setInterval(changePattern, 5_000);
 
-    // Throttled move handler (active only while hovered)
-    const throttledMouseMoveChange = throttle(changePattern, MOUSEMOVE_THROTTLE_MS);
+    const throttledPatternChange = throttle(changePattern, 100);
 
-    // Manage movement while hovered: manual updates when moving, auto when idle
-    const onMouseMove = (): void => {
-      stopAutoChangeInterval();
-      throttledMouseMoveChange();
-      scheduleHoverIdleResume();
-    };
+    // Change the pattern on mouse move (desktop).
+    avatarContainer.addEventListener('mousemove', throttledPatternChange);
 
-    const onMouseEnter = (): void => {
-      // On enter, restart auto interval from 0; switch to manual only on movement
-      startAutoChangeInterval();
-      clearHoverIdleTimeout();
-      avatarContainer.addEventListener('mousemove', onMouseMove);
-    };
-    avatarContainer.addEventListener('mouseenter', onMouseEnter);
-
-    const onMouseLeave = (): void => {
-      // 3) On leave, cancel mousemove updates and restart auto interval from 0
-      avatarContainer.removeEventListener('mousemove', onMouseMove);
-      clearHoverIdleTimeout();
-      startAutoChangeInterval();
-    };
-    avatarContainer.addEventListener('mouseleave', onMouseLeave);
+    // Change the pattern on click / tap (mainly for mobile).
+    avatarContainer.addEventListener('click', changePattern);
   }
 </script>
 

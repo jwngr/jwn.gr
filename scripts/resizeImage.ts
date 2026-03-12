@@ -25,10 +25,7 @@ const resizeAndCompress = async (
   height: number
 ): Promise<void> => {
   try {
-    await sharp(source)
-      .resize(width, height)
-      .jpeg({mozjpeg: true, quality: 80})
-      .toFile(target);
+    await sharp(source).resize(width, height).jpeg({mozjpeg: true, quality: 80}).toFile(target);
 
     console.log(`Successfully resized and compressed ${source} to ${target}.`);
   } catch (error) {
@@ -49,10 +46,7 @@ const main = async (): Promise<void> => {
     ),
     resizeAndCompress(
       sourceImagePath,
-      path.resolve(
-        targetImagesDir,
-        `${path.parse(sourceImageFilename).name}-thumbnail.jpg`
-      ),
+      path.resolve(targetImagesDir, `${path.parse(sourceImageFilename).name}-thumbnail.jpg`),
       200,
       200
     ),
