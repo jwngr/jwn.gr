@@ -1,37 +1,57 @@
-import _ from 'lodash';
+import {readFile} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
 
-import posts from '../src/resources/posts.json' with {type: 'json'};
+interface MicroblogPost {
+  locations___NODE: string | null;
+}
 
-let previousLocation = null;
-let previousLocationPostCount = 0;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const postsPath = path.resolve(__dirname, '../src/resources/posts.json');
 
-const padNumber = (num) => {
+const padNumber = (num: number): string => {
   if (num < 10) {
     return `00${num}`;
-  } else if (num < 100) {
-    return `0${num}`;
-  } else {
-    return num;
   }
+
+  if (num < 100) {
+    return `0${num}`;
+  }
+
+  return String(num);
 };
 
-_.forEach(posts, (post, i) => {
-  if (post.locations___NODE === previousLocation) {
-    previousLocationPostCount++;
-  } else {
+const main = async (): Promise<void> => {
+  const posts = JSON.parse(await readFile(postsPath, 'utf8')) as MicroblogPost[];
+
+  let previousLocation: string | null = null;
+  let previousLocationPostCount = 0;
+
+  for (const [index, post] of posts.entries()) {
+    if (post.locations___NODE === previousLocation) {
+      previousLocationPostCount++;
+      continue;
+    }
+
     if (previousLocation !== null) {
       console.log(
-        `${previousLocation}: ${padNumber(i + 1 - previousLocationPostCount)} - ${padNumber(i)}`
+        `${previousLocation}: ${padNumber(index + 1 - previousLocationPostCount)} - ${padNumber(index)}`
       );
     }
 
     previousLocation = post.locations___NODE;
     previousLocationPostCount = 1;
   }
-});
 
-console.log(
-  `${previousLocation}: ${padNumber(posts.length + 1 - previousLocationPostCount)} - ${padNumber(
-    posts.length
-  )}`
-);
+  if (previousLocation !== null) {
+    console.log(
+      `${previousLocation}: ${padNumber(posts.length + 1 - previousLocationPostCount)} - ${padNumber(posts.length)}`
+    );
+  }
+};
+
+await main().catch((error: unknown) => {
+  console.error('Failed to generate post table of contents:', error);
+  process.exit(1);
+});
