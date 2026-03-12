@@ -22,7 +22,14 @@ This repo is the personal website for Jacob Wenger (https://jwn.gr).
 ## Repo Structure
 
 - `docs/` - Project docs and AI guidance (guides/, plans/, vendors/)
-- `src/` - Application code (Astro pages/components, TypeScript)
+- `src/` - Application code
+  - `pages/` - Astro routes (homepage, blog posts, RSS, 404)
+  - `components/` - `atoms/`, `home/`, `blog/`, `layout/`
+  - `data/posts/` - MDX blog posts (using content collections)
+  - `lib/` - Shared types, data constants, utilities
+  - `layouts/` - Page layouts
+  - `styles/` - Global CSS and custom properties
+  - `images/` - Static images organized by section
 - `public/` - Static assets
 - `scripts/` - Utility scripts
 - `astro.config.mjs` - Astro config
@@ -32,6 +39,9 @@ This repo is the personal website for Jacob Wenger (https://jwn.gr).
 ## Guides Index
 
 More detailed rules are in `docs/guides/`. Always read the relevant guide(s) before starting work in that area.
+
+- **[architecture.md](docs/guides/architecture.md)** — Content model, routing, layouts, component patterns, styling.
+  Consult when: understanding how the site is structured or adding new pages/sections.
 
 - **[codeStyle.md](docs/guides/codeStyle.md)** — Types, naming, imports/exports, errors, comments.
   Consult when: writing or reviewing any code.

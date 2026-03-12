@@ -4,8 +4,8 @@ Deploys are handled by GitHub Actions and Firebase Hosting.
 
 ## CI
 
-- PRs run lint and build.
-- PRs get preview deploys.
+- PRs run lint, `astro check`, and build.
+- PRs get Firebase Hosting preview deploys.
 
 ## Production
 
