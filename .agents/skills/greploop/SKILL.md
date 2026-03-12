@@ -136,8 +136,10 @@ mutation {
 
 #### F. Commit and push
 
+Stage only the files that were modified to address comments (do not use `git add -A` or `git add .`):
+
 ```bash
-git add -A
+git add <file1> <file2> ...
 git commit -m "address greptile review feedback (greploop iteration N)"
 git push
 ```
