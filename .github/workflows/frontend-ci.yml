@@ -14,24 +14,26 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - '.github/actions/setup-ci/action.yml'
       - '.github/workflows/frontend-ci.yml'
 
 permissions:
   contents: read
 
+# Allow cancelling in-progress CI runs.
+concurrency:
+  group: frontend-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   frontend-ci:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup CI
+        uses: ./.github/actions/setup-ci
         with:
-          node-version: '24'
-      - name: Install dependencies
-        run: npm install
-      - name: Lint
-        run: npm run lint
-      - name: Build
-        run: npm run build
+          run-lint: 'true'
+          run-build: 'true'

@@ -16,21 +16,27 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - '.github/actions/setup-ci/action.yml'
       - '.github/workflows/firebase-hosting-merge.yml'
 
 permissions:
   contents: read
 
+# Ensure every prod deploy completes. New pushes queue instead of cancelling in-flight deploys.
+concurrency:
+  group: firebase-hosting-merge-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   deploy_hosting_prod:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Setup CI
+        uses: ./.github/actions/setup-ci
         with:
-          node-version: '24'
-          cache: 'npm'
-      - run: npm ci && npm run build
+          run-build: 'true'
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
