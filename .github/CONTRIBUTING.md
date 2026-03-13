@@ -13,6 +13,15 @@ $ npm run start
 The site will be available at [http://localhost:4321](http://localhost:4321). A local network
 address for testing on a mobile device will also be shown.
 
+## Running utility scripts
+
+The standalone scripts in `scripts/` are written in TypeScript. Run them with `npx tsx`, for
+example:
+
+```bash
+$ npx tsx scripts/resizeImage.ts <filename>
+```
+
 ## MCPs
 
 This repo includes shared MCP server settings for Codex, Claude, and more. To use them, ensure you

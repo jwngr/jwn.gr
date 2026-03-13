@@ -18,6 +18,7 @@ This repo is the personal website for Jacob Wenger (https://jwn.gr).
 - Format: `npm run format`
 - Build: `npm run build`
 - Preview: `npm run preview`
+- Utility scripts: `npx tsx scripts/<script>.ts`
 
 ## Repo Structure
 
@@ -58,6 +59,7 @@ More detailed rules are in `docs/guides/`. Always read the relevant guide(s) bef
 ## Agent Notes
 
 - Prefer `npm run <script>` over ad-hoc commands
+- Run TypeScript utility scripts in `scripts/` with `npx tsx scripts/<script>.ts`
 - Avoid editing `dist/`, `node_modules/`, or `.astro/` directly
 - Keep edits minimal and aligned with existing code style
 - Check `docs/guides/` for area-specific guidance before making changes
