@@ -20,7 +20,7 @@ on:
 permissions:
   contents: read
 
-# Allow cancelling in-progress CI runs.
+# Cancel in-progress runs to save CI minutes.
 concurrency:
   group: frontend-ci-${{ github.ref }}
   cancel-in-progress: true

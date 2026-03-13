@@ -22,7 +22,7 @@ permissions:
   contents: read
   pull-requests: write
 
-# Ensure every staging deploy completes. New pushes queue instead of cancelling in-flight deploys.
+# Cancel in-progress runs to save CI minutes.
 concurrency:
   group: firebase-hosting-pull-request-${{ github.ref }}
   cancel-in-progress: false
