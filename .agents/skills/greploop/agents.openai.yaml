@@ -1,0 +1,8 @@
+interface:
+  display_name: "Greploop"
+  short_description: "Iteratively improve a PR until Greptile returns 5/5 with zero unresolved comments."
+  default_prompt: "Run the greploop workflow on the current PR."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools: []
