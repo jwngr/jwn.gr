@@ -16,6 +16,7 @@ runs:
       with:
         node-version: '24'
         cache: 'npm'
+        cache-dependency-path: package-lock.json
     - run: npm ci
       shell: bash
     - if: ${{ inputs.run-lint == 'true' }}
