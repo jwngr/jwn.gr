@@ -25,8 +25,12 @@ concurrency:
 
 jobs:
   frontend-ci:
-    uses: ./.github/workflows/reusable-node-ci.yml
-    with:
-      node-version: '24'
-      run-lint: true
-      run-build: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup CI
+        uses: ./.github/actions/setup-ci
+        with:
+          run-lint: 'true'
+          run-build: 'true'
