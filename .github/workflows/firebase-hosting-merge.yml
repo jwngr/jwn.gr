@@ -22,13 +22,15 @@ on:
 permissions:
   contents: read
 
+# Ensure every prod deploy completes. New pushes queue instead of cancelling in-flight deploys.
 concurrency:
   group: firebase-hosting-merge-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy_hosting_prod:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Setup CI

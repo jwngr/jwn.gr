@@ -22,14 +22,16 @@ permissions:
   contents: read
   pull-requests: write
 
+# Ensure every staging deploy completes. New pushes queue instead of cancelling in-flight deploys.
 concurrency:
   group: firebase-hosting-pull-request-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy_hosting_stag:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Setup CI
