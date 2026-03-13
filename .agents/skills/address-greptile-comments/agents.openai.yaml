@@ -1,0 +1,8 @@
+interface:
+  display_name: "Address Greptile Comments"
+  short_description: "Fetch unaddressed Greptile review comments for the current PR, summarize, and apply fixes."
+  default_prompt: "Run the address-greptile-comments workflow for the current PR."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools: []

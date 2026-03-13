@@ -1,0 +1,8 @@
+interface:
+  display_name: "Check PR"
+  short_description: "Check a PR for unresolved review comments, failing checks, and missing details."
+  default_prompt: "Run the check-pr workflow on the current PR."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools: []

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Astro"
+  short_description: "Guidance for working in Astro projects (structure, configs, CLI commands)."
+  default_prompt: "Use the Astro skill to guide work in this repo."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools: []
