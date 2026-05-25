@@ -6,9 +6,10 @@ updates:
     directories:
       - '/'
     schedule:
-      interval: 'monthly'
+      interval: 'quarterly'
+    cooldown:
+      default-days: 2
     groups:
-      major:
-        update-types: ['major']
       minor-and-patch:
+        patterns: ['*']
         update-types: ['minor', 'patch']

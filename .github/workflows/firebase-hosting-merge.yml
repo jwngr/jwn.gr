@@ -8,6 +8,8 @@ on:
       - 'src/**'
       - 'public/**'
       - '.firebaserc'
+      - '.npmrc'
+      - '.nvmrc'
       - '.prettierignore'
       - '.prettierrc'
       - 'astro.config.mjs'
