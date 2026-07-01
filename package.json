@@ -19,7 +19,7 @@
     "@astrojs/mdx": "5.0.6",
     "@astrojs/react": "5.0.5",
     "@astrojs/rss": "4.0.18",
-    "@astrojs/sitemap": "3.7.2",
+    "@astrojs/sitemap": "3.7.3",
     "astro": "6.3.7"
   },
   "devDependencies": {
@@ -27,12 +27,12 @@
     "@ianvs/prettier-plugin-sort-imports": "4.7.1",
     "@types/lodash": "4.17.24",
     "@types/remove-markdown": "0.3.4",
-    "eslint": "10.4.0",
+    "eslint": "10.6.0",
     "eslint-plugin-astro": "1.7.0",
     "eslint-plugin-react-hooks": "7.1.1",
-    "prettier": "3.8.3",
+    "prettier": "3.9.3",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.59.4"
+    "typescript-eslint": "8.62.0"
   }
 }
