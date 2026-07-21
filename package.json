@@ -18,7 +18,7 @@
     "@astrojs/check": "0.9.9",
     "@astrojs/mdx": "5.0.6",
     "@astrojs/react": "5.0.5",
-    "@astrojs/rss": "4.0.18",
+    "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.2",
     "astro": "6.3.7"
   },
