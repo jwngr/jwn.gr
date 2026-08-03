@@ -67,11 +67,6 @@ export interface FlexProps extends HTMLAttributes<'div'> {
   readonly wrap?: boolean;
   readonly align?: 'flex-start' | 'flex-end' | 'center' | 'stretch' | 'baseline';
   readonly justify?:
-    | 'flex-start'
-    | 'flex-end'
-    | 'center'
-    | 'space-between'
-    | 'space-around'
-    | 'space-evenly';
+    'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
   readonly flex?: string | number | boolean;
 }
